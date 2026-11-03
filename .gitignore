@@ -1,0 +1,9 @@
+upstream/
+acc/engine
+*.bin
+*.olean
+__pycache__/
+.scratch/
+.DS_Store
+AGENTS.md
+HANDOFF.md
