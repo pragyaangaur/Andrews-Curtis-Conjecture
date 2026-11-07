@@ -1,0 +1,36 @@
+RUN 4: rank 2, relator length 5, conjugator length 2, box gap
+
+rank n = 2
+max relator length L = 5
+max conjugator length C = 2 (number of conjugators 16)
+abelianisation filter = on
+
+radius   vertices   max total relator length
+     0          1                2
+     1         20                6
+     2        141                10
+     3        480                10
+     4       1480                10
+     5       3810                10
+     6       6530                10
+     7       6934                10
+     8       4832                10
+     9       2454                10
+    10       1494                10
+    11       1214                10
+    12       1216                10
+    13        582                10
+    14         52                10
+
+total vertices (component) = 31240
+edges examined = 1114208, edges accepted = 31239
+largest radius reached = 14
+every vertex has trivial abelianisation = True
+bounded box: 235225 presentations, 32040 pass the filter, 31240 reached, 800 missed
+relator length profiles of the missed presentations: [5, 5]: 800
+first missed presentations, in the enumeration order of words.all_words:
+    (YYXYX, YXXYx)   exponent sums ((-2, -3), (-1, -2))
+    (YYXYX, YxYXX)   exponent sums ((-2, -3), (-1, -2))
+    (YYXYX, XYxYX)   exponent sums ((-2, -3), (-1, -2))
+    (YYXYX, XXYxY)   exponent sums ((-2, -3), (-1, -2))
+    (YYXYX, Xyxxy)   exponent sums ((-2, -3), (1, 2))

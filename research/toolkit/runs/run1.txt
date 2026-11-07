@@ -1,0 +1,27 @@
+RUN 1: defaults, rank 2, relator length 4, conjugator length 2
+
+rank n = 2
+max relator length L = 4
+max conjugator length C = 2 (number of conjugators 16)
+abelianisation filter = on
+
+radius   vertices   max total relator length
+     0          1                2
+     1          8                4
+     2         43                7
+     3        164                7
+     4        396                7
+     5        658                7
+     6        640                7
+     7        322                7
+     8         48                7
+
+total vertices (component) = 2280
+edges examined = 79456, edges accepted = 2279
+largest radius reached = 8
+every vertex has trivial abelianisation = True
+bounded box: 25921 presentations, 2280 pass the filter, component covers 2280
+target (y, x) found at distance 6
+moves: ('mul', 1, 2) ('inv', 1) ('mul', 2, 1) ('inv', 2) ('mul', 1, 2) ('inv', 1)
+replay of the path gives (y, x) = target
+all stored paths replay correctly = True (2280)

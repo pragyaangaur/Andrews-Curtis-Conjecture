@@ -1,0 +1,29 @@
+RUN 3: rank 3, relator length 2, conjugator length 1
+
+rank n = 3
+max relator length L = 2
+max conjugator length C = 1 (number of conjugators 6)
+abelianisation filter = on
+
+radius   vertices   max total relator length
+     0          1                3
+     1          9                4
+     2         48                5
+     3        181                5
+     4        474                5
+     5        906                5
+     6       1125                5
+     7       1602                5
+     8       1584                5
+     9       1568                5
+    10        542                5
+    11         72                5
+
+total vertices (component) = 8112
+edges examined = 200304, edges accepted = 8111
+largest radius reached = 11
+every vertex has trivial abelianisation = True
+bounded box: 50653 presentations, 8112 pass the filter, component covers 8112
+target (y, x, z) found at distance 6
+moves: ('mul', 1, 2) ('inv', 1) ('mul', 2, 1) ('inv', 2) ('mul', 1, 2) ('inv', 1)
+replay of the path gives (y, x, z) = target
