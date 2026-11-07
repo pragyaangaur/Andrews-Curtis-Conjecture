@@ -1,0 +1,163 @@
+HIT 0 BBBAbbA,BAAAbaa
+layer 0: frontier 1, new 12, cumulative 13, 0.0s
+HIT 2 BBBAbbA,BAAAbaa
+HIT 2 BBBAbbA,BAAAbaa
+HIT 2 BBBAbbA,BAAAbaa
+HIT 2 BBBAbbA,BAAAbaa
+HIT 2 BBBAbbA,BAAAbaa
+HIT 2 BBBAbbA,BAAAbaa
+HIT 2 BBBAbbA,BAAAbaa
+HIT 2 BBBAbbA,BAAAbaa
+HIT 2 BBBAbbA,BAAAbaa
+HIT 2 BBBAbbA,BAAAbaa
+layer 1: frontier 12, new 97, cumulative 110, 0.0s
+layer 2: frontier 97, new 634, cumulative 744, 0.0s
+HIT 4 BBBAbbA,BAAAbaa
+HIT 4 BBBAbbA,BAAAbaa
+layer 3: frontier 634, new 3337, cumulative 4081, 0.0s
+layer 4: frontier 3337, new 14103, cumulative 18184, 0.0s
+layer 5: frontier 14103, new 49044, cumulative 67228, 0.0s
+layer 6: frontier 49044, new 139219, cumulative 206447, 0.1s
+layer 7: frontier 139219, new 325695, cumulative 532142, 0.4s
+layer 8: frontier 325695, new 648954, cumulative 1181096, 1.2s
+layer 9: frontier 648954, new 1135464, cumulative 2316560, 2.2s
+layer 10: frontier 1135464, new 1794662, cumulative 4111222, 3.8s
+layer 11: frontier 1794662, new 2594002, cumulative 6705224, 7.0s
+layer 12: frontier 2594002, new 3460129, cumulative 10165353, 11.5s
+layer 13: frontier 3460129, new 4246462, cumulative 14411815, 17.4s
+layer 14: frontier 4246462, new 4754872, cumulative 19166687, 24.9s
+layer 15: frontier 4754872, new 4902680, cumulative 24069367, 32.9s
+layer 16: frontier 4902680, new 4755749, cumulative 28825116, 40.3s
+layer 17: frontier 4755749, new 4520321, cumulative 33345437, 47.4s
+layer 18: frontier 4520321, new 4317233, cumulative 37662670, 54.2s
+layer 19: frontier 4317233, new 4136519, cumulative 41799189, 60.9s
+layer 20: frontier 4136519, new 3849188, cumulative 45648377, 65.7s
+layer 21: frontier 3849188, new 3429204, cumulative 49077581, 70.0s
+layer 22: frontier 3429204, new 2954722, cumulative 52032303, 76.6s
+layer 23: frontier 2954722, new 2546939, cumulative 54579242, 81.5s
+layer 24: frontier 2546939, new 2258943, cumulative 56838185, 86.3s
+layer 25: frontier 2258943, new 2048967, cumulative 58887152, 90.7s
+layer 26: frontier 2048967, new 1863258, cumulative 60750410, 94.9s
+layer 27: frontier 1863258, new 1682686, cumulative 62433096, 99.5s
+layer 28: frontier 1682686, new 1536684, cumulative 63969780, 103.5s
+layer 29: frontier 1536684, new 1486114, cumulative 65455894, 106.1s
+layer 30: frontier 1486114, new 1505264, cumulative 66961158, 110.4s
+layer 31: frontier 1505264, new 1569916, cumulative 68531074, 114.2s
+layer 32: frontier 1569916, new 1653198, cumulative 70184272, 117.0s
+layer 33: frontier 1653198, new 1752377, cumulative 71936649, 120.9s
+layer 34: frontier 1752377, new 1896693, cumulative 73833342, 125.0s
+layer 35: frontier 1896693, new 2135267, cumulative 75968609, 129.4s
+layer 36: frontier 2135267, new 2489138, cumulative 78457747, 132.7s
+layer 37: frontier 2489138, new 2871390, cumulative 81329137, 137.3s
+layer 38: frontier 2871390, new 3254660, cumulative 84583797, 143.0s
+layer 39: frontier 3254660, new 3626319, cumulative 88210116, 148.6s
+layer 40: frontier 3626319, new 4021360, cumulative 92231476, 155.5s
+layer 41: frontier 4021360, new 4486929, cumulative 96718405, 163.3s
+HIT 43 BBBAbba,BAAABaa
+HIT 43 BBBAbba,BAAABaa
+HIT 43 BBBAbba,BAAABaa
+HIT 43 BBBAbba,BAAABaa
+layer 42: frontier 4486929, new 5018070, cumulative 101736475, 171.3s
+HIT 44 BBBAbba,BAAABaa
+HIT 44 BBBAbba,BAAABaa
+HIT 44 BBBAbba,BAAABaa
+layer 43: frontier 5018070, new 5640235, cumulative 107376710, 179.8s
+HIT 45 BBBAbba,BAAABaa
+HIT 45 BBBAbba,BAAABaa
+HIT 45 BBBAbba,BAAABaa
+HIT 45 BBBAbba,BAAABaa
+HIT 45 BBBAbba,BAAABaa
+layer 44: frontier 5640235, new 6255560, cumulative 113632270, 186.6s
+layer 45: frontier 6255560, new 6859785, cumulative 120492055, 197.1s
+layer 46: frontier 6859785, new 7483258, cumulative 127975313, 207.0s
+layer 47: frontier 7483258, new 8230128, cumulative 136205441, 220.2s
+layer 48: frontier 8230128, new 8979440, cumulative 145184881, 233.9s
+layer 49: frontier 8979440, new 9599790, cumulative 154784671, 248.4s
+layer 50: frontier 9599790, new 10091044, cumulative 164875715, 264.7s
+layer 51: frontier 10091044, new 10158893, cumulative 175034608, 282.2s
+layer 52: frontier 10158893, new 9741699, cumulative 184776307, 299.5s
+layer 53: frontier 9741699, new 9217464, cumulative 193993771, 316.1s
+layer 54: frontier 9217464, new 9126111, cumulative 203119882, 331.9s
+layer 55: frontier 9126111, new 9422254, cumulative 212542136, 347.6s
+layer 56: frontier 9422254, new 9701144, cumulative 222243280, 364.6s
+layer 57: frontier 9701144, new 9596440, cumulative 231839720, 379.9s
+layer 58: frontier 9596440, new 9074846, cumulative 240914566, 395.2s
+layer 59: frontier 9074846, new 8540743, cumulative 249455309, 412.6s
+layer 60: frontier 8540743, new 8296345, cumulative 257751654, 429.3s
+layer 61: frontier 8296345, new 8173737, cumulative 265925391, 444.4s
+layer 62: frontier 8173737, new 8126113, cumulative 274051504, 462.0s
+layer 63: frontier 8126113, new 8109324, cumulative 282160828, 471.0s
+layer 64: frontier 8109324, new 7944043, cumulative 290104871, 479.8s
+layer 65: frontier 7944043, new 7661683, cumulative 297766554, 488.8s
+layer 66: frontier 7661683, new 7447963, cumulative 305214517, 500.0s
+layer 67: frontier 7447963, new 7423324, cumulative 312637841, 510.1s
+layer 68: frontier 7423324, new 7610969, cumulative 320248810, 521.7s
+layer 69: frontier 7610969, new 7874837, cumulative 328123647, 531.5s
+layer 70: frontier 7874837, new 8054677, cumulative 336178324, 544.1s
+layer 71: frontier 8054677, new 8225830, cumulative 344404154, 556.5s
+layer 72: frontier 8225830, new 8609193, cumulative 353013347, 568.4s
+layer 73: frontier 8609193, new 9362866, cumulative 362376213, 579.0s
+layer 74: frontier 9362866, new 10250230, cumulative 372626443, 590.1s
+HIT 76 BBBabbA,BAABaaa
+HIT 76 BBBabba,BAAAbaa
+HIT 76 BBBabbA,BAABaaa
+HIT 76 BBBabba,BAAAbaa
+HIT 76 BBBabbA,BAABaaa
+layer 75: frontier 10250230, new 11189726, cumulative 383816169, 601.8s
+HIT 77 BBBabbA,BAABaaa
+HIT 77 BBBabbA,BAABaaa
+HIT 77 BBBabbA,BAABaaa
+layer 76: frontier 11189726, new 12136042, cumulative 395952211, 614.2s
+HIT 78 BBBAbba,BAABaaa
+HIT 78 BBBAbba,BAABaaa
+HIT 78 BBBabba,BAAAbaa
+HIT 78 BBBabba,BAAAbaa
+HIT 78 BBBabba,BAAAbaa
+HIT 78 BBBAbba,BAABaaa
+HIT 78 BBBabbA,BAABaaa
+HIT 78 BBBabba,BAAAbaa
+HIT 78 BBBabbA,BAABaaa
+HIT 78 BBBabbA,BAABaaa
+HIT 78 BBBabba,BAAAbaa
+HIT 78 BBBabba,BAAAbaa
+HIT 78 BBBabbA,BAABaaa
+HIT 78 BBBabba,BAAAbaa
+HIT 78 BBBabba,BAAAbaa
+HIT 78 BBBAbba,BAABaaa
+HIT 78 BBBabbA,BAABaaa
+layer 77: frontier 12136042, new 13312362, cumulative 409264573, 627.8s
+HIT 79 BBBAbba,BAABaaa
+HIT 79 BBBAbba,BAABaaa
+HIT 79 BBBabbA,BAABaaa
+layer 78: frontier 13312362, new 14952802, cumulative 424217375, 643.4s
+HIT 80 BBBAbba,BAABaaa
+HIT 80 BBBAbba,BAABaaa
+HIT 80 BBBAbba,BAABaaa
+HIT 80 BBBAbba,BAABaaa
+HIT 80 BBBAbba,BAABaaa
+HIT 80 BBBabba,BAAAbaa
+HIT 80 BBBAbba,BAABaaa
+HIT 80 BBBabba,BAAAbaa
+layer 79: frontier 14952802, new 16943434, cumulative 441160809, 660.6s
+layer 80: frontier 16943434, new 18833955, cumulative 459994764, 679.6s
+layer 81: frontier 18833955, new 20396916, cumulative 480391680, 699.7s
+layer 82: frontier 20396916, new 21432639, cumulative 501824319, 721.0s
+layer 83: frontier 21432639, new 21931063, cumulative 523755382, 743.4s
+layer 84: frontier 21931063, new 21757352, cumulative 545512734, 770.0s
+layer 85: frontier 21757352, new 21079143, cumulative 566591877, 795.9s
+layer 86: frontier 21079143, new 20086051, cumulative 586677928, 832.6s
+layer 87: frontier 20086051, new 19106558, cumulative 605784486, 869.6s
+layer 88: frontier 19106558, new 18068202, cumulative 623852688, 898.7s
+layer 89: frontier 18068202, new 16622161, cumulative 640474849, 927.1s
+layer 90: frontier 16622161, new 15196576, cumulative 655671425, 950.9s
+layer 91: frontier 15196576, new 14313593, cumulative 669985018, 975.8s
+layer 92: frontier 14313593, new 14146929, cumulative 684131947, 1001.6s
+layer 93: frontier 14146929, new 14464281, cumulative 698596228, 1028.5s
+layer 94: frontier 14464281, new 14737464, cumulative 713333692, 1057.4s
+layer 95: frontier 14737464, new 14618481, cumulative 727952173, 1081.9s
+layer 96: frontier 14618481, new 14220915, cumulative 742173088, 1107.9s
+layer 97: frontier 14220915, new 13910873, cumulative 756083961, 1142.4s
+layer 98: frontier 13910873, new 14026631, cumulative 770110592, 1174.2s
+layer 99: frontier 14026631, new 14508668, cumulative 784619260, 1209.6s
+MAXSEC reached
+DONE states 784619260 layers 0
