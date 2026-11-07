@@ -36,6 +36,10 @@ LEAN_PATH="$PWD/lean:$LEAN_PATH" lean lean/Axioms.lean
 
 The engine and the Lean proofs are complete and checked. The search solved a minority of the scored pool, and both `paper/acc.tex` and the report in the private repository say so plainly. The stable track was not searched directly.
 
+## The research campaign
+
+`research/` holds a separate four-day research campaign on the conjecture itself, run in November 2026 with a multi-agent swarm and independent referees. It measured the neighbourhood of the conjecture and makes no claim for or against it. Its main results are a census of the balanced two-generator presentations of total length at most 14 (at length 14, 50 presentations are left undecided in at most 9 classes), an exact-peak ledger for 51,766 of 57,115 presentations from the AC-19 dataset, bounds on paths from AK(3), and a Lean 4 archive in `research/toolkit/lean/` whose axiom reports name only `propext`, `Classical.choice` and `Quot.sound`. `research/FINAL_REPORT.md` is the full report, `research/REPORT.md` is the ledger of results with their checks, and `research/directions/README.md` describes each working folder. Only six of the thirty-two direction folders are included here, because the others hold large raw search data.
+
 ## Licence
 
 MIT. See `LICENSE`.
