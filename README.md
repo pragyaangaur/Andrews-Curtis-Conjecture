@@ -1,6 +1,6 @@
-# Andrews-Curtis-Swarm
+# Andrews-Curtis-Conjecture
 
-Code, Lean proofs and notes from an entry to the Andrews-Curtis Conjecture Challenge of the SAIR Foundation and Caltech. The challenge asks for short sequences of Andrews-Curtis moves that carry each of 10,115 balanced two-generator presentations of the trivial group to the standard presentation.
+This repository holds two pieces of work on the Andrews-Curtis conjecture. The first is a computational research campaign on the conjecture itself, in `research/`. The second is the code and Lean proofs from an entry to the Andrews-Curtis Conjecture Challenge of the SAIR Foundation and Caltech. The challenge asks for short sequences of Andrews-Curtis moves that carry each of 10,115 balanced two-generator presentations of the trivial group to the standard presentation.
 
 This repository contains no solution path and no list of solved ids. Paths stay private until the competition deadline of 30 November 2026, end of day Anywhere on Earth, and only the organisers may release them before then.
 
@@ -8,9 +8,9 @@ This repository contains no solution path and no list of solved ids. Paths stay 
 
 `acc/` holds a search engine for the official move set. The engine is written in C for speed, and there is an independent Python implementation of the same fourteen moves for cross checking. `acc/crosscheck.py` compares the C engine, the Python engine and the official verifier on random states and random move sequences. `acc/greedy.py` is a greedy search that charges the true cost of rotating a relator before multiplying by it, and `acc/consolidate.py` and `acc/merge_best.py` build a best-path table and submission files and check them with the official verifier.
 
-`lean/` holds Lean 4 proofs about the published statement. `lean/Derived.lean` proves that the reachability relation in the official statement file is an equivalence relation and that multiplication by an inverse relator is a derived move. `lean/Axioms.lean` reprints the axiom audit for each theorem.
+`lean/` holds Lean 4 proofs about the published statement. `lean/Derived.lean` proves that the reachability relation in the official statement file is an equivalence relation and that multiplication by an inverse relator is a derived move. `lean/Converse.lean` proves that every rank-2 step of the statement is a sequence of verifier moves, so the two move sets generate the same reachability relation. `lean/Swap.lean`, `lean/FreeReduce.lean` and `lean/Abelian.lean` prove the relator swap, the agreement of free reduction with the verifier, and the invariance of the exponent-sum determinant. `lean/Axioms.lean` and `lean/Axioms2.lean` reprint the axiom audit for each theorem.
 
-`paper/acc.tex` is a short description of the method and the measured results. `notes/literature.md` is a dossier on prior work, assembled from six independently written parts, each of which keeps its own evidence standard. One part of that dossier lists which scored ids belong to the Akbulut-Kirby and Miller-Schupp families. Those labels contain no paths. They still form a per-id table, so the dossier is published only after the competition deadline and is not part of this repository before then.
+`paper/acc.tex` is a short description of the method and the measured results.
 
 ## Method in one paragraph
 
@@ -32,13 +32,13 @@ The Lean files are checked directly, without building Mathlib:
 LEAN_PATH="$PWD/lean:$LEAN_PATH" lean lean/Axioms.lean
 ```
 
-## Honest status
+## Status
 
-The engine and the Lean proofs are complete and checked. The search solved a minority of the scored pool, and both `paper/acc.tex` and the report in the private repository say so plainly. The stable track was not searched directly.
+The engine and the Lean proofs are complete and checked. The search solved a minority of the scored pool, and `paper/acc.tex` says so. The stable track was not searched directly.
 
 ## The research campaign
 
-`research/` holds a separate four-day research campaign on the conjecture itself, run in November 2026 with a multi-agent swarm and independent referees. It measured the neighbourhood of the conjecture and makes no claim for or against it. Its main results are a census of the balanced two-generator presentations of total length at most 14 (at length 14, 50 presentations are left undecided in at most 9 classes), an exact-peak ledger for 51,766 of 57,115 presentations from the AC-19 dataset, bounds on paths from AK(3), and a Lean 4 archive in `research/toolkit/lean/` whose axiom reports name only `propext`, `Classical.choice` and `Quot.sound`. `research/FINAL_REPORT.md` is the full report, `research/REPORT.md` is the ledger of results with their checks, and `research/directions/README.md` describes each working folder. Only six of the thirty-two direction folders are included here, because the others hold large raw search data.
+`research/` holds a separate four-day research campaign on the conjecture itself, run in November 2026 with a multi-agent swarm and independent referees. It measured the neighbourhood of the conjecture and makes no claim for or against it. Its main results are a census of the balanced two-generator presentations of total length at most 14 (at length 14, 50 presentations are left undecided in at most 9 classes), an exact-peak ledger for 51,766 of 57,115 presentations from the AC-19 dataset, bounds on paths from AK(3), and a Lean 4 archive in `research/toolkit/lean/` whose axiom reports name only `propext`, `Classical.choice` and `Quot.sound`. `research/FINAL_REPORT.md` is the full report, `research/REPORT.md` is the ledger of results with their checks, and `research/directions/README.md` describes each working folder. All thirty-two direction folders are included with their reports, certificates and scripts. The large binary state files of the box searches are left out, and the reports give the commands that rebuild them. `research/results/ledgers/` holds the AC-19 peak ledgers to length 18.
 
 ## Licence
 
