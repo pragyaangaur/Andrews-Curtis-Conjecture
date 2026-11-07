@@ -1,0 +1,4 @@
+prg 3 [1080, 600, 600]
+prg_inv 3 [1080, 600, 600]
+niels_census_noconj 1 [2280]
+ac 1 [2280]

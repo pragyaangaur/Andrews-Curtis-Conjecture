@@ -1,0 +1,5 @@
+depth 151: empty frontier, BFS finished
+# rawbox4 T=20 K=1
+states 51411456 classes 39840 bfs_time 125.8 scan_time 47.6
+states_by_total 13:4032 14:15424 15:241856 16:336288 17:2520832 18:3280096 19:20185152 20:24827776
+classes_by_total 13:12 14:40 15:516 16:556 17:2844 18:3228 19:15620 20:17024

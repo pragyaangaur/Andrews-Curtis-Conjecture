@@ -1,0 +1,188 @@
+{
+ "group": "A5",
+ "m": 60,
+ "k": 2,
+ "mode": "generate",
+ "moveset": "blm",
+ "nvertices": 2280,
+ "norbits": 12,
+ "orbits": [
+  {
+   "orbit": 10,
+   "start": 75,
+   "ecc": 4,
+   "levels": [
+    1,
+    18,
+    265,
+    1388,
+    608
+   ],
+   "orbit_size": 120
+  },
+  {
+   "orbit": 11,
+   "start": 76,
+   "ecc": 4,
+   "levels": [
+    1,
+    36,
+    410,
+    1134,
+    699
+   ],
+   "orbit_size": 240
+  },
+  {
+   "orbit": 12,
+   "start": 77,
+   "ecc": 4,
+   "levels": [
+    1,
+    36,
+    410,
+    1134,
+    699
+   ],
+   "orbit_size": 240
+  },
+  {
+   "orbit": 13,
+   "start": 90,
+   "ecc": 5,
+   "levels": [
+    1,
+    18,
+    225,
+    1028,
+    968,
+    40
+   ],
+   "orbit_size": 240
+  },
+  {
+   "orbit": 14,
+   "start": 91,
+   "ecc": 5,
+   "levels": [
+    1,
+    36,
+    381,
+    1024,
+    830,
+    8
+   ],
+   "orbit_size": 240
+  },
+  {
+   "orbit": 15,
+   "start": 92,
+   "ecc": 5,
+   "levels": [
+    1,
+    36,
+    381,
+    1024,
+    830,
+    8
+   ],
+   "orbit_size": 240
+  },
+  {
+   "orbit": 20,
+   "start": 196,
+   "ecc": 5,
+   "levels": [
+    1,
+    22,
+    231,
+    942,
+    1000,
+    84
+   ],
+   "orbit_size": 240
+  },
+  {
+   "orbit": 22,
+   "start": 200,
+   "ecc": 5,
+   "levels": [
+    1,
+    22,
+    229,
+    908,
+    1080,
+    40
+   ],
+   "orbit_size": 240
+  },
+  {
+   "orbit": 24,
+   "start": 977,
+   "ecc": 5,
+   "levels": [
+    1,
+    26,
+    293,
+    1097,
+    857,
+    6
+   ],
+   "orbit_size": 120
+  },
+  {
+   "orbit": 25,
+   "start": 978,
+   "ecc": 5,
+   "levels": [
+    1,
+    22,
+    215,
+    770,
+    1036,
+    236
+   ],
+   "orbit_size": 120
+  },
+  {
+   "orbit": 26,
+   "start": 981,
+   "ecc": 5,
+   "levels": [
+    1,
+    26,
+    293,
+    1097,
+    857,
+    6
+   ],
+   "orbit_size": 120
+  },
+  {
+   "orbit": 27,
+   "start": 986,
+   "ecc": 5,
+   "levels": [
+    1,
+    22,
+    215,
+    770,
+    1036,
+    236
+   ],
+   "orbit_size": 120
+  }
+ ],
+ "diameter": 5,
+ "aborted_orbits": 0,
+ "diameter_exact": true,
+ "distance_distribution": {
+  "0": 2280,
+  "1": 63120,
+  "2": 697800,
+  "3": 2341200,
+  "4": 1992720,
+  "5": 101280
+ },
+ "elapsed_s": 0.08063888549804688
+}

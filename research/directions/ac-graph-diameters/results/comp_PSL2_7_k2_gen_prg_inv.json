@@ -1,0 +1,51 @@
+{
+ "group": "PSL2_7",
+ "m": 168,
+ "k": 2,
+ "mode": "generate",
+ "moveset": "prg_inv",
+ "nvertices": 19152,
+ "norbits": 35,
+ "ncomponents": 4,
+ "components": [
+  {
+   "nvertices": 6048,
+   "norbits": 11,
+   "diameter": 13,
+   "ecc_profile": [
+    12,
+    13
+   ]
+  },
+  {
+   "nvertices": 5376,
+   "norbits": 10,
+   "diameter": 12,
+   "ecc_profile": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "nvertices": 5376,
+   "norbits": 9,
+   "diameter": 12,
+   "ecc_profile": [
+    11,
+    12
+   ]
+  },
+  {
+   "nvertices": 2352,
+   "norbits": 5,
+   "diameter": 10,
+   "ecc_profile": [
+    9,
+    10
+   ]
+  }
+ ],
+ "elapsed_s": 0.17378711700439453,
+ "max_component_diameter": 13
+}

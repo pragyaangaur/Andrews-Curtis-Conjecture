@@ -1,0 +1,68 @@
+PSL2_7 [
+ {
+  "code": 14824,
+  "orbit": 45,
+  "orbit_ecc": 7,
+  "bfs_ecc": 7,
+  "covers": 28223,
+  "nvertices": 28223
+ },
+ {
+  "code": 18343,
+  "orbit": 32,
+  "orbit_ecc": 6,
+  "bfs_ecc": 6,
+  "covers": 28223,
+  "nvertices": 28223
+ },
+ {
+  "code": 28078,
+  "orbit": 57,
+  "orbit_ecc": 7,
+  "bfs_ecc": 7,
+  "covers": 28223,
+  "nvertices": 28223
+ },
+ {
+  "code": 25599,
+  "orbit": 15,
+  "orbit_ecc": 6,
+  "bfs_ecc": 6,
+  "covers": 28223,
+  "nvertices": 28223
+ }
+]
+A6 [
+ {
+  "code": 59295,
+  "orbit": 31,
+  "orbit_ecc": 6,
+  "bfs_ecc": 6,
+  "covers": 129599,
+  "nvertices": 129599
+ },
+ {
+  "code": 113475,
+  "orbit": 30,
+  "orbit_ecc": 6,
+  "bfs_ecc": 6,
+  "covers": 129599,
+  "nvertices": 129599
+ },
+ {
+  "code": 73371,
+  "orbit": 26,
+  "orbit_ecc": 6,
+  "bfs_ecc": 6,
+  "covers": 129599,
+  "nvertices": 129599
+ },
+ {
+  "code": 112311,
+  "orbit": 16,
+  "orbit_ecc": 6,
+  "bfs_ecc": 6,
+  "covers": 129599,
+  "nvertices": 129599
+ }
+]

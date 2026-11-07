@@ -1,0 +1,458 @@
+{
+ "group": "SL2_5",
+ "m": 120,
+ "k": 2,
+ "mode": "generate",
+ "moveset": "prg",
+ "nvertices": 9120,
+ "norbits": 43,
+ "ncomponents": 44,
+ "components": [
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 200,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 216,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  }
+ ],
+ "elapsed_s": 1.1377246379852295,
+ "max_component_diameter": 9
+}

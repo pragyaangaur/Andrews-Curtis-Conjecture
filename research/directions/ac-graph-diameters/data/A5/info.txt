@@ -1,0 +1,1 @@
+A5 order 60 maxnorm 1 maxsub 21 autgens 3

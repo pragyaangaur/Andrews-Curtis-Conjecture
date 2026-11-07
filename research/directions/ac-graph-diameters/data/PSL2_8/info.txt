@@ -1,0 +1,1 @@
+PSL2_8 order 504 maxnorm 1 maxsub 73 autgens 4

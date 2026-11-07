@@ -1,0 +1,40 @@
+{
+ "group": "A5",
+ "m": 60,
+ "k": 2,
+ "mode": "generate",
+ "moveset": "prg_inv",
+ "nvertices": 2280,
+ "norbits": 12,
+ "ncomponents": 3,
+ "components": [
+  {
+   "nvertices": 1080,
+   "norbits": 6,
+   "diameter": 9,
+   "ecc_profile": [
+    9
+   ]
+  },
+  {
+   "nvertices": 600,
+   "norbits": 6,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 600,
+   "norbits": 6,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  }
+ ],
+ "elapsed_s": 0.05081534385681152,
+ "max_component_diameter": 9
+}

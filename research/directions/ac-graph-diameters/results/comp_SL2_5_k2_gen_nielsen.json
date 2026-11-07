@@ -1,0 +1,41 @@
+{
+ "group": "SL2_5",
+ "m": 120,
+ "k": 2,
+ "mode": "generate",
+ "moveset": "nielsen",
+ "nvertices": 9120,
+ "norbits": 43,
+ "ncomponents": 3,
+ "components": [
+  {
+   "nvertices": 2400,
+   "norbits": 22,
+   "diameter": 7,
+   "ecc_profile": [
+    6,
+    7
+   ]
+  },
+  {
+   "nvertices": 4320,
+   "norbits": 21,
+   "diameter": 8,
+   "ecc_profile": [
+    7,
+    8
+   ]
+  },
+  {
+   "nvertices": 2400,
+   "norbits": 22,
+   "diameter": 7,
+   "ecc_profile": [
+    6,
+    7
+   ]
+  }
+ ],
+ "elapsed_s": 0.23537564277648926,
+ "max_component_diameter": 8
+}

@@ -1,0 +1,12 @@
+{"group": "A5", "order": 60, "generators": 3, "all_ok": true}
+{"group": "SL2_5", "order": 120, "generators": 3, "all_ok": true}
+{"group": "PSL2_7", "order": 168, "generators": 3, "all_ok": true}
+{"group": "SL2_7", "order": 336, "generators": 3, "all_ok": true}
+{"group": "A6", "order": 360, "generators": 4, "all_ok": true}
+{"group": "PSL2_8", "order": 504, "generators": 4, "all_ok": true}
+{"group": "PSL2_11", "order": 660, "generators": 3, "all_ok": true}
+{"group": "SL2_9_2A6", "order": 720, "generators": 4, "all_ok": true}
+{"group": "A5", "order": 60, "samples": 300, "mismatches": 0}
+{"group": "PSL2_7", "order": 168, "samples": 300, "mismatches": 0}
+{"group": "A6", "order": 360, "samples": 300, "mismatches": 0}
+{"group": "SL2_9_2A6", "order": 720, "samples": 300, "mismatches": 0}

@@ -1,0 +1,836 @@
+BBBababa,Baaaa|c0b c1b i1 m0 i1 i1 c1A i1 m0 i1 c0b i1 c1a i0 m1 i0 c1b c1A i1 m0 i1 c0b i0 m1 i0 c0A i1 i1 m0 i1 i0 m1 i0 i1|std
+BaBaa,BBAbbabA|i0 c0a i0 m1 i0 i0 c0a c1b i0 m1 i0 c0A i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BaBaa,BBABabba|i0 c0a c0a c0B i1 c1a c1b c1b c1a c1B i0 m1 i0 i0 c0b c0A i0 m1 i0 i0 c1A c1B i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BaBaa,BBBababA|i0 c0a i0 m1 i0 i0 c0a c1b i0 m1 i0 c0A c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BaBaa,BBBAbaba|c0b c0A c0b c0A i1 c1a c1b c1a c1b c1A i0 m1 i0 i0 c0A c1B i0 m1 i0 c0a c1B i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BBBAbAbA,BAAAA|i0 c0A c0b c0A c0b c0A c0B i1 i1 m0 i1 i1 c1A i1 m0 i1 c0B i1 c1a i0 m1 i0 c1B c1A i1 m0 i1 c0B i0 m1 i0 c0A i1 i1 m0 i1 i0 m1 i0|std
+BAbAbAAA,BAAba|i0 c0A c0A c0A c0b c1b i1 m0 i1 c0a c0a i1 m0 i1 c0a c0a i1 m0 i1 c0a i1 i1 m0 i1 c0A c0A i0 m1 i0 i0 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BABAbAAA,BAAba|c0b i1 c1a c1b i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A i1 m0 i1 c0A i1 i1 m0 i1 c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBabaaaa,BAAba|i0 c0a c0a c0a c0a c0b i1 c1a c1b i1 m0 i1 i0 c1A i1 m0 i1 c0A c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 c0A c0A i1 m0 i1 i0 c0a i0 m1 i0 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBAbAAAA,BAAba|c0b c0b c0a c0B c0a i1 c1a c1b c0b i1 m0 i1 c0A i1 i1 m0 i1 c0B c0A i1 i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A i1 m0 i1 c0A i1 i1 m0 i1 c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBabbaa,BAAba|c0b c1b i1 m0 i1 c0a c0a i1 m0 i1 c0a c0b i1 m0 i1 c0a i1 i1 m0 i1 c0B c0a i1 i1 m0 i1 c0a c0a i1 m0 i1 c0a c0a i1 m0 i1 c0a i1 i1 m0 i1 c0A c0A i0 m1 i0 i0 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBBabbAA,BAAba|c0b i1 c1a c1b i1 m0 i1 c0A c0A i1 m0 i1 c0A c1B i1 m0 i1 c0a i1 m0 i1 c0a i1 m0 i1 c0a i1 m0 i1 i0 c0b c1A i0 m1 i0 c0A i1 i1 m0 i1 i0 m1 i0 c1b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBAbbaa,BAAba|c0b c1b i1 m0 i1 c0a c0a i1 m0 i1 c0a c1B i1 m0 i1 c0A i1 m0 i1 c0A i1 m0 i1 c0A i1 m0 i1 i0 c0b c1a i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBBAbbAA,BAAba|c0b i1 c1a c1b i1 m0 i1 c0A c0A i1 m0 i1 c0A c0b i1 m0 i1 c0A i1 i1 m0 i1 c0B c0A i1 i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A i1 m0 i1 c0A i1 i1 m0 i1 c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAbbaba,BAABa|i1 c1a c1B c1A c1A c0A i1 m0 i1 c0B i1 m0 i1 c0B c1a i0 m1 i0 i0 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAbbaBA,BAABa|i0 c0A c0B c0a c0b i1 c1a c1b i0 m1 i0 c0b i1 i0 m1 i0 c1A i0 m1 i0 c1A c1B i1 m0 i1 i0 c0A i0 m1 i0 i0 c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BAABa,BBABabbA|c1b c1b c1a c1b c1A c1B c0B i1 m0 i1 i0 c1B i1 m0 i1 c0a i0 m1 i0 i0 c0A c0B i1 i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBABAbba,BAABa|c0b c0b c0a c0b c0a c1b c1a c1a c0a i1 m0 i1 c0b i1 m0 i1 c0b c1A i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBABBabA,BAABa|i0 c0A c0b c0a c1b c1a i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBABBAba,BAABa|i1 c1a c1B c1A i0 m1 i0 i0 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBABBABA,BAABa|c1b c1a c1a c0a i1 m0 i1 c0b i1 m0 i1 c0b c0a i1 m0 i1 c0b i1 m0 i1 c0b c1A i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBabABA|c0b c0a i1 c1A c1B c1A c1b c1a i0 m1 i0 i1 c1a i1 m0 i1 i1 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBabbAA|i0 c0a c0B c0A c0A i1 c1A c1A i0 m1 i0 c0B c0B i1 i1 m0 i1 i0 c0B i0 m1 i0 c1a i0 m1 i0 i0 i1 m0 i1 c0A c0B i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BAABa,BBBAAbba|c0b c0a c0a c1b c1b c1b c1a c1a i0 m1 i0 c0b c0b i1 i1 m0 i1 i0 c0b i0 m1 i0 c1A i0 m1 i0 c1A c1B i1 m0 i1 i0 c0A i0 m1 i0 i0 c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBAbaBA,BAABa|c0b c0b c0b c0a c0B c0A i1 c1a c1B c1A i0 m1 i0 c0a c0b i1 i0 m1 i0 c0B c0A i1 c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBABabA|c0b c0a i1 c1A c1b c1a i1 m0 i1 i0 c1A c1B i1 m0 i1 i0 c0B c1b c1a i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 m0 i1|std
+BAABa,BBBABAba|i0 c0a c0B c0A i0 m1 i0 i1 c1A i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBABABA|c1b c1A i0 m1 i0 c1b i0 m1 i0 c0B i1 m0 i1 i0 c1B i1 m0 i1 c0a i0 m1 i0 i0 c0A c0B i1 i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BAABa,BBBBabAA|c0b c0a i1 c1A c1A c1b c1a i0 m1 i0 i1 c1a i1 m0 i1 i0 c0a c0b i0 m1 i0 c0B c0A i1 c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBBAAba|i0 i1 c1a c1b c1A c1A c1B c1B c0B i0 m1 i0 c1B i1 m0 i1 i0 c0B i0 m1 i0 c1a i0 m1 i0 i0 i1 m0 i1 c0A c0B i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BAAAbAbA,BAbaa|c0b c0a c0a c0a c0B c1b c1a c1B i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A i1 m0 i1 c0A i1 i1 m0 i1 c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BAbaa,BABAAAbA|i0 i1 c1A c1b c1A c1A c1A c1B i0 m1 i0 c1a c1a i0 m1 i0 c1a c1a i0 m1 i0 i0 c1a i0 m1 i0 c1A c1A i1 m0 i1 c0A i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 i1 m0 i1 i0 m1 i0|std
+BBaaaaba,BAbaa|i0 c0a i1 c1a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 c0a c0a i1 m0 i1 i0 c0A i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBAAAAbA,BAbaa|i0 c0A c1b c1a c1B c1A i1 m0 i1 i0 c0A i1 m0 i1 c0A c0A i1 m0 i1 c0A c1a i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A c0A i1 c1b i1 m0 i1 c0A i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBaabba,BAbaa|i0 c0a c0b c0b c0a c0a c0B c1b c1a c1B i1 m0 i1 c0A c0A i1 m0 i1 c0A c0B i1 m0 i1 c0A i1 i1 m0 i1 c0b c0A i1 i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A i1 m0 i1 c0A i1 i1 m0 i1 c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBBaabbA,BAbaa|i0 c0A c0b c0b c0a c0a c0B c1b c1a c1B i1 m0 i1 c0A c0A i1 m0 i1 c0A c1b i1 m0 i1 c0a i1 m0 i1 c0a i1 m0 i1 c0a i1 m0 i1 i0 c0B c1A i0 m1 i0 i0 c0A c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBBAAbba,BAbaa|i0 c0a c0b c0b c0A c0A c0B i1 i1 m0 i1 c0a c0a i1 m0 i1 c0a c1b i1 m0 i1 c0A i1 m0 i1 c0A i1 m0 i1 c0A i1 m0 i1 i0 c0B c1a i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBAAbbA,BAbaa|i0 c0A c1b c1a c1B c1A i1 m0 i1 i0 c0A i1 m0 i1 c0A c0b i1 m0 i1 c0A c1a i1 m0 i1 c0A c1b i1 m0 i1 c0a i1 m0 i1 c0a c0B c1B i1 m0 i1 c0a c0b i1 c1b i1 m0 i1 c0A i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BABaa,BBaBAbba|c0b c0a c1b c1b c1A c1b c1a c1B c0B i1 m0 i1 i0 c1B i1 m0 i1 c0A i0 m1 i0 i0 c0a c0B i1 i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BBaBBabA,BABaa|i1 c1a i0 m1 i0 i0 c0b c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBaBBaBa,BABaa|c0A i1 m0 i1 c0b i1 m0 i1 c0b c0A i1 m0 i1 c0b i1 m0 i1 c0b c1a i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBAbaBBa,BABaa|i0 c0a c0B c0B c0a c0b c0A c1b c1a c1b c1A i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBAbAbba,BABaa|i0 c0a c0b c0b c0A c0b c0A c0A i1 m0 i1 c0b i1 m0 i1 c0b c1a i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBAbbaBa,BABaa|i0 c0a c0B c0a i1 c1a c1a c0a i1 m0 i1 c0B i1 m0 i1 c0B c1A i0 m1 i0 i0 c0b c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BABaa,BBAbbAba|c0b c0a c0b c0A i1 c1a c1b c1A i1 m0 i1 i0 c0b c1a i1 m0 i1 c0b c0A c1A i0 m1 i0 c1B c1a i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BABaa,BBBaabbA|c1b c1b c1b c1A c1A i0 m1 i0 c0b c0b i1 i1 m0 i1 i0 c0b i0 m1 i0 c1a i0 m1 i0 i0 i1 m0 i1 c0A c0b i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BABaa,BBBabABa|i0 c0a c1b c1b c1b c1A c1B c1a i1 m0 i1 i0 c1A c1b i1 m0 i1 i0 c0b c1B c1a i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c1b i0 m1 i0 c1a i1 m0 i1 c0a c0B i1 m0 i1 i1|std
+BABaa,BBBaBabA|i0 c0a i0 m1 i0 i1 c1a i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BABaa,BBBaBaBa|c0b c0a c1b c1a i0 m1 i0 c1b i0 m1 i0 c0B i1 m0 i1 i0 c1B i1 m0 i1 c0A i0 m1 i0 i0 c0a c0B i1 i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BABaa,BBBaBAba|c0b c0a c0b c0A i1 c1a c1b c1A i1 m0 i1 i0 c1a c1B i1 m0 i1 i0 c0B c1b c1A i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c1B i0 m1 i0 c1A i1 m0 i1 c0A c0b i1 m0 i1 i0|std
+BABaa,BBBAbaBa|c0b c0a c0b c0A i1 c1a c1B c1a c1b c1A i0 m1 i0 i1 c1A i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BABaa,BBBAbbaa|i0 c0a c0a i1 c1a c1a i0 m1 i0 c0B c0B i1 i1 m0 i1 i0 c0B i0 m1 i0 c1A i0 m1 i0 i0 i1 m0 i1 c0a c0B i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BABaa,BBBBaabA|i0 c0a i0 m1 i0 i1 c1a i1 m0 i1 i0 c0a c0B i0 m1 i0 c0b c0A i1 c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BABaa,BBBBAbaa|c0b c1b c1b c0b i0 m1 i0 c1b i1 m0 i1 i0 c0b i0 m1 i0 c1a i0 m1 i0 i0 i1 m0 i1 c0A c0b i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BABAA,BBaBAbbA|c0b c0a c0b c0a c1b c1b c1A c1b c1a i0 m1 i0 i0 c0a c1B i0 m1 i0 c0A i1 c1B i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BABAA,BBAbbABa|c0b c1b c1b c1a c1B c1B c1a c1b i0 m1 i0 i0 c0B c0A i0 m1 i0 i1 c1A c1b c1A i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BABAA,BBBabAbA|c0b c0a c0b c0a i1 c1A c1b c1A c1b c1a i0 m1 i0 i0 c0a c1B i0 m1 i0 c0A c1B i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BABAA,BBBAbAba|c0b i1 c1a c1b i0 m1 i0 i0 c0B c0A i0 m1 i0 c1A c1b c1A i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBaba,BaBaaBaa|i0 i1 c1B i0 m1 i0 c1a i0 m1 i0 c1a c1B i0 m1 i0 c1a i0 m1 i0 c0b c0A i1 m0 i1 c0a c0B c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BaBaBaaa|i0 c0a c0b i1 c1a c1b i0 m1 i0 c1a i0 m1 i0 c0A i1 m0 i1 i0 c1A i1 m0 i1 c0B i1 m0 i1 c0B c0a i0 m1 i0 c0b i1 i1 m0 i1 c0B c0a i1 i1 m0 i1 i0 c0A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BAAAbAba,BBaba|c0b c1b i1 m0 i1 i0 c0b i0 m1 i0 i0 c0B c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BAAbaaBa|c0b c0b c1b c1b i0 m1 i0 c1A i0 m1 i0 c0B c0a i1 m0 i1 c0A c0b c0A i1 i0 m1 i0 i0 c1A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BAAbaBaa|i0 c0a c0b i1 c1a c1a c1B c1a c1b c1A c0A i1 m0 i1 i0 c1A i1 m0 i1 c0B i1 m0 i1 c0B c0a i0 m1 i0 c0b i1 i1 m0 i1 c0B c0a i1 i1 m0 i1 i0 c0A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BBaba,BAAbAAba|c0b c1b i1 m0 i1 c0b c0A c0A i1 i0 m1 i0 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BAAbAbaa|i0 c1b c1a c1a c1B c1a c1B c1B i0 m1 i0 c1a i0 m1 i0 c0b c0A i1 m0 i1 c0a c0B c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BAbaaaBa,BBaba|c0b c0a c0B i1 c1a c1b c1a c1B i1 m0 i1 i0 c0B i0 m1 i0 i0 c0b c0A c0A i0 m1 i0 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BAbaaBaa|i0 c0a c0b c0a c0B c1b c1a c1B i1 m0 i1 c0B c0a c0a i1 i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BAbaBaaa|i0 c0a c0b c0a c0B c1b c1a c1B i1 m0 i1 i0 c1b c1A i1 m0 i1 i0 c0A c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BAbAAAba|c0b c1b i1 m0 i1 i0 c1B c1a i1 m0 i1 i0 c0a c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BAbAAbaa|c0b c0b c0A c0B i1 c1a c0a i1 m0 i1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0b c0A i0 m1 i0 c0B i1 i1 m0 i1 c0b c0A i1 i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BBaba,BBaaaabA|c0b i1 c1A c1b i0 m1 i0 i1 c1b i1 m0 i1 i0 c0b c0A i0 m1 i0 c0a c0B i1 c1A i0 m1 i0 c0b c0A i1 c1A c1b i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0B i1|std
+BBaba,BBaaabAA|i0 i1 i0 m1 i0 c0a c0a i1 i1 m0 i1 i0 c0a i0 m1 i0 c1b i1 m0 i1 i0 c0A i1 c1B i1 m0 i1 c0b c0A i1 c1a i0 m1 i0 i1 c1a i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBaba,BBAAbaaa|c0b c0b c1b c1b i0 m1 i0 c0A c0A i1 i1 m0 i1 i0 c0A i0 m1 i0 c1B i1 m0 i1 i0 c0a i1 c1b i1 m0 i1 c0B c0a i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaba,BBAbaaaa|i0 c0a i1 c1a c1a c0a i0 m1 i0 c1a i1 m0 i1 i0 c0a i0 m1 i0 c1b i1 m0 i1 i0 c0A i1 c1B i1 m0 i1 c0b c0A i1 c1a i0 m1 i0 i1 c1a i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBabA,BBAAAbaa|i0 c0A c0b c0a c1b c1b c1a i0 m1 i0 c1B c1B i0 m1 i0 c0A c0b i0 m1 i0 c0B i0 m1 i0 c1b i0 m1 i0 c1b i0 m1 i0 c0B i1 c1a i1 m0 i1 i0 c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBAAABaa|i0 c0A c0b c0a c1b c1b c1a i0 m1 i0 c1B c1B i0 m1 i0 c1B c1a i0 m1 i0 i0 c1B i0 m1 i0 i0 c1A c1B i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBAAbaaa|i1 c1a i0 m1 i0 c1b c1b i0 m1 i0 c0A c0B i0 m1 i0 c0b i0 m1 i0 c1B i0 m1 i0 c1B i0 m1 i0 c0b i1 c1a i1 m0 i1 i0 c0B i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBAABaaa|i1 c1a i0 m1 i0 c1b c1b i0 m1 i0 c1b c1a i0 m1 i0 i0 c1b i0 m1 i0 i0 c1A c1b i0 m1 i0 c1b c1b i0 m1 i0 c1b c1b i0 m1 i0 i0 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBBABaBa|i1 c1a i0 m1 i0 c1b c1b i0 m1 i0 c1b c1b i0 m1 i0 i0 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBBABABa|i0 c0A c0b c0a c1b c1b c1b c1a i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBBBAABa|i1 c1a i0 m1 i0 i0 c1B i0 m1 i0 c0b c0b i1 c1A i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBBBABaa|i1 c1a c1a c1B c1A c1B c1a i0 m1 i0 i0 c1b i0 m1 i0 i0 c1A c1b i0 m1 i0 c1b c1b i0 m1 i0 c1b c1b i0 m1 i0 i0 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BAABaaba,BBaBa|i0 c0a i1 c1a i1 m0 i1 i1 c1A c1b i1 m0 i1 c0b c0a i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BAABabaa,BBaBa|i0 c0a c0a c0b c0a c0B i1 c1a c1B c1a c1B i1 m0 i1 c0A i1 c1B i1 m0 i1 i0 c0A c1b i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BABaaabA,BBaBa|i0 c0A c0b c1b i1 m0 i1 c0a i1 c1b i1 m0 i1 c0a c1B i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BABAbaaa,BBaBa|c0b c0a c0b c0a c0B i1 c1a c1B c1a c1B i1 m0 i1 c0A i1 c1B i1 m0 i1 c0A c1b i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBAba,BBaaabAA|i0 c0a c0b c0A c1b c1b c1A i0 m1 i0 c1B c1B i0 m1 i0 c0a c0b i0 m1 i0 c0B i0 m1 i0 c1b i0 m1 i0 c1b i0 m1 i0 c0B i1 c1A i1 m0 i1 i0 c0b i0 m1 i0 c0A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBaaaBAA|i0 c0a c0b c0A c1b c1b c1A i0 m1 i0 c1B c1B i0 m1 i0 c1B c1A i0 m1 i0 i0 c1B i0 m1 i0 i0 c1a c1B i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBaabAAA|i1 c1A i0 m1 i0 c1b c1b i0 m1 i0 c0a c0B i0 m1 i0 c0b i0 m1 i0 c1B i0 m1 i0 c1B i0 m1 i0 c0b i1 c1A i1 m0 i1 c0B i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBaaBAAA|i0 c0a c0b c0A c0B i1 c1A c1A c1A c1B i0 m1 i0 i1 c1B i0 m1 i0 c1B c1a i0 m1 i0 c0b c1B i0 m1 i0 c0a c1B i0 m1 i0 c1b i0 m1 i0 c0A c1b c1A i0 m1 i0 i0 c0a c1b c1a i0 m1 i0 c0b i1 m0 i1 c0B c0B i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBBaBaBA|i0 c0a c0b c0A c1b c1b c1b c1A i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBBaBABA|i1 c1A i0 m1 i0 c1b c1b i0 m1 i0 c1b c1b i0 m1 i0 i0 c1b i0 m1 i0 c1B c1B i1 m0 i1 i0 c0B c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 c0a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBBBaaBA|i1 c1A i0 m1 i0 i0 c1B i0 m1 i0 c0b c0b i1 c1a i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBBBaBAA|i0 c0a c0b c0A c0B i1 c1A c1A c1B i0 m1 i0 c0b i1 i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c0a c1B c1B c1B i0 m1 i0 c0b i1 m0 i1 c0B c0B i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAbA,BAAABabA|i0 c0A c0b c0A c0B c1b c1a c1a c1a c1b c1A c1B i1 m0 i1 i0 c1b c1a i1 m0 i1 i0 c0a c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BAAABAba|c0b i1 c1a c1b i1 m0 i1 i0 c1B c1A i1 m0 i1 i0 c0A c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BAABaabA|i0 c0A c0b i1 c1A c1b c1a c0a i1 m0 i1 i0 c1a i1 m0 i1 c0B i1 m0 i1 c0B c0A i0 m1 i0 c0b i1 i1 m0 i1 c0B c0A i1 i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAbA,BAABabAA|i0 c0A c0b c0A c0B c1b c1a c1a c1b c1A c1B i1 m0 i1 c0B c0A c0A i1 i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BAABAAba|c0b i1 c1a c1b i1 m0 i1 c0b c0a c0a i1 i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BAABAbaa|c0b c0b c0a c0B c1b c1a c1a c1b c1a c1B c1A c0A i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 i1 i0 m1 i0 c0a c1B i1 m0 i1 c0b c0a i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAbA,BABaabAA|c0b c0b c1b c1a c1b c1b i0 m1 i0 c1a i0 m1 i0 c0B c0A i1 m0 i1 c0a c0b c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BABabAAA,BBAbA|c0b c0a c0b c0A c0B i1 c1A c1b c1A c1B i1 m0 i1 i0 c0B i0 m1 i0 i0 c0b c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BABAAAba,BBAbA|i0 c0a c0b c1b i1 m0 i1 i0 c0b i0 m1 i0 i0 c0B c0A c0A i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABAAbaa|i0 i1 c1B i0 m1 i0 c1A i0 m1 i0 c0b c1A i1 m0 i1 c0B c0A c0A i1 i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABAABAA|c0b c0b c0a c0B c1b c1a c1b c1a c1a c1b c1a c1B i0 m1 i0 c1a i0 m1 i0 c1a c1b i0 m1 i0 c1a i0 m1 i0 c0A i1 m0 i1 i0 c1a c1b c1A c1B i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABABAAA|c0b c0b c0a c0B c1b c1a c1b c1a c1b c1a c1B i0 m1 i0 c1a i0 m1 i0 c0A i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 i1 i0 m1 i0 c0a c1B i1 m0 i1 c0b c0a i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBaabAAA,BBAbA|c0b c0b c1b c1b i1 m0 i1 i0 c1a c1a i0 m1 i0 i1 c1a i1 m0 i1 c0B i1 m0 i1 c0B c0A i0 m1 i0 c0b i1 i1 m0 i1 c0B c0A i1 i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAbA,BBabAAAA|i0 c0A i1 c1A c1A c0A i0 m1 i0 c1A i1 m0 i1 i0 c0A i0 m1 i0 c1b i1 m0 i1 i0 c0a i1 c1B i1 m0 i1 c0b c0a i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAAAAba,BBAbA|c0b c0b c0a c0a c1b c1b c1a c1a i1 m0 i1 c0a i0 m1 i0 i1 c1a i1 m0 i1 c0B i1 m0 i1 c0B c0A i0 m1 i0 c0b i1 i1 m0 i1 c0B c0A i1 i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAbA,BBAAAbaa|i0 i1 i0 m1 i0 c0A c0A i1 i1 m0 i1 i0 c0A i0 m1 i0 c1b i1 m0 i1 i0 c0a i1 c1B i1 m0 i1 c0b c0a i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BAAAbaBa,BBABA|i0 c0a c0B c0a c0b c1b i1 m0 i1 c0A i1 c1b i1 m0 i1 c0A c1B i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BAAbABaa,BBABA|i0 c0a c0a c0B c0A i1 c1A i1 m0 i1 i1 c1a c1b i1 m0 i1 c0b c0A i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BAbAABaa,BBABA|i0 i1 c1A c1B c1A c1B i1 m0 i1 c0a i1 c1B i1 m0 i1 c0a c0a i1 c1b i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BAbAbaaa,BBABA|c0b c0a c1b c1b c1a i1 m0 i1 i1 c1A c1B i1 m0 i1 c0B c0a c0a i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBBa,BABABaaa|c1b c1a c1b c1a c1b c1A i0 m1 i0 i0 c0b i0 m1 i0 i0 c0B c1A i1 m0 i1 c0A c0b i0 m1 i0 c1A i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i1|std
+BBBBA,BAAABaBa|i0 c0A i1 c1a c1B c1a c1B c1A i0 m1 i0 i0 c0B i0 m1 i0 i0 c0b c1A i1 m0 i1 c0A c0B i0 m1 i0 c1A i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1|std
+BBababA,Baaaaa|i0 c0A c0b c1b i1 m0 i1 c0a i1 i1 m0 i1 c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBabAba,Baaaaa|i0 c0a c0b c0A c1b c1A i1 m0 i1 i1 c1a i1 m0 i1 c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBAbaba,Baaaaa|c0b c0b c0a c0B i1 i1 m0 i1 c0A i1 i1 m0 i1 c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBAbabA,Baaaaa|i0 c0A c0b c1b i1 m0 i1 c0a i1 i1 m0 i1 i0 c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBabAba,BAAAAA|i0 c0a c0b c1b i1 m0 i1 c0A i1 i1 m0 i1 i0 c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBabAbA,BAAAAA|i0 c0A c0b c0A c0b c0a c1b c1a i1 m0 i1 i1 c1A i1 m0 i1 c0B c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAbabA,BAAAAA|i0 c0A c0b c0a c1b c1a i1 m0 i1 i1 c1A i1 m0 i1 c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAbAba,BAAAAA|i0 c0a c0b c1b i1 m0 i1 c0A i1 i1 m0 i1 c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAbaBa,BABaaaa|c0b c0a c0B c0A i1 c1a c1a c1a c1a c1B c1A i0 m1 i0 c0a i0 m1 i0 i0 c0A c1B i0 m1 i0 c0b c1a c1a i0 m1 i0 c0A i1 c1B i0 m1 i0 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BAbaBa,BBaaabA|c0b c0a c0B c0A i1 c1A i0 m1 i0 i0 c0a c1b i0 m1 i0 c0b c0A i1 c1a c1a i0 m1 i0 c1B i0 m1 i0 c1b c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaaaBA,BAbaBa|i0 c0A c0B i1 i1 m0 i1 i0 c0a c0B i1 m0 i1 c0a c0B c0a i1 m0 i1 c0B i1 m0 i1 c0b c0A i1 i1 m0 i1 c0b c0b c0A i1 m0 i1 i0 c0b c1a i1 m0 i1 c0A i1 c1B i1 m0 i1 c0a i0 m1 i0 i1 c1a i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BAbaBa,BBaBaaa|c0b c0a c0B c0A c0b c1b i0 m1 i0 i0 c0A c0b c1b c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBABaaa,BAbaBa|i0 c0a i1 c1a i1 m0 i1 i0 c0B c0a i1 m0 i1 c0B c0a c1A i1 m0 i1 c0B i1 m0 i1 c0a i1 c1b i1 m0 i1 c0a c0B c1b i1 m0 i1 c0b i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BAbaBa,BBBaaaa|c1b c1A i0 m1 i0 c1b i0 m1 i0 c0a i1 i0 m1 i0 i1 c1A c1b i0 m1 i0 c0B i1 i0 m1 i0 c1A i0 m1 i0 i0 c0a c1b i0 m1 i0 c0b c0A i1 c1a c1a c1B i0 m1 i0 c1b c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BAbaBa,BBBaaba|c0b c0a c0B c0A i0 m1 i0 i0 c0a c1b i0 m1 i0 i0 i1 c1b i0 m1 i0 c1A i0 m1 i0 i0 c0A c1B i0 m1 i0 c0b c1a c1a i0 m1 i0 c0A i1 c1B i0 m1 i0 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BAbaBa,BBBaabA|c0b c0a i1 c1A c1b c1a i1 m0 i1 i1 i0 m1 i0 c1A i1 m0 i1 c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 i0 c0b c1a c1B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BAbaBa,BBBabaa|c0b c0a c0B c0A c0b c1b i0 m1 i0 i1 c1A c1b i0 m1 i0 c0B c1A c1b i0 m1 i0 c0a i0 m1 i0 i0 c1A c1b i0 m1 i0 c0a c1b c1A i0 m1 i0 c1a i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBBaBaa,BAbaBa|i0 c0a i1 c1a i1 m0 i1 c0a c0B i1 c1B c1a i1 m0 i1 c0a c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBBBaaa,BAbaBa|i0 c0a i1 c1a c1B c0B i1 m0 i1 c0a i1 m0 i1 i0 c1b i1 m0 i1 i0 c0B c0a i1 m0 i1 i0 c1A i1 m0 i1 c0B i1 m0 i1 c0a c0B c0a c0B i1 m0 i1 c0b c0A i1 i1 m0 i1 c0b c0b c0A i1 m0 i1 i0 c0b c1a i1 m0 i1 c0A i1 c1B i1 m0 i1 c0a i0 m1 i0 i1 c1a i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BBBBaba,BAbaBa|c0b c1b i1 m0 i1 i0 c0b c0b c1a c1B i1 m0 i1 c0A i1 m0 i1 c0a c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BAbAba,BABaaaa|i0 c0a i1 c1a i0 m1 i0 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BAbAba,BBaaaBa|i0 c0a i1 c1a i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBaaaBA,BAbAba|i0 c0A c0B c0a i1 c1a i1 m0 i1 c0a i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0B c1A c1b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BAbAba,BBAbaaa|i0 i1 c1a c1a c1a c1b c1A c1B i0 m1 i0 i0 c0b i1 i0 m1 i0 c1a i0 m1 i0 i0 c0a c1b i0 m1 i0 c0B c1A c1A i0 m1 i0 c0a i1 c1b i0 m1 i0 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBABaaa,BAbAba|c0b c0b c0a c0b c0A i1 c1a c1b c1A i1 m0 i1 i0 c0b c0A i1 m0 i1 i0 c0b c0A i1 m0 i1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0A c0b c0A c0b i1 m0 i1 c0A i1 c1B i1 m0 i1 c0A c0b c1B i1 m0 i1 c0B i0 m1 i0 i0 c0a i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BAbAba,BBBaaaa|c0b c0a c0B c0a i1 c1a c1a c1a c1a c1B c1a i0 m1 i0 c1B i0 m1 i0 c0A i1 i0 m1 i0 i1 c1a c1B i0 m1 i0 c0b i1 i0 m1 i0 c1a i0 m1 i0 i0 c0A c1B i0 m1 i0 c0B c0a i1 c1A c1A c1b i0 m1 i0 c1B c1a i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BAbAba,BBBaaba|c0b c1b i0 m1 i0 c1b i0 m1 i0 i0 c0a c1b i0 m1 i0 c0B c1A c1A i0 m1 i0 c0a i1 c1b i0 m1 i0 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBBaaBa,BAbAba|i0 c0a c0B c0a i1 c1a i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0B c1A c1b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BAbAba,BBBabaa|c0b c0a c0B i1 c1a c1a c1b c1a c1B i0 m1 i0 i0 c0b c0A i0 m1 i0 i0 i1 c1B i0 m1 i0 c1a i0 m1 i0 i0 c0a c1b i0 m1 i0 c0B c1A c1A i0 m1 i0 c0a i1 c1b i0 m1 i0 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BAbAba,BBBAbaa|c1b c1b c1b c1a c1B c1A i1 m0 i1 i1 i0 m1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0B c1A c1b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBBBaaa,BAbAba|c0b c0b c0b c0b c0A i1 c1a c1b c1A c1b c0b i1 m0 i1 c0A i1 m0 i1 i0 c1B i1 m0 i1 i0 c0b c0A i1 m0 i1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0A c0b c0A c0b i1 m0 i1 c0B c0a i1 i1 m0 i1 c0B c0B c0a i1 m0 i1 i0 c0B c1A i1 m0 i1 c0a i1 c1b i1 m0 i1 c0A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BBBBaba,BAbAba|c0b c1b i1 m0 i1 c0a i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BABabA,BAAAABa|c0b c1b c1a c1a c1a c1a c1b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c0A c1b c1a c1b i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBaBAAA,BABabA|c0b c0b c0A c0b c0a i1 c1A c1b c1a i1 m0 i1 c0a i1 m0 i1 c0a c0b i1 i1 m0 i1 i0 c0b c1A c1B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BABabA,BBAAAba|c0b i1 c1a c1b i0 m1 i0 i1 c1a c1b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c0A c1b c1a c1b i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAAABa,BABabA|i0 c0a c0B i1 c1A c1b c1a c1B i1 m0 i1 i0 c0A c0B i1 m0 i1 c0A c0B c0A i1 m0 i1 c0B i1 m0 i1 c0b c0a i1 i1 m0 i1 c0b c0b c0a i1 m0 i1 i0 c0b c1A i1 m0 i1 c0a i1 c1B i1 m0 i1 c0A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BABabA,BBABAAA|c0b c0a c0b c0A c0B i1 c1A c1A c1A c1B c1A c1B i0 m1 i0 i0 c0a c1B i0 m1 i0 c0b c1A c1A i0 m1 i0 c0a i1 c1B i0 m1 i0 i0 c0b c1A i0 m1 i0 c0B i1 m0 i1 c0b i1 c1A i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABabA,BBBAAAA|c0b c0a c1b c1a i0 m1 i0 c1b i0 m1 i0 c0A i1 i0 m1 i0 i1 c1a c1b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 i0 c0A c1b i0 m1 i0 c0b c0a i1 c1A c1A c1B i0 m1 i0 c1b c1a i0 m1 i0 i0 c1a c1b i0 m1 i0 c0b c1A i0 m1 i0 c0B i1 m0 i1 c0A i1 i0 m1 i0 c0a i1 m0 i1 i0 m1 i0|std
+BABabA,BBBAAba|c0b c0a c0b c0A i1 c1a c1b c1A i1 m0 i1 i1 i0 m1 i0 c1a i1 m0 i1 c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 i0 c0b c1A c1B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BABabA,BBBAAbA|c0b c1b i0 m1 i0 i1 c1a c1b i0 m1 i0 i1 c1a c1b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c0A c1b c1a c1b i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BABabA,BBBAbAA|c0b c1b i0 m1 i0 i1 c1a c1b i0 m1 i0 c0B c1a c1b i0 m1 i0 c0A i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBBABAA,BABabA|c0b c0b c0b c0a c0b c0a i1 c1A c1b c1a i1 m0 i1 c0a c0b i1 i1 m0 i1 i0 c0b c1A c1B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBBAAA,BABabA|i0 c0A i1 c0B i1 m0 i1 c0A i1 m0 i1 i0 c1b i1 m0 i1 i0 c0B c0A i1 m0 i1 i0 c1a i1 m0 i1 c0B i1 m0 i1 c0A c0B c0A c0B i1 m0 i1 c0b c0a i1 i1 m0 i1 c0b c0b c0a i1 m0 i1 i0 c0b c1A i1 m0 i1 c0a i1 c1B i1 m0 i1 c0A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBBBAbA,BABabA|c0b c1b c1a c1b i1 m0 i1 i0 c0b c0b c1A c1B i1 m0 i1 c0a i1 m0 i1 c0A c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BABAba,BAAAABa|i1 c1a c1B c1A i0 m1 i0 c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABAba,BBabAAA|c0b c0a c0b c0a c0B i1 c1A c1A c1A c1b c1a c1B i0 m1 i0 i0 c0b i1 i0 m1 i0 c1A i0 m1 i0 i0 c0A c1b i0 m1 i0 c0B c1a c1a i0 m1 i0 c0A i1 c1b i0 m1 i0 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBaBAAA,BABAba|c0b c0b c0A c0b c0a c1b c1a i1 m0 i1 i0 c0b c0a i1 m0 i1 i0 c0b c0a i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 c0a c0b c0a c1B i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0b i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BBAAABa,BABAba|c0b c0b c0a c1b c1a i1 m0 i1 i0 c0b c0a i1 m0 i1 c0b c0a c1A i1 m0 i1 c1B i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0b i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BABAba,BBAAABA|i1 c1A i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBBabAA,BABAba|i0 c0A c0A c0b c0a c1b c1a i1 m0 i1 i0 c0b c0a i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 c0a c0b c0a c1B i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0b i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BABAba,BBBAAAA|i0 c0a c0b c0A c0B c0A i1 c1A c1A c1A c1A c1B c1A i0 m1 i0 c1B i0 m1 i0 c0a i1 i0 m1 i0 i1 c1A c1B i0 m1 i0 c0b i1 i0 m1 i0 c1A i0 m1 i0 i0 c0a c1B i0 m1 i0 c0B c0A i1 c1a c1a c1b i0 m1 i0 c1B c1A i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABAba,BBBAAbA|i0 c0a c0b c0A c0B i1 c1A c1b c1A c1A c1B i0 m1 i0 i1 c1A c1B i0 m1 i0 c0b c1A c1B i0 m1 i0 c0a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0a c1B c1A i0 m1 i0 c1a i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABAba,BBBAABA|i0 c0a c0b c1b i0 m1 i0 i0 c0A c1b i0 m1 i0 c0B c1b c1a i0 m1 i0 c0A i1 c1b i0 m1 i0 i0 c0B c1a i0 m1 i0 c1B i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b|std
+BABAba,BBBAbAA|i0 c0a c0b c0A c0B i1 c1A c1A c1b c1A c1B i0 m1 i0 i0 c0b c0a i0 m1 i0 i0 i1 c1B i0 m1 i0 c1A i0 m1 i0 i0 c0A c1b i0 m1 i0 c0B c1a c1a i0 m1 i0 c0A i1 c1b i0 m1 i0 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABAba,BBBBAAA|c0b c0a c0b c1b c1b c1b c1b c1a c1b i0 m1 i0 c1a i0 m1 i0 c0B i1 i0 m1 i0 i1 c1b c1a i0 m1 i0 c0A i1 i0 m1 i0 c1b i0 m1 i0 c1a c1b c1a c1b i0 m1 i0 c0a c0b i1 i0 m1 i0 c1a c1b c1a c1b i0 m1 i0 c1a i0 m1 i0 c0B i1 i0 m1 i0 i0 c0A c0B i0 m1 i0 c1a i0 m1 i0 c1a i1 m0 i1 c0a c0b|std
+BBBBAbA,BABAba|c0b c0b c0b c0b c0a c1b c1a i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 c0a c0b c0a c1B i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0b i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BBaaba,BaBaaaa|i0 c0a c0b c0a c0a c0B i1 c1a c1a c1a c1a c1B i1 m0 i1 i1 c1b c1A i0 m1 i0 i0 c0a c0B c1B c1a i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaaba,BAAAbaa|c0b c0b c0A c0A i1 c1a c1a c1b c1A c1A i1 m0 i1 i0 c0A c1a i0 m1 i0 c1B c1a i0 m1 i0 i0 c0B c0a c1A i0 m1 i0 c0a i1 c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaaba,BAbaBaa|i0 c0a c0b i1 c1a c1a c1B c1a c1b i1 m0 i1 i0 c0a c1A i1 m0 i1 c0B c0a i1 m0 i1 c0A i1 c1B c1a i1 m0 i1 i0 c0A c0b c1a i0 m1 i0 c0B c0a i1 c1a c1B i0 m1 i0 c1A i1 m0 i1 c0A i0 m1 i0 i0 m1 i0 i0 c0b|std
+BBaaba,BAbAAba|c0b c1b i1 m0 i1 c0b c0A i1 i1 m0 i1 i0 c0A c0A c1B c1a i0 m1 i0 i0 c0A c0b c1a c1a i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0B i1|std
+BBaaba,BAbAbAA|i1 c1A i1 m0 i1 c0A c0b c0A c1a i1 m0 i1 i0 c0a c0B c1A i0 m1 i0 c0b c1A c1b i1 m0 i1 c0a i1 i0 m1 i0 i0 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBaaba,BBabAbA|i0 c0a c0b c1b i0 m1 i0 c0A c1a i1 m0 i1 c0A c0b i1 i1 m0 i1 i0 c0a c0B c1A i0 m1 i0 c0b c0A i1 c1A c1b i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0B i1|std
+BBaaba,BBAbaaa|i0 c0a c0b i1 c1a c1b i0 m1 i0 i0 c0A i1 m0 i1 i0 c1a c1a i0 m1 i0 c1B c1a i0 m1 i0 i0 c0B c0a c1A i0 m1 i0 c0a i1 c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaaba,BBAbabA|i0 c0a c0b c1b i0 m1 i0 c0A i1 c1b i1 m0 i1 i0 c0a c0a i1 m0 i1 c0B c0a i1 m0 i1 c0A i1 c1B c1a i1 m0 i1 i0 c0A c0b c1a i0 m1 i0 c0B c0a i1 c1a c1B i0 m1 i0 c1A i1 m0 i1 c0A i0 m1 i0 i0 m1 i0 i0 c0b|std
+BBaabA,BaBaBaa|c0b c0b c0A c0A i1 m0 i1 i1 c1b c1A i1 m0 i1 i0 c0B c0a i1 m0 i1 i0 c1a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BBaabA,BAbaBaa|i0 c0A c0b c0a c1b c1a c1B c1A c1b c1a i0 m1 i0 c0b c1a i1 m0 i1 i1 c1A i1 m0 i1 i1 i0 m1 i0 c1B i0 m1 i0 i0 c1B c1a i0 m1 i0 i0 c1a c1B c1a i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaabA,BABaaaa|i0 c0A c0b c0a c1b c1a c1b c0b i1 m0 i1 i1 c1A i1 m0 i1 i1 i0 m1 i0 c1B i0 m1 i0 i0 c1B c1a i0 m1 i0 i0 c1a c1B c1a i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaabA,BABaaBa|c0b i1 c1a c1b i0 m1 i0 i0 c0a c1b i1 m0 i1 c0B i1 i0 m1 i0 i0 i1 m0 i1 c0A i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaabA,BABabaa|i0 c0A c0b c1b i0 m1 i0 c1a c0b c1a i1 m0 i1 c0A i1 c1B i1 m0 i1 c0B c0a i1 m0 i1 i0 c0A c0B i0 m1 i0 c0b i1 m0 i1 i0 m1 i0 i0|std
+BBaabA,BABaBaa|i1 c1a i1 m0 i1 c0a c0B i1 i0 m1 i0 i1 c1A c1b i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBaabA,BABAbaa|c0b i1 c1a c1b i0 m1 i0 c1b c1b i0 m1 i0 c0a c1b i1 m0 i1 i1 c1B i0 m1 i0 i0 c0A i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaabA,BBabaBa|c0b i1 c1a c1B c1a c1b i0 m1 i0 c0b c0A i1 i1 m0 i1 i0 c0A c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i0 c0A c0b c1b c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaabA,BBaBaaa|i0 i1 i1 m0 i1 c0A c0b i1 c1b i1 m0 i1 i0 c0b i0 m1 i0 i0 c0A c0b c1b c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaabA,BBaBaba|i0 c0A c0b c1b i1 m0 i1 c0b c0A i1 i1 m0 i1 c0B c0a i1 m0 i1 i0 c0A c0B i0 m1 i0 c0b i1 m0 i1 i0 m1 i0 i0|std
+BBaabA,BBaBaBa|i0 i1 i1 m0 i1 i1 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b c0a i1 i1 m0 i1 c0A i0 m1 i0 i1 m0 i1 i1|std
+BBaabA,BBaBAba|c0b i1 c1a c1b c1A c1B c1a c1b i0 m1 i0 c0a c1b i1 m0 i1 i1 c1B i0 m1 i0 i0 c0A i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaabA,BBAbaba|i0 c0A c0b c0a c1b c1a i0 m1 i0 c1a c1a i0 m1 i0 c0b c1a i1 m0 i1 i1 c1A i1 m0 i1 i1 i0 m1 i0 c1B i0 m1 i0 i0 c1B c1a i0 m1 i0 i0 c1a c1B c1a i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaabA,BBABaba|i1 c1a i0 m1 i0 c1b c0a c1b i1 m0 i1 c0B i1 c1A i0 m1 i0 i1 c1A c1b i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBaabA,BBBaBaa|i0 c0A c0b c0a c0a c0B i1 c1a c1a c1B c1a c0a i1 m0 i1 c0B i1 i0 m1 i0 i0 i1 m0 i1 c0A i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaabA,BBBBaba|c0b i1 c1a c1b i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i1 c1a i1 m0 i1 c0a c0B i1 c1B c1a i1 m0 i1 c0a c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaaBA,BAAbaBa|c1b c1a i0 m1 i0 c0B c1b i1 m0 i1 c0B c0a i1 i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBaaBA,BAABaba|c1b c1a i0 m1 i0 c0B i1 c1a i1 m0 i1 i0 c0b c0b i1 m0 i1 c0A c0b i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 i0 c0B c0a c1b i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBaaBA,BBabABa|i1 c1a c1B c1A c1b c1a c1B c0B i1 m0 i1 c0B c0a i1 i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBaaBA,BBaBAba|c1b c1b c1A c1b c1a i1 m0 i1 i0 c0b c1B i1 m0 i1 c0A c0b i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 i0 c0B c0a c1b i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBaaBA,BBABaBa|c0b c1b c1b c1a c1b i1 m0 i1 c0b c0A c1A i1 m0 i1 i0 c0b c0A i1 m0 i1 i1 i0 m1 i0 c1b c1b i0 m1 i0 i0 c1b i1 m0 i1 c0B i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 c0a i1 m0 i1 i1 m0 i1 i1|std
+BBaaBA,BBBabbA|i0 i1 c1A c1b c1b c1a c1B c1B i1 m0 i1 i0 c0B c1b i0 m1 i0 c1A c1b i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c0b i1 c1B c1a i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c1b i0 m1 i0 c1a i1 m0 i1 c0a c0B i1 m0 i1 i1|std
+BBaaBA,BBBAbaa|c1b c1a i0 m1 i0 i0 c0B i1 m0 i1 i0 c1b c1b i0 m1 i0 c1A c1b i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c0b i1 c1B c1a i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c1b i0 m1 i0 c1a i1 m0 i1 c0a c0B i1 m0 i1 i1|std
+BBaaBA,BBBBaBa|c0b c0b c0A c1b c1b c1b c1b c1A i1 m0 i1 i1 c1a c1B i0 m1 i0 i0 c0b c0A c1A c1b i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c1B i0 m1 i0 c1A i1 m0 i1 c0A c0b i1 m0 i1 i0|std
+BBabaa,BaBaaaa|i0 c0a c0a i1 c1a c1a c1a c0a i1 m0 i1 i1 c1a c1B i0 m1 i0 c0a i1 c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBabaa,BAAbaaa|i0 c0a c0a i1 c1a c1a i1 m0 i1 i0 c0a c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c0b c0A c1a i0 m1 i0 c0A i1 c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBabaa,BAAbAbA|c0b c0b c0A c0B c0A i1 c1A i1 m0 i1 c0A c0b c1b i1 m0 i1 i0 c0A c0b i0 m1 i0 i0 c0A c0A i1 i1 m0 i1 c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c1A i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBabaa,BAbaBaa|c0b c0b c0A c0B i1 c1a c0a i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0A c0b c1a i0 m1 i0 c0B c0a i1 c1a c1B i0 m1 i0 c1A i1 m0 i1 c0A i0 m1 i0 i0 m1 i0 i0 c0b|std
+BBabaa,BAbAAba|c0b c0b c0A c0B i1 i1 m0 i1 i0 c0A c1a i1 m0 i1 c0b c0A i1 m0 i1 c0a i1 c1b c1A i1 m0 i1 i0 c0a c0B c1A i0 m1 i0 c0b c0A i1 c1A c1b i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0B i1|std
+BBabaa,BBaaabA|i0 c0a i1 c1a i0 m1 i0 c0a i1 i1 m0 i1 i0 c0a c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c0b c0A c1a i0 m1 i0 c0A i1 c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBabaa,BBAbabA|c0b c0b c0A c0B i1 c1A c1b c1a c1b c1A c1B i0 m1 i0 c0a i1 c1B i1 m0 i1 i0 c0A c0A i1 m0 i1 c0b c0A i1 m0 i1 c0a i1 c1b c1A i1 m0 i1 i0 c0a c0B c1A i0 m1 i0 c0b c0A i1 c1A c1b i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0B i1|std
+BBabaa,BBAbAba|c0b c0b c0A c0B i1 c1a c1b c1A c1b c1A c1B i0 m1 i0 c0a c1A i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0A c0b c1a i0 m1 i0 c0B c0a i1 c1a c1B i0 m1 i0 c1A i1 m0 i1 c0A i0 m1 i0 i0 m1 i0 i0 c0b|std
+BBabAA,BAAAABa|c0b c0b c0A c0B c0a i1 c1a c1B c0B i1 m0 i1 i1 c1A i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBabAA,BAAbaBa|i0 c0A c0A c0b c0a c0B c1b c1a c1B i0 m1 i0 c1B c1B i0 m1 i0 c0a c1B i1 m0 i1 i1 c1b i0 m1 i0 i0 c0A i1 i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i1 i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BAAbABa,BBabAA|c0b c0a i1 c1A c1A c1b c1a i1 m0 i1 c0a c0B c1B i0 m1 i0 i0 c1B c1A i0 m1 i0 c0b c1b c1A i1 m0 i1 c0b i1 m0 i1 c0b i0 m1 i0 c0B c1a|std
+BBabAA,BAABAba|c0b c0b c0A c0B c0a i1 c1a c1b c1A c1B c1a i0 m1 i0 c0B c1a i1 m0 i1 i1 c1A i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBabAA,BABaBAA|i0 c0A c0A c0b c0a c1b c1a c1b c1A c1b c1a i1 m0 i1 c0a c0b i1 i0 m1 i0 i1 c1A c1B i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBabAA,BABAABa|i1 c1a c1a i0 m1 i0 c0b c0a i1 i1 m0 i1 c0b i1 i0 m1 i0 i0 i1 m0 i1 c0A i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i1 i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBabAA,BABABAA|c0b c1b i1 m0 i1 i1 c1B c1A i0 m1 i0 c0b c1b c1A i1 m0 i1 c0b i1 m0 i1 c0b i0 m1 i0 c0B c1a|std
+BBabAA,BBAAABA|i0 c0A i1 c1A c1B c0B i1 m0 i1 c0A i1 i1 m0 i1 i0 i1 c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBabAA,BBAbaBA|i0 c0A c0A c0b c0a c0B c1B i0 m1 i0 c0a c1B i1 m0 i1 i1 c1b i0 m1 i0 i0 c0A i1 i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i1 i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBabAA,BBAbAba|c0b c0b c0A c0B c0a i1 c1a c1b c1A c1b c1A c1B c1a i0 m1 i0 c1a c1a i0 m1 i0 c0B c1a i1 m0 i1 i1 c1A i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBabAA,BBAbABa|i0 c0A c0A c0b c0a c0B c1b c1b c1a c1B i0 m1 i0 c0b c0a c1B i1 m0 i1 c0b i1 c1A i0 m1 i0 i1 c1A c1B i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAbABA,BBabAA|c0b c0b c0a c0B i1 c1A c1A c1b c1a c1B i0 m1 i0 i0 c1B c1A i0 m1 i0 c0b c1b c1A i1 m0 i1 c0b i1 m0 i1 c0b i0 m1 i0 c0B c1a|std
+BBabAA,BBABAbA|c0b c0b c0A c0B c0a i1 c1A c1b c1A c1B c1a i0 m1 i0 i0 c0B c1a i1 m0 i1 c0A i1 i1 m0 i1 i0 i1 c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBabAA,BBABABA|c0b c0b c1b c1b i1 m0 i1 i1 c1a c1b i0 m1 i0 c0b c1A i0 m1 i0 c0B c0a i1 i1 m0 i1 c0A i0 m1 i0 i1 m0 i1|std
+BBabAA,BBBAABA|i0 c0A c0A i1 c1A c1B c1A c1A c1B c0B i1 m0 i1 i0 c1B i0 m1 i0 i0 i1 m0 i1 c1B i1 m0 i1 c0b i1 c1A i1 m0 i1 c0b c0a c1B i1 m0 i1 i0 c0b c0a i1 m0 i1 i1 c1A c1B i0 m1 i0 i1 c1B i1 m0 i1 c0B c0a i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBabAA,BBBBAbA|c0b c0b c0A c0B i1 c1A c1b c1A c1B c1B c0B i1 m0 i1 i0 c0B i0 m1 i0 i0 i1 c1B i1 m0 i1 c0b i1 c1A i1 m0 i1 c0b c0a c1B i1 m0 i1 i0 c0b c0a i1 m0 i1 i1 c1A c1B i0 m1 i0 i1 c1B i1 m0 i1 c0B c0a i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBaBAA,BAbABaa|i0 c0A c0A c0B c0a i1 c1a i0 m1 i0 c0b i1 c1a i1 m0 i1 i0 c0B c0B i1 m0 i1 c0A c0B i1 m0 i1 c0b i1 c1A c1B i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBaBAA,BABAbaa|c0b i1 c1a c1a c1b i1 m0 i1 c0b c0A c1A i0 m1 i0 c0b i1 c1B c1A i1 m0 i1 c0b c0a c1a i0 m1 i0 i0 c1B i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBaBAA,BBAbaBA|i0 c0A c0A c0B c0a i1 c1A c1B c1a i1 m0 i1 i0 c0B c1b i1 m0 i1 c0A c0B i1 m0 i1 c0b i1 c1A c1B i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBaBAA,BBABabA|c0b c0b c0A c0b c0a i1 c1A c1b c1a c1B c0B i1 m0 i1 i0 c1A c1B i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBaBAA,BBABABa|i0 c0A c0A c0B c0a c0B i1 c1a c1B i1 m0 i1 c0B c0A c1A i1 m0 i1 i0 c0B c0A i1 m0 i1 i1 i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i1 m0 i1 c0b i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 c0a i1 m0 i1 i1 m0 i1|std
+BBaBAA,BBBabbA|c0b c0b c1b c1b i1 m0 i1 i0 c0b c1B i0 m1 i0 c1A c1B i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c0B i1 c1b c1a i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 m0 i1|std
+BBaBAA,BBBAAba|c0b c1b c1b c1b c1a c1a c1b i0 m1 i0 c0b i1 i1 m0 i1 i0 c0b c1B i0 m1 i0 c1A c1B i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c0B i1 c1b c1a i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 m0 i1|std
+BBBBABA,BBaBAA|c0b c0b c0b c1b c1b c1b i0 m1 i0 i0 c0b c0a i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAAba,BAAAABa|i1 c1a c1B c1A i1 m0 i1 c0b i1 c1a c1b i1 m0 i1 c0b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c0A c1b c1a c1b i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAAba,BAABabA|i0 c0a c0b c0A c1b c1A i0 m1 i0 c0b c1A i1 m0 i1 i1 c1a i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a i1 c1B i1 m0 i1 c0a c0b c1A i1 m0 i1 i0 c0a c0b i1 m0 i1 i1 c1B c1A i1 m0 i1 c0A i1 m0 i1 c0A i1 m0 i1 c0b i0 m1 i0 c1b c1a|std
+BBAAba,BAbAABa|i0 c0a c0b c1b c1a c1B c1a c1a c1b i0 m1 i0 c1A c0b c1A i1 m0 i1 c0a i1 c1B i1 m0 i1 c0B c0A i1 m0 i1 i0 c0a c0B i0 m1 i0 c0b i1 m0 i1 i0 m1 i0|std
+BBAAba,BAbAbaa|c0b c1b c1a c1B c1a c1B c1A c1b i0 m1 i0 c1b c1b i0 m1 i0 c0A c1b i1 m0 i1 i1 c1B i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i1 i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAAba,BABaBAA|c0b i1 c1A c1A c1B c1a c1B c1A c1b i0 m1 i0 i0 c0A c1b i1 m0 i1 c0B i1 i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i1 i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAAba,BABAABa|i0 c0a c0b c0A i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0B c0A i0 m1 i0 c1a i0 m1 i0 c1a i1 m0 i1 c0a c0b|std
+BBAAba,BABABAA|c0b c0b c0a c0a i1 m0 i1 i1 c1b c1a i1 m0 i1 i0 c0B c0A i1 m0 i1 i0 c1A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAAba,BBabAbA|i0 c0a c0b c0A c1b c1A i0 m1 i0 c1A c1A i0 m1 i0 c0b c1A i1 m0 i1 i1 c1a i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a i1 c1B i1 m0 i1 c0a c0b c1A i1 m0 i1 i0 c0a c0b i1 m0 i1 i1 c1B c1A i1 m0 i1 c0A i1 m0 i1 c0A i1 m0 i1 c0b i0 m1 i0 c1b c1a|std
+BBAAba,BBaBAbA|i0 c0a c0b c1b i0 m1 i0 c0A c1b c1A i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0B c0A i0 m1 i0 c1a i0 m1 i0 c1a i1 m0 i1 c0a c0b|std
+BBAAba,BBAbABA|c0b i1 c1A c1B c1A c1b i0 m1 i0 c0b c0a i1 i1 m0 i1 i0 c0a c1A c1B i1 m0 i1 i0 c0b i0 m1 i0 i0 c0a c0b c1b c1a i0 m1 i0 c1b c1a i0 m1 i0 i0 c1a c1b i0 m1 i0 c0b c1A i0 m1 i0 c0B i1 m0 i1 c0A i1 i0 m1 i0 c0a i1 m0 i1 i0 m1 i0|std
+BBAAba,BBABabA|c0b i1 c1A c1b c1a c1B c1A c1b i0 m1 i0 c0A c1b i1 m0 i1 i1 c1B i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i1 i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAAba,BBABAAA|i0 i1 i1 m0 i1 c0a c0b i1 c1b i1 m0 i1 i0 c0b i0 m1 i0 i0 c0a c0b c1b c1a i0 m1 i0 c1b c1a i0 m1 i0 i0 c1a c1b i0 m1 i0 c0b c1A i0 m1 i0 c0B i1 m0 i1 c0A i1 i0 m1 i0 c0a i1 m0 i1 i0 m1 i0|std
+BBAAba,BBABAbA|i0 c0a c0b c1b i1 m0 i1 c0b c0a i1 i1 m0 i1 c0B c0A i1 m0 i1 i0 c0a c0B i0 m1 i0 c0b i1 m0 i1 i0 m1 i0|std
+BBABABA,BBAAba|c0b c0b c0a c1b c1b c1a i0 m1 i0 i0 c0A c0B i1 m0 i1 c0a c0B c0A i0 m1 i0 c1a i0 m1 i0 c1a i1 m0 i1 c0a c0b|std
+BBAAba,BBBABAA|i0 c0a c0b c0A c0A c0B i1 c1A c1A c1B c1A c0A i1 m0 i1 c0B i1 i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i1 i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAAba,BBBBAbA|c0b i1 c1A c1b i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i1 c1A i1 m0 i1 c0A c0B i1 c1B c1A i1 m0 i1 c0A c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAAbA,BAAAbaa|c0b c0b c0a c0a c1b c1a c1a i1 m0 i1 i0 c0a c1A i0 m1 i0 c1B c1A i0 m1 i0 i0 c0B c0A c1a i0 m1 i0 c0A i1 c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAAbA,BAABabA|i0 c0A c0b i1 c1A c1b i1 m0 i1 i0 c0A c1a i1 m0 i1 c0B c0A i1 m0 i1 c0a i1 c1B c1A i1 m0 i1 i0 c0a c0b c1A i0 m1 i0 c0B c0A i1 c1A c1B i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0b|std
+BAABAba,BBAAbA|c0b c0a i1 c1A c1b c1a i0 m1 i0 i0 c1a c1b i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAAbA,BABAAAA|c0b c0b c0a c0a c1b c1a c1b c1a c1a c1a c0a i1 m0 i1 i1 c1a c1b i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAAbA,BABAbAA|c1b c1a c1b c1a c1B c1a i1 m0 i1 c0a c0b c0a c1A i1 m0 i1 i0 c0A c0B c1a i0 m1 i0 c0b c1a c1b i1 m0 i1 c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAAbA,BBabAAA|c0b c0b c0a c1b c1b c1a i0 m1 i0 c0a i1 i1 m0 i1 i0 c0a c1A i0 m1 i0 c1B c1A i0 m1 i0 i0 c0B c0A c1a i0 m1 i0 c0A i1 c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAAbA,BBabAba|i0 c0A c0b c1b i0 m1 i0 c0a i1 c1b i1 m0 i1 i0 c0A c0A i1 m0 i1 c0B c0A i1 m0 i1 c0a i1 c1B c1A i1 m0 i1 i0 c0a c0b c1A i0 m1 i0 c0B c0A i1 c1A c1B i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0b|std
+BBAbaba,BBAAbA|c0b i1 c1A c1b i1 m0 i1 c0A c1a i0 m1 i0 i0 c1a c1b i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAABa,BAbABaa|c1b c1a c1B c1a c1b c1A i0 m1 i0 c0B i1 c1A i1 m0 i1 i0 c0b c0b i1 m0 i1 c0a c0b i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAABa,BABaabA|c1b c1a c1b c1A i0 m1 i0 c0B c1b i1 m0 i1 c0B c0A i1 i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAABa,BBaBABA|c0b c1b c1b c1A c1b i1 m0 i1 c0b c0a c1a i1 m0 i1 i0 c0b c0a i0 m1 i0 i0 c0b c0b i1 i1 m0 i1 c0b i1 i0 m1 i0 i0 c0b i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 i0 m1 i0 i1 m0 i1|std
+BBAABa,BBAbaBA|i1 c1A c1B c1a c1b c1A c1B c0B i1 m0 i1 c0B c0A i1 i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAABa,BBABabA|c1b c1b c1a c1b c1A i1 m0 i1 i0 c0b c1B i1 m0 i1 c0a c0b i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBabAA,BBAABa|c0b c0A i1 m0 i1 c0b i1 i0 m1 i0 c0b i1 c1B i1 m0 i1 c0a c0b i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBAbba,BBAABa|i0 c0a c0b c0b c0A c0B c0B i1 i0 m1 i0 c0b i1 c1B i1 m0 i1 c0a c0b i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAABa,BBBBABA|c0b c0b c0a c1b c1b c1b c1b c1a i1 m0 i1 i1 c1A c1B i0 m1 i0 i0 c0b c0a c1a c1b i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 m0 i1|std
+BBAbaa,BaBaBaa|c0b c1b i1 m0 i1 i1 c1B c1a i0 m1 i0 c0b c1b c1a i1 m0 i1 c0b i1 m0 i1 c0b i0 m1 i0 i0 c0B c1A|std
+BBAbaa,BAbAAba|c0b c0b c0a c0B c0A c1b c1a c1B c1A i0 m1 i0 c0B c1A i1 m0 i1 i1 c1a i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBAbaa,BABaaaa|c0b c0b c0a c0B c0A i1 c0B i1 m0 i1 i1 c1a i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBAbaa,BABaaba|c0b c0b c0a c0B c0A i1 c1a c1b c1a c1a c1B c1A i0 m1 i0 c0a c0B c1A i1 m0 i1 c0a i1 c1b i1 m0 i1 c0b c0A i1 m0 i1 i0 c0a c0b i0 m1 i0 c0B i1 m0 i1 i0 m1 i0 i1|std
+BBAbaa,BABaabA|i0 c0a c0a c0b c0A c0B c1b c1a c1b c1A c1B i0 m1 i0 c1B c1B i0 m1 i0 c0A c1B i1 m0 i1 i1 c1b i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBAbaa,BABaaBa|c0b c0b c0a c0B c0A i1 c1a c1B c1a c1a c1B c1A i1 m0 i1 c0A c0b i1 i1 m0 i1 c0a c0b c0A i0 m1 i0 c1a i0 m1 i0 c1a i1 m0 i1 c0a c0B i1|std
+BBAbaa,BABaBaa|i1 c1a c1a c1B c1a c1B c1A c1A i0 m1 i0 c0b c0A i1 i1 m0 i1 c0b i1 i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBAbaa,BBaaaBa|i0 c0a i1 c1a c1B c0B i1 m0 i1 c0a i1 i1 m0 i1 i0 i1 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBAbaa,BBababA|c0b c0b c0a c0B c0A i1 c1A c1b c1a c1b c1a c1B c1A i0 m1 i0 c1A c1A i0 m1 i0 c0B c1A i1 m0 i1 i1 c1a i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBAbaa,BBabaBa|c0b c0b c0a c0B i1 c1a c1B c1a c1b c1a c1B i1 m0 i1 c0B c0a i1 i1 m0 i1 c0b c0A i1 m0 i1 i0 c0a c0b i0 m1 i0 c0B i1 m0 i1 i0 m1 i0 i1|std
+BBAbaa,BBabaBA|c0b c0b c0a c0B i1 c1A c1B c1a c1b c1a c1B i0 m1 i0 c0A c1B c1A i1 m0 i1 c0A c0b i1 i1 m0 i1 c0a c0b c0A i0 m1 i0 c1a i0 m1 i0 c1a i1 m0 i1 c0a c0B i1|std
+BBAbaa,BBabABa|i0 c0a c0a c0b c0A c0B c1B i0 m1 i0 c0A c1B i1 m0 i1 i1 c1b i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBAbaa,BBaBaba|i0 c1b c1b c1A c1b c1A c1B c1B i0 m1 i0 c0a c0B i1 i1 m0 i1 c0a i1 i1 m0 i1 i0 i1 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBAbaa,BBaBaBa|c0b c0b c1b c1b i1 m0 i1 i1 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B c0A i1 i1 m0 i1 c0a i0 m1 i0 i1 m0 i1 i0|std
+BBAbaa,BBBaaBa|c0b c0A i1 m0 i1 c0b i1 i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBAbaa,BBBBaba|c0b c0b c0a c0B i1 c1a c1b c1a c1B i1 m0 i1 c0A i1 c1b c1A i0 m1 i0 i1 c1A i1 m0 i1 c0A c0b i1 c1b c1A i1 m0 i1 c0A c0b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBAbAA,BAAbaaa|i0 c0A c0A c1b c1a c1a c1B c1A c1A i1 m0 i1 i0 c0A c1a i0 m1 i0 c1b c1a i0 m1 i0 i0 c0b c0a c1A i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbAA,BAABabA|c0b c0b c0a c0B i1 c1A c1b c1a c1B c1A c0A i1 m0 i1 c0A c0B i1 i1 m0 i1 i0 c0a c0b c1A i0 m1 i0 c0B c0A i1 c1A c1B i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0b|std
+BAABAba,BBAbAA|c0b c0a c0a c0b c0a c0B c1b c1b c1a c1B i0 m1 i0 c0A i1 c1a i0 m1 i0 c1b c1a i0 m1 i0 i0 c0b c0a c1A i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbAA,BABAAAA|c0b c1b c1a c0a i1 m0 i1 i0 c0b c0a i0 m1 i0 c0A i1 c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbAA,BABAAbA|c0b c0b c0a c0B c0a i1 m0 i1 c0a c0b c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 i0 c0a c0a i1 i1 m0 i1 c0a i1 i0 m1 i0 i0 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 i1 i0 m1 i0|std
+BBAbAA,BBababA|c0b c0b c0a c0B i1 c1A c1b c1a c1b c1a c1B i0 m1 i0 c0A c1a i1 m0 i1 c0A c0B i1 i1 m0 i1 i0 c0a c0b c1A i0 m1 i0 c0B c0A i1 c1A c1B i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0b|std
+BBabAba,BBAbAA|i0 c0a c0b c0A c0b c0a c0B c1b c1b c1a c1B i0 m1 i0 c1B c1a i1 m0 i1 i0 c1A c1b i0 m1 i0 c0B i1 c1a i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A c0A i0 m1 i0 c0B i0 m1 i0 c0b c1A i0 m1 i0 i0 c0A c1b i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAbAA,BBAAAba|c0b c0b c0a c0B c1b c1b c1a c1B i0 m1 i0 i0 c0A i1 m0 i1 i0 c1a c1a i0 m1 i0 c1b c1a i0 m1 i0 i0 c0b c0a c1A i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBABaa,BAABaba|i0 c0a c0a c0B c0A i1 c1a c1b c1a c1B c1A i0 m1 i0 c0b i1 c1A i1 m0 i1 i0 c0B c0B i1 m0 i1 c0a c0B i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBABaa,BAbAbaa|c0b c1b i1 m0 i1 c0b c0a c1a i0 m1 i0 c0b i1 c1B c1a i1 m0 i1 c0b c0A c1A i0 m1 i0 i0 c1B i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBABaa,BBabABa|i0 c0a c0a c0B c0A i1 c1a c1B c1A i1 m0 i1 i0 c0B c1b i1 m0 i1 c0a c0B i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBABaa,BBaBaBA|i0 c0a c0a c0B c0A c0B i1 c1A c1B i1 m0 i1 c0B c0a c1a i1 m0 i1 i0 c0B c0a i1 m0 i1 i1 i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i1 m0 i1 c0b i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 c0A i1 m0 i1 i1 m0 i1 i0|std
+BBABaa,BBaBAba|c0b c0b c0a c0b c0A i1 c1a c1b c1A c1B c0B i1 m0 i1 i0 c1a c1B i1 m0 i1 i0 c0B c0a c1b i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBABaa,BBBaabA|c0b c1b c1b c1b c1A c1A c1b i0 m1 i0 c0b i1 i1 m0 i1 i0 c0b c1B i0 m1 i0 c1a c1B i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c0B i1 c1b c1A i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c1B i0 m1 i0 c1A i1 m0 i1 c0A c0b i1 m0 i1 i0|std
+BBABaa,BBBAbba|c0b c0b c1b c1b i1 m0 i1 i0 c0b c1B i0 m1 i0 c1a c1B i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c0B i1 c1b c1A i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c1B i0 m1 i0 c1A i1 m0 i1 c0A c0b i1 m0 i1 i0|std
+BBABaa,BBBBaBa|c0b c0b c1b c1b c1b c0b i1 m0 i1 i1 c1b c1A i0 m1 i0 c0b i1 c1B c1a i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c1b i0 m1 i0 c1a i1 m0 i1 c0a c0B i1 m0 i1 i1|std
+BBBBBa,BAABaba|c1b c1a c1a c1b c1A i0 m1 i0 i0 c1B i0 m1 i0 i1 c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBBa,BAbABaa|c0b i1 c1a c1a c1B c1A c1b i0 m1 i0 i0 c0B i0 m1 i0 c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBBa,BABaabA|i0 c0a i0 m1 i0 i0 c1b i0 m1 i0 c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBBBa,BABAbaa|i1 c1a c1a c1b c1A i0 m1 i0 i0 c1B i0 m1 i0 c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBBA,BAAbaBa|c0b i1 c1a c1B c1a c1b i0 m1 i0 i0 c0B i0 m1 i0 c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBBA,BAABaba|c0b i1 c1a c1b i0 m1 i0 i0 c0B i0 m1 i0 c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBBA,BAbAbaa|c1b c1a i0 m1 i0 i0 c1B i0 m1 i0 c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBBA,BAbABaa|c1b c1a i0 m1 i0 i0 c1B i0 m1 i0 i1 c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+Baaaa,BAABabAba|i0 i1 c1a c1b c1A c1b c1a c1B i0 m1 i0 i0 c1A i0 m1 i0 c0b c0A i0 m1 i0 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BABabaabA,Baaaa|i0 c0A c0b c1b i1 m0 i1 c0a i1 i1 m0 i1 c0a c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BABAbaaba,Baaaa|c0b c0a c0b c0a c0B i1 i1 m0 i1 c0A i1 i1 m0 i1 c0A c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BABAbaabA,Baaaa|i0 c0A c0b c1b i1 m0 i1 c0a i1 i1 m0 i1 i0 c0a c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBBababbA,Baaaa|i0 c0A c0b c1b i1 m0 i1 i1 c1A i1 m0 i1 c0b i1 c1a i1 m0 i1 c0a i1 i1 m0 i1 c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBBabAbba,Baaaa|c0b c0b c0b c0A c0B c0a i1 c1a i1 m0 i1 i1 c1A i1 m0 i1 c0B c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBBabAbbA,Baaaa|c0b c0b c0b c0A c0B c0a i1 c1a i1 m0 i1 i1 c1A i1 m0 i1 i0 c0B c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBBabbabA,Baaaa|i0 c0A c0b c1b i1 m0 i1 c0a i1 i1 m0 i1 c0b c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBBabbAba,Baaaa|i0 c0a c0b c0A c1b c1A i1 m0 i1 i1 c1a i1 m0 i1 c0b c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBBAbabba,Baaaa|c0b c0b c0b c0a c0B i1 i1 m0 i1 c0A i1 i1 m0 i1 c0B c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBBAbabbA,Baaaa|c0b c0b c0b c0a c0B i1 i1 m0 i1 c0A i1 i1 m0 i1 i0 c0B c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBBAbbaba,Baaaa|c0b c0b c0b c0a c0B i1 i1 m0 i1 i1 c1a i1 m0 i1 c0B i1 c1A i1 m0 i1 c0A i1 i1 m0 i1 c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBBAbbabA,Baaaa|i0 c0A c0b c1b i1 m0 i1 c0a i1 i1 m0 i1 i0 c0b c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBBAbbAba,Baaaa|c0b c1b i1 m0 i1 i1 c1A i1 m0 i1 c0b c0b c1a i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBababaBA,BaBaa|i0 c0A c0B c0a i1 c1a i1 m0 i1 c0b i1 c1a i1 m0 i1 c0a c0b i1 m0 i1 c0A i1 c1B c1a i1 m0 i1 c0a i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BaBaa,BBabaBAba|i0 c0a c0a c0B i1 c1a c1b c1A c1B c1a c1b c1a c1B i0 m1 i0 i0 c0b c0A i0 m1 i0 i1 c1A i0 m1 i0 i1 c1A c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BaBaa,BBabABaba|i0 c0a i1 c1a i0 m1 i0 i0 c0a c1b i0 m1 i0 i0 c0A i0 m1 i0 i1 c1a c1B i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BBABababa,BaBaa|i0 c0a c0b c0a c0b c0a c0B i1 c1a c1a c1B i1 m0 i1 i1 c1b c1A i1 m0 i1 c0A c0A c0A i1 m0 i1 i1 c1A c1b i1 m0 i1 c0a i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBBabaabA,BaBaa|i0 c0A c0b c1b i1 m0 i1 i1 c1B c1a i1 m0 i1 c0a c0a i1 m0 i1 c0b i1 c1a i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBBAbaaba,BaBaa|c0b c0b c0b c0a c0B i1 c1a c1a c1B i1 m0 i1 i1 c1b c1A i1 m0 i1 c0A c0A i1 m0 i1 c0B i1 c1A i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBBBabbba,BaBaa|i0 c0a i1 c1a i1 m0 i1 c0b i1 c1a i1 m0 i1 c0a i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b i1 m0 i1 c0A i1 c1B c1a i1 m0 i1 c0a i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BAbAAbaBa,BAAAA|i0 c0a c0B c0a c0b c1b i1 m0 i1 c0A i1 i1 m0 i1 c0A c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAbAbaBaa,BAAAA|c0b c0a c1b c1a i1 m0 i1 i1 c1A i1 m0 i1 c0B c0a c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAbAbABaa,BAAAA|c0b c0a c0B c0a c0B c0a c0b c1b i1 m0 i1 c0A i1 i1 m0 i1 i0 c0A c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAAAA,BABabAAba|i0 c1b c1a c1b c1A c1B i0 m1 i0 i0 c1a i0 m1 i0 c0b c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBabAbba,BAAAA|c0b c0b c0b c0A c0B i1 i1 m0 i1 c0a i1 i1 m0 i1 c0B c0B i1 c1b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBabAbbA,BAAAA|i0 c0A c0b c0b c0A c0b c0a c1b c1a i1 m0 i1 i1 c1A i1 m0 i1 c0B c0B c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBabbabA,BAAAA|i0 c0A c0b c0a c1b c1a i1 m0 i1 i1 c1A i1 m0 i1 i0 c0b c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBabbAba,BAAAA|i0 c0a c0b c1b i1 m0 i1 c0A i1 i1 m0 i1 i0 c0b c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBabbAbA,BAAAA|c0b c0b c0b c0A c0B i1 i1 m0 i1 i1 c1A i1 m0 i1 i0 c1a c1b i1 m0 i1 c0a i1 i1 m0 i1 c0B c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAAAA,BBBAbabba|i0 i1 c1a c1b c1b c1a c1b c1A c1B i0 m1 i0 i0 c0A i0 m1 i0 c1B c1B i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 i1 m0 i1 i0 m1 i0|std
+BBBAbabbA,BAAAA|i0 c0A c0b c0b c0a c0b c1b i1 m0 i1 c0A i1 i1 m0 i1 c0B c0B c0B i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBAbAbba,BAAAA|i0 c0a c0b c1b i1 m0 i1 i1 c1a i1 m0 i1 c0b i1 c1A i1 m0 i1 c0A i1 i1 m0 i1 c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBAbbabA,BAAAA|i0 c0A c0b c0a c1b c1a i1 m0 i1 i1 c1A i1 m0 i1 c0b c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBAbbAba,BAAAA|i0 c0a c0b c1b i1 m0 i1 c0A i1 i1 m0 i1 c0b c0b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAbAbAAAA,BAAba|i0 c0A c0A c0A c0A c0b c0A c0b c0A i1 c1a c1b c1A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i0 m1 i0 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BABAbAAAA,BAAba|c0b c0a c0b c0a c1b c1a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBabaaaaa,BAAba|c0b c0b c0A i1 c1a c1b c1A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i0 m1 i0 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBAbAAAAA,BAAba|c0b c0b c0a c1b c1a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAAba,BBAbAbbaa|c1b c1b c1a c1B c1a c1B c1B c1A i0 m1 i0 c1b c1a i0 m1 i0 c1A i0 m1 i0 i0 c0a c0b i1 i0 m1 i0 c1b i0 m1 i0 c1A c1A i0 m1 i0 c1A i1 m0 i1 c0A i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAbAbbAA,BAAba|i0 c0A c0A c0b c1b i1 m0 i1 c0a c0a i1 m0 i1 c0a c1B i1 m0 i1 c0b c0a i1 c1b i1 m0 i1 c0A c1a i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i0 m1 i0 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBAbbaaBa,BAAba|i0 c0a c0B c0a i1 c1a i1 m0 i1 c0a c0b c1b i1 m0 i1 c0b i1 m0 i1 c0A c0A i1 m0 i1 i0 c1A i1 m0 i1 c0A c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 c0A c0A i1 m0 i1 i0 c0a i0 m1 i0 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBAbbabaa,BAAba|i0 c0a c0a c0b i1 c1a c1b i1 m0 i1 c0A c0A i1 m0 i1 c0A c1B i1 m0 i1 c0a c0b c1b i1 m0 i1 c0A i1 i1 m0 i1 c0B c0A i1 i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A i1 m0 i1 c0A i1 i1 m0 i1 c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAbbAABA,BAAba|c0b c0b c0a c0B c0B c0a c0a c0b i1 c1a c1b i1 m0 i1 c0A c0A i1 m0 i1 c0A c1B i1 m0 i1 c0b c0A i1 c1b i1 m0 i1 c0a c1A i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAbbAbAA,BAAba|c0b c0b c0a c0B c0B c0a c0B c0a i1 c1a i1 m0 i1 c0a c0b c1b i1 m0 i1 i0 c0b c1A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i0 m1 i0 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BAAba,BBABAbbaa|c1b c1b c1a c1b c1a c1B c1B c1A i0 m1 i0 c0b c1A c1b i0 m1 i0 c1b i0 m1 i0 c1a c1a i0 m1 i0 c1a c1a i0 m1 i0 c1a c1a i0 m1 i0 c1a i1 m0 i1 c0a i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBABAbbAA,BAAba|c0b i1 c1a c1b i1 m0 i1 c0A c0A i1 m0 i1 c0A c1B i1 m0 i1 c0b c0A i1 c1b i1 m0 i1 c0a c1A i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBababaa,BAAba|c0b c1b i1 m0 i1 c0a c0a i1 m0 i1 c0a c0a c1B i1 m0 i1 c0b c0a i1 c1b i1 m0 i1 c0A c1a i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i0 m1 i0 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBBabbAAA,BAAba|c0b c0b c0b c0A c0B i1 i1 m0 i1 c0B c0a c1a i1 m0 i1 c0a i1 m0 i1 c0a c0b c1b i1 m0 i1 c0b c0b c0a i1 c1A i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBAbAbAA,BAAba|c0b i1 c1a c1b i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A c1B i1 m0 i1 c0b c0A i1 c1b i1 m0 i1 c0a c1A i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBAbbaaa,BAAba|c0b c0b c0b c0a c0B c1b c1a c1a c1B i1 m0 i1 c0B c0A c1A i1 m0 i1 c0A i1 m0 i1 c0A c0b c1b i1 m0 i1 c0b c0b c0A i1 c1a i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i0 m1 i0 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBaaBAbbA,BAABa|i0 c0A c0b c0b c0A c0B c0a i1 c1a i1 m0 i1 c0a c0a i1 c1B i1 m0 i1 c0b i1 m0 i1 c0b c1A i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBababABA,BAABa|c0b c0b c0A c0B c0A c0B c0a i1 c1a i1 m0 i1 c0B i0 m1 i0 i0 c0A c1b c1b i0 m1 i0 c0B i1 m0 i1 i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1|std
+BAABa,BBabaBAbA|c0b c0a c1b c1b c1A c1B c1A c1b c1a i0 m1 i0 i1 c1a i1 m0 i1 i0 c0b c1A i1 m0 i1 c0b c0a c1a i0 m1 i0 c1B c1A i0 m1 i0 c0A c0B i1 i1 m0 i1 i0 c0B c0A i0 m1 i0 c0B i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBabABabA,BAABa|i0 c0A c0b c0a c0B c0A c0b c0a c1b c1a i1 m0 i1 c0a c0b c0b i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBabABAba,BAABa|i1 c1a c1B c1A i1 m0 i1 i0 c0b c0b i1 i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBabABABA,BAABa|c0b c0b c0A i1 m0 i1 c0b c0a i1 m0 i1 c0b i1 m0 i1 c0b i0 m1 i0 i0 c0a c1B c1B i1 m0 i1 c0B i1 c1b i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBAAbbaba|c0b c0a c0a c1b c1b c1a c1a i0 m1 i0 c0A c1b i0 m1 i0 i1 c1a i1 m0 i1 i1 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAbabaBA,BAABa|c0b c0b c0a c0B c0A i1 c1a c1B c1A i1 m0 i1 c0B c0A i0 m1 i0 c0a c0b i1 i0 m1 i0 c0B c0A i1 c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBAbaBabA|i0 c0a c0B c0A c1b c1b c1a c1B c1A i0 m1 i0 i0 i1 c1b i1 m0 i1 i0 c1A c1B i1 m0 i1 i0 c0B c1b c1a i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 m0 i1|std
+BBAbaBAba,BAABa|i1 c1a c1B c1A i1 m0 i1 c0A c0B c0B i0 m1 i0 i0 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAbaBABA,BAABa|i0 c0A c0B c0A c0B c0a i1 c1a i1 m0 i1 c1b i0 m1 i0 c0b i1 i0 m1 i0 c1A i0 m1 i0 c1A c1B i1 m0 i1 i0 c0A i0 m1 i0 i0 c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BAABa,BBAbABaba|i0 c0a c0B c0A i1 c1a c1b c1a c1B c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 c0B c1a i1 m0 i1 c0B c0A c1A i0 m1 i0 c1b c1a i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBAbbaaBA,BAABa|c0b c0b c0a c0B c0B c0A c0A i1 c1a c1B c1A c1A i1 m0 i1 c0B c1a i0 m1 i0 i0 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAbbABaa,BAABa|i0 c0a c0a c0B c0A i1 c1a c1B c1A i1 m0 i1 i0 c0A i1 m0 i1 c0B c0A i1 m0 i1 c0A c0B c0B i0 m1 i0 i0 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBABaabbA,BAABa|i0 c0A c0b c0b c0a c1b c1a i1 m0 i1 c0a c0b i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBABababA|c0b c0a i1 c1A c1b c1a i0 m1 i0 c1b c1a i1 m0 i1 i0 c1A c1B i1 m0 i1 i0 c0B c1b c1a i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 m0 i1|std
+BBABabABA,BAABa|c0b c1b c1a c1a c1b i1 m0 i1 c0A c0b c1A i1 m0 i1 c0b c0a c0b i1 m0 i1 c0b i0 m1 i0 i0 c0a c1B c1B i1 m0 i1 c0B i1 c1b i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBABAbaba,BAABa|c0b c0b c0a c0b c0a c0B c0A i1 c1a c1B c1A i1 m0 i1 c0B c0A i0 m1 i0 i0 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBABAbaBA,BAABa|c1b c1a i1 m0 i1 c0a c0b c0b c0a c1a i1 m0 i1 c0b i1 m0 i1 c0b c1A i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBABAbbaa|i0 c0a c0B c0A c1b c1b c1a c1b c1a c1B c1B c1A i0 m1 i0 c1A c1B i0 m1 i0 i1 c1A i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBABABabA|c1b c1b c1a c1b c1a c1b c1A i0 m1 i0 c0B i1 m0 i1 i0 c1B i1 m0 i1 c0a i0 m1 i0 i0 c0A c0B i1 i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBABABAba,BAABa|i0 c0a i1 c1a i1 m0 i1 c0B c0A i1 m0 i1 c0B i1 m0 i1 c0B i0 m1 i0 i0 c0A c1b c1b i0 m1 i0 c0B i1 m0 i1 i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1|std
+BBABBabAA,BAABa|i0 c0A c0A i1 c1a c1B c1A c1A i1 m0 i1 c0B c0A i1 m0 i1 c0B i1 m0 i1 c0B c1a i0 m1 i0 i0 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBABBAAba,BAABa|c0b c0b c0a c0b c0b c0a c0a c1b c1a c1a i1 m0 i1 c0b c0a i1 m0 i1 c0b i1 m0 i1 c0b c1A i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBaabbAA|c0b c0a c0a i1 c1A c1A c1b c1b c1a c1a i0 m1 i0 c0A c1b i0 m1 i0 i1 c1a i1 m0 i1 i0 c0a c0b i0 m1 i0 c0B c0A i1 c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBababAA|c0b c0a i1 c1A c1A c1b c1a i0 m1 i0 c1b c1a i0 m1 i0 i1 c1a i1 m0 i1 i1 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBabAAba|c0b c0a i1 c1a c1b c1A c1A c1b c1a i0 m1 i0 c0A c1a c1b c1b i0 m1 i0 i0 c0a i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBabAABA|i0 c0a c0B c0A c0A i1 c1A c1B c1A c1A i0 m1 i0 c1B i0 m1 i0 c0B c0B i1 i1 m0 i1 i0 c0B i0 m1 i0 c1a i0 m1 i0 i0 i1 m0 i1 c0A c0B i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BAABa,BBBAAbaba|i0 c0a c0B c0A c1b c1b c1b c1a c1a c1B c1A i0 m1 i0 c1B c1A i0 m1 i0 i1 c1A i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBAAbaBA,BAABa|c0b c0b c0b c0a c0a c1b c1a c1a i1 m0 i1 i0 i1 c1b c1b i0 m1 i0 c0b i1 i0 m1 i0 c1A i0 m1 i0 c1A c1B i1 m0 i1 i0 c0A i0 m1 i0 i0 c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BAABa,BBBAAbbaa|i0 c0a c0B c0A c1b c1b c1b c1a c1a c1B c1B c1A i0 m1 i0 c1A c1B i0 m1 i0 i1 c1A i1 m0 i1 i0 c0A c0B i0 m1 i0 c0b c0a i1 c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBABabAA|c0b c0a c0a c0b c1b i0 m1 i0 c0A c0B c1A c1b i1 m0 i1 i0 c1B i1 m0 i1 c0a i0 m1 i0 i0 c0A c0B i1 i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BAABa,BBBABAAba|c0b c0a c0a c1b c1b c1b c1a c1b c1a c1a i0 m1 i0 c1b i0 m1 i0 c0b c0b i1 i1 m0 i1 i0 c0b i0 m1 i0 c1A i0 m1 i0 c1A c1B i1 m0 i1 i0 c0A i0 m1 i0 i0 c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BAAAAbAbA,BAbaa|i1 c1a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BABAAAAbA,BAbaa|i0 c0A c1b c1a c1B c1A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 c0A c1a i1 m0 i1 c0a c0b i1 c1b i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBaaaaaba,BAbaa|i0 c0a i1 c1a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBAAAAAbA,BAbaa|i0 c0A c1b c1a c1B c1A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 c0A c1a i1 m0 i1 c0a c0b i1 c1b i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAAbAbba,BAbaa|i0 c0a i1 c1a i1 m0 i1 c0a c0b i1 m0 i1 i0 c0B i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0b c1A i1 m0 i1 c0B i1 m0 i1 c0a c0a i1 m0 i1 c0a c0a i1 m0 i1 i0 c0A c1a c1a i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBAAbAbbA,BAbaa|c0b c0b c0a c0a c0B c1b c1a c1B i1 m0 i1 c0A c0A i1 m0 i1 c0A c1b i1 m0 i1 c0B c0A i1 c1B i1 m0 i1 c0a c1A i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BAbaa,BBAAbbaba|c0b c0a c0B c0A c1b c1b c1a c1a c1B c1B c1A i0 m1 i0 c1A c1b i0 m1 i0 c0a c1A i0 m1 i0 c1a c1B i0 m1 i0 c1A c1A i0 m1 i0 c1A c1A i0 m1 i0 c1A i1 m0 i1 c0A i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BAbaa,BBAAbbaBa|i0 i1 c1a c1B c1a c1b c1b c1A c1A c1B i0 m1 i0 c1a c1a i0 m1 i0 c0b c1a i0 m1 i0 c1A i0 m1 i0 c1A i0 m1 i0 i0 c0a i1 i0 m1 i0 c1B i1 m0 i1 c0a i1 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAAbbAbA,BAbaa|i0 c0A c0b c0A c0b c0b c0A i1 c1a c1a c1b c1A i1 m0 i1 c0A c0B c1B i1 m0 i1 i0 c0B c1a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBAAbbABA,BAbaa|c0b c0b c0a c1b c1a i1 m0 i1 c0a c0B c1B i1 m0 i1 i0 c0B c1A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 c0A c1a i1 m0 i1 c0a c0b i1 c1b i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBABAAbba,BAbaa|c1b c1a c1B c1A i1 m0 i1 c0A c0b i1 m0 i1 i0 c0B i1 m0 i1 i0 c0A i1 m0 i1 c0A c0b c1a i1 m0 i1 c0B i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A i1 m0 i1 c0A c0A c0A i1 c1b i1 m0 i1 c0A i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBABAAbbA,BAbaa|c0b c0b c0a c0b c0a c1b c1a i1 m0 i1 c0a c0B c1B i1 m0 i1 i0 c0B c1A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 c0A c1a i1 m0 i1 c0a c0b i1 c1b i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBaaabbA,BAbaa|i1 c1a i1 m0 i1 c0a c0b i1 m0 i1 i0 c0B i1 m0 i1 i0 c0a i1 m0 i1 c0a c0b c1A i1 m0 i1 c0a c0a i1 m0 i1 i0 c0A c0A c0B c1a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBBaababa,BAbaa|c0b c0b c0b c0A i1 c1a c1a c1b c1A i1 m0 i1 c0A c0B c1B i1 m0 i1 i0 c0A c0B c1a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBBAAAbba,BAbaa|c1b c1a c1B c1A i1 m0 i1 c0A c0b i1 m0 i1 i0 c0B i1 m0 i1 i0 c0A i1 m0 i1 c0A c0b c1a i1 m0 i1 c0A c0A i1 m0 i1 i0 c0a c0a c0B c1A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 c0A c1a i1 m0 i1 c0a c0b i1 c1b i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBBAAbAbA,BAbaa|c0b c0b c0b c0a c1b c1a i1 m0 i1 c0a c0B c1B i1 m0 i1 i0 c0a c0B c1A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A i1 m0 i1 c0A c1a i1 m0 i1 c0a c0b i1 c1b i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BABaa,BBabaBAbA|i0 c0a i1 c1A c1b c1A c1B c1a i0 m1 i0 i1 c1a i1 m0 i1 i0 c0B c1A i1 m0 i1 c0B c0a c1a i0 m1 i0 c1b c1A i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BABaa,BBabAbABa|c0b c0a i1 c1a c1B c1A c1b c1A c1b c1a i0 m1 i0 c1b i1 m0 i1 c0b c0A i1 c1A i1 m0 i1 i0 c0b c1B c1a i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c1b i0 m1 i0 c1a i1 m0 i1 c0a c0B i1 m0 i1 i1|std
+BBabABabA,BABaa|i1 c1a i1 m0 i1 c0a c0B c0B i0 m1 i0 i0 c0b c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BABaa,BBabABaBa|i0 c0a c0a c0B c0A i1 c1a c1B c1a c1B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i1 m0 i1 c0a i0 m1 i0 i0 c0A c0b i1 i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BABaa,BBabABAba|i0 c0a c1b c1b c1A c1B c1a i0 m1 i0 i0 i1 c1b i1 m0 i1 i0 c1a c1B i1 m0 i1 i0 c0B c1b c1A i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c1B i0 m1 i0 c1A i1 m0 i1 c0A c0b i1 m0 i1 i0|std
+BBaBabAbA,BABaa|c0b c0b c0A c0b c0A c0B c0a i1 c1a i1 m0 i1 c0B c0a i0 m1 i0 i0 c0b c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBaBabABa,BABaa|c1b c1a c1b c1A i1 m0 i1 c0A c0b c0b c0A c1A i1 m0 i1 c0b i1 m0 i1 c0b c1a i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBaBaBabA,BABaa|i0 c0A i1 c1a c1a c1B c1A i1 m0 i1 c0B c0a i1 m0 i1 c0B i1 m0 i1 c0B i0 m1 i0 i0 c0a c1b c1b i0 m1 i0 c0B i1 m0 i1 i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0|std
+BABaa,BBaBaBAba|c0b c0a c1b c1b c1A c1b c1A c1b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i1 m0 i1 c0A i0 m1 i0 i0 c0a c0B i1 i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BBaBAAbba,BABaa|i0 c0a c0b c0b c0A c1b c1a c1b c1A i1 m0 i1 c0A c0b i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBaBAbaBa,BABaa|c0b c1b i1 m0 i1 c0a c0b c1a i1 m0 i1 c0b c0A c0b i1 m0 i1 c0b i0 m1 i0 i0 c0A c1B c1B i0 m1 i0 c0b i1 m0 i1 i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i1|std
+BABaa,BBaBAbAba|c0b c0a c0b c0A i1 c1a c1b c1A i0 m1 i0 c1b c1A i1 m0 i1 i0 c1a c1B i1 m0 i1 i0 c0B c1b c1A i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c1B i0 m1 i0 c1A i1 m0 i1 c0A c0b i1 m0 i1 i0|std
+BBaBBaabA,BABaa|c0b c0b c0A c0b c0b c0A c0A i1 m0 i1 c0b c0A i1 m0 i1 c0b i1 m0 i1 c0b c1a i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BABaa,BBAAbbaBa|i1 c1a c1B c1a c1b c1b c1A c1A i0 m1 i0 c0a c1b i0 m1 i0 i1 c1A i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBAABabba,BABaa|i0 c0a c0b c0b c0a c0B c0A i1 c1a c1a c1B c1A i1 m0 i1 c0A c0A i1 c1B i1 m0 i1 c0b i1 m0 i1 c0b c1a i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBAbaaBBa,BABaa|i0 c0a c0B c0B c0a c0a i1 c1a c1a i1 m0 i1 c0B c0a i1 m0 i1 c0B i1 m0 i1 c0B c1A i0 m1 i0 i0 c0b c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBAbaBabA,BABaa|i1 c1a i1 m0 i1 i0 c0b c0b i1 i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBAbaBaBa,BABaa|c0b c0b c0a c1b c1a i1 m0 i1 c0b c0A i1 m0 i1 c0b i1 m0 i1 c0b i0 m1 i0 i0 c0A c1B c1B i0 m1 i0 c0b i1 m0 i1 i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i1|std
+BBAbaBAba,BABaa|i0 c0a c0b c0A c0B c0a c0b c0A c1b c1a c1b c1A i1 m0 i1 c0A c0b c0b i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBAbAbaBa,BABaa|c0b c0b c0a c0B c0a c0B c0A i1 c1a c1a c1B c1A i1 m0 i1 c0B i0 m1 i0 i0 c0a c1b c1b i0 m1 i0 c0B i1 m0 i1 i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0|std
+BABaa,BBAbAbbaa|i0 c0a i1 c1a i0 m1 i0 c1a c1B i0 m1 i0 i1 c1a i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BABaa,BBAbABaba|c0b c0a c0b c0A c1b c1b c1a c1B c1a c1b c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 c0b c1a i1 m0 i1 c0b c0A c1A i0 m1 i0 c1B c1a i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BBAbbaabA,BABaa|i1 c1a i1 m0 i1 i0 c0a i1 m0 i1 c0B c0a i1 m0 i1 c0a c0B c0B i0 m1 i0 i0 c0b c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBAbbAbaa,BABaa|i0 c0a c0a i1 c1a c1a i1 m0 i1 c0B c1A i0 m1 i0 i0 c0b c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BABaa,BBBaabAbA|i0 c0a c1b c1b c1b c1A c1A c1B c1a i0 m1 i0 c1B c1a i0 m1 i0 i1 c1a i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BABaa,BBBaabABa|c1b c1b c1b c1A c1A i0 m1 i0 i0 c0b c0b i1 i1 m0 i1 i0 c1b i1 m0 i1 c0a i0 m1 i0 i0 c0A c0b i1 i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BABaa,BBBaabbAA|i0 c0a c1b c1b c1b c1A c1A c1B c1B c1a i0 m1 i0 c1a c1B i0 m1 i0 i1 c1a i1 m0 i1 i0 c0a c0B i0 m1 i0 c0b c0A i1 c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BABaa,BBBaBaabA|c1b c1b c1b c1A c1b c1A c1A i0 m1 i0 c1b i0 m1 i0 c0b c0b i1 i1 m0 i1 i0 c0b i0 m1 i0 c1a i0 m1 i0 i0 i1 m0 i1 c0A c0b i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BABaa,BBBaBAbaa|c0b c1b i0 m1 i0 c0a c0B c1a c1b i1 m0 i1 i0 c1B i1 m0 i1 c0A i0 m1 i0 i0 c0a c0B i1 i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BABaa,BBBAAbbaa|i1 c1a c1a c1b c1b c1A c1A i0 m1 i0 c0a c1b i0 m1 i0 i1 c1A i1 m0 i1 i0 c0A c0b i0 m1 i0 c0B c0a i1 c1b i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BABaa,BBBAbaabA|i0 c1b c1b c1b c1a c1B c1A c1A c1B i0 m1 i0 c1a c1a c1B c1B i0 m1 i0 i0 c0a i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BABaa,BBBAbaaBa|i0 c0a c0a i1 c1a c1B c1a c1a i0 m1 i0 c1B i0 m1 i0 c0B c0B i1 i1 m0 i1 i0 c0B i0 m1 i0 c1A i0 m1 i0 i0 i1 m0 i1 c0a c0B i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BABaa,BBBAbAbaa|c0b c0a c0b c0A i1 c1a c1a c1b c1A i0 m1 i0 c1b c1A i0 m1 i0 i1 c1A i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBaBAbAbA,BABAA|i0 c0A c0b c0A c0b c0A c0B i1 c1A c1A c1B i1 m0 i1 i1 c1b c1a i1 m0 i1 c0a c0a c0a i1 m0 i1 i1 c1a c1b i1 m0 i1 c0A i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABAA,BBAbaBAbA|c0b c1b i0 m1 i0 i0 c0B c0A i0 m1 i0 i1 c1A i0 m1 i0 i1 c1A c1B i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAbAbABa,BABAA|i0 c0a c0B c0A i1 c1A i1 m0 i1 c0b i1 c1A i1 m0 i1 c0A c0b i1 m0 i1 c0a i1 c1B c1A i1 m0 i1 c0A i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABAA,BBAbABabA|c0b c0a c0b c0a c1b c1b c1a i0 m1 i0 i0 c0a c1B i0 m1 i0 i0 c1a i0 m1 i0 i0 c1b i1 m0 i1 i1 m0 i1 c1A i0 m1 i0|std
+BBBabAAbA,BABAA|c0b c0b c0b c0A c0B i1 c1A c1A c1B i1 m0 i1 i1 c1b c1a i1 m0 i1 c0a c0a i1 m0 i1 c0B i1 c1a i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABAA,BBBAbAAba|c0b c0a c0b c0a c1b c1b c1b c1a i0 m1 i0 i0 c0a c1B i0 m1 i0 i0 c1a i0 m1 i0 c1a i0 m1 i0 i0 c0A c1b i0 m1 i0 c1B i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBBBAbbbA,BABAA|c0b c1b i1 m0 i1 i1 c1B c1A i1 m0 i1 i0 c0A i1 m0 i1 c0b c0a i1 i1 m0 i1 c0b i1 m0 i1 c0a c0b i1 i1 m0 i1 c0B i0 m1 i0 c1A i1 m0 i1 i0 m1 i0|std
+BBaaa,BBAbabAbA|i0 c0a i0 m1 i0 i1 c1a i0 m1 i0 i0 c1a i1 m0 i1 i1 i0 m1 i0 c0B i0 m1 i0 i0 c0a c1b i1 m0 i1 i0 c0A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BBaaa,BBAbAbabA|c0b c0b c0A i1 c1A c1b c1a c1b c1A c1b c1A i0 m1 i0 i1 c1A i0 m1 i0 i0 c1A i1 m0 i1 i1 i0 m1 i0 c0b i0 m1 i0 i0 c0A c1B i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BBaba,BAAbaBAba|c0b c1b i0 m1 i0 c0a c1b c1A i1 m0 i1 c0A c0b c0A i1 i0 m1 i0 i0 c1A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BAAbAbaBa|c0b c1b c1a c1a c1B c1a c1B c1A c1b i0 m1 i0 c1A c1b i1 m0 i1 c0b c0A c0A i1 i0 m1 i0 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BAAbAbAba|c0b c0b c0A c0B i1 i0 m1 i0 c1A c1b i0 m1 i0 c1A i0 m1 i0 c0a i1 m0 i1 i0 c0A c1a c1B c1a i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BAABabAba|c0b c1b i0 m1 i0 i0 c0A i1 c1a i1 m0 i1 c0a c0B c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BAbaaBaBa|i0 c0a c0b i1 c1a c1B c1a c1B c1a c1a c1b i0 m1 i0 c1a c1B i0 m1 i0 c1a i0 m1 i0 c0A i1 m0 i1 i0 c0a c1A c1b c1A i0 m1 i0 i0 c1A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BAbaBaaBa|i0 c0a i1 c1a c1B c1a i0 m1 i0 c0b c1b c1a i0 m1 i0 c1a c1B c1a i0 m1 i0 c0A i1 m0 i1 i0 c0a c1A c1b c1A i0 m1 i0 i0 c1A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BAbaBaBaa|i0 c0a c0b i1 c1a c1a c1B c1a c1B c1a c1b i0 m1 i0 c0A i1 m0 i1 i0 c1A i1 m0 i1 c0B i1 m0 i1 c0B c0a i0 m1 i0 c0b i1 i1 m0 i1 c0B c0a i1 i1 m0 i1 i0 c0A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BBaba,BAbaBAbaa|i0 c0a c0b c0a c0B c1b c1a c1B c1A c1b c1a c1B i0 m1 i0 c0A c1B c1a i1 m0 i1 c0a c0B c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BAbAAbaBa|c0b c1b c1a c1B c1a c1a c1B c1A c1b i0 m1 i0 c1A c1b i1 m0 i1 i0 c1B c1a i1 m0 i1 i0 c0a c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BAbAAbAba|c0b c0b c0A c0B i1 i0 m1 i0 i0 c0A i1 c1a c1B i0 m1 i0 c1a i0 m1 i0 c0b c0A i1 m0 i1 c0a c0B c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BAbAbaaBa|c0b c0b c0A c0B i1 i0 m1 i0 c0a i1 m0 i1 i0 c0A c1a c1B c1a i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BAbAbaBaa|c0b c0b c0A c0B i1 i0 m1 i0 c1A i1 m0 i1 c0A c0b i1 c1b i1 m0 i1 i0 c0A c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BAbAbAAba|c0b c0b c0A c0B i1 i0 m1 i0 c0a i1 m0 i1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0b c0A i0 m1 i0 c0B i1 i1 m0 i1 c0b c0A i1 i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BABaabAba,BBaba|c0b c1b i1 m0 i1 i0 c0b i0 m1 i0 c0B i1 c1A i0 m1 i0 c0b c1A c1b i1 m0 i1 c0a c0B i1 m0 i1 c0a c0B c0a i1 i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaba,BABabAAba|c0b c1b i0 m1 i0 i0 i1 c1a i1 m0 i1 i0 c1b c1A i1 m0 i1 i0 c0A c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BABabAbaa,BBaba|i0 c0a c0a c0b c0A c0b c0a c0B i1 c1a c1b c1a c1B i1 m0 i1 i0 c0B i0 m1 i0 c0b i1 c1a i0 m1 i0 c0B c1a c1B i1 m0 i1 c0A c0b i1 m0 i1 c0A c0b c0A i1 i0 m1 i0 i1 c1a i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBaaabAbA,BBaba|i0 c0A c0b c1b i1 m0 i1 c0A c0b i1 m0 i1 i0 c0b i0 m1 i0 i0 c0B c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BBaaaBabA|i0 i1 i0 m1 i0 i0 c0a c0a i1 i1 m0 i1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0b c0A i0 m1 i0 c0B i1 i1 m0 i1 c0b c0A i1 i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BBaba,BBaabAAbA|i0 i1 i0 m1 i0 c0b c0A i1 m0 i1 c0a c0B c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaabAbAA,BBaba|i0 i1 i1 m0 i1 c0a c0B i1 m0 i1 i0 c1b i0 m1 i0 i0 c0b c0A c0A i0 m1 i0 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BBaaBaabA|i0 i1 i0 m1 i0 c1a c1B i0 m1 i0 c1a i0 m1 i0 c0b c0A i1 m0 i1 c0a c0B c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BBaBaaabA|i0 i1 i0 m1 i0 c1a i0 m1 i0 c0a c0a i1 i1 m0 i1 i0 c0a i0 m1 i0 c1b i1 m0 i1 i0 c0A i1 c1B i1 m0 i1 c0b c0A i1 c1a i0 m1 i0 i1 c1a i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBaba,BBAAAbbaa|c0b c1b i0 m1 i0 c1b c1A i0 m1 i0 i1 c1b i1 m0 i1 i0 c0b c0A i0 m1 i0 c0a c0B i1 c1A i0 m1 i0 c0b c0A i1 c1A c1b i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0B i1|std
+BBaba,BBAAbaabA|c0b i1 c1A c1b i0 m1 i0 i1 c1b i0 m1 i0 c1A c1b i0 m1 i0 c0a c1b c1A i1 m0 i1 c0A c0b c0A i1 i0 m1 i0 i0 c1A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBAAbAbaa,BBaba|c0b c1b i1 m0 i1 c0b c0A i1 m0 i1 i0 c0b i0 m1 i0 i0 c0B c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BBAAbbaaa|i0 c1b c1b c1a c1a c1B c1B i0 m1 i0 c0b c1a i0 m1 i0 i1 c1B i1 m0 i1 i0 c0B c0a i0 m1 i0 c0A c0b i1 c1a i0 m1 i0 c0B c0a i1 c1a c1B i0 m1 i0 c1A i1 m0 i1 c0A i0 m1 i0 i0 m1 i0 i0 c0b|std
+BBAbaaabA,BBaba|i0 c0A i1 m0 i1 c0b c0b c0A c0A i1 m0 i1 i1 c1b i0 m1 i0 i0 c0b c0A c0A i0 m1 i0 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BBAbaaaBa|c0b c0b c1b c1b i0 m1 i0 c1A i0 m1 i0 c0A c0A i1 i1 m0 i1 i0 c0A i0 m1 i0 c1B i1 m0 i1 i0 c0a i1 c1b i1 m0 i1 c0B c0a i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaba,BBAbaabAA|c0b c0b c0A c0B i1 c1A c1A c1b c1a c1a c1b c1A c1B i0 m1 i0 i0 c0A c1B c1B i0 m1 i0 c1a i0 m1 i0 c0b c0A i1 m0 i1 c0a c0B c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BBAbaaBaa|c0b c0b c1b c1b i0 m1 i0 c1A c1b i0 m1 i0 c1A i0 m1 i0 c0B c0a i1 m0 i1 c0A c0b c0A i1 i0 m1 i0 i0 c1A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaba,BBAbaBaaa|i0 c0a i1 c1a i0 m1 i0 c0b c0A c1b c1a i1 m0 i1 i0 c1A i1 m0 i1 c0B i1 m0 i1 c0B c0a i0 m1 i0 c0b i1 i1 m0 i1 c0B c0a i1 i1 m0 i1 i0 c0A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BBaba,BBAbAAbaa|c0b c1b i0 m1 i0 c1b c0a i1 m0 i1 c0A c0b c0A i1 i0 m1 i0 i0 c1A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBAbAbaaa,BBaba|c0b c0b c0a c0B i1 c1a c1b c1a c1B i1 m0 i1 c0a c0B i1 m0 i1 i0 c0B i0 m1 i0 i0 c0b c0A c0A i0 m1 i0 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBabA,BBAAABaBa|c0b c0b c0A c0B i1 c1a c1B c1a c1B c1A c1A c1A c1B i0 m1 i0 c0a c1B c1a i0 m1 i0 c0b i1 c1B c1a i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBAAbaaBa|i1 c1a i0 m1 i0 c1b c1b i0 m1 i0 c0A c1b i0 m1 i0 c0a c1B c1a i0 m1 i0 i0 c1b i0 m1 i0 i0 c1A c1b i0 m1 i0 c1b c1b i0 m1 i0 c1b c1b i0 m1 i0 i0 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBAAbabaa|i1 c1a i0 m1 i0 c1b c1b i0 m1 i0 c0A c1b i0 m1 i0 c1B i0 m1 i0 c1B i0 m1 i0 c0a c1B c1a i0 m1 i0 c0A i1 i1 m0 i1 i0 c1b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBAAbAbaa|c0b i1 c1a c1a c1b i0 m1 i0 c1b c1A i0 m1 i0 c0B c1b i0 m1 i0 c0A c0B i0 m1 i0 c0b i0 m1 i0 c0a c1B c1a i0 m1 i0 c0b i1 i1 m0 i1 c0b i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBAABaaBa|i1 c1a i0 m1 i0 c1b c1b i0 m1 i0 c0A c1b i0 m1 i0 i0 c0a c1a c1b i0 m1 i0 c0b c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 c1B c1B i0 m1 i0 c0B c0B i1 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBAABaBaa|i1 c1a i0 m1 i0 c1b c1b i0 m1 i0 c0A c1b i0 m1 i0 i0 c0a c1a c1b i0 m1 i0 c0b c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 c1B c1B i0 m1 i0 c0B c0B i1 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBAABABaa|c0b c0b c0A c0B i1 c1a c1a c1B c1A c1B c1A c1A c1B i0 m1 i0 c0a c1B c1a i0 m1 i0 c0b i1 c1a i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBABAAbaa|c0b i1 c1a c1a c1b i0 m1 i0 c1b c1A i0 m1 i0 c0B c1b i0 m1 i0 c1B c1a i0 m1 i0 i0 c1B i0 m1 i0 c0b c0b i1 c1A i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBABAABaa|c0b c0b c0A c0B i1 c1a c1a c1B c1A c1A c1B c1A c1B i0 m1 i0 c0a c1B c1a i0 m1 i0 c0b i1 c1a i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBABABaaa|i1 c1a i0 m1 i0 c1b c1b i0 m1 i0 c0A c1b c1b i0 m1 i0 i0 c0a c1a c1b i0 m1 i0 c0b c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 c1B c1B i0 m1 i0 c0B c0B i1 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBBAAAbaa|i0 c0A c1b c1b c1b c1a c1a c1a c1B c1A i0 m1 i0 c0b c1A c1b i0 m1 i0 c1b i0 m1 i0 c0a c1b c1a i0 m1 i0 i0 c0B c1a c1a c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBBAAbaaa|c0b c0b c0A i1 c1a c1a c1a c1b c1A i0 m1 i0 c0B c1A c1B i0 m1 i0 c1B i0 m1 i0 c0a c1B c1a i0 m1 i0 i0 c0b c1a c1a c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 c1B c1B i0 m1 i0 c0B c0B i1 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBBBABaBa|i0 c0A c0b c0a c0B i1 c1a c1B c1a c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 c1B c1B i0 m1 i0 c0B c0B i1 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBabA,BBBBABABa|c0b c1b c1b c1b c1b c1a c1b c1a c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBBBBAABa|c0b c1b c1b c1b c1b c1b c1a c1a c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabA,BBBBBABaa|i0 c0A c0b c0a c0B i1 c1a c1a c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 c1B c1B i0 m1 i0 c0B c0B i1 c1b i0 m1 i0 c1B c1B i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBaBa,BAAABaaaa|c0b c0b c0A c1b c1a c1a c1a c1b c1A i0 m1 i0 i0 c0a c0B i0 m1 i0 i0 c0b i0 m1 i0 i0 c0B c1A i0 m1 i0 c1A i0 m1 i0 i0 c0B c1A i0 m1 i0 c1b i1 m0 i1 i0 m1 i0 i1 m0 i1 i1 c1a|std
+BBaBa,BABaaBAba|i0 c0a c0B c0a c0B i1 c1a c1b c1A c1B c1a c1a c1B i0 m1 i0 i0 c0B c1A i0 m1 i0 i0 c1B i1 m0 i1 c0a i0 m1 i0 c1a c1b c1A i1 m0 i1 i0|std
+BBaBa,BABabABaa|c0b c1b i0 m1 i0 i0 c0b c1a i0 m1 i0 i0 c1b i1 m0 i1 c0A i0 m1 i0 c1A c1B c1a i1 m0 i1 i1|std
+BBaBa,BABABaaba|c0b c1b i0 m1 i0 i0 c0b c0A i0 m1 i0 c1a c1b i0 m1 i0 i0 c0b c1a c0b i0 m1 i0 c0B i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BBaBa,BABABabaa|c0b c0b c0A c1b c1a c1b c1a c1b c1A i0 m1 i0 i0 c0a c0B i0 m1 i0 c1B c1A i0 m1 i0 i0 c0B c1A i0 m1 i0 c1b i1 m0 i1 i0 m1 i0 i1 m0 i1 i1 c1a|std
+BBaBa,BBAbaaaBA|c0b c0b c0A i1 c1A c1B c1a c1a c1a c1b c1A i0 m1 i0 i0 c0a c0B i0 m1 i0 c1B c1B i0 m1 i0 i0 c0B c0a i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i1|std
+BBaBa,BBABaaabA|i0 c0a i0 m1 i0 i0 c0A c0b i0 m1 i0 c1b c1b i0 m1 i0 i0 c0b c0A i0 m1 i0 i1 c1a i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BBAAA,BBababAba|c0b c0b c0a i1 c1a c1b c1A c1b c1a c1b c1a i0 m1 i0 i1 c1a i0 m1 i0 i0 c1a i1 m0 i1 i1 i0 m1 i0 c0b i0 m1 i0 i0 c1B c1A i1 m0 i1 i1 c1B c1A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAAA,BBabAbaba|i0 c0A i0 m1 i0 i1 c1A i0 m1 i0 i0 c1A i1 m0 i1 i1 i0 m1 i0 c0B i0 m1 i0 i0 c0A c1b i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAba,BBaaaBABA|c0b c0b c0a c0B i1 c1A c1B c1A c1B c1a c1a c1a c1B i0 m1 i0 c0A c1B c1A i0 m1 i0 c0b i1 c1B c1A i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBaababAA|c0b i1 c1A c1A c1b i0 m1 i0 c1b c1a i0 m1 i0 c0B c1b i0 m1 i0 c0a c0B i0 m1 i0 c0b i0 m1 i0 c0A c1B c1A i0 m1 i0 c0b i1 i1 m0 i1 c0b i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBaabAABA|i0 c0a c0b c0A c0B c1b c1b c1A c1A c1B i0 m1 i0 c1B c1a i0 m1 i0 i1 c1A i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B c1a i0 m1 i0 c1A i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c0a c1B c1B c1B i0 m1 i0 c0b i1 m0 i1 c0B c0B i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBaabAbAA|i1 c1A i0 m1 i0 c1b c1b i0 m1 i0 c0a c1b i0 m1 i0 c1B i0 m1 i0 c1B i0 m1 i0 c0A c1B c1A i0 m1 i0 c0a i1 i1 m0 i1 i1 c1b c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBaaBaBAA|c0b c0b c0a c0B i1 c1A c1A c1B c1a c1B c1a c1a c1B i0 m1 i0 c0A c1B c1A i0 m1 i0 c0b i1 c1A i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBaaBAABA|i1 c1A i0 m1 i0 c1b c1b i0 m1 i0 c0a c1b i0 m1 i0 i0 c0A c1A c1b i0 m1 i0 c0b c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 i0 c0a c1b c1a i1 m0 i1 c0B i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBaaBABAA|i1 c1A i0 m1 i0 c1b c1b i0 m1 i0 c0a c1b i0 m1 i0 i0 c0A c1A c1b i0 m1 i0 c0b c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 i0 c0a c1b c1a i1 m0 i1 c0B i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBaBaabAA|c0b i1 c1A c1A c1b i0 m1 i0 c1b c1a i0 m1 i0 c0B c1b i0 m1 i0 c1B c1A i0 m1 i0 i0 c1B i0 m1 i0 c0b c0b i1 c1a i0 m1 i0 c1B c1B i0 m1 i0 c1B c1B i0 m1 i0 i0 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBaBaaBAA|c0b c0b c0a c0B i1 c1A c1A c1B c1a c1a c1B c1a c1B i0 m1 i0 c0A c1B c1A i0 m1 i0 c0b i1 c1A i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBaBaBAAA|i1 c1A i0 m1 i0 c1b c1b i0 m1 i0 c0a c1b c1b i0 m1 i0 i0 c0A c1A c1b i0 m1 i0 c0b c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 i0 c0a c1b c1a i1 m0 i1 c0B i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBBaaabAA|c0b i1 c1A c1A c1b i0 m1 i0 c1b c1a i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b i1 c1B c1B c1B c1A i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBBaabAAA|i0 c0a c0b c0A c0B c1b c1b c1b c1A c1A c1B i0 m1 i0 c1B c1a i0 m1 i0 c0b c1B i0 m1 i0 c1B c1B i0 m1 i0 c0B i1 c1b c1b c1b c1A i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 i0 c0a c1b c1a i1 m0 i1 c0B i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBBBaBaBA|c0b c1b c1b c1b c1b c1A c1b c1A c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBBBaBABA|i0 c0a c0b c0A c0B i1 c1A c1B c1A c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 i0 c0a c1b c1a i1 m0 i1 c0B i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAba,BBBBBaaBA|c0b c1b c1b c1b c1b c1b c1A c1A c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b i0 m1 i0 c0B c1b i0 m1 i0 c1b c1b i0 m1 i0 c0b c0b i1 c1B i0 m1 i0 c1b c1b i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAba,BBBBBaBAA|i0 c0a c0b c0A c0B i1 c1A c1A c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B i0 m1 i0 c0b c1B i0 m1 i0 i0 c0a c1b c1a i1 m0 i1 c0B i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBAbA,BAAbaBAba|c0b i1 c1a c1b c1A c1B c1a c1b i0 m1 i0 c0A c1b c1a i1 m0 i1 c0a c0b c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BAABabAba|c0b i1 c1a c1b i0 m1 i0 i0 i1 c1A i1 m0 i1 i0 c1b c1a i1 m0 i1 i0 c0a c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BAbaBAbaa|i0 c0A c0b c0A c0B i1 i0 m1 i0 c1B c1A c1A i1 m0 i1 c0B c0A c0A i1 i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABaabAba|c0b i1 c1a c1b i0 m1 i0 i1 c1b i1 m0 i1 i0 c0a c1B i1 m0 i1 c0a c0b c1b i0 m1 i0 c1A c1B i0 m1 i0 c0B c0A i1 i0 m1 i0 c1A c1B i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 c0b|std
+BBAbA,BABabaabA|c0b c1b i0 m1 i0 c1a c1b i1 m0 i1 i0 c1B c1A i1 m0 i1 i0 c0A c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABabAAba|c0b i1 c1a c1b i0 m1 i0 i0 i1 c1A c1A i1 m0 i1 c0B c0A c0A i1 i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BABabAbaa,BBAbA|c0b c0a c0b c0A c0B i1 c1A c1b c1A c1B i1 m0 i1 i0 c0B i0 m1 i0 c0b i1 c1A i0 m1 i0 c0B c1A c1B i1 m0 i1 c0a c0b i1 m0 i1 c0a c0b c0a i1 i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAbA,BABabABAA|c0b c1b i0 m1 i0 c1a c1b i0 m1 i0 c1A c1B c1a c1b i0 m1 i0 c1a c1b i1 m0 i1 c0b c0a c0a i1 i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABAAbaba|c0b i1 c1a c1b i0 m1 i0 c1a c1b i1 m0 i1 c0b c0a c0a i1 i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABAABabA|i0 c0A c0b i1 c1A c1b i0 m1 i0 c0a i1 m0 i1 i0 c1a i1 m0 i1 c0B i1 m0 i1 c0B c0A i0 m1 i0 c0b i1 i1 m0 i1 c0B c0A i1 i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAbA,BABAABAba|c0b c0b c0a c0B c1b c1a c1b c1a c1a c1b c1a c1B i0 m1 i0 i0 c0a i1 c1A c1B i0 m1 i0 c1A i0 m1 i0 c0b c1A i1 m0 i1 c0B c0A c0A i1 i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABAbaaba|c0b c0b c0a c0B c1b c1a c1b c1a c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 c1b i1 m0 i1 i0 c0a c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABAbabaa|c0b c0b c0a c0B c1b c1a c1b c1a c1B i0 m1 i0 c0A i1 m0 i1 i0 c1a c1b c1A c1B i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABAbaBAA|c0b c0b c0a c0B c1b c1a c1b c1a c1B i0 m1 i0 c0A i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 i1 i0 m1 i0 c0a c1B i1 m0 i1 c0b c0a i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAbA,BABABabAA|i0 c0A c0b i1 c1A c1A c1b i0 m1 i0 c1A c1B i0 m1 i0 c1A i0 m1 i0 c0a i1 m0 i1 i0 c0A c1a c1b c1a i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABABAAba|c0b c0b c0a c0B c1b c1a c1b c1a c1b c1a c1a c1B i0 m1 i0 c1a c1b i0 m1 i0 c1a i0 m1 i0 c0A i1 m0 i1 i0 c1a c1b c1A c1B i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBaababAA,BBAbA|c0b c1b i1 m0 i1 c0b c0a i1 m0 i1 i0 c0b i0 m1 i0 i0 c0B c0A c0A i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BBaabAAba|c0b i1 c1a c1b i0 m1 i0 i1 c1b i0 m1 i0 c1a c1b i0 m1 i0 c0A c1b c1a i1 m0 i1 c0a c0b c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BBabaabAA|c0b c1b i0 m1 i0 c1b c0A i1 m0 i1 c0a c0b c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBababAAA,BBAbA|c0b c0b c0A c0B i1 c1A c1b c1A c1B i1 m0 i1 c0A c0B i1 m0 i1 i0 c0B i0 m1 i0 i0 c0b c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBabAAAba,BBAbA|i0 c0a i1 m0 i1 c0b c0b c0a c0a i1 m0 i1 i1 c1b i0 m1 i0 i0 c0b c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBabAAABA,BBAbA|c0b c0b c1b c1b i1 m0 i1 c0a i1 m0 i1 i0 c1a c1a i0 m1 i0 i1 c1a i1 m0 i1 c0B i1 m0 i1 c0B c0A i0 m1 i0 c0b i1 i1 m0 i1 c0B c0A i1 i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAbA,BBabAAbaa|c0b c0b c0a c0B i1 c1a c1a c1b c1A c1A c1b c1a c1B i0 m1 i0 i0 c0a c1B c1B i0 m1 i0 c1A i0 m1 i0 c0b c1A i1 m0 i1 c0B c0A c0A i1 i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BBabAABAA|c0b c0b c1b c1b i0 m1 i0 c1a c1b i0 m1 i0 c1a i0 m1 i0 c0B c0A i1 m0 i1 c0a c0b c0a i1 i0 m1 i0 i0 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BBabABAAA|i0 c0A i1 c1A i0 m1 i0 c0b c0a c1b c1A i1 m0 i1 i0 c1a i1 m0 i1 c0B i1 m0 i1 c0B c0A i0 m1 i0 c0b i1 i1 m0 i1 c0B c0A i1 i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAAAbaba,BBAbA|i0 c0a c0b c1b i1 m0 i1 c0a c0b i1 m0 i1 i0 c0b i0 m1 i0 i0 c0B c0A c0A i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAAAbbaa,BBAbA|i0 c0a c0a c0b c1b i1 m0 i1 c0b c0a i1 m0 i1 i0 c0b i0 m1 i0 i1 c1b c1a i1 m0 i1 i0 c0a c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BBAAABAba|i0 i1 i0 m1 i0 i0 c0A c0A i1 i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 i1 i0 m1 i0 c0a c1B i1 m0 i1 c0b c0a i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAbA,BBAAbaaba|i0 i1 i0 m1 i0 c0b c1A i1 m0 i1 c0B c0A c0A i1 i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAAbabaa,BBAbA|i0 i1 i1 m0 i1 c0A c0B i1 m0 i1 i0 c1b i0 m1 i0 i0 c0b c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BBAAbbaaa|i0 i1 i0 m1 i0 c0b c1A i0 m1 i0 i1 c1B i1 m0 i1 i0 c0B c0A i0 m1 i0 c0a c0b i1 c1A i0 m1 i0 c0B c0A i1 c1A c1B i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0b|std
+BBAbA,BBAABAAba|i0 i1 i0 m1 i0 c1A c1B i0 m1 i0 c1A i0 m1 i0 c0b c1A i1 m0 i1 c0B c0A c0A i1 i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BBABAAAba|i0 i1 i0 m1 i0 c1A i0 m1 i0 c0A c0A i1 i1 m0 i1 i0 c0A i0 m1 i0 c1b i1 m0 i1 i0 c0a i1 c1B i1 m0 i1 c0b c0a i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBABA,BAAAABaaa|c0b c0b c0a c1b c1a i0 m1 i0 i0 c0A c0B i0 m1 i0 i1 c1B i0 m1 i0 i0 c0B c0A i0 m1 i0 c1a i0 m1 i0 i0 c0B c1a c0B i0 m1 i0 c0b i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBABA,BAAbABaBa|i0 c0A i1 c1a c1B c1a c1B c1A i0 m1 i0 i0 c0a c0b i0 m1 i0 c1b c1A i0 m1 i0 i0 c0b c1A i0 m1 i0 c1B i1 m0 i1 i0 m1 i0 i1 m0 i1 c1a|std
+BBABA,BAABabABa|i0 c0A c0B c0A c0B i1 i0 m1 i0 i0 c0B c1a i0 m1 i0 i0 c1B i1 m0 i1 c0A i0 m1 i0 c1A c1b c1a i1 m0 i1|std
+BAABaBAba,BBABA|c0b c0a c0a c0b c1b i1 m0 i1 c0A i1 c1b i1 m0 i1 c0b i1 i1 m0 i1 c0a i1 i0 m1 i0 i0 m1 i0 c0a i1 m0 i1|std
+BBABA,BAbAABaBa|i0 c0A c0B c0A c0B i1 i0 m1 i0 i0 c0B c0A i0 m1 i0 c1a c1B i0 m1 i0 i0 c0B c1a c0B i0 m1 i0 c0b i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBABA,BBabAAABa|c0b c0b c0a i1 c1a c1B c1A c1A c1A c1b c1a i0 m1 i0 i0 c0A c0B i0 m1 i0 i0 c1B c1a i0 m1 i0 i0 c0b c1A i0 m1 i0 c1B i1 m0 i1 i0 m1 i0 i1 m0 i1 c1a|std
+BBABA,BBaBAAAba|i0 c0A i0 m1 i0 i0 c0a c0b i0 m1 i0 c1b c1b i0 m1 i0 i0 c0b c0a i0 m1 i0 i1 c1A i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBBaa,BAABabaBa|c0b c1b i0 m1 i0 i1 c1b i0 m1 i0 i0 c0B i0 m1 i0 c0a c0b c0A i1 m0 i1 i0 c1b c1A i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBBaa,BAABaBaba|c0b c1b i0 m1 i0 i1 c1b i0 m1 i0 i0 c0B i0 m1 i0 c0b c0b c0A i1 m0 i1 c0b i1 c1a i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBBAA,BABaaBAbA|i1 c1A c1b c1A c1B c1a c1a i0 m1 i0 i0 c1b i0 m1 i0 i0 c1a i0 m1 i0 i0 c0b i1 m0 i1 i0 c0B c0A c1A c1B i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBBAA,BABAbABaa|c0b c1b c1a c1b c1a c1B c1a c1b i0 m1 i0 i1 c1b i0 m1 i0 i0 c0B i0 m1 i0 c0b c0b c0a i1 m0 i1 c0b i1 c1A i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBBa,BAAAbaBaa|i1 c1a c1a c1B c1a c1b c1A i0 m1 i0 i0 c0b i0 m1 i0 c0B c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBa,BAAABaaba|i0 c0a i1 c1a i0 m1 i0 i0 c1b i0 m1 i0 i1 c1a c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBBa,BAAABabaa|c1b c1a c1a c1a c1b c1A i0 m1 i0 i0 c1B i0 m1 i0 i1 c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBa,BAAbABaaa|c0b i1 c1a c1a c1a c1B c1A c1b i0 m1 i0 i0 c0B i0 m1 i0 c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBa,BAABaaabA|i0 c0a i0 m1 i0 i0 c1b i0 m1 i0 c1a c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBBa,BAABAbaaa|i1 c1a c1a c1a c1b c1A i0 m1 i0 i0 c1B i0 m1 i0 c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBa,BAbAAbaaa|i0 c0a c0B c1b c1a c1B i0 m1 i0 i0 c0b i0 m1 i0 i1 c1a c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBBa,BAbAABaaa|i0 c0a c0B c1b c1a c1B i0 m1 i0 i0 c0b i0 m1 i0 c1a c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBBa,BABaaabAA|i0 c0a c1b c1a c1b c1A c1A c1A c1B c1a i0 m1 i0 i0 c0B i0 m1 i0 i0 c0b c1a i0 m1 i0 i0 c1b i0 m1 i0 c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBBa,BABAAbaaa|i1 c1a c1a c1a c1b c1A i0 m1 i0 i0 c0b i0 m1 i0 i0 c0B c1A i0 m1 i0 i0 c1B i0 m1 i0 c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBa,BBAbababA|i1 c1A c1b c1a c1b c1a c1b c1A i0 m1 i0 i0 c1B i0 m1 i0 i1 c1B c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBa,BBAbabaBA|i1 c1A c1B c1a c1b c1a c1b c1A i0 m1 i0 i0 c1B i0 m1 i0 c1B c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBAbaBabA,BBBBa|i1 c1a i1 m0 i1 c0b i1 i1 m0 i1 c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBa,BBABababA|i0 c0a i0 m1 i0 i0 c1b i0 m1 i0 c1b c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBBA,BAAAbaaBa|c0b i1 c1a c1B c1a c1a c1b i0 m1 i0 i0 c0B i0 m1 i0 i0 c0b c1A i0 m1 i0 i0 c0B i0 m1 i0 c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BAAAbaBaa|c0b i1 c1a c1a c1B c1a c1b i0 m1 i0 i0 c0B i0 m1 i0 c1A c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BAAABaaba|c0b i1 c1a c1b i0 m1 i0 i0 c0B i0 m1 i0 c1a c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BAAABabaa|i1 c1a c1a c1b c1a i0 m1 i0 i0 c1B i0 m1 i0 c1A c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BAAbAbaaa|c1b c1a i0 m1 i0 i0 c0b i0 m1 i0 i0 c0B c1a i0 m1 i0 i0 c1B i0 m1 i0 c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BAAbABaaa|c0b c1b c1a c1a c1B c1a c1b i0 m1 i0 i0 c0B i0 m1 i0 i1 c1A c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BAABaaabA|i1 c1A c1b c1a i0 m1 i0 i0 c0b i0 m1 i0 c0B c1a c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BAABAbaaa|c1b c1a c1a c1b c1a i0 m1 i0 i0 c1B i0 m1 i0 i1 c1A c1A c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BAbAAbaaa|c1b c1a i0 m1 i0 i0 c1B i0 m1 i0 c1a c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BAbAABaaa|c1b c1a i0 m1 i0 i0 c1B i0 m1 i0 i1 c1a c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BBabAbAba|i1 c1a c1b c1A c1b c1A c1b c1a i0 m1 i0 i0 c1B i0 m1 i0 i1 c1B c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BBabAbABa|i1 c1a c1B c1A c1b c1A c1b c1a i0 m1 i0 i0 c1B i0 m1 i0 c1B c1a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabABAba,BBBBA|i1 c1A i1 m0 i1 c0b i1 i1 m0 i1 c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBA,BBaBAbAba|c0b i1 c1a c1b i0 m1 i0 i0 c0B i0 m1 i0 c1A c1b c1A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BAAAbaa,BAAbAbA|c0b c0a c0a c0a c0B c1b c1a c1a c1B i0 m1 i0 c1a c1B i0 m1 i0 c0A c0A i1 c1A i0 m1 i0 i0 c0b c0a c1b i0 m1 i0 c0a i1 c1A i1 m0 i1 c0B c0a i1 m0 i1 c0A i1 c1B c1a i1 m0 i1 i0 c0A c0b c1a i0 m1 i0 c0B c0a i1 c1a c1B i0 m1 i0 c1A i1 m0 i1 c0A i0 m1 i0 i0 m1 i0 i0 c0b|std
+BAAAbaa,BAbaBaa|i0 c0a c0a c0b c0A i1 c1a c1a c1B c1a c1b c1A i1 m0 i1 c0B c0a i1 m0 i1 c0A i1 c1B c1a i1 m0 i1 i0 c0A c0b c1a i0 m1 i0 c0B c0a i1 c1a c1B i0 m1 i0 c1A i1 m0 i1 c0A i0 m1 i0 i0 m1 i0 i0 c0b|std
+BAAbaaa,BAbAAba|i0 c0a i1 c1a i1 m0 i1 c0b c0A i1 m0 i1 c0a i1 c1b c1A i1 m0 i1 i0 c0a c0B c1A i0 m1 i0 c0b c0A i1 c1A c1b i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0B i1|std
+BAAbaaa,BAbAbAA|c0b i1 c1A c1A c1b i0 m1 i0 c1A c1b i0 m1 i0 c0a c0a i1 c1a i0 m1 i0 i0 c0B c0A c1B i0 m1 i0 c0A i1 c1a i1 m0 i1 c0b c0A i1 m0 i1 c0a i1 c1b c1A i1 m0 i1 i0 c0a c0B c1A i0 m1 i0 c0b c0A i1 c1A c1b i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0B i1|std
+BAABabA,BAAAABa|c0b c0a c0a c0b c0A i1 m0 i1 c0b c0a i1 m0 i1 i0 c0A c0B c1a i1 m0 i1 c0b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c0A c1b c1a c1b i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BAABabA,BAAAbaa|i0 c0A c0b c0a c1b c1a i0 m1 i0 c1B c1A i0 m1 i0 i0 c0B c0A c1a i0 m1 i0 c0A i1 c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BAABAAA,BAAbABa|c0b c0a c0a c0b c0a c0a c1b c1a c1a i0 m1 i0 c0a i1 c1B c1a c1b i0 m1 i0 c0b i1 i0 m1 i0 i0 c0B c0A c0A i0 m1 i0 i1 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BAABAAA,BAbAABa|c0b c1b c1a c1B c1a c1a c1b i0 m1 i0 i0 c0a c0a c0b c1A i0 m1 i0 c0B i1 i0 m1 i0 i0 c0b c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BAAAABa,BAABAba|i0 c0a i1 c1a i0 m1 i0 c1B c1A i0 m1 i0 c0A i1 c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i0 c0A c0B c1B c1A i0 m1 i0 c1B c1A i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BAABAba,BAAbaaa|c1b c1a c1a c1B c1A i0 m1 i0 c1b c1a i0 m1 i0 i0 c0b c0a c1A i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BAbaBaa,BaBaaaa|c0b c0a c0B c0A c0b c0A c1b c1A i0 m1 i0 c0a i1 c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BAbAAba,BaBaaaa|c0b c0a c0B c0a i1 c1a c1a c1a c1a c1B c1a i0 m1 i0 c0A i1 c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BABaaaa,BaBaBaa|c0b c1b i1 m0 i1 i1 c1B c1a i1 m0 i1 i0 c0a c0B c0a i1 m0 i1 i1 c1a c1B i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BABaaaa,BAAbAba|i0 c0a i1 c1a i1 m0 i1 c0b c0A i1 i0 m1 i0 i1 c1A i1 m0 i1 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BABaaaa,BAbaaBa|c0b c0a c0b c0A i1 c1a c1B c1a c1a c1b c1A i1 m0 i1 c0B c0a i1 i0 m1 i0 i1 c1a i1 m0 i1 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BABaaaa,BAbaBaa|c0b c0a c1b c1a i0 m1 i0 c1b c1A i0 m1 i0 c0A i1 c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i0 c0A c0b c1b c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BABaaaa,BAbAAba|i0 c0a c0a c0a c0a c0B c0A i0 m1 i0 c1B c1a i0 m1 i0 c0a i1 c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 i0 c0a c0B c1B c1a i0 m1 i0 c1B c1a i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BaaBaaa,BABaaba|i0 c0a c0a c0a c0B i1 c1a c1b c1a c1a c1B i0 m1 i0 i0 c0a c0a c0B c1A i0 m1 i0 c0b i1 i0 m1 i0 i0 c0B c0a c0a i0 m1 i0 i0 c0A i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BABaaba,BaBaaaa|i0 c0a c0b c0a c0a c0B i1 c1a c1a c1a c1a c1B i0 m1 i0 c1a c1B i0 m1 i0 i0 c0b c0A c0A i1 i1 m0 i1 i0 c0A c1a i0 m1 i0 c0b i0 m1 i0 c0B c1A i0 m1 i0 i0 c0A c1B i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BaaBaaa,BABabaa|i0 c0a c0a i1 c1a c1a i0 m1 i0 c0a i1 c1b c1a c1B i0 m1 i0 c0B i1 i0 m1 i0 i0 c0b c0A c0A i0 m1 i0 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BABabaa,BaBaaaa|i0 c0a c0a i1 c1a c1a i0 m1 i0 c0b c1b c1a i0 m1 i0 c0B c1a c1B c1A i1 m0 i1 i0 c0a c1A i0 m1 i0 c0B i0 m1 i0 c0b c1a i0 m1 i0 i0 c0a c1b i1 m0 i1 i0 c0A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BAAAABa,BABabAA|c0b c0a i1 c1A c1A c1b c1a i1 m0 i1 c0B c0A i1 i0 m1 i0 i0 c0B c1a i1 m0 i1 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABAAAA,BAAbABa|c0b c0a c0b c0a c0a c1b c1a c1a i0 m1 i0 i0 c0a c0a c0b c1a i0 m1 i0 i0 c0a c1B c1A i1 m0 i1 i0 c0a c0b c1A i0 m1 i0 c0B c0A i1 c1A c1B i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0b|std
+BABAAAA,BAABabA|c0b c0a c1b c1a i1 m0 i1 i0 c0a c0b c1A i0 m1 i0 c0B c0A i1 c1A c1B i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0b|std
+BAABAba,BABAAAA|i0 c0a c0b c0A c0B c0A i1 c1A c1A c1A c1A c1B c1A i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BABAAAA,BAbAABa|c0b c1b c1a c1B c1a c1a c1b i1 m0 i1 c0a c0b i0 m1 i0 i0 i1 m0 i1 c0B c0A c0A i1 m0 i1 i0 c0A c1a i0 m1 i0 c0B i0 m1 i0 c0b c1A i0 m1 i0 i0 c0A c1b i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BAAAABa,BABAAba|i0 c0a c0B c0A i1 m0 i1 c0b c0a i1 i0 m1 i0 i1 c1a i1 m0 i1 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BABAAbA,BAAAbaa|i0 c0A c0b c0A c0A c0B i1 i1 m0 i1 c0A c0B i1 m0 i1 i0 c0a c1a c1a i1 m0 i1 c0b c0a i1 c1b i1 m0 i1 i0 c1A c1A i0 m1 i0 c1B c1A i0 m1 i0 i0 c0B c0A c1a i0 m1 i0 c0A i1 c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BABAbAA,BAAbaaa|c0b i1 c1a c1a c1a c1b i1 m0 i1 c0a c0b i1 m0 i1 i0 c0A c1A c1A i1 m0 i1 c0B c0A i1 c1B i1 m0 i1 i0 c1a c1a i0 m1 i0 c1b c1a i0 m1 i0 i0 c0b c0a c1A i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BAAAABa,BABABAA|c0b c0a c0a i1 m0 i1 i0 c0a c0a c0b i1 m0 i1 i0 c0B c0A i1 m0 i1 c0A i1 c1b i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBaaabA,BAAbaaa|i1 c1a i1 m0 i1 i0 c0a c0a c1a i1 m0 i1 i0 c0a c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c0b c0A c1a i0 m1 i0 c0A i1 c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBaaabA,BABaaaa|i0 c0A c0b c0a c0a c0a c0B i1 c1a c1a c1a c1a c1B i1 m0 i1 c0B i0 m1 i0 c1A i0 m1 i0 i0 c0A c1B i0 m1 i0 c0b c1a c1a i0 m1 i0 c0A i1 c1B i0 m1 i0 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaaabA,BBabAba|c0b i1 c1a c1b i0 m1 i0 i1 c1b i0 m1 i0 i0 c0b c0A c1b i1 m0 i1 c0B c0a i1 c1B i1 m0 i1 i0 c1A c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c0b c0A c1a i0 m1 i0 c0A i1 c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BABaaaa,BBaaaBa|i0 c0a c0a c0a c0a c0B i1 c1a c1B c1a c1a c1a c1B i1 m0 i1 i0 c0B i0 m1 i0 i0 c0a c0B c1B c1a i0 m1 i0 c1B c1a i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBaabAA,BBabAba|i0 i1 i1 m0 i1 c0a c0b c0A c1b i0 m1 i0 i1 c1a c1B i0 m1 i0 c0b i1 c1A i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a c0a i0 m1 i0 c0b i0 m1 i0 c0B c1a i0 m1 i0 i0 c1B c1A i1 m0 i1 i1 c1B c1A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBabABa,BBaabAA|i0 i1 i0 m1 i0 c0b c1a c1B c1A i0 m1 i0 c0b c1a i0 m1 i0 i0 c0A c1B c1B i1 m0 i1 c0B c0a i1 c1a i0 m1 i0 c1B c1B c1a i0 m1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0B c1A c1b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BABaaaa,BBaaBaa|c0b c1b i1 m0 i1 c0a i1 c1b c1A i0 m1 i0 c1a i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBababA,BAAAAAA|i0 c0A c0b c0a c0b c0a c1b c1a i1 m0 i1 i1 c1A i1 m0 i1 i0 c0B i1 i1 m0 i1 c0A i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBababA,BAABabA|c0b c1b i0 m1 i0 i0 i1 m0 i1 c0a c1A i0 m1 i0 i0 c1A c1B i0 m1 i0 c0A i1 c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBababA,BAbAAba|i0 c0A c0b c0a c1b c1a i1 m0 i1 c0B c0a c1B c1A i0 m1 i0 c0B c1A i1 m0 i1 i1 c1a i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBababA,BABAAbA|c0b c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 i0 c0a c0a i1 i1 m0 i1 c0a i1 i0 m1 i0 i0 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 i1 i0 m1 i0|std
+BBabaBa,BAbaBaa|i0 c0a c0B c0a c0b i1 c1a c1a c1B c1a c1b i0 m1 i0 c0b c1a i1 m0 i1 i0 c1A c1b i0 m1 i0 i0 c1A i1 m0 i1 i1 i0 m1 i0 c1B i0 m1 i0 i0 c1B c1a i0 m1 i0 i0 c1a c1B c1a i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBabaBa,BAbAAba|i0 c0a c0B c0a c0b i1 c1a c1b i1 m0 i1 c0A c0A i1 c1B i0 m1 i0 i0 c0b c1A c1b i1 m0 i1 c0A c0A c0b i1 m0 i1 c0b i0 m1 i0 c1a i0 m1 i0 i0 c0a c1b i0 m1 i0 c0B c1A c1A i0 m1 i0 c0a i1 c1b i0 m1 i0 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBabAAA,BAAAABa|c0b c1b c1a c1a c1a c1a c1b i1 m0 i1 c0b i0 m1 i0 c1A i0 m1 i0 i0 c0A c1b i0 m1 i0 c0B c1a c1a i0 m1 i0 c0A i1 c1b i0 m1 i0 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBabAAA,BAAAbaa|c0b c0b c0A c0B c0a c0a i1 c1a c1a i1 m0 i1 c0b c0a i1 c1b i1 m0 i1 i0 c1A c1A i0 m1 i0 c1B c1A i0 m1 i0 i0 c0B c0A c1a i0 m1 i0 c0A i1 c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBabAba,BAAbAbA|c0b i1 c1A c1b i0 m1 i0 c1A c1b i1 m0 i1 i0 c0A c1B i0 m1 i0 c0A i1 c1A c1A i1 m0 i1 c0b c0A i1 c1b i1 m0 i1 i0 c1a c1a i0 m1 i0 c1B c1a i0 m1 i0 i0 c0B c0a c1A i0 m1 i0 c0a i1 c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBabAba,BAABabA|c0b i1 c1A c1b i1 m0 i1 i0 c1a c1B i0 m1 i0 c0b i1 c1A i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a c0a i0 m1 i0 c0b i0 m1 i0 c0B c1a i0 m1 i0 i0 c1B c1A i1 m0 i1 i1 c1B c1A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBabAba,BAABAba|i0 c0a c0b c0A c0b c0a c0B c1b c1a c1a c1b c1a c1B i1 m0 i1 i0 c1A c1b i0 m1 i0 c0B i1 c1a i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A c0A i0 m1 i0 c0B i0 m1 i0 c0b c1A i0 m1 i0 i0 c0A c1b i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BAbAAbA,BBabAba|c0b c0a c0B i1 c1a c1b c1A c1b c1a c1B i0 m1 i0 i0 c0b c0A c1a i0 m1 i0 c0B c1A c1B i1 m0 i1 i0 c1a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBabAba,BAbAbAA|c0b c0b c0A c0B i1 i0 m1 i0 c0a c1a c1B i1 m0 i1 i0 c1b i0 m1 i0 i0 c0b c0A c1b i1 m0 i1 c0B c0a i1 c1B i1 m0 i1 i0 c1A c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c0b c0A c1a i0 m1 i0 c0A i1 c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBabAbA,Baaaaaa|i1 c1a i1 m0 i1 i1 c1A i1 m0 i1 i0 c0b i1 i1 m0 i1 c0A i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBabAbA,BAABabA|c0b c0b c0A c0B c0a i1 m0 i1 c0b c0a c1b c1A i0 m1 i0 c0b c1A i1 m0 i1 i1 c1a i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a i1 c1B i1 m0 i1 c0a c0b c1A i1 m0 i1 i0 c0a c0b i1 m0 i1 i1 c1B c1A i1 m0 i1 c0A i1 m0 i1 c0A i1 m0 i1 c0b i0 m1 i0 c1b c1a|std
+BBabAbA,BAbAAba|i0 c0A c0b c0A c0b c0a c0B c1b c1a c1B i0 m1 i0 i0 i1 m0 i1 c0a c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0A i1 c1a c1B i0 m1 i0 i0 c0b c0A c1a i1 m0 i1 c0A i1 i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBabAbA,BAbAbAA|c0b c0b c0A c0B i1 i1 m0 i1 i0 c0a c0B c1A i0 m1 i0 c0b c1A c1b i1 m0 i1 c0a i1 i0 m1 i0 i0 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBabABa,BAAbaBa|i1 c1a c1B c1a c1b c1A i0 m1 i0 i0 c0b i1 c1B i0 m1 i0 i0 c1B c1a i0 m1 i0 c0B i1 c1b c1A i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c1B i0 m1 i0 c1A i1 m0 i1 c0A c0b i1 m0 i1 i0|std
+BBabABa,BAABaba|i0 c0a c0B c0A i1 c1a c1b c1a c1B c1A i0 m1 i0 c0b c0a i1 i1 m0 i1 i0 c0B c1A i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b c1b i1 m0 i1 c0a i1 m0 i1 c0A c0b i1 m0 i1 c0a c0B i1 i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBabABa,BABaabA|c0b c0b c0A c0B c0a c0b c1b i0 m1 i0 c0A c0B c1A c1b i1 m0 i1 c0B c1A i0 m1 i0 i0 c0b i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBabABa,BABaaBa|i0 c0a c0B c0A c0b c0a c1b c1a i0 m1 i0 i0 c0A c1B c1B i1 m0 i1 c0B c0a i1 c1a i0 m1 i0 c1B c1B c1a i0 m1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0B c1A c1b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBabABa,BABaBaa|i0 c0a c0B c0A i1 c1a c1a c1B c1a c1B c1A i1 m0 i1 c0B c1A i0 m1 i0 c0b c0A i1 i1 m0 i1 c0b i1 i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BABaaaa,BBaBaaa|c0b c1b i1 m0 i1 i0 c0b i0 m1 i0 i0 c0A c0b c1b c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBabaBa,BBaBaaa|c0b c0b c0A c1b c1b c1A i1 m0 i1 i0 c0b c0A i1 m0 i1 i0 c0A c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 i0 c0A c0b c1b c1A i0 m1 i0 c1b c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaBaba,BAbaBaa|c0b c0b c0A c0b c0A c0B i1 i1 m0 i1 c0a c0a i1 c1b i0 m1 i0 i0 c0B c1a c1B i1 m0 i1 c0a c0a c0B i1 m0 i1 c0B i0 m1 i0 c1A i0 m1 i0 i0 c0A c1B i0 m1 i0 c0b c1a c1a i0 m1 i0 c0A i1 c1B i0 m1 i0 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaBaba,BAbAAba|c0b c0b c0A c0b c0A c0B i1 i0 m1 i0 c0B c1A i1 m0 i1 i0 c1a c1B i0 m1 i0 i0 c1a i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBaBaba,BBaaabA|i0 c0a c0b c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 c0B c1B c1A i0 m1 i0 c0B c1A i1 m0 i1 i0 c1a c1B i0 m1 i0 i0 c1a i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 i0 c1A c1b c1A i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBaBaba,BBaaaBa|i0 c0a i1 c1a i1 m0 i1 i0 c0B c0a i1 m0 i1 i0 c0a c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 i0 c0a c0B c1B c1a i0 m1 i0 c1B c1a i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBaBaBa,BBaaaBA|i0 i1 i0 m1 i0 i0 c0a c0B i1 m0 i1 c0A c0B c0a i0 m1 i0 c0a i1 c1A i1 m0 i1 c0A i0 m1 i0 i1 m0 i1 i1|std
+BBaBaBA,BAbAbaa|c1b c1a i0 m1 i0 c0b i1 c1B c1a i1 m0 i1 c0b c0A c1A i0 m1 i0 i0 c1B i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBaBaBA,BAbABaa|c1b c1a i1 m0 i1 c0B c0a c1B i0 m1 i0 c0A i1 i1 m0 i1 i0 c0b c0b c1a i0 m1 i0 c0B i1 c1B c1B i0 m1 i0 c0b i1 c1B i1 m0 i1 c0A c0b i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 i0 c0B c0a c1b i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBaBAba,BAABaba|c0b c0b c0A c0b c0a c1b c1a i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 c0b c1a i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B c1B i1 m0 i1 c0A i1 m0 i1 c0a c0B i1 m0 i1 c0A c0b i1 i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaBAba,BAbAbaa|i0 c0a c0b c0A c0B c0a i1 c1a i0 m1 i0 i0 c0B i1 c1b i0 m1 i0 i0 c1b c1A i0 m1 i0 c0b i1 c1B c1a i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c1b i0 m1 i0 c1a i1 m0 i1 c0a c0B i1 m0 i1 i1|std
+BBaBAba,BABaaBa|c0b c0b c0A c0b c0a c1b c1a i1 m0 i1 c0b c1a i0 m1 i0 c0B c0a i1 i1 m0 i1 c0B i1 i0 m1 i0 i0 i1 m0 i1 c0A i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaBAba,BABaBaa|i1 c1a c1a c1B c1a c1B c1A i0 m1 i0 i0 c0a c1b c1b i1 m0 i1 c0b c0A i1 c1A i0 m1 i0 c1b c1b c1A i0 m1 i0 c1A i1 m0 i1 c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 i0 c0b c1a c1B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaBAba,BABAbaa|i0 c0a c0b c0A c0B i1 c1a c1a c1b c1A c1B i0 m1 i0 c0a c0b c1a c1B i1 m0 i1 c0b c1a i0 m1 i0 i0 c0B i0 m1 i0 i0 i1 m0 i1 c0A i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BAbABaa,BBaBABa|i0 c0a i1 c1a c1B c1A c1B c1a i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 c0b c0a c1a i0 m1 i0 c0B i1 i1 m0 i1 c0B i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBaBABA,BAABaba|c0b c0b c0A c0b c0a c1b c1a i1 m0 i1 c0b c0a i0 m1 i0 c0A i1 c1b i1 m0 i1 i0 c0b c0b c1b i0 m1 i0 i0 c0a c0B c1a i0 m1 i0 c0B i1 c1b i1 m0 i1 c0A c0B i1 m0 i1 c0b i1 c1A c1B i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBaBABA,BABaabA|c0b c0b c0A c0b c0a i1 c1A c1b c1a i0 m1 i0 i1 c1b c1a i0 m1 i0 i0 i1 m0 i1 c0b c0b i1 m0 i1 c0b i1 i0 m1 i0 i0 c0b i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 i0 m1 i0 i1 m0 i1|std
+BBAAAba,BAAAABa|i0 c0a c0b c0A c0A c0A c0B i1 i1 m0 i1 c0B i0 m1 i0 c1a i0 m1 i0 i0 c0a c1B i0 m1 i0 c0b c1A c1A i0 m1 i0 c0a i1 c1B i0 m1 i0 i0 c0b c1A i0 m1 i0 c0B i1 m0 i1 c0b i1 c1A i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAAAba,BAAbaaa|c1b c1a c1a c1B c1A i1 m0 i1 i0 c0A c0A c1A i1 m0 i1 i0 c0A c1a i0 m1 i0 c1b c1a i0 m1 i0 i0 c0b c0a c1A i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAAAba,BBAbabA|c0b i1 c1A c1b i0 m1 i0 i1 c1b i0 m1 i0 i0 c0b c0a c1b i1 m0 i1 c0B c0A i1 c1B i1 m0 i1 i0 c1a c1a i0 m1 i0 c1b c1a i0 m1 i0 i0 c0b c0a c1A i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAAAbA,BBAbbaa|c0b c0b c0a c1b c1b c1a i0 m1 i0 i1 c1a i0 m1 i0 i0 i1 m0 i1 c1a i1 m0 i1 c0A i1 m0 i1 i0 c0B c1a i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAAAABa,BBAAABA|i0 i1 c1A c1B c1A c1A c1A c1B i1 m0 i1 i0 c0B i0 m1 i0 i0 c0A c0B c1B c1A i0 m1 i0 c1B c1A i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAAbaa,BBabAba|c0b c0b c1b c1b i1 m0 i1 c0A c0B c0a c1B i0 m1 i0 i1 c1A c1b i0 m1 i0 c0B i1 c1a i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A c0A i0 m1 i0 c0B i0 m1 i0 c0b c1A i0 m1 i0 i0 c0A c1b i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBaBAba,BBAAbaa|c0b c0b c1b c1b i0 m1 i0 c0B c1A c1b c1a i0 m1 i0 c0B c1A i0 m1 i0 i0 c0a c1b c1b i1 m0 i1 c0b c0A i1 c1A i0 m1 i0 c1b c1b c1A i0 m1 i0 c1A i1 m0 i1 c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 i0 c0b c1a c1B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBAAbaa,BBAbabA|i0 i1 i1 m0 i1 c0A c0b c0a c1b i0 m1 i0 i1 c1A c1B i0 m1 i0 c0b i1 c1a i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A c0A i0 m1 i0 c0b i0 m1 i0 c0B c1A i0 m1 i0 i0 c0A c1B i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BBAAbaa,BBAbaBA|i0 i1 i0 m1 i0 i0 i1 m0 i1 c0A c0B c1a i0 m1 i0 c1b i0 m1 i0 i0 c0b c1B c1A i1 m0 i1 c0A c0B i1 c1A i0 m1 i0 c1b c1a i0 m1 i0 c0b c0a i1 i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 c0a c0b c0a c1B i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0b i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BBAAbba,Baaaaaa|i0 c0a c0b c0b c0A c0A c1b c1A c1A i1 m0 i1 i1 c1a c1a i1 m0 i1 i0 c0B i1 i1 m0 i1 c0a i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBAAbba,BAAAAAA|c0b c0b c0a c0a c1b c1a c1a i1 m0 i1 i1 c1A c1A i1 m0 i1 i0 c0B i1 i1 m0 i1 c0A i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAABaba,BBAAbba|c0b c0a c0a c1b c1b c1a c1a i0 m1 i0 c0A c1b c1A c1B i1 m0 i1 i0 c0b c0a i1 m0 i1 i0 c0B c1A i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b c1b i1 m0 i1 c0a i1 m0 i1 c0A c0b i1 m0 i1 c0a c0B i1 i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBAAbba,BAABAba|c0b c0b c0a c0a c1b c1a c1a i1 m0 i1 c0b c0a c0B c1A i1 m0 i1 c0b c1A i1 m0 i1 c0a c0a i1 c1B i0 m1 i0 i0 c0b c1a c1b i1 m0 i1 c0a c0a c0b i1 m0 i1 c0b i0 m1 i0 c1A i0 m1 i0 i0 c0A c1b i0 m1 i0 c0B c1a c1a i0 m1 i0 c0A i1 c1b i0 m1 i0 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAAbba,BAbAAba|i0 c0a c0b c0b c0A c0A i1 c1a c1b c1A c1A i1 m0 i1 c0b c0A c0B c1a i1 m0 i1 c0b c1a i1 m0 i1 c0A c0A i1 c1B i0 m1 i0 i0 c0b c1A c1b i1 m0 i1 c0A c0A c0b i1 m0 i1 c0b i0 m1 i0 c1a i0 m1 i0 i0 c0a c1b i0 m1 i0 c0B c1A c1A i0 m1 i0 c0a i1 c1b i0 m1 i0 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BAbABaa,BBAAbba|i1 c1a c1b c1b c1A c1A i0 m1 i0 c0a c1b c1a c1B i1 m0 i1 i0 c0b c0A i1 m0 i1 i0 c0B c1a i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b c1b i1 m0 i1 c0A i1 m0 i1 c0a c0b i1 m0 i1 c0A c0B i1 i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAAbba,BBabaaa|i0 c0a i1 c1a i1 m0 i1 i0 c0a i0 m1 i0 i0 i1 c1a i1 m0 i1 c0A i1 m0 i1 i0 c0b c1a i0 m1 i0 i0 c0a c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBAAbba,BBAbAAA|i1 c1A i1 m0 i1 i0 c0A i0 m1 i0 i0 i1 c1A i1 m0 i1 c0a i1 m0 i1 i0 c0b c1A i0 m1 i0 c0A i1 i1 m0 i1 i0 m1 i0 c1b i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAAAABa,BBAABAA|c0b c0a c0a c0a c0a c0b c1b i1 m0 i1 c0A i1 c1b c1a i0 m1 i0 c1A i1 m0 i1 i0 c0A i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAbaaa,BAAAbaa|c0b c0b c0a c0B c0A c0A i1 m0 i1 c0b c0A i1 c1b i1 m0 i1 i0 c1a c1a i0 m1 i0 c1B c1a i0 m1 i0 i0 c0B c0a c1A i0 m1 i0 c0a i1 c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBAbaaa,BABaaaa|c0b c1b i1 m0 i1 c0b i0 m1 i0 c1a i0 m1 i0 i0 c0a c1b i0 m1 i0 c0B c1A c1A i0 m1 i0 c0a i1 c1b i0 m1 i0 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBAbaaa,BBabaBa|i0 c0a c0a c0a c0b c0A c0B c1b c1b c1A c1B i1 m0 i1 c0B c0a i1 i1 m0 i1 c0b c0a c1b i1 m0 i1 c0a c1b i0 m1 i0 c0A c0b i1 i1 m0 i1 c0A i1 i1 m0 i1 i0 i1 c1B i0 m1 i0 i0 c1B c1a i0 m1 i0 i0 c1a c1B c1a i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBAbaaa,BBabAba|i0 c0a c0a c0a c0b c0A c0B c1b c1b c1A c1B i0 m1 i0 i1 c1B i0 m1 i0 i0 c0B c0a c1B i1 m0 i1 c0b c0A i1 c1b i1 m0 i1 i0 c1a c1a i0 m1 i0 c1B c1a i0 m1 i0 i0 c0B c0a c1A i0 m1 i0 c0a i1 c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBAbaba,BAAAAAA|i0 c0a c0b c0a c1b c1a i1 m0 i1 i1 c1a i0 m1 i0 c0b c0a c1b i1 m0 i1 c1A i1 m0 i1 c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbaba,BAABAba|i0 c0a c0b c0a c0b c0A c0B i1 c1a c1b c1A c1B i0 m1 i0 i0 i1 m0 i1 c0A c1a i0 m1 i0 i0 c1a c1b i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbaba,BAbaBaa|c0b c0b c0a c0B c0A c1b c1a c1B c1A i1 m0 i1 c0b c0A c1b c1a i0 m1 i0 c0b c1a i1 m0 i1 i1 c1A i1 m0 i1 i1 i0 m1 i0 c1B i0 m1 i0 i0 c1B c1a i0 m1 i0 i0 c1a c1B c1a i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBAbaba,BABAbAA|c0b c0b c0a c0B c1b c1a c1b c1a c1B i1 m0 i1 i0 c0A c0B c1a i0 m1 i0 c0b c1a c1b i1 m0 i1 c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BAABAbA,BBAbabA|c0b c1b i0 m1 i0 i0 c0B c0A c1a i0 m1 i0 c0b c1A c1b i1 m0 i1 i0 c1a i0 m1 i0 i0 c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0|std
+BBAbabA,BAbaBaa|c0b i1 c1a c1a c1B c1a c1b i1 m0 i1 i0 c1A c1B i0 m1 i0 c0b i1 c1a i1 m0 i1 i0 c0A i1 m0 i1 i0 c0A c0A i0 m1 i0 c0b i0 m1 i0 c0B c1A i0 m1 i0 i0 c0A c1B i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i1|std
+BBAbabA,BAbAAba|i0 c0A c0b c0a c0b c0A c0B i1 i1 m0 i1 i0 c1a c1b i0 m1 i0 c0B i1 c1A i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a c0a i0 m1 i0 c0B i0 m1 i0 c0b c1a i0 m1 i0 i0 c0a c1b i1 m0 i1 i0 c0A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BBAbabA,BABAAbA|c0b c1b i0 m1 i0 c1a c1b i1 m0 i1 i0 c0a c1B i0 m1 i0 c0a i1 c1a c1a i1 m0 i1 c0b c0a i1 c1b i1 m0 i1 i0 c1A c1A i0 m1 i0 c1B c1A i0 m1 i0 i0 c0B c0A c1a i0 m1 i0 c0A i1 c1a c1b i1 m0 i1 c0A c0B c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 c0a i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbabA,BABAbAA|c0b c0b c0a c0B c1b c1a c1b c1a c1B i0 m1 i0 c0A c1A c1B i1 m0 i1 i0 c1b i0 m1 i0 i0 c0b c0a c1b i1 m0 i1 c0B c0A i1 c1B i1 m0 i1 i0 c1a c1a i0 m1 i0 c1b c1a i0 m1 i0 i0 c0b c0a c1A i0 m1 i0 c0a i1 c1A c1B i0 m1 i0 i0 c0b c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBaabAA,BBAbabA|c0b c0b c1b c1b i1 m0 i1 c0a c0B c0A c1B i0 m1 i0 i1 c1a c1b i0 m1 i0 c0B i1 c1A i1 m0 i1 i0 c0a i1 m0 i1 i0 c0a c0a i0 m1 i0 c0B i0 m1 i0 c0b c1a i0 m1 i0 i0 c0a c1b i1 m0 i1 i0 c0A i0 m1 i0 i1 m0 i1 i1 m0 i1 i0 m1 i0 i0|std
+BBAbabA,BBabAAA|c0b c0b c0a c0B i1 c1A c1A c1A c1b c1a c1B i1 m0 i1 i0 c0B i1 m0 i1 i0 c0A c0A c1b i0 m1 i0 c0a i1 c1a c1a i0 m1 i0 c0A i1 c1a i1 m0 i1 c0B c0A i1 m0 i1 c0a i1 c1B c1A i1 m0 i1 i0 c0a c0b c1A i0 m1 i0 c0B c0A i1 c1A c1B i0 m1 i0 c1a i1 m0 i1 c0a i0 m1 i0 i0 m1 i0 c0b|std
+BBAbaBA,BAAbaBa|c0b c0b c0a c0B c0A c0b c1b c1a c1a c1B c1A c1b i0 m1 i0 c0a c0B c1a c1b i1 m0 i1 c0B c1a i0 m1 i0 i0 c0b i0 m1 i0 i0 i1 m0 i1 c0A i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i1 i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAbaBA,BAbABaa|i0 c0A c0B c0a i1 c1a i0 m1 i0 c0b c0A i1 i1 m0 i1 i0 c0B c1a i0 m1 i0 i1 c1b i0 m1 i0 i1 c1b c1b i1 m0 i1 c0A i1 m0 i1 c0a c0b i1 m0 i1 c0A c0B i1 i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAbaBA,BABaabA|i1 c1A c1b c1a i0 m1 i0 i0 c0b i1 c1B i0 m1 i0 i0 c1B c1A i0 m1 i0 c0B i1 c1b c1a i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 m0 i1|std
+BBAbaBA,BABaBAA|c0b c0b c0a c0B c0A i1 c1A c1A c1B c1a c1B c1A i0 m1 i0 i0 c0b c1B c1A i1 m0 i1 c0A c0B i1 c1A i0 m1 i0 c1b c1a i0 m1 i0 c0b c0a i1 i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 c0a c0b c0a c1B i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0b i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BBAbaBA,BABAABa|i0 c0A c0B c0a i1 c1a i1 m0 i1 c0B c1a i0 m1 i0 c0b c0a i1 i1 m0 i1 c0b i1 i0 m1 i0 i0 i1 m0 i1 c0A i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i1 i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAbAba,Baaaaaa|i0 c0a c0b c0A c0b c0A c1b c1A i1 m0 i1 i1 c1a i1 m0 i1 i0 c0B i1 i1 m0 i1 c0a i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBAbAba,BAAbAbA|i0 c0a c0b c1b i1 m0 i1 i0 c0A c0b c1a i0 m1 i0 c0B c1a c1B i1 m0 i1 c0A i1 i0 m1 i0 i0 c0A i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBAbAba,BAABAba|i0 c0a c0b c0A i1 c1a c1b c1A i1 m0 i1 c0B c0A c1B c1a i0 m1 i0 c0B c1a i1 m0 i1 i1 c1A i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAbAba,BAbaBaa|c0b c1b c1a c1B c1A c1b i0 m1 i0 i0 i1 m0 i1 c0A c1a i0 m1 i0 i0 c1a c1B i0 m1 i0 c0a i1 c1A c1b i0 m1 i0 i0 c0B c0a c1A i1 m0 i1 c0a i1 i0 m1 i0 c1A i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBAbABA,BAABabA|i0 c0A c0B c0A c0b i1 c1A c1b i0 m1 i0 c0b c1A i1 m0 i1 i0 c1a c1b i0 m1 i0 i0 c1a i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a i1 c1B i1 m0 i1 c0a c0b c1A i1 m0 i1 i0 c0a c0b i1 m0 i1 i1 c1B c1A i1 m0 i1 c0A i1 m0 i1 c0A i1 m0 i1 c0b i0 m1 i0 c1b c1a|std
+BBAbABA,BAABAba|i0 c0A c0B c0A c0b c1b i1 m0 i1 c0a c0a i1 c1B i0 m1 i0 i0 c0b c1a c1b i1 m0 i1 c0a c0a c0b i1 m0 i1 c0b i0 m1 i0 c1A i0 m1 i0 i0 c0A c1b i0 m1 i0 c0B c1a c1a i0 m1 i0 c0A i1 c1b i0 m1 i0 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAbABA,BBabAAA|c0b c0b c0a c0B i1 c1A c1A c1A c1b c1a c1B i0 m1 i0 i0 c1B c1A i0 m1 i0 c0b c1b c1A i0 m1 i0 c0b c1A i1 m0 i1 i0 c1a c1b i0 m1 i0 i0 c1a i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a i1 c1B i1 m0 i1 c0a c0b c1A i1 m0 i1 i0 c0a c0b i1 m0 i1 i1 c1B c1A i1 m0 i1 c0A i1 m0 i1 c0A i1 m0 i1 c0b i0 m1 i0 c1b c1a|std
+BBAbbaa,Baaaaaa|i0 c0a c0a i1 c1a c1a i1 m0 i1 i1 c1A c1A i1 m0 i1 i0 c0b i1 i1 m0 i1 c0A i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i1|std
+BBAbbaa,BAAAAAA|i1 c1A c1A i0 m1 i0 c1A c1A i1 m0 i1 i0 c0A c0A i0 m1 i0 c1A c1A i1 m0 i1 c0b c0A i0 m1 i0 i1 c1b i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BAABaba,BBAbbaa|i0 c0a c0b c0a c0B c0A c0A i0 m1 i0 c0a c1B c1a c1b i1 m0 i1 i0 c0B c0A i1 m0 i1 i0 c0b c1a i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B c1B i1 m0 i1 c0A i1 m0 i1 c0a c0B i1 m0 i1 c0A c0b i1 i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBAbbaa,BAABabA|i1 c1A c1b c1a c1B c1A c1A i1 m0 i1 i0 c0b i1 c1B c1A i1 m0 i1 c0a i1 m0 i1 c0A c0B i1 c1a i0 m1 i0 i0 c0B c1B c1A i1 m0 i1 c0a c0b i1 m0 i1 i0 c1a c1b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c0A c1b c1a c1b i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBAbbaa,BAbaBaa|i0 c0a c0a i1 c1a c1a i1 m0 i1 c0B c0a c0b c1A i1 m0 i1 c0B c1A i1 m0 i1 c0a c0a i1 c1b i0 m1 i0 i0 c0B c1a c1B i1 m0 i1 c0a c0a c0B i1 m0 i1 c0B i0 m1 i0 c1A i0 m1 i0 i0 c0A c1B i0 m1 i0 c0b c1a c1a i0 m1 i0 c0A i1 c1B i0 m1 i0 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BAbABaa,BBAbbaa|i0 c0a c0a i1 c1a c1a i0 m1 i0 c0A c1B c1A c1b i1 m0 i1 i0 c0B c0a i1 m0 i1 i0 c0b c1A i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B c1B i1 m0 i1 c0a i1 m0 i1 c0A c0B i1 m0 i1 c0a c0b i1 i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBAbbaa,BBaaaba|i0 c0a c0a c0b c0b c0A c1b c1b c1A i1 m0 i1 i0 c0A i0 m1 i0 i0 i1 c1A i1 m0 i1 c0a i1 m0 i1 i0 c0B c1A i0 m1 i0 i0 c0A c1a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0 m1 i0 i0|std
+BBaBaBa,BBABaaa|c0b c0b c1b c1b i0 m1 i0 i0 c0A c0b i1 m0 i1 c0a c0b c0A i0 m1 i0 c0A i1 c1a i1 m0 i1 c0a i0 m1 i0 i1 m0 i1 i0|std
+BBABabA,BAbAbaa|i0 c0A c0b c0a c0B c1b c1a c1B i0 m1 i0 c0A c0b c1A c1B i1 m0 i1 c0b c1A i0 m1 i0 i0 c0B i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i1 i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBABabA,BAbABaa|c0b c0b c0a c0b c0A c1b c1a c1B c1a c1b c1A i0 m1 i0 c0B c0a i1 i1 m0 i1 i0 c0b c1A i0 m1 i0 i1 c1B i0 m1 i0 i1 c1B c1B i1 m0 i1 c0a i1 m0 i1 c0A c0B i1 m0 i1 c0a c0b i1 i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBABabA,BABaBAA|c0b c0b c0a c0b c0A c1b c1a c1b c1A i1 m0 i1 c0b c1A i0 m1 i0 c0B c0A i1 i1 m0 i1 c0B i1 i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i1 i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBABabA,BABAABa|i1 c1a i0 m1 i0 i0 c0A c1b c1b i1 m0 i1 c0b c0a i1 c1a i0 m1 i0 c1b c1b c1a i0 m1 i0 c1a i1 m0 i1 c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 i0 c0b c1A c1B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBABabA,BABAbaa|i0 c0A c0b c0a c0B c0A c1b c1a c1b c1a c1B c1A i1 m0 i1 i1 i0 m1 i0 c0b c1B i1 m0 i1 c0b c0a i1 i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBABabA,BBaabAA|c0b c0b c1b c1b i0 m1 i0 c0B c1a c1b c1A i0 m1 i0 c0B c1a i0 m1 i0 i0 c0A c1b c1b i1 m0 i1 c0b c0a i1 c1a i0 m1 i0 c1b c1b c1a i0 m1 i0 c1a i1 m0 i1 c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 i0 c0b c1A c1B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBABaBa,BAAbaBa|i0 c0a c0B c0a c0B c0A c1b c1a c1a c1B c1A i0 m1 i0 c0B i1 c1b c1A i1 m0 i1 c0B c0a c1a i0 m1 i0 i0 c1b i1 m0 i1 i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBABaBa,BAbABaa|c0b c0b c0a c0b c0A c1b c1a c1B c1a c1b c1A i1 m0 i1 c0b c0A i0 m1 i0 c0a i1 c1b i1 m0 i1 i0 c0b c0b c1b i0 m1 i0 i0 c0A c0B c1A i0 m1 i0 c0B i1 c1b i1 m0 i1 c0a c0B i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BAABaba,BBABaBA|c0b c0a i1 m0 i1 c0b i1 c1A c1B i1 m0 i1 c0B c0a c1a i0 m1 i0 c0b i1 i1 m0 i1 c0b i1 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBABAAA,BAAAABa|c0b c1b c1a c1a c1a c1a c1b i1 m0 i1 c0b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c0A c1b c1a c1b i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBABAAA,BBAbABA|c0b c0b c0a c1b c1b c1a i0 m1 i0 i1 c1b c1a i0 m1 i0 c0A c0B i1 c1a i1 m0 i1 c0b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c0A c1b c1a c1b i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBABAbA,BAABabA|c0b c0b c0a c0b c0a c0B i1 c1A c1b c1a c1B i1 m0 i1 c0A c0A i1 c1b i0 m1 i0 i0 c0B c1A c1B i1 m0 i1 c0A c0A c0B i1 m0 i1 c0B i0 m1 i0 c1a i0 m1 i0 i0 c0a c1B i0 m1 i0 c0b c1A c1A i0 m1 i0 c0a i1 c1B i0 m1 i0 i0 c0b c1A i0 m1 i0 c0B i1 m0 i1 c0b i1 c1A i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBABAbA,BAABAba|c0b c0b c0a c0b c0a c0B c1b c1a c1a c1b c1a c1B i0 m1 i0 c0B c1a i1 m0 i1 i0 c1A c1B i0 m1 i0 i0 c1A i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBABAbA,BBAAAba|i0 c0A c0b c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 c0B c1B c1a i0 m1 i0 c0B c1a i1 m0 i1 i0 c1A c1B i0 m1 i0 i0 c1A i1 m0 i1 i1 i0 m1 i0 c1b i0 m1 i0 i0 c1b c1a i0 m1 i0 i0 c1a c1b c1a i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBABAbA,BBAAABA|i0 c0A i1 c1A i1 m0 i1 i0 c0B c0A i1 m0 i1 i0 c0A c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 i0 c0A c0B c1B c1A i0 m1 i0 c1B c1A i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBABABa,BAABaba|c1b c1a c1a c1b c1A i1 m0 i1 c0B c0A c1B i0 m1 i0 c0a i1 i1 m0 i1 i0 c0b c0b c1A i0 m1 i0 c0B i1 c1B c1B i0 m1 i0 c0b i1 c1B i1 m0 i1 c0a c0b i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBABABa,BABAbaa|i1 c1a c1a c1b c1A i0 m1 i0 c0b i1 c1B c1A i1 m0 i1 c0b c0a c1a i0 m1 i0 i0 c1B i1 m0 i1 i1 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBABABA,BBaBAAA|c0b c0b c1b c1b i0 m1 i0 i0 c0a c0b i1 m0 i1 c0A c0b c0a i0 m1 i0 c0a i1 c1A i1 m0 i1 c0A i0 m1 i0 i1 m0 i1|std
+BBABABA,BBAAABa|c0b c0b c0a c1b c1b c1a i0 m1 i0 i0 c0A c0B i1 m0 i1 c0B c0A c0B i0 m1 i0 i1 c1a c1B i1 m0 i1 c0a c0a i0 m1 i0 i1 m0 i1|std
+BBBaaba,BaBaBaa|c0b c0b c0b c0A c0A i1 m0 i1 i1 c1b c1A i0 m1 i0 c0B c1B c1A i1 m0 i1 i0 c0B c1b i0 m1 i0 c0b i1 m0 i1 i0 m1 i0 i0|std
+BBBaaba,BBaaabA|i0 c0a c0b c0a c0a c0B c0B i1 i1 m0 i1 i0 c0B c1A i0 m1 i0 i0 c0a c1b i0 m1 i0 c0b c0A i1 c1a c1a i0 m1 i0 c1B i0 m1 i0 c1b c1A i0 m1 i0 i0 c1A c1b i0 m1 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c1B i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBBaaba,BBaaaBa|i0 c0a c0b c0a c0a c0B c0B i1 i1 m0 i1 i0 i1 c1b i0 m1 i0 i0 c0a c1b i0 m1 i0 c0B c1A c1A i0 m1 i0 c0a i1 c1b i0 m1 i0 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBBaabA,BAbABaa|i0 c0A c0b c0a c1b c1a i0 m1 i0 i1 c1a i0 m1 i0 i0 c0a c0B c1a i1 m0 i1 c0A c0b i1 c1A i1 m0 i1 i0 c1B c1B i0 m1 i0 c1a c1B i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c0B i1 c1b c1A i0 m1 i0 i0 c0a c0B c1b i0 m1 i0 c1B i0 m1 i0 c1A i1 m0 i1 c0A c0b i1 m0 i1 i0|std
+BBBaabA,BABaBaa|i0 c0A c0b c0a c1b c1a i1 m0 i1 c0a c0B i1 i1 m0 i1 c0A c0B c1A i1 m0 i1 c0B c1A i0 m1 i0 c0b c0A i1 i1 m0 i1 c0b i1 i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBBaabA,BBaaaBA|c0b c0b c0b c0A c0A c1b c1b c1A c1A i0 m1 i0 i0 c1A c1b i1 m0 i1 i0 c0a i1 i1 m0 i1 c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 i0 c0b c1a c1B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBBaaBa,BABaBaa|c0b c0b c0b c0A c0A c0b c1b i0 m1 i0 i1 c1A c1b i0 m1 i0 c0B c0a i1 c1b i0 m1 i0 i1 c1A i1 m0 i1 c0A c0b i1 c1b c1A i1 m0 i1 c0A c0b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBBaaBa,BBaaaBA|c0b c0b c0b c0A c0A c1b c1b c1A c1A i0 m1 i0 i0 c0a i1 i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0B c1A c1b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBBaaBA,BBAAbaa|i0 c0A c0B c0a c0a c0B c1b c1b c1a c1a c1B i0 m1 i0 i1 c1B i1 m0 i1 i0 c0B i1 i0 m1 i0 c1b i0 m1 i0 c0B i1 c1A i1 m0 i1 i0 c0b i0 m1 i0 c0A i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBabaa,BaBaBaa|i0 c0a c0a i1 c1a c1a i1 m0 i1 i1 c1B c1a i0 m1 i0 c0b c1b c1a i1 m0 i1 i0 c0b c1B i0 m1 i0 c0B i1 m0 i1 i0 m1 i0 i1|std
+BBBabaa,BBaBaaa|c0b c1b i1 m0 i1 i0 c0b i1 i0 m1 i0 i0 c0A c1B i0 m1 i0 c0b c1a c1a i0 m1 i0 c0A i1 c1B i0 m1 i0 i0 c0b c1a i0 m1 i0 c0B i1 m0 i1 i0 c0b i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBBabaa,BBAbaaa|c0b c0b c1b c1b i1 m0 i1 i0 c0b c1a i0 m1 i0 i0 c0A c1B i0 m1 i0 c0B c0a i1 c1A c1A i0 m1 i0 c1b i0 m1 i0 c1B c1a i0 m1 i0 i0 c1a c1B i0 m1 i0 c0B c1A i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BAABaba,BBBabAA|i0 c0a c1b c1b c1b c1A c1B c1a i1 m0 i1 i0 c0a i1 m0 i1 i0 c0b c0b c1A i0 m1 i0 c0B i1 c1B c1B i0 m1 i0 c0b i1 c1B i1 m0 i1 c0a c0b i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBabAA,BABaBAA|c0b c0b c0b c0A c0B c0a i1 c1A c1A c1B c1a i1 m0 i1 c0a c0b i1 i1 m0 i1 c0A c0b c1A i1 m0 i1 c0b c1A i0 m1 i0 c0B c0A i1 i1 m0 i1 c0B i1 i0 m1 i0 i0 i1 m0 i1 c0a i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i1 i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBabAA,BBaBAAA|i0 c0A c0A i1 c1A c1A i0 m1 i0 c0b c0a i1 i1 m0 i1 i0 c0b c0a i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 c0a c0b c0a c1B i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0b i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BBaaaaa,BBBabba|i0 i1 c1a c1b c1b c1a c1B c1B i0 m1 i0 i0 c0a i0 m1 i0 i0 c0a i1 m0 i1 c0a c0a i1 m0 i1 i0 m1 i0 i0 m1 i0 i0|std
+BBBabbA,BBaBaBA|c0b c0b c0b c0A c1b c1b c1A i0 m1 i0 c1b c1A i0 m1 i0 c0B c0B i1 c1B i0 m1 i0 i0 c0a c0b c1a i0 m1 i0 c0b i1 c1B i1 m0 i1 c0A c0b i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 i0 c0B c0a c1b i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBBabbA,BBaBAba|i0 c0A c0b c0b c0a c0B c1b c1b c1A c1b c1a c1B i1 m0 i1 c0A c0b i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 i0 c0B c0a c1b i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBBabbA,BBaBABA|i0 c0A i1 c1A i0 m1 i0 c1B c1A i0 m1 i0 c0b c0b i1 c1b i0 m1 i0 i0 c0a c0B c1a i0 m1 i0 c0B i1 c1b i1 m0 i1 c0A c0B i1 m0 i1 c0b i1 c1A c1B i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBabbA,BBAbaBA|c0b i1 c1A c1B c1a c1b i1 m0 i1 c0A c0B i1 m0 i1 c0b i1 c1A c1B i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBaBaa,BABaaBa|i0 c0a c0a c0B i1 c1a c1B c1a c1a c1B i0 m1 i0 i1 c1a c1B i0 m1 i0 c0b c0A i1 c1B i0 m1 i0 i1 c1a i1 m0 i1 c0a c0B i1 c1B c1a i1 m0 i1 c0a c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBBaBaa,BBABaaa|i0 c0a i1 c1a i0 m1 i0 i0 i1 c1a i1 m0 i1 c0A c0b i1 i1 m0 i1 i0 c0b c1a c1B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBBaBAA,BBAAbaa|c0b i1 c1a c1a c1b i0 m1 i0 i1 c1b i1 m0 i1 i0 c0b i1 i0 m1 i0 c1B i0 m1 i0 c0b i1 c1A i1 m0 i1 c0B i1 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBabaBA,BBBaBBa|i0 i1 c1a c1B c1B c1a c1B c1B i1 m0 i1 i0 c0A c0B c0a c1B i1 m0 i1 i0 c1a i1 m0 i1 c0B i1 c1A c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBABaba,BBBaBBa|i0 c0a i1 c1a i1 m0 i1 c0b i1 c1B c1B c1a i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 c0B i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBBAAba,BAABaba|i0 c0a c0b c0A c1b c1a c1a c1b c1A i0 m1 i0 i1 c1A i0 m1 i0 i0 c0A c0B c1A i1 m0 i1 c0a c0b i1 c1a i1 m0 i1 i0 c1B c1B i0 m1 i0 c1A c1B i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c0B i1 c1b c1a i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 m0 i1|std
+BBBAAba,BABAABa|i0 c0a c0b c0A i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0B c1a i1 m0 i1 c0B c1a i0 m1 i0 c0b c0a i1 i1 m0 i1 c0b i1 i0 m1 i0 i0 i1 m0 i1 c0A i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i1 i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBAAba,BBAAABa|c0b c0b c0b c0a c0a c1b c1b c1a c1a i0 m1 i0 i0 c1a c1b i1 m0 i1 i0 c0A i1 i1 m0 i1 c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 i0 c0b c1A c1B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBAAba,BBBabbA|c0b c0b i1 c1A c1b c1b i1 m0 i1 c0a c0b i1 c1a i1 m0 i1 i0 c1B c1B i0 m1 i0 c1A c1B i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c0B i1 c1b c1a i0 m1 i0 i0 c0A c0B c1b i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b i1 m0 i1|std
+BBBAAbA,BABABAA|c0b c0b c0b c0a c0a i1 m0 i1 i1 c1b c1a i0 m1 i0 c0B c1B c1a i1 m0 i1 i0 c0B c1b i0 m1 i0 c0b i1 m0 i1 i0 m1 i0|std
+BBBAAbA,BBAAAba|i0 c0A c0b c0A c0A c0B c0B i1 i1 m0 i1 i0 c1a c1b i0 m1 i0 i1 c1a c1b i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c0A c1b c1a c1b i0 m1 i0 i0 c1B c1A i0 m1 i0 c0A c1b i1 m0 i1 i0 c0a c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i0 m1 i0|std
+BBBAAbA,BBAAABA|i0 c0A c0b c0A c0A c0B c0B i1 i1 m0 i1 i0 i1 c1b i0 m1 i0 i0 c0A c1b i0 m1 i0 c0B c1a c1a i0 m1 i0 c0A i1 c1b i0 m1 i0 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBBAABa,BBaabAA|i0 c0a c0B c0A c0A c0B c1b c1b c1A c1A c1B i0 m1 i0 i1 c1B i1 m0 i1 i0 c0B i1 i0 m1 i0 c1b i0 m1 i0 c0B i1 c1a i1 m0 i1 i0 c0b i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBAABA,BABAABa|c0b c0b c0b c0a c0a c0b c1b c1a c1b c1a c1a c1b i0 m1 i0 i1 c1a c1b i0 m1 i0 c0B c0A i1 c1b i0 m1 i0 i1 c1a i1 m0 i1 i0 c0b c0a i1 m0 i1 i0 c0b c0a i1 m0 i1 i0 c0b c0a i1 m0 i1 i1 c1A c1B i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BBBAABA,BBAAABa|c0b c0b c0b c0a c0a c1b c1b c1a c1a i0 m1 i0 i0 c0A i1 i1 m0 i1 c0A c0B i1 i1 m0 i1 i0 c0B c1a c1b i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBAbaa,BAbABaa|c0b c0b c0b c0a c0B c0A i1 c1a c1a c1B c1A i0 m1 i0 i1 c1A i0 m1 i0 i0 c0A c0b c1A i1 m0 i1 c0a c0B i1 c1a i1 m0 i1 i0 c1b c1b i0 m1 i0 c1A c1b i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c0b i1 c1B c1a i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c1b i0 m1 i0 c1a i1 m0 i1 c0a c0B i1 m0 i1 i1|std
+BBBAbaa,BABaaBa|c0b c0b c0b c0a c0B c0A i1 c1a c1B c1a c1a c1B c1A i1 m0 i1 c0A c0b i1 i1 m0 i1 c0a c0b c1a i1 m0 i1 c0b c1a i0 m1 i0 c0B c0a i1 i1 m0 i1 c0B i1 i0 m1 i0 i0 i1 m0 i1 c0A i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i1 i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBBAbaa,BBABaaa|i0 c0a c0a i1 c1a c1a i0 m1 i0 i0 c1a c1B i1 m0 i1 i0 c0A i1 i1 m0 i1 c0b i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0B c1A c1b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBBAbaa,BBBabbA|c0b c0b c0b c0a c0B i1 c1A c1b c1b c1a c1B i1 m0 i1 i0 c0B c0B c1B i1 m0 i1 i0 c0B c1b i0 m1 i0 c1A c1b i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c0b i1 c1B c1a i0 m1 i0 i0 c0A c0b c1B i0 m1 i0 c1b i0 m1 i0 c1a i1 m0 i1 c0a c0B i1 m0 i1 i1|std
+BBBAbAA,BABABAA|c0b c1b i1 m0 i1 i1 c1B c1A i0 m1 i0 c1A c1B c1A i1 m0 i1 i0 c0b c0A i0 m1 i0 c1b c1A i1 m0 i1 i0 m1 i0|std
+BBBAbAA,BBabAAA|c0b c0b c1b c1b i1 m0 i1 i0 c0b c1A i0 m1 i0 i0 c0a c1B i0 m1 i0 c0B c0A i1 c1a c1a i0 m1 i0 c1b i0 m1 i0 c1B c1A i0 m1 i0 i0 c1A c1B i0 m1 i0 c0B c1a i0 m1 i0 c0b i1 m0 i1 i0 c1b i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBBAbAA,BBABAAA|c0b c1b i1 m0 i1 i0 c0b i1 i0 m1 i0 i0 c0a c1B i0 m1 i0 c0b c1A c1A i0 m1 i0 c0a i1 c1B i0 m1 i0 i0 c0b c1A i0 m1 i0 c0B i1 m0 i1 c0b i1 c1A i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBBAbba,BBabABa|c0b i1 c1a c1B c1A c1b i1 m0 i1 c0a c0B i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBBAbba,BBABabA|i0 c0a c0b c0b c0A c0B c1b c1b c1a c1b c1A c1B i1 m0 i1 c0a c0b i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBAbba,BBABaBa|i0 c0a i1 c1a i0 m1 i0 c1B c1a i0 m1 i0 c0b c0b i1 c1b i0 m1 i0 i0 c0A c0B c1A i0 m1 i0 c0B i1 c1b i1 m0 i1 c0a c0B i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBBAbba,BBABABa|c0b c0b c0b c0a c1b c1b c1a i0 m1 i0 c1b c1a i0 m1 i0 c0B c0B i1 c1B i0 m1 i0 i0 c0A c0b c1A i0 m1 i0 c0b i1 c1B i1 m0 i1 c0a c0b i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBAbba,BBBaabA|c0b i1 c1A c1b i0 m1 i0 c0b i1 c1b c1b i0 m1 i0 c0B i1 c1b i1 m0 i1 c0a c0B i1 m0 i1 c0b i1 c1a c1B i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBBAbba,BBBabAA|c0b c0b c0b c0a c0B c0B i1 c1A c1A c1b c1a c1B c1B i0 m1 i0 i0 c0A c0b c1A i0 m1 i0 c0b i1 c1B i1 m0 i1 c0a c0b i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAAAAA,BBBAbbA|c0b c0b c1b c1b i0 m1 i0 i0 c0a i0 m1 i0 c0B i1 i1 m0 i1 c1b i1 m0 i1 c0b i0 m1 i0 i0 m1 i0|std
+BBBABaa,BBaabAA|c0b i1 c1A c1A c1b i0 m1 i0 i1 c1b i1 m0 i1 i0 c0b i1 i0 m1 i0 c1B i0 m1 i0 c0b i1 c1a i1 m0 i1 i0 c0B i0 m1 i0 c0a i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBABAA,BABaBAA|i0 c0A c0A c0B i1 c1A c1A c1B i0 m1 i0 i1 c1A c1B i0 m1 i0 c0b c0a i1 c1B i0 m1 i0 i1 c1A i1 m0 i1 c0A c0B i1 c1B c1A i1 m0 i1 c0A c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBABAA,BBaBAAA|i0 c0A i1 c1A i0 m1 i0 i0 i1 c1A i1 m0 i1 c0a c0b i1 i1 m0 i1 i0 c0b c1A c1B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBaBAbA,BBBABBA|i0 c0A i1 c1A i1 m0 i1 c0b i1 c1B c1B c1A i1 m0 i1 i0 c1a i1 m0 i1 i1 c1A c1B c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBAbABa,BBBABBA|i0 i1 c1A c1B c1B c1A c1B c1B i1 m0 i1 i0 c0a c0B c0A c1B i1 m0 i1 i0 c1A i1 m0 i1 c0B i1 c1a c1b i1 m0 i1 c0b i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBabABa,BBBBaba|c0b c0b c0A c0B c1b c1b c1b c1b c1A c1B i1 m0 i1 c0A c0b i1 m0 i1 i0 c0B c0a c1b i0 m1 i0 i1 c1A i1 m0 i1 c0A c0b i1 c1b c1A i1 m0 i1 c0A c0b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBaBabA,BBBBaba|i0 c0A c0b c1b i0 m1 i0 i0 c1a c1B i0 m1 i0 c0b i1 m0 i1 i0 c0B i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBaBaBa,BBBBaba|c0b c0b c0A c1b c1b c1b c1b c1A i0 m1 i0 i0 c0a c0B i0 m1 i0 i0 c1B c1A c1b i0 m1 i0 i0 c0b c0A i0 m1 i0 i1 c1b i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaBAba,BBBBaba|i0 c0a c0b i1 c1a c1b i1 m0 i1 c0a c0B i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i1 c1a i1 m0 i1 c0a c0B i1 c1B c1a i1 m0 i1 c0a c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBaBBaa,BBBBaba|i0 c0a c0a c0B c0B i1 c1a c1b c1a c1B c1B i0 m1 i0 i0 c0b c0b c0A i1 m0 i1 c0A i0 m1 i0 i0 c1B i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BBAbaBa,BBBBaba|c0b c0b c0a c0B i1 c1a c1b c1a c1B i0 m1 i0 i0 c1A c1b i0 m1 i0 c0B i1 m0 i1 i0 c0b i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBBBaba,BBBaabA|c0b c0b c0b c0b c0A c1b c1b c1b c1A i0 m1 i0 c1A i1 m0 i1 c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 i0 c0b c1a c1B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBBaaBa,BBBBaba|c0b c0b c0b c0A c1b c1b c1b c1b c1A i0 m1 i0 i1 c1A i1 m0 i1 c0A c0b i1 c1b c1A i1 m0 i1 c0A c0b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBBaBaa,BBBBaba|i0 c0a i1 c1a i0 m1 i0 i1 c1a i1 m0 i1 c0a c0B i1 c1B c1a i1 m0 i1 c0a c0B i1 m0 i1 c0A c0b i1 i1 m0 i1 c0b c0A c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i0|std
+BBBBaba,BBBAbaa|i0 c0a i1 c1a i0 m1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0a c0B i1 i1 m0 i1 i0 c0B c1A c1b i1 m0 i1 c0a c0B i1 i1 m0 i1 c0B c0a c0B i0 m1 i0 c0b i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1 i1|std
+BBBBaBa,BBabaBA|c0b c0b c0b c0b c0A c1b c1b c1A i0 m1 i0 c0b i1 c1b c1A c1b i0 m1 i0 i0 c0B c1A c1b i1 m0 i1 i0 c0B c0a c1b i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBBBaBa,BBabABa|c0b c0b c0b c0b c0A c0b c1b i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBBBaBa,BBaBAba|i0 c0a c0B i1 c1a c1b c1A c1B c1a c1B i1 m0 i1 i0 c0B c0a c1b i0 m1 i0 i0 c1b c1A c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1 i0|std
+BBBBaBa,BBABaba|c0b c0b c1b c1b i0 m1 i0 i0 c0b c0b c0A c1b i0 m1 i0 i0 c0b c1a c1B i1 m0 i1 i0 c0b c0A c1B i0 m1 i0 i0 c1B c1a c1B i1 m0 i1 i0 c0b i0 m1 i0 c0b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1|std
+BBabABA,BBBBAbA|c0b c0b c0A c0B i1 c1A c1b c1A c1B i0 m1 i0 i0 c1a c1b i0 m1 i0 c0B i1 m0 i1 i0 c0b i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBBAbA,BBAbaBA|c0b c0b c0b c0b c0a c0B c1b c1b c1a c1B i0 m1 i0 c1a c1b i0 m1 i0 c0b i1 c1B c1A i0 m1 i0 c1a i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 c0a c0b c0a c1B i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0b i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BBABabA,BBBBAbA|i0 c0A c0b i1 c1A c1b i1 m0 i1 c0A c0B i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i1 c1A i1 m0 i1 c0A c0B i1 c1B c1A i1 m0 i1 c0A c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBABAba,BBBBAbA|i0 c0a c0b c1b i0 m1 i0 i0 c1A c1B i0 m1 i0 c0b i1 m0 i1 c0B c0a i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBABABA,BBBBAbA|c0b c0b c0a c1b c1b c1b c1b c1a i0 m1 i0 i0 c0A c0B i0 m1 i0 i0 c1B c1a c1b i0 m1 i0 i0 c0b c0a i0 m1 i0 i1 c1b i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBABBAA,BBBBAbA|c0b c0b c0a c0b c0b c0a c1b c1b c1b c1b c1a i0 m1 i0 i0 c0a c0b c1B i1 m0 i1 c0B i0 m1 i0 i1 c1B i1 m0 i1 i0 m1 i0 i1 m0 i1|std
+BBBBAbA,BBBabAA|i0 c0A i1 c1A i0 m1 i0 c1A i1 m0 i1 c0b i1 m0 i1 c0A c0B i1 i1 m0 i1 i0 c0B c1a c1b i1 m0 i1 c0A c0B i1 i1 m0 i1 c0B c0A c0B i0 m1 i0 i0 c0A c0B i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBBAbA,BBBAAba|c0b c0b c0b c0b c0a c1b c1b c1b c1a i0 m1 i0 c1a i1 m0 i1 c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 i0 c0b c1A c1B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBBAbA,BBBAABA|c0b c0b c0b c0b c0a c1b c1b c1b c1a i0 m1 i0 c1a i1 m0 i1 i0 c1A i1 m0 i1 c0b i1 m0 i1 c0a c0b c0a c1B i1 m0 i1 c0A c0B i1 i1 m0 i1 c0a c0b i0 m1 i0 c0B c0A i1 i1 m0 i1 i0 m1 i0 c0a i0 m1 i0 i1 m0 i1|std
+BBBABAA,BBBBAbA|i0 c0A i1 c1A i0 m1 i0 i1 c1A i1 m0 i1 c0A c0B i1 c1B c1A i1 m0 i1 c0A c0B i1 m0 i1 c0a c0b i1 i1 m0 i1 c0b c0a c0b i0 m1 i0 c0B i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BBBBABA,BBaBAbA|c0b c0b c1b c1b i0 m1 i0 i0 c0b c0b c0a c1b i0 m1 i0 i0 c0b c1A c1B i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBBABA,BBAbaBA|c0b c0b c0b c0b c0a c0b c1b i1 m0 i1 i0 c0b c0a c1B i0 m1 i0 i0 c1B c1A c1B i1 m0 i1 c0b i1 i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBBABA,BBAbABa|c0b c0b c0b c0b c0a c1b c1b c1a i0 m1 i0 c0b i1 c1b c1a c1b i0 m1 i0 i0 c0B c1a c1b i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBBABA,BBABabA|i0 c0A c0B i1 c1A c1b c1a c1B c1A c1B i1 m0 i1 i0 c0B c0A c1b i0 m1 i0 i0 c1b c1a c1b i1 m0 i1 i0 c0B i0 m1 i0 c0B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABaaa,BBBBBaa|i0 c0a c0a i1 c1a c1a i1 m0 i1 i1 c1B i1 m0 i1 i0 c0a i0 m1 i0 c0a i0 m1 i0 c0A i1 m0 i1 i1 m0 i1 i1|std
+BAAABaa,BBBBBAA|c0b c0a c0a i1 m0 i1 i1 c1b i1 m0 i1 i0 c0a i0 m1 i0 c0a i0 m1 i0 c0A i1 m0 i1 i1 m0 i1|std
+BBBBBBa,BAAbaBa|c0b c1b i0 m1 i0 i0 c0B i0 m1 i0 i0 i1 c1a i0 m1 i0 i0 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBBBa,BAbAbaa|i0 c0a c0B c1b c1a c1B c1a c1B i0 m1 i0 i0 c0b i0 m1 i0 i0 i1 c1A i0 m1 i0 i0 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBBBBa,BBaabAA|i0 c0a c0B c0B i1 i0 m1 i0 i0 c0b c0b i0 m1 i0 i0 i1 c1A i0 m1 i0 i0 c1b i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1|std
+BBBBBBa,BBAAbaa|c0b c0b c1b c1b i0 m1 i0 i0 c0B c0B i0 m1 i0 i0 i1 c1a i0 m1 i0 i0 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i0|std
+BBBBBBA,BABaabA|c0b c1b c1a c1b i0 m1 i0 i0 c0B i0 m1 i0 i0 i1 c1A i0 m1 i0 i0 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBBBA,BABAbaa|c0b c1b c1a c1b i0 m1 i0 i0 c0b i1 m0 i1 c0a c0B c1a i0 m1 i0 c0B i0 m1 i0 c0b c0A i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BBBBBBA,BBaabAA|c0b c0b c1b c1b i0 m1 i0 i0 c0B c0B i0 m1 i0 i0 i1 c1A i0 m1 i0 i0 c1B i0 m1 i0 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1 i1 m0 i1|std
+BBBBBBA,BBAAbaa|c1b c1b c1a i0 m1 i0 i0 c0b c0b i1 m0 i1 c0a c0B c1a i0 m1 i0 c0B i0 m1 i0 c0b c0A i1 m0 i1 i0 c0a i0 m1 i0 i1 m0 i1 i1 m0 i1|std

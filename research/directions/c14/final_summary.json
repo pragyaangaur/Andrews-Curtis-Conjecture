@@ -1,0 +1,35 @@
+{
+ "tally": {
+  "ac-trivial": 53840,
+  "nontrivial-quotient-A5": 34,
+  "ak3-equivalent": 26,
+  "resisting-exhausted-cap17": 34,
+  "resisting-budget-cap19": 22,
+  "resisting-exhausted-cap18": 40,
+  "nontrivial-quotient-PSL27": 4,
+  "resisting-exhausted-cap19": 68
+ },
+ "by_length": {
+  "12": {
+   "ac-trivial": 4392,
+   "nontrivial-quotient-A5": 4
+  },
+  "13": {
+   "ac-trivial": 18076,
+   "nontrivial-quotient-A5": 20,
+   "ak3-equivalent": 6,
+   "resisting-exhausted-cap17": 8,
+   "resisting-budget-cap19": 6
+  },
+  "14": {
+   "ac-trivial": 31372,
+   "nontrivial-quotient-A5": 10,
+   "resisting-exhausted-cap18": 40,
+   "nontrivial-quotient-PSL27": 4,
+   "ak3-equivalent": 20,
+   "resisting-exhausted-cap19": 68,
+   "resisting-exhausted-cap17": 26,
+   "resisting-budget-cap19": 16
+  }
+ }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "name": "bottleneck_ak_f3_cert.json",
+    "path": "certs/bottleneck_ak_f3_cert.json",
+    "sha": "a8d2e8d8f8b4353111328ec171fa59cd5c5da2cc",
+    "size": 1379,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/bottleneck_ak_f3_cert.json?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/bottleneck_ak_f3_cert.json",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/a8d2e8d8f8b4353111328ec171fa59cd5c5da2cc",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/bottleneck_ak_f3_cert.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/bottleneck_ak_f3_cert.json?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/a8d2e8d8f8b4353111328ec171fa59cd5c5da2cc",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/bottleneck_ak_f3_cert.json"
+    }
+  },
+  {
+    "name": "cert_idx0_equiv_mirror.json",
+    "path": "certs/cert_idx0_equiv_mirror.json",
+    "sha": "5622835b9ff0ab83199cfd64f4ba61b1ee15452d",
+    "size": 1711,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_idx0_equiv_mirror.json?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_idx0_equiv_mirror.json",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/5622835b9ff0ab83199cfd64f4ba61b1ee15452d",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/cert_idx0_equiv_mirror.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_idx0_equiv_mirror.json?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/5622835b9ff0ab83199cfd64f4ba61b1ee15452d",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_idx0_equiv_mirror.json"
+    }
+  },
+  {
+    "name": "cert_ms3_yinvx2yinv_equiv_ak3.json",
+    "path": "certs/cert_ms3_yinvx2yinv_equiv_ak3.json",
+    "sha": "b50bed26eb4048970f7f217e3e3bb617ba8fffb0",
+    "size": 471,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_ms3_yinvx2yinv_equiv_ak3.json?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_ms3_yinvx2yinv_equiv_ak3.json",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/b50bed26eb4048970f7f217e3e3bb617ba8fffb0",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/cert_ms3_yinvx2yinv_equiv_ak3.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_ms3_yinvx2yinv_equiv_ak3.json?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/b50bed26eb4048970f7f217e3e3bb617ba8fffb0",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_ms3_yinvx2yinv_equiv_ak3.json"
+    }
+  },
+  {
+    "name": "cert_ms3_yx2y_equiv_ak3.json",
+    "path": "certs/cert_ms3_yx2y_equiv_ak3.json",
+    "sha": "1b30cb71d760e170e768a51dc175351712f4e658",
+    "size": 1475,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_ms3_yx2y_equiv_ak3.json?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_ms3_yx2y_equiv_ak3.json",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/1b30cb71d760e170e768a51dc175351712f4e658",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/cert_ms3_yx2y_equiv_ak3.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_ms3_yx2y_equiv_ak3.json?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/1b30cb71d760e170e768a51dc175351712f4e658",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_ms3_yx2y_equiv_ak3.json"
+    }
+  },
+  {
+    "name": "cert_reduce_32_seed1.json.gz",
+    "path": "certs/cert_reduce_32_seed1.json.gz",
+    "sha": "c920650e965f9bcd160263314e64231b9e921fd7",
+    "size": 2772793,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_reduce_32_seed1.json.gz?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_reduce_32_seed1.json.gz",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/c920650e965f9bcd160263314e64231b9e921fd7",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/cert_reduce_32_seed1.json.gz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_reduce_32_seed1.json.gz?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/c920650e965f9bcd160263314e64231b9e921fd7",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_reduce_32_seed1.json.gz"
+    }
+  },
+  {
+    "name": "cert_sym_equiv_orphan1.json",
+    "path": "certs/cert_sym_equiv_orphan1.json",
+    "sha": "9c381b36abf2d5aa357270bc57e61f8793146cd4",
+    "size": 880,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_sym_equiv_orphan1.json?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_sym_equiv_orphan1.json",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/9c381b36abf2d5aa357270bc57e61f8793146cd4",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/cert_sym_equiv_orphan1.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_sym_equiv_orphan1.json?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/9c381b36abf2d5aa357270bc57e61f8793146cd4",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_sym_equiv_orphan1.json"
+    }
+  },
+  {
+    "name": "cert_twohump_u066.json",
+    "path": "certs/cert_twohump_u066.json",
+    "sha": "74c88a5b8b06de1070bdb8aa105d7ec0b39e651a",
+    "size": 2095,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_twohump_u066.json?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_twohump_u066.json",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/74c88a5b8b06de1070bdb8aa105d7ec0b39e651a",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/cert_twohump_u066.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_twohump_u066.json?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/74c88a5b8b06de1070bdb8aa105d7ec0b39e651a",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_twohump_u066.json"
+    }
+  },
+  {
+    "name": "cert_twohump_u102.json",
+    "path": "certs/cert_twohump_u102.json",
+    "sha": "2c1c7fdaf8b1e3147b8b6c4f74d2fe25a46e426b",
+    "size": 1790,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_twohump_u102.json?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_twohump_u102.json",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/2c1c7fdaf8b1e3147b8b6c4f74d2fe25a46e426b",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/cert_twohump_u102.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_twohump_u102.json?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/2c1c7fdaf8b1e3147b8b6c4f74d2fe25a46e426b",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_twohump_u102.json"
+    }
+  },
+  {
+    "name": "cert_u066.json",
+    "path": "certs/cert_u066.json",
+    "sha": "121172682abefc372c04f0681badd282813555f7",
+    "size": 2930,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_u066.json?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_u066.json",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/121172682abefc372c04f0681badd282813555f7",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/cert_u066.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_u066.json?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/121172682abefc372c04f0681badd282813555f7",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_u066.json"
+    }
+  },
+  {
+    "name": "cert_u102.json",
+    "path": "certs/cert_u102.json",
+    "sha": "2b12e9530e2cdad7a7cf35bd8dcd326baaa955c1",
+    "size": 3122,
+    "url": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_u102.json?ref=main",
+    "html_url": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_u102.json",
+    "git_url": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/2b12e9530e2cdad7a7cf35bd8dcd326baaa955c1",
+    "download_url": "https://raw.githubusercontent.com/joe-carr-data/ac-certificates/main/certs/cert_u102.json",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/joe-carr-data/ac-certificates/contents/certs/cert_u102.json?ref=main",
+      "git": "https://api.github.com/repos/joe-carr-data/ac-certificates/git/blobs/2b12e9530e2cdad7a7cf35bd8dcd326baaa955c1",
+      "html": "https://github.com/joe-carr-data/ac-certificates/blob/main/certs/cert_u102.json"
+    }
+  }
+]

@@ -1,0 +1,1 @@
+A6 order 360 maxnorm 1 maxsub 52 autgens 4

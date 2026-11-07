@@ -1,0 +1,410 @@
+{
+ "group": "A5",
+ "m": 60,
+ "k": 2,
+ "mode": "generate",
+ "moveset": "prg",
+ "nvertices": 2280,
+ "norbits": 12,
+ "ncomponents": 44,
+ "components": [
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 54,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  },
+  {
+   "nvertices": 50,
+   "norbits": 6,
+   "diameter": 6,
+   "ecc_profile": [
+    5,
+    6
+   ]
+  }
+ ],
+ "elapsed_s": 0.25922083854675293,
+ "max_component_diameter": 6
+}

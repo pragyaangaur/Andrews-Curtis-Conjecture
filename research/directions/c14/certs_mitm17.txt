@@ -1,0 +1,16 @@
+BAABa,BBBabbA|c1A m0 i0 c0b c0a m0 c0A c0b i1 c1b i0 m1 i0 i1 c1b c1a i0 m1 i0 c0a i1 i0 m1 i0 c1B i0 m1 i0 i0 c0a c1B i1 m0 i1 c0A i1 c1b i0 m1 i0 i0 m1 i0 i1 m0 i1|std
+BAABa,BBBAbba|i0 c0B c0B m0 i0 c0B m0 c0a c1a c1b i0 m1 i0 i1 c1B c1A i0 m1 i0 c0A i1 i0 m1 i0 c1b i0 m1 i0 i0 c0A c1b i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 c0a i1 m0 i1|std
+BAABa,BBBABBA|c1A m0 i0 c0B c0B c0A m0 c0B c0B i1 i0 m1 i0 c0a c1B i0 m1 i0 i1 m0 i1 i1 m0 i1|std
+BAABa,BBBBABA|i0 c1A c1A m1 c0b m0 c0B i1 c1a m1 i0 c0b c1A c1b i1 m0 i1 i0 c0b c0a i1 m0 i1 i0 c1a i1 m0 i1 c0B i0 m1 i0 i0 c0A c0B i0 m1 i0 c1B i0 m1 i0 c1a i1 m0 i1 c0a c0b|std
+BABaa,BBBabbA|i0 c0B c0a i1 m0 c0b i1 m0 c0A i1 c1b i0 m1 i0 c0b i1 c1a c1B i0 m1 i0 i1 c1B i0 m1 i0 c1a c1B i1 m0 i1 c0B c0a i1 i0 m1 i0 c0A i1 i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BABaa,BBBaBBa|i0 m0 i0 c0a c0B c1b m1 i0 c1b c1b i1 m0 i1 i1 m0 i1 c0b i1 i0 m1 i0 i1 m0 i1 i0|std
+BABaa,BBBAbba|i0 c0a c1a m0 i0 c0a c1b m0 i0 c0b i1 i0 m1 i0 i1 c1b c1A i0 m1 i0 c0A i1 i0 m1 i0 c1B i0 m1 i0 i0 c0A c1B i1 m0 i1 i0 c0a i0 m1 i0 i0 m1 i0 c0a i1 m0 i1 i1|std
+BABaa,BBBBaBa|c0a i1 m1 c1a c1B m0 c0A c0b i1 m1 i0 c0B c1A c1B i1 m0 i1 i0 c0B c0a i1 m0 i1 i0 c1a i1 m0 i1 c0b i1 m0 i1 c0b i0 m1 i0 c0A i1 i0 m1 i0 c1B i1 m0 i1 i0 m1 i0 i1 m0 i1 i0|std
+BBaba,BaaBaaa|i1 m0 i0 c0b c0A c1a m1 i1 m0 i1 i1 c1a i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0 i1|std
+BBaba,BaBaaaa|i0 c0b m1 c1b c1A m0 c0B c0a i1 m1 i0 c0A c1B c1A i1 m0 i1 i0 c0A c0b i1 m0 i1 i0 c1b i1 m0 i1 c0a i0 m1 i0 i0 c0B c0a i1 m0 i1 i0 c0a i0 m1 i0 c1a i1 m0 i1 i0 m1 i0 i0|std
+BBaba,BAAAbaa|i1 c1a m0 i0 c0b c0A m0 c0a c0B c0A i1 i0 m1 i0 i1 c1A c1b i0 m1 i0 c0b i1 i0 m1 i0 c1a i0 m1 i0 c1a i1 m0 i1 i0 c1B i1 m0 i1 c0A i0 m1 i0 i1 m0 i1 i0 m1 i0 i1|std
+BBaba,BAAbaaa|c0a m0 c0A i1 m0 c0b c0b c0a i1 c1b c1a i0 m1 i0 i1 c1a c1B i0 m1 i0 c0B i1 i0 m1 i0 c1A i0 m1 i0 c1a c1B i1 m0 i1 i0 c1a i1 m0 i1 i0 m1 i0 i1 m0 i1 i0 m1 i0 i0|std
+BBAbA,BAAAbaa|c0A m0 i0 c0a c0b m0 c0B c0a i1 c1a i0 m1 i0 i1 c1a c1b i0 m1 i0 c0b i1 i0 m1 i0 c1A i1 m0 i1 i1 c1B c1A i1 m0 i1 c0A i1 m0 i1 c0b i0 m1 i0 c1b c1a|std
+BBAbA,BAAbaaa|i0 c0A c0A c0A i1 m0 i0 c0A m0 c0b c1b c1a i0 m1 i0 i1 c1A c1B i0 m1 i0 c0B i1 i0 m1 i0 c1a i0 m1 i0 c1a i1 m0 i1 i0 c1b i1 m0 i1 c0A i0 m1 i0 i1 m0 i1 i0 m1 i0|std
+BBAbA,BAABAAA|i1 m0 i0 c0b c0a c1A m1 c0A c1A i1 m0 i1 i0 c1b i1 m0 i1 i1 m0 i1 i0 m1 i0 i0 m1 i0|std
+BBAbA,BABAAAA|i0 c0b m1 c1b c1a m0 c0B c0A i1 m1 i0 c0a c1B c1a i1 m0 i1 i0 c0a c0b i1 m0 i1 i0 c1b i1 m0 i1 c0A i0 m1 i0 i0 c0B c0A i1 m0 i1 i0 c0A i0 m1 i0 c1A i1 m0 i1 i0 m1 i0|std

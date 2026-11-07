@@ -1,0 +1,1 @@
+PSL2_11 order 660 maxnorm 1 maxsub 89 autgens 3

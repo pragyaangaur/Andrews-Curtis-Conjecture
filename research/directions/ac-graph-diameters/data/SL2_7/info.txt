@@ -1,0 +1,1 @@
+SL2_7 order 336 maxnorm 1 maxsub 22 autgens 3

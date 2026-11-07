@@ -1,0 +1,1 @@
+SL2_5 order 120 maxnorm 1 maxsub 21 autgens 3

@@ -1,0 +1,1 @@
+PSL2_7 order 168 maxnorm 1 maxsub 22 autgens 3
