@@ -1,0 +1,42 @@
+PASS word reduction is idempotent, inverse laws hold, exponent sums are additive | 500 seeded random words, ranks 1..4
+PASS conjugation preserves exponent sums | 200 seeded random triples
+PASS AC moves act on the exponent-sum matrix by left multiplication by a signed elementary integer matrix | 7200 seeded move applications, ranks 2,3,4
+PASS Smith normal form and |det| of the exponent-sum matrix are preserved by AC moves | seeded random walks, ranks 2,3,4
+     presentation                       exponent-sum matrix      det    Smith normal form
+     standard rank 2                    ((1, 0), (0, 1))         1      ((1, 0), (0, 1))
+     standard rank 3                    ((1, 0, 0), (0, 1, 0), (0, 0, 1)) 1      ((1, 0, 0), (0, 1, 0), (0, 0, 1))
+     AK(1)                              ((1, -1), (1, -2))       -1     ((1, 0), (0, 1))
+     AK(2)                              ((1, -1), (2, -3))       -1     ((1, 0), (0, 1))
+     AK(3)                              ((1, -1), (3, -4))       -1     ((1, 0), (0, 1))
+     AK(4)                              ((1, -1), (4, -5))       -1     ((1, 0), (0, 1))
+     AK(5)                              ((1, -1), (5, -6))       -1     ((1, 0), (0, 1))
+     Miller-Schupp n=1 w=[a,b]          ((0, -1), (1, 0))        1      ((1, 0), (0, 1))
+     Miller-Schupp n=2 w=ab^2a^-1b^-2   ((0, -1), (1, 0))        1      ((1, 0), (0, 1))
+     Miller-Schupp n=3 w=[a,b]^2        ((0, -1), (1, 0))        1      ((1, 0), (0, 1))
+     length-14 example                  ((0, -1), (-1, 0))       -1     ((1, 0), (0, 1))
+     Wicks length-27 example            ((2, 1), (3, 1))         -1     ((1, 0), (0, 1))
+PASS every balanced trivial-group presentation in the battery has exponent-sum matrix with Smith normal form I and |det| = 1 | 12 presentations
+PASS the exponent-sum matrix has full rank modulo 2, 3, 5 and 7 for every presentation in the battery | so the mod-p relation matrix carries no information
+PASS the same invariant separates non-trivial groups from the standard presentation | |det| = 4 for <x,y | x^2, y^2> and |det| = 6 for <x,y | x^2, y^3>
+PASS the Fox derivative matrix evaluated at the trivial representation is the exponent-sum matrix | checked on all 12 presentations in the battery
+PASS the Smith normal form of the exponent-sum matrix computes the abelian invariant factors | checked on <x,y|x^2,y^2>, <x,y|x^2,y^3>, <x,y|x^2y^-2,y^4>, <x,y|x^3,y^3>
+PASS Fox calculus reproduces the Alexander polynomial of two torus knot groups | trefoil -> t^2-t+1, T(2,5) -> t^4-t^3+t^2-t+1
+PASS at the trivial map to Z the Fox matrix of every balanced trivial-group presentation has gcd 1 | so the Alexander module of the presentation is 0, the value attached to the trivial group
+PASS AC moves carry explicit word certificates that the normal closure of the relator tuple is unchanged | 300 seeded random tuples in F_3: r_i = (r_i r_j) r_j^-1, conjugation is invertible, inversion is invertible
+PASS Evans' 2x2 matrix over Z[X^+-1, Y^+-1] has determinant 1 | Y^2*det - Y^2 is the zero polynomial, so it lies in GL_2; its non-membership in GE_2 is quoted from the literature
+     Hom(F_2,C_2) killing the standard relators: 1 of 4 pairs
+     Hom(F_2,C_2) killing the AK(3) relators: 1 of 4 pairs
+     Hom(F_2,C_6) killing the standard relators: 1 of 36 pairs
+     Hom(F_2,C_6) killing the AK(3) relators: 1 of 36 pairs
+     Hom(F_2,S_3) killing the standard relators: 1 of 36 pairs
+     Hom(F_2,S_3) killing the AK(3) relators: 1 of 36 pairs
+     Hom(F_2,S_4) killing the standard relators: 1 of 576 pairs
+     Hom(F_2,S_4) killing the AK(3) relators: 1 of 576 pairs
+     Hom(F_2,A_5) killing the standard relators: 1 of 3600 pairs
+     Hom(F_2,A_5) killing the AK(3) relators: 1 of 3600 pairs
+     Hom(F_2,D_8) killing the standard relators: 1 of 64 pairs
+     Hom(F_2,D_8) killing the AK(3) relators: 1 of 64 pairs
+PASS the standard presentation, AK(3) and a Miller-Schupp presentation have exactly one map to each of C_2, C_6, S_3, S_4, A_5 and D_8 | the trivial map only, so counts of maps to finite groups cannot separate them
+PASS conjugating x by xy in (x,y) gives a tuple whose relators generate a proper subgroup | image of the tuple in the infinite dihedral group lies in {n |-> +-n + 3k}, which has index 3 and does not contain the translation t
+
+ALL 15 CHECKS PASSED

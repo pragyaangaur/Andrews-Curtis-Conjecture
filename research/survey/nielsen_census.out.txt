@@ -1,0 +1,404 @@
+Exact census of Andrews-Curtis graphs Delta_k(G) of small finite groups
+deterministic, standard library only, no randomness
+
+group A5, order 60
+  group axioms hold: PASS
+  Ab(G) = A5/[G,G], order 1; minimal number of normal generators d_G(G) = 1
+  k = 2:
+    normally generating k-tuples: 3599
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [3599]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 66 class(es), sizes [8, 3, 8, 8, 8, 3, 3, 3, 3, 3, 8, 24, 24, 24, 8, 24, 24, 8, 24, 3, 8, 8, 3, 3, 8, 3, 3, 3, 3, 3, 3, 96, 18, 1080, 96, 600, 600, 6, 18, 30, 30, 18, 30, 30, 96, 18, 96, 18, 96, 18, 30, 30, 18, 30, 18, 30, 30, 18, 30, 30, 18, 30, 6, 6, 6, 6]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [1]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 2280
+      Nielsen moves (N1)-(N3), generating vertices: 3 class(es), sizes [1080, 600, 600]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 3 class(es), sizes [1080, 600, 600]
+      |Aut(G)| = 120; classes modulo Aut(G) (Dunwoody T_2-systems): 2
+      all AC moves, generating vertices: 1 component(s), sizes [2280]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [1]
+      Nielsen class representatives of generating tuples: [(345),(123)]; [(345),(13)(24)]; [(345),(13)(25)]
+  k = 3:
+    normally generating k-tuples: 215999
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [215999]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 58 class(es), sizes [26, 7, 26, 26, 26, 7, 7, 7, 7, 7, 26, 124, 124, 124, 26, 124, 124, 26, 124, 7, 26, 26, 7, 7, 26, 7, 7, 7, 7, 7, 7, 1560, 168, 200160, 1560, 42, 168, 840, 840, 168, 1560, 168, 1560, 168, 1560, 168, 840, 840, 168, 168, 840, 168, 840, 168, 42, 42, 42, 42]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [1]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 200160
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [200160]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [200160]
+      |Aut(G)| = 120; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [200160]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [1]
+      Nielsen class representatives of generating tuples: [e,(345),(123)]
+
+group A4, order 12
+  group axioms hold: PASS
+  Ab(G) = A4/[G,G], order 3; minimal number of normal generators d_G(G) = 1
+  k = 2:
+    normally generating k-tuples: 128
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [128]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 5 class(es), sizes [8, 8, 8, 8, 96]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [8]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 96
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [96]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 1 class(es), sizes [96]
+      |Aut(G)| = 24; classes modulo Aut(G) (Dunwoody T_2-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [96]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [8]
+      Nielsen class representatives of generating tuples: [(234),(12)(34)]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+  k = 3:
+    normally generating k-tuples: 1664
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [1664]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 5 class(es), sizes [26, 26, 26, 26, 1560]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [26]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 1560
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [1560]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [1560]
+      |Aut(G)| = 24; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [1560]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [26]
+      Nielsen class representatives of generating tuples: [e,(234),(12)(34)]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+
+group S3, order 6
+  group axioms hold: PASS
+  Ab(G) = S3/[G,G], order 2; minimal number of normal generators d_G(G) = 1
+  k = 2:
+    normally generating k-tuples: 27
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [27]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 4 class(es), sizes [3, 3, 3, 18]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [3]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 18
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [18]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 1 class(es), sizes [18]
+      |Aut(G)| = 6; classes modulo Aut(G) (Dunwoody T_2-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [18]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [3]
+      Nielsen class representatives of generating tuples: [(23),(12)]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+  k = 3:
+    normally generating k-tuples: 189
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [189]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 4 class(es), sizes [7, 7, 7, 168]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [7]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 168
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [168]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [168]
+      |Aut(G)| = 6; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [168]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [7]
+      Nielsen class representatives of generating tuples: [e,(23),(12)]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+
+group D8, order 8
+  group axioms hold: PASS
+  Ab(G) = D8/[G,G], order 4; minimal number of normal generators d_G(G) = 2
+  k = 2:
+    normally generating k-tuples: 24
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [24]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [24]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [6]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 24
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [24]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 1 class(es), sizes [24]
+      |Aut(G)| = 8; classes modulo Aut(G) (Dunwoody T_2-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [24]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [6]
+      Nielsen class representatives of generating tuples: [(24),(12)(34)]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+  k = 3:
+    normally generating k-tuples: 336
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [336]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [336]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [42]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 336
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [336]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [336]
+      |Aut(G)| = 8; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [336]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [42]
+      Nielsen class representatives of generating tuples: [e,(24),(12)(34)]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+
+group Q8, order 8
+  group axioms hold: PASS
+  Ab(G) = Q8/[G,G], order 4; minimal number of normal generators d_G(G) = 2
+  k = 2:
+    normally generating k-tuples: 24
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [24]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [24]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [6]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 24
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [24]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 1 class(es), sizes [24]
+      |Aut(G)| = 24; classes modulo Aut(G) (Dunwoody T_2-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [24]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [6]
+      Nielsen class representatives of generating tuples: [10,01]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+  k = 3:
+    normally generating k-tuples: 336
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [336]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [336]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [42]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 336
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [336]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [336]
+      |Aut(G)| = 24; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [336]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [42]
+      Nielsen class representatives of generating tuples: [00,10,01]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+
+group Heis5, order 125
+  group axioms hold: PASS
+  Ab(G) = Heis5/[G,G], order 25; minimal number of normal generators d_G(G) = 2
+  k = 2:
+    normally generating k-tuples: 12000
+    Delta_k(G) (B-L-M: normally generating, all moves): 2 component(s), sizes [6000, 6000]
+      conjugation by a generating set of size 2 instead of all of G: 2 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 2 class(es), sizes [6000, 6000]
+      Delta_k(Ab G) on normally generating vertices: 2 component(s), sizes [240, 240]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 12000
+      Nielsen moves (N1)-(N3), generating vertices: 2 class(es), sizes [6000, 6000]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 2 class(es), sizes [6000, 6000]
+      |Aut(G)| = 12000; classes modulo Aut(G) (Dunwoody T_2-systems): 1
+      all AC moves, generating vertices: 2 component(s), sizes [6000, 6000]
+      Nielsen moves only, in Ab G, generating vertices: 2 class(es), sizes [240, 240]
+      Nielsen class representatives of generating tuples: [100,010]; [100,020]
+
+group S5, order 120
+  group axioms hold: PASS
+  Ab(G) = S5/[G,G], order 2; minimal number of normal generators d_G(G) = 1
+  k = 2:
+    normally generating k-tuples: 10800
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [10800]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 99 class(es), sizes [3, 3, 3, 3, 12, 12, 3, 12, 3, 3, 24, 24, 12, 12, 12, 12, 24, 12, 12, 24, 3, 12, 12, 24, 12, 24, 12, 24, 3, 12, 24, 24, 12, 3, 24, 18, 6, 216, 18, 24, 6, 36, 2160, 216, 2880, 6, 216, 36, 18, 24, 36, 24, 18, 24, 6, 6, 216, 18, 24, 24, 36, 6, 36, 1800, 18, 24, 6, 6, 216, 18, 24, 36, 24, 6, 36, 18, 36, 24, 24, 6, 6, 240, 240, 240, 240, 240, 240, 18, 24, 24, 36, 6, 6, 18, 24, 36, 24, 6, 6]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [3]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 6840
+      Nielsen moves (N1)-(N3), generating vertices: 3 class(es), sizes [2160, 2880, 1800]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 3 class(es), sizes [2160, 2880, 1800]
+      |Aut(G)| = 120; classes modulo Aut(G) (Dunwoody T_2-systems): 3
+      all AC moves, generating vertices: 1 component(s), sizes [6840]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [3]
+      Nielsen class representatives of generating tuples: [(45),(1234)]; [(45),(124)(35)]; [(345),(13)(245)]
+
+group C2xC2, order 4
+  group axioms hold: PASS
+  Ab(G) = C2xC2/[G,G], order 4; minimal number of normal generators d_G(G) = 2
+  k = 2:
+    normally generating k-tuples: 6
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [6]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [6]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [6]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 6
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [6]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 1 class(es), sizes [6]
+      |Aut(G)| = 6; classes modulo Aut(G) (Dunwoody T_2-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [6]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [6]
+      Nielsen class representatives of generating tuples: [01,10]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+  k = 3:
+    normally generating k-tuples: 42
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [42]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [42]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [42]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 42
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [42]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [42]
+      |Aut(G)| = 6; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [42]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [42]
+      Nielsen class representatives of generating tuples: [00,01,10]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+
+group C4xC4, order 16
+  group axioms hold: PASS
+  Ab(G) = C4xC4/[G,G], order 16; minimal number of normal generators d_G(G) = 2
+  k = 2:
+    normally generating k-tuples: 96
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [96]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [96]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [96]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 96
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [96]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 1 class(es), sizes [96]
+      |Aut(G)| = 96; classes modulo Aut(G) (Dunwoody T_2-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [96]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [96]
+      Nielsen class representatives of generating tuples: [01,10]
+  k = 3:
+    normally generating k-tuples: 2688
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [2688]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [2688]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [2688]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 2688
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [2688]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [2688]
+      |Aut(G)| = 96; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [2688]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [2688]
+      Nielsen class representatives of generating tuples: [00,01,10]
+
+group C2xC4, order 8
+  group axioms hold: PASS
+  Ab(G) = C2xC4/[G,G], order 8; minimal number of normal generators d_G(G) = 2
+  k = 2:
+    normally generating k-tuples: 24
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [24]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [24]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [24]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 24
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [24]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 1 class(es), sizes [24]
+      |Aut(G)| = 8; classes modulo Aut(G) (Dunwoody T_2-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [24]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [24]
+      Nielsen class representatives of generating tuples: [01,10]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+  k = 3:
+    normally generating k-tuples: 336
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [336]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [336]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [336]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 336
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [336]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [336]
+      |Aut(G)| = 8; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [336]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [336]
+      Nielsen class representatives of generating tuples: [00,01,10]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+
+group C3xC3, order 9
+  group axioms hold: PASS
+  Ab(G) = C3xC3/[G,G], order 9; minimal number of normal generators d_G(G) = 2
+  k = 2:
+    normally generating k-tuples: 48
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [48]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [48]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [48]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 48
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [48]
+      with coordinate permutations too (Aut(F_2)-orbits, McCullough-Wanderley): 1 class(es), sizes [48]
+      |Aut(G)| = 48; classes modulo Aut(G) (Dunwoody T_2-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [48]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [48]
+      Nielsen class representatives of generating tuples: [01,10]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+  k = 3:
+    normally generating k-tuples: 624
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [624]
+      conjugation by a generating set of size 2 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [624]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [624]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 624
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [624]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [624]
+      |Aut(G)| = 48; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [624]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [624]
+      Nielsen class representatives of generating tuples: [00,01,10]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+
+group C2xC2xC2, order 8
+  group axioms hold: PASS
+  Ab(G) = C2xC2xC2/[G,G], order 8; minimal number of normal generators d_G(G) = 3
+  k = 3:
+    normally generating k-tuples: 168
+    Delta_k(G) (B-L-M: normally generating, all moves): 1 component(s), sizes [168]
+      conjugation by a generating set of size 3 instead of all of G: 1 component(s): PASS same partition
+      Nielsen moves only, normally generating vertices: 1 class(es), sizes [168]
+      Delta_k(Ab G) on normally generating vertices: 1 component(s), sizes [168]
+      B-L-M Theorem 1.1 (components = preimages of abelian components): PASS
+    generating k-tuples: 168
+      Nielsen moves (N1)-(N3), generating vertices: 1 class(es), sizes [168]
+      with coordinate permutations too (Aut(F_3)-orbits, McCullough-Wanderley): 1 class(es), sizes [168]
+      |Aut(G)| = 168; classes modulo Aut(G) (Dunwoody T_3-systems): 1
+      all AC moves, generating vertices: 1 component(s), sizes [168]
+      Nielsen moves only, in Ab G, generating vertices: 1 class(es), sizes [168]
+      Nielsen class representatives of generating tuples: [001,010,100]
+      every AC move preserves normal generation: PASS; every Nielsen move preserves generation: PASS
+
+Diaconis-Graham check.  For A = Z/m_1 x ... x Z/m_n with
+m_n | ... | m_1 the transvection graph on generating n-tuples has
+phi(m_n) components (Colloq. Math. 80 (1999) 31-38, Theorem).
+  A = Z/2,Z/2: generating 2-tuples 6, transvection components 1, phi(2) = 1: PASS
+        with inversion of coordinates allowed: 1 component(s) [6]
+  A = Z/4,Z/4: generating 2-tuples 96, transvection components 2, phi(4) = 2: PASS
+        with inversion of coordinates allowed: 1 component(s) [96]
+  A = Z/2,Z/4: generating 2-tuples 24, transvection components 1, phi(2) = 1: PASS
+        with inversion of coordinates allowed: 1 component(s) [24]
+  A = Z/3,Z/3: generating 2-tuples 48, transvection components 2, phi(3) = 2: PASS
+        with inversion of coordinates allowed: 1 component(s) [48]
+  A = Z/5,Z/5: generating 2-tuples 480, transvection components 4, phi(5) = 4: PASS
+        with inversion of coordinates allowed: 2 component(s) [240, 240]
+  A = Z/8,Z/8: generating 2-tuples 1536, transvection components 4, phi(8) = 4: PASS
+        with inversion of coordinates allowed: 2 component(s) [768, 768]
+  A = Z/6,Z/6: generating 2-tuples 288, transvection components 2, phi(6) = 2: PASS
+        with inversion of coordinates allowed: 1 component(s) [288]
+  A = Z/2,Z/2,Z/2: generating 3-tuples 168, transvection components 1, phi(2) = 1: PASS
+        with inversion of coordinates allowed: 1 component(s) [168]
+  A = Z/2,Z/2,Z/4: generating 3-tuples 1344, transvection components 1, phi(2) = 1: PASS
+        with inversion of coordinates allowed: 1 component(s) [1344]
+
+Akbulut-Kirby AK(3) = <x,y | xyx = yxy, x^3 = y^4>, evaluated in
+finite groups.  For u = xyx(yxy)^-1 and v_3 = x^3 y^-4, the images of
+(u, v_3) and of (x, y) are AC-equivalent in every finite group (B-L-M,
+corollary after Theorem 1.1), so no finite group refutes the conjecture
+this way.  Rechecked here over all normally generating pairs.
+  G = A5: normally generating pairs 3599, in the same component 3599, not 0: PASS
+  G = A4: normally generating pairs 128, in the same component 128, not 0: PASS
+  G = S3: normally generating pairs 27, in the same component 27, not 0: PASS
+  G = D8: normally generating pairs 24, in the same component 24, not 0: PASS
+  G = Q8: normally generating pairs 24, in the same component 24, not 0: PASS
+  G = S5: normally generating pairs 10800, in the same component 10800, not 0: PASS
+  G = C4xC4: normally generating pairs 96, in the same component 96, not 0: PASS
+  G = C2xC4: normally generating pairs 24, in the same component 24, not 0: PASS
+  G = C3xC3: normally generating pairs 48, in the same component 48, not 0: PASS
+
+Two facts about the conjugation move on ordinary generation, checked by
+exhaustion over all pairs and all conjugating elements.
+  G = A5: 28080 of the single-entry conjugations of generating pairs fail to generate;
+        first example: a = (345), b = (123), w = (243), w a w^-1 = (235)
+  G = Heis5: no single-entry conjugation destroys generation of a generating pair
+  G = S5: 168480 of the single-entry conjugations of generating pairs fail to generate;
+        first example: a = (45), b = (1234), w = (354), w a w^-1 = (34)

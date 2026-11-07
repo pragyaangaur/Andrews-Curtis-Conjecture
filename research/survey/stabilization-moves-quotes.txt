@@ -1,0 +1,212 @@
+Verbatim extracts for survey/stabilization-moves.md
+
+Every extract below was cut from the primary source by line number, with the line numbers as
+printed by the source file itself.  The three sources can be refetched with these commands, which
+are the ones I ran on 2026-11-04:
+
+  curl -sSL https://arxiv.org/e-print/math/0302080   -o mms.tar.gz  && mkdir mms   && tar xzf mms.tar.gz   -C mms
+  curl -sSL https://arxiv.org/e-print/2408.15332v2   -o sh.tar.gz   && mkdir sh    && tar xzf sh.tar.gz    -C sh
+  curl -sSL https://arxiv.org/e-print/2412.12293     -o fqw.tar.gz  && mkdir fqw   && tar xzf fqw.tar.gz   -C fqw
+
+The posted PDF of the first paper is at https://shpilrain.ccny.cuny.edu/ac.pdf and carries the same
+text.  Line numbers are the ones of the files as fetched; they are recorded so that a referee can
+check a quotation without reading the whole paper.  Nothing here is my text; the emphasis words in
+italics in the sources are LaTeX markup.
+
+==============================================================================
+Myasnikov, Myasnikov, Shpilrain, On the Andrews-Curtis equivalence, Contemp. Math. 296 (2002) 183-198, DOI 10.1090/conm/296/05074
+fetched from: https://arxiv.org/e-print/math/0302080 (v1, 7 February 2003)
+file: scratch/mms/ac.tex
+==============================================================================
+--- lines 95-114 ---
+  95|   Let  $F = F_n$   be the free group of a finite rank
+  96| $n \ge 2$  with a  set $X = {\{}x_1, ..., x_n {\}}$  of
+  97| free generators. Let   $Y  = {\{}y_1, ..., y_m {\}}$
+  98|  be an arbitrary
+  99| finite tuple of elements of the  group $F$.  Consider  the  following
+ 100| elementary  transformations  that  can  be applied to  $Y$:
+ 101| \smallskip
+ 102| 
+ 103| \noindent {\bf (AC1)} $y_i$   is replaced by  $y_i y_j$ for some
+ 104|  $j \ne i$;
+ 105| \smallskip
+ 106| 
+ 107| \noindent {\bf (AC2)} $y_i$ is replaced by $y_i^{-1}$;
+ 108| \smallskip
+ 109| 
+ 110| \noindent {\bf (AC3)} $y_i$ is replaced by  $g y_i g^{-1}$ for some
+ 111| $g \in F$.
+ 112| \smallskip
+ 113| 
+ 114|     It is understood that $y_j$  does not change if  $j \ne i$.
+
+--- lines 136-157 ---
+ 136| AC-equivalent.
+ 137| 
+ 138|     A weaker form of this conjecture (which is of  greater  interest in
+ 139| topology) arises when one allows two more elementary transformations:
+ 140| \smallskip
+ 141| 
+ 142| \noindent {\bf (AC4)} $Y$ is extended to  ${\{}y_1, ..., y_m,
+ 143| x_{\nu}{\}}$, where $x_{\nu}$ is a new free generator (i.e., $y_1, ..., y_m$
+ 144| do not depend on  $x_{\nu}$).
+ 145| 
+ 146| \noindent {\bf (AC5)} the converse of (AC4).
+ 147| \smallskip
+ 148| 
+ 149|  If  $\widetilde Y$  can  be  obtained  from $Y$  by  means of
+ 150| transformations (AC1--AC5), we say that $\widetilde Y$ is {\it stably}
+ 151| AC-equivalent to $Y$.
+ 152| \smallskip
+ 153| 
+ 154| \noindent {\bf The weak Andrews-Curtis conjecture.} For a tuple
+ 155| $Y  = {\{}y_1, ..., y_n {\}}$, one has $\langle Y\rangle^F  = F$
+ 156| if  and  only  if $Y$ is stably  AC-equivalent to $X= {\{}x_1, ..., x_n {\}}$.
+ 157| \smallskip
+
+--- lines 169-178 ---
+ 169| one cell  at a time is added/cancelled).
+ 170| 
+ 171|  It is well-known  (see  e.g. \cite{Wr} for  details) that (stably)
+ 172| AC-equivalent sets of relators give rise  to  simple-homotopy  equivalent
+ 173| complexes, since the  transformations (AC1-AC5) applied to defining
+ 174| relators of the fundamental group of a 2-complex, are mimicked by
+ 175| elementary expansions and collapses applied to this 2-complex. The point
+ 176| however  is that those elementary expansions/collapses that mimic the
+ 177| AC-transformations, only involve cells of dimension 3 or lower, whereas
+ 178| to establish a simple-homotopy  equivalence of two 2-complexes, one is
+
+--- lines 534-541 ---
+ 534| 
+ 535| On the other hand,
+ 536|  every invertible square matrix over a Laurent  polynomial  ring is {\it stably
+ 537| tame}, which means  one can extend this matrix  by placing 1 on the
+ 538| diagonal and 0 elsewhere, such that the extended matrix is tame. This
+ 539| follows from Suslin's stability  theorem \cite{Suslin}.
+ 540| 
+ 541|     In  view  of the aforementioned   results   of   Suslin   and
+
+--- lines 689-696 ---
+ 689| \longrightarrow $
+ 690| 
+ 691| \noindent $\langle x,y,z| ~x^2=yxy, ~y^{-4}x^2=x^2y^{-3}, ~z=y^{-3}\rangle
+ 692| \longrightarrow $
+ 693| 
+ 694| \noindent $\langle x,y,z| ~x^2=yxy, ~y^{-1}=x^2y^{-3}x^{-2}y^3, ~z=y^{-3}\rangle
+ 695| \longrightarrow $
+ 696| 
+
+--- lines 794-800 ---
+ 794|  substitution principle" in the previous section) to the first two relators
+ 795|  to get $x_{14}=x_2$; then replace $x_{14}$ by $x_2$
+ 796|  ~in all relators that involve $x_{14}$ (the ``basic
+ 797|  substitution principle" again), and then get rid
+ 798| of $x_{14}$ by applying the transformation (AC5).
+ 799| 
+ 800|  In a similar fashion, we successively   eliminate
+
+--- lines 978-985 ---
+ 978|  -(x_1-1)^2x_2^{-1} & 1+2(x_1-1)x_2^{-1}  \end{array}\right)$\\
+ 979| 
+ 980|  On the other hand, by a result of Suslin \cite{Suslin},
+ 981| $GE_k({\bf Z}G)=GL_k({\bf Z}G)$ for any $k \ge 3$; in particular, every
+ 982| matrix from $GL_2({\bf Z}G)$ is
+ 983| stably tame, whence the  result about stable AC-equivalence. $\Box$
+ 984| \medskip
+ 985| 
+
+==============================================================================
+Shehper, Medina-Mardones, Fagan, Lewandowski, Gruen, Qiu, Kucharski, Wang, Gukov, What makes math problems hard for reinforcement learning: a case study
+fetched from: https://arxiv.org/e-print/2408.15332v2 (11 February 2025)
+file: scratch/shehper/sec/stable.tex
+==============================================================================
+--- lines 1-45 ---
+   1| 
+   2| % !TEX root = ../ac_paper.tex
+   3| 
+   4| \section{Stable Andrews--Curtis conjecture and unknot diagrams}\label{sec:stable}
+   5| 
+   6| Our focus in this work has so far been on the standard Andrews--Curtis conjecture. In this section, we turn our attention to a closely related variant, known as the “stable” or “weak” Andrews--Curtis conjecture, which is also of great interest, not least because of its connections to algebraic topology. (See e.g. \cite{Meier2016,Bagherifard2021} for recent work on this connection.)
+   7| 
+   8| \subsection{Stable Andrews--Curtis conjecture} \label{subsec:stable}
+   9| 
+  10| The stable Andrews--Curtis conjecture, also called the weak Andrews--Curtis conjecture, allows for two further moves in addition to the standard AC-moves (AC1)--(AC3), for the purpose of trivializing a presentation. Namely,
+  11| \begin{enumerate}[label=(AC\arabic*)]
+  12| 	\setcounter{enumi}{3}
+  13| 	\item Include a new generator and a trivial relator, i.e. replace $\angles{x_1, \dots, x_n \mid r_1, \dots, r_n}$ by $\angles{x_1, \dots, x_n, x_{n+1} \mid r_1, \dots, r_n, x_{n+1}}$.
+  14| 	\item Remove a trivial relator and the corresponding generator, i.e. the inverse of (AC4).
+  15| \end{enumerate}
+  16| 
+  17| Two balanced presentations that can be related by a sequence of transformations (AC1)--(AC5) are said to be \textit{stably AC-equivalent}. A presentation that is stably AC-equivalent to a trivial presentation is referred to as \emph{stably AC-trivial}. The stable Andrews--Curtis conjecture states that every balanced presentation is stably AC-trivial.
+  18| 
+  19| As the conjecture allows for addition and removal of new generators and trivial relators, the following lemma is quite useful.
+  20| 
+  21| \begin{lemma}[Substitution and Removal]\label{lem:substitution}
+  22| 	Let $P=\langle x_1,\ldots, x_n, y \mid r_1,\ldots, r_n, y^{-1}w\rangle$ be a presentation of the trivial group, where $w$ is a word in $x_1,\ldots,x_n$. Then $P'=\langle x_1,\ldots, x_n \mid r_1',\ldots, r_n'\rangle$ is stably AC-equivalent to $P$, where $r_i'$ is $r_i$ with all occurrences of $y$ replaced by $w$.
+  23| \end{lemma}
+  24| 
+  25| \begin{proof}
+  26| 	First, we substitute $w$ for $y$ in $r_1,\ldots,r_n$, giving $\widetilde{P}=\langle x_1,\ldots,x_n,y\mid r_1',\ldots,r_n',y^{-1}w\rangle$ (cf. \cref{def:ac-sub}). Since $r_1',\ldots,r_n'$ do not contain $y$, we can define the surjective homomorphism $\phi:\widetilde{P}\longrightarrow P'$ by $\phi(x_i)=x_i$ and $\phi(y)=w$. Since $\widetilde{P}$ is trivial, $P'$ is trivial. Therefore, the normal closure of $r_1',\ldots, r_n'$ gives the free group generated by $x_1,\ldots, x_n$, which means $w$ can be written as a product of conjugates of the $r'_i$, namely, $w=w_1 (r_{i_1}')^{\pm1}w_1^{-1}w_2 (r_{i_2}')^{\pm 1}w_2^{-1}\cdots w_m (r_{i_m}')^{\pm 1}w_m^{-1}$, for words $w_i$ in the $x_i$ and $i_k \in \{1,\ldots,n\}$. Note that $m$ may be much larger than $n$. Now using (AC1)--(AC3) we can transform  $y^{-1}w$ to $w_1 (r_{i_1}')^{\pm1}w_1^{-1}\cdots w_m (r_{i_m}')^{\pm 1}w_m^{-1}w^{-1}y$ which equals $y$, and then we can remove $y$ by (AC5).
+  27| \end{proof}
+  28| 
+  29| We note that, much like the substitution move in the standard Andrews--Curtis conjecture, the \emph{substitution and removal} move can be interpreted as a supermove in the case of stable Andrews--Curtis conjecture. For substitution, the number of AC moves constituting the supermove is a linear function of the lengths of the relators (see \cref{sec:AC}). In contrast, our proof of \cref{lem:substitution} does not yield a similar result for the \emph{substitution and removal} move due to the absence of a bound on $m$. Finding this bound, or discovering an alternative proof of the lemma that establishes such a bound on the number of AC moves packaged into this supermove, would be very useful.
+  30| 
+  31| The families of presentations studied in this paper---namely, the Akbulut--Kirby series and the Miller--Schupp series---also serve as potential counterexamples to the stable Andrews--Curtis conjecture.\footnote{Specifically, $\AK(3)$---the shortest potential counterexample for the standard Andrews--Curtis conjecture is also a potential counterexample for the stable Andrews--Curtis conjecture.}
+  32| This naturally leads to a broader question about the relationship between the stable Andrews--Curtis conjecture and its standard counterpart: do there exist any stably AC-trivial presentations of the trivial group that could serve as potential counterexamples to the standard Andrews--Curtis conjecture?
+  33| A construction of such candidate presentations from Wirtinger presentations of knot diagrams of the unknot was given in \cite{MMS}. We will review their construction in \cref{subsec:ac-unknot}. In \cref{sec:proofs}, we will prove that a substantial subclass of these presentations are, in fact, AC-trivial.
+  34| Furthermore, we will conjecture that any presentation obtained in this way is also AC-trivial.
+  35| 
+  36| \subsection{Stably AC-trivial presentations from knot diagrams} \label{subsec:ac-unknot}
+  37| 
+  38| \subsubsection{Stably AC-Trivial Presentations From Wirtinger Presentations}
+  39| 
+  40| We recall briefly the construction of the Wirtinger presentations of a knot group. Given any oriented knot diagram with $n$ crossings, we assign generators $\{x_i\}_{i=1}^n$ to each of the arcs, and each crossing gives us a relator $\{r_i\}_{i=1}^n$. In our notation, the left crossing in \cref{fig:wp} corresponds to the relator $y=x^{-1}zx$ and the right one gives $y=xzx^{-1}$. These generators and relators form a balanced presentation of the fundamental group of the knot complement. Moreover, there exists an ordering of the relators and a choice of $\pm 1$ as exponents such that the relators satisfy the equation
+  41| $$\prod_{i=1}^nr_i^{\pm1}=1.$$
+  42| Thus any relator $r_k$ can be eliminated, giving $\langle x_1,\ldots,x_n\mid r_1,\ldots,r_{k-1},r_{k+1},\ldots,r_n\rangle$, without changing the underlying group.
+  43| 
+  44| \begin{figure}
+  45| 	\centering
+
+==============================================================================
+Shehper et al., the unstable moves
+fetched from: https://arxiv.org/e-print/2408.15332v2
+file: scratch/shehper/sec/conjecture.tex
+==============================================================================
+--- lines 12-24 ---
+  12| \[
+  13| \angles{x_1, \dots, x_n \mid x_1, \dots, x_n}
+  14| \]
+  15| through a series of the following operations known as \textit{AC-moves} \cite{Andrews--Curtis}:
+  16| \begin{enumerate}[label=(AC\arabic*)]
+  17| 	\item Substitute some $r_i$ by $r_i r_j$ for $i \neq j$.
+  18| 	\item Replace some $r_i$ by $r_i^{-1}$.
+  19| 	\item Change some $r_i$ to $g r_i g^{-1}$ where $g$ is a generator or its inverse.
+  20| \end{enumerate}
+  21| 
+  22| We will refer to the sum of the word lengths of all relators as the \textit{length} of a presentation.
+  23| Two presentations that can be transformed into each other by a sequence of AC-moves are said to be \textit{AC-equivalent}.
+  24| A presentation that is AC-equivalent to the trivial presentation is referred to as \textit{AC-trivial}.
+
+==============================================================================
+Fagan, Qiu, Wang, Stable Andrews-Curtis conjecture via fake surfaces and Zeeman conjecture
+fetched from: https://arxiv.org/e-print/2412.12293 (version of 9 January 2026)
+file: scratch/fqw/main.tex
+==============================================================================
+--- lines 300-315 ---
+ 300| \begin{definition}[Stable Andrews--Curtis Moves]
+ 301| Let $P = \langle x_1, \dots, x_n \mid r_1, \dots, r_n \rangle$ be a balanced group presentation. The \emph{stable Andrews--Curtis moves} are the following:
+ 302| \begin{enumerate}
+ 303|   \item[\textbf{(AC1)}] Replace $r_i$ with $r_ir_j$ for some $j\neq i$
+ 304|   \item[\textbf{(AC2)}] Replace $r_i$ with $r_i^{-1}$
+ 305|   \item[\textbf{(AC3)}] Replace $r_i$ with $gr_ig^{-1}$ where $g$ is a generator or its inverse
+ 306|   \item[\textbf{(AC4)}] Add a new generator $x_{n+1}$ and trivial relator $r_{n+1}=x_{n+1}$
+ 307|   \item[\textbf{(AC5)}] Remove a trivial relator and the generator, i.e., the inverse of (AC4)
+ 308| \end{enumerate}
+ 309| The stable Andrews--Curtis conjecture allows for two additional moves beyond the usual AC-moves (AC1)--(AC3).
+ 310| 
+ 311| Two presentations are said to be \emph{stably Andrews--Curtis equivalent} if one can be obtained from the other by a finite sequence of moves (AC1)--(AC5).
+ 312| 
+ 313| A presentation is said to be \emph{stably Andrews--Curtis trivial} if it is stably Andrews--Curtis equivalent to the trivial presentation $\langle \,\,\, \mid \,\,\, \rangle$.
+ 314| \end{definition}
+ 315| 
+

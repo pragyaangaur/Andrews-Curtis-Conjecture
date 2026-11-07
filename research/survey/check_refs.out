@@ -1,0 +1,53 @@
+Identifier check for bibliography.md
+Sources: doi.org CSL-JSON content negotiation, and the arXiv Atom API.
+MATCH means the registry title contains the expected fragment.
+
+doi | 1.1 | 10.1090/S0002-9939-1965-0173241-8 | status 200 | MATCH | Free groups and handlebodies | year 1965 | Proceedings of the American Mathematical Society | vol 16 | pp 192-195
+doi | 1.2 | 10.1080/00029890.1966.11970717 | status 200 | MATCH | Extended Nielsen Operations in Free Groups | year 1966 | The American Mathematical Monthly | vol 73 | pp 21-28
+doi | 1.5 | 10.2307/1969736 | status 200 | MATCH | Free Differential Calculus. I: Derivation in the Free Group Ring | year 1953 | The Annals of Mathematics | vol 57 | pp 547
+doi | 1.4 | 10.1112/plms/s2-45.1.243 | status 200 | MATCH | Simplicial Spaces, Nuclei and <i>m</i> -Groups | year 1939 | Proceedings of the London Mathematical Society | vol s2-45 | pp 243-327
+doi | 1.6 | 10.1007/978-3-642-61896-3 | status 200 | MATCH | Combinatorial Group Theory | year 2001 | Classics in Mathematics | vol  | pp 
+doi | 1.7 | 10.1007/978-1-4684-9372-6 | status 200 | MATCH | A Course in Simple-Homotopy Theory | year 1973 | Graduate Texts in Mathematics | vol  | pp 
+doi | 2.1 | 10.1112/blms/25.6.513 | status 200 | MATCH | Balanced Presentations of the Trivial Group | year 1993 | Bulletin of the London Mathematical Society | vol 25 | pp 513-526
+doi | 2.2 | 10.1017/CBO9780511629358 | status 200 | MATCH | Two-Dimensional Homotopy and Combinatorial Group Theory | year 1993 |  | vol  | pp 
+doi | 2.3 | 10.1017/CBO9780511629358.014 | status 200 | MATCH | The Andrews-Curtis Conjecture and its Generalizations | year 1993 | Two-Dimensional Homotopy and Combinatorial Group Theory | vol  | pp 365-380
+doi | 2.5 | 10.1090/conm/296/05067 | status 200 | MATCH | Open problems in combinatorial group theory. Second edition | year 2002 | Contemporary Mathematics | vol  | pp 1-38
+doi | 2.6 | 10.1090/pspum/032.2/520548 | status 200 | MATCH | Problems in low dimensional manifold theory | year 1978 | Proceedings of Symposia in Pure Mathematics | vol  | pp 273-312
+doi | 3.1 | 10.1090/S0002-9947-1975-0380813-5 | status 200 | MATCH | Group presentations and formal deformations | year 1975 | Transactions of the American Mathematical Society | vol 208 | pp 161-169
+doi | 3.2 | 10.1023/A:1026683910833 | status 200 | MATCH | Q-Transformations and Q-Equivalence | year 2000 | Mathematical Notes | vol 68 | pp 661-663
+doi | 4.1 | 10.1016/0040-9383(63)90014-4 | status 200 | MATCH | On the dunce hat | year 1963 | Topology | vol 2 | pp 341-358
+doi | 4.2 | 10.1016/0040-9383(85)90010-2 | status 200 | MATCH | A potential smooth counterexample in dimension 4 to the Poincare conjecture, the Schoenflies conjecture, and the Andrews | year 1985 | Topology | vol 24 | pp 375-390
+doi | 4.3 | 10.1016/0040-9383(91)90036-4 | status 200 | MATCH | Killing the Akbulut-Kirby 4-sphere, with relevance to the Andrews-Curtis and Schoenflies problems | year 1991 | Topology | vol 30 | pp 97-115
+doi | 4.4 | 10.4310/jdg/1214437136 | status 200 | MATCH | The topology of four-dimensional manifolds | year 1982 | Journal of Differential Geometry | vol 17 | pp 357-453
+doi | 4.7 | 10.1016/0040-9383(84)90040-5 | status 200 | MATCH | The four-dimensional Schoenflies conjecture is true for genus two imbeddings | year 1984 | Topology | vol 23 | pp 211-217
+doi | 4.8 | 10.1007/s10711-024-00891-6 | status 200 | MATCH | A family of Andrews–Curtis trivializations via 4-manifold trisections | year 2024 | Geometriae Dedicata | vol 218 | pp 
+doi | 4.10 | 10.1007/s002220050168 | status 200 | MATCH | Morse theory and finiteness properties of groups | year 1997 | Inventiones Mathematicae | vol 129 | pp 445-470
+doi | 5.4 | 10.1142/S1793525317500182 | status 200 | MATCH | Balanced finite presentations of the trivial group | year 2017 | Journal of Topology and Analysis | vol 09 | pp 363-378
+doi | 6.1 | 10.1142/S0218196799000370 | status 200 | MATCH | GENETIC ALGORITHMS AND THE ANDREWS–CURTIS CONJECTURE | year 1999 | International Journal of Algebra and Computation | vol 09 | pp 671-686
+doi | 6.2 | 10.1142/S0218196703001365 | status 200 | MATCH | BREADTH-FIRST SEARCH AND THE ANDREWS–CURTIS CONJECTURE | year 2003 | International Journal of Algebra and Computation | vol 13 | pp 61-68
+doi | 6.3 | 10.1017/CBO9780511542770.022 | status 200 | MATCH | Andrews-Curtis and Todd-Coxeter proof words | year 2003 | Groups St Andrews 2001 in Oxford | vol  | pp 232-237
+doi | 6.4 | 10.1142/S0218196711006753 | status 200 | MATCH | FITNESS LANDSCAPES AND THE ANDREWS–CURTIS CONJECTURE | year 2012 | International Journal of Algebra and Computation | vol 22 | pp 1250009
+doi | 6.6 | 10.1515/gcc-2019-2005 | status 200 | MATCH | Conjugacy search problem and the Andrews–Curtis conjecture | year 2019 | Groups Complexity Cryptology | vol 11 | pp 43-60
+doi | 7.1 | 10.1007/978-3-319-96418-8_41 | status 200 | MATCH | The Andrews-Curtis Conjecture, Term Rewriting and First-Order Proofs | year 2018 | Lecture Notes in Computer Science | vol  | pp 343-351
+doi | 7.3 | 10.1016/j.exco.2024.100168 | status 200 | MATCH | New Andrews–Curtis trivializations for Miller–Schupp group presentations | year 2024 | Examples and Counterexamples | vol 6 | pp 100168
+doi | 7.4 | 10.1016/j.exco.2025.100201 | status 200 | MATCH | Automated theorem proving reveals a lengthy Andrews–Curtis trivialization for a Miller-Schupp trivial group presentation | year 2025 | Examples and Counterexamples | vol 8 | pp 100201
+doi | 7.5 | 10.1016/j.jaca.2025.100041 | status 200 | MATCH | Stable Andrews-Curtis trivialization of AK(3) revisited. A case study using automated deduction | year 2025 | Journal of Computational Algebra | vol 16 | pp 100041
+doi | 7.6 | 10.1007/s10817-026-09759-8 | status 200 | MATCH | Probabilistic Automaton Classifier Applied to Examples Related to the Andrews-Curtis Conjecture | year 2026 | Journal of Automated Reasoning | vol 70 | pp 
+doi | 8.1 | 10.1090/S0894-0347-00-00356-8 | status 200 | MATCH | The product replacement algorithm and Kazhdan’s property (T) | year 2000 | Journal of the American Mathematical Society | vol 14 | pp 347-363
+doi | 10.2 | 10.1090/conm/250/03848 | status 200 | MATCH | Some presentations of the trivial group | year 1999 | Contemporary Mathematics | vol  | pp 113-115
+
+arxiv | 5.1 | 1504.04187 | status 200 | MATCH | The complexity of balanced presentations and the Andrews-Curtis conjecture | submitted 2015-04-16 | authors Martin R. Bridson
+arxiv | 5.5 | 1504.05927 | status 200 | MATCH | Balanced presentations of the trivial group and four-dimensional geometry | submitted 2015-04-22 | authors Boris Lishak, Alexander Nabutovsky
+arxiv | 5.6 | 2606.06122 | status 200 | MATCH | The stable Andrews-Curtis conjecture and thickenable presentations of the trivial group | submitted 2026-06-04 | authors Marc Lackenby
+arxiv | 6.1 | math/0304306 | status 200 | MATCH | Genetic algorithms and the Andrews-Curtis conjecture | submitted 2003-04-21 | authors Alexei D. Miasnikov
+arxiv | 6.5 | 1606.01412 | status 200 | MATCH | Distance Metric Ensemble Learning and the Andrews-Curtis Conjecture | submitted 2016-06-04 | authors Krzysztof Krawiec, Jerry Swan
+arxiv | 6.7 | 2408.15332 | status 200 | MATCH | What makes math problems hard for reinforcement learning: a case study | submitted 2024-08-27 | authors Ali Shehper, Anibal M. Medina-Mardones, Lucas Fagan, Bartłomiej Lewandowski, Angus Gruen, Yang Qiu, 
+arxiv | 6.8 | 2606.21611 | status 200 | MATCH | The Two-Hump Problem: Bridging the Difficulty Gap in Mathematical Reinforcement Learning | submitted 2026-06-19 | authors Lucas Fagan, Michele Tarquini, Ali Shehper, Maksymilian Manko, Angus Gruen, Coco Huang, Giorgi Butba
+arxiv | 6.9 | 2607.23611 | status 200 | MATCH | Machine-checkable equivalence certificates at the length-14 Andrews-Curtis frontier | submitted 2026-07-26 | authors Josep Carreras
+arxiv | 7.5 | 2501.18601 | status 200 | MATCH | Stable Andrews-Curtis trivialization of AK(3) revisited. A case study using automated deduction | submitted 2025-01-17 | authors Alexei Lisitsa
+arxiv | 8.3 | 1103.1295 | status 200 | MATCH | The Finitary Andrews-Curtis Conjecture | submitted 2011-03-07 | authors Alexandre V. Borovik, Alexander Lubotzky, Alexei G. Myasnikov
+arxiv | 2.8 | 1401.0300 | status 200 | MATCH | Unsolved Problems in Group Theory. The Kourovka Notebook | submitted 2014-01-01 | authors E. I. Khukhro, V. D. Mazurov
+arxiv | 4.8 | 2304.03196 | status 200 | MATCH | A family of Andrews-Curtis trivializations via 4-manifold trisections | submitted 2023-04-06 | authors Ethan Romary, Alexander Zupan
+arxiv | 3.4 | 2102.03212 | status 200 | MATCH | On the generalized Andrews-Curtis-Problem -- A Disproof of the Relative Case | submitted 2021-02-05 | authors Wolfgang Metzler
+
+summary: 33 DOI checks and 13 arXiv checks, 0 without MATCH

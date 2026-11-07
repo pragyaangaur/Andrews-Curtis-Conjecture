@@ -1,0 +1,14 @@
+S2: parsed 160 printed moves, final state aaaBBBB,abaBAB
+S2: printed move numbers are 1..160: True
+S2: all printed states are reduced words: True
+S2: move kinds: {'INV': 52, 'CONJ': 51, 'MULT-L': 50, 'MULT-R': 7}
+S2: multiplications directly by the other relator: 57, by its inverse (three standard moves): 0
+S2: first state equals the relator pair of the paper's P: True
+S2: last state equals the AK(3) relator pair (a^3 b^-4, a b a b^-1 a^-1 b^-1): True
+S2: steps that fail exactly as printed: 1 [(81, 'CONJ ABAbAXaBabA')]
+S2: with step 81 conjugator read as aBAbA instead of the printed ABAbA: failing steps = 0
+S2: corrected chain runs P -> AK(3) in 160 standard AC moves: True
+S3: 67-move S2 prefix plus 3 printed moves = 70 moves, kinds {'INV': 23, 'CONJ': 22, 'MULT-L': 20, 'MULT-R': 3, 'CONJ-R': 1, 'INV-R': 1}
+S3: first state equals P: True, last state equals AK(3): True
+S3: failing steps: 0 []
+RESULT: PASS: both published sequences replay from P to AK(3)

@@ -1,0 +1,1027 @@
+{
+ "A4": {
+  "ab_gens": 2,
+  "ab_order": 3,
+  "aut_order": 24,
+  "dG": 1,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    8
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    96
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 24,
+   "blm_component_sizes": [
+    128
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 96,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    96
+   ],
+   "nielsen_classes_normal": 5,
+   "nielsen_sizes_normal": [
+    96,
+    8,
+    8,
+    8,
+    8
+   ],
+   "normally_generating_tuples": 128,
+   "t_k_sizes": [
+    96
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    26
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    1560
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 24,
+   "blm_component_sizes": [
+    1664
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 1560,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    1560
+   ],
+   "nielsen_classes_normal": 5,
+   "nielsen_sizes_normal": [
+    1560,
+    26,
+    26,
+    26,
+    26
+   ],
+   "normally_generating_tuples": 1664,
+   "t_k_sizes": [
+    1560
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 12
+ },
+ "A5": {
+  "ab_gens": 2,
+  "ab_order": 1,
+  "aut_order": 120,
+  "dG": 1,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    1
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    2280
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 120,
+   "blm_component_sizes": [
+    3599
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 2280,
+   "nielsen_aut_f": 3,
+   "nielsen_aut_f_sizes": [
+    1080,
+    600,
+    600
+   ],
+   "nielsen_classes_normal": 66,
+   "nielsen_sizes_normal": [
+    1080,
+    600,
+    600,
+    96,
+    96,
+    96,
+    96,
+    96,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    6,
+    6,
+    6,
+    6,
+    6,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "normally_generating_tuples": 3599,
+   "t_k_sizes": [
+    1080,
+    600,
+    600
+   ],
+   "t_k_systems": 3,
+   "t_k_systems_mod_aut_g": 2
+  },
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    1
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    200160
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 120,
+   "blm_component_sizes": [
+    215999
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 200160,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    200160
+   ],
+   "nielsen_classes_normal": 58,
+   "nielsen_sizes_normal": [
+    200160,
+    1560,
+    1560,
+    1560,
+    1560,
+    1560,
+    840,
+    840,
+    840,
+    840,
+    840,
+    840,
+    168,
+    168,
+    168,
+    168,
+    168,
+    168,
+    168,
+    168,
+    168,
+    168,
+    124,
+    124,
+    124,
+    124,
+    124,
+    124,
+    42,
+    42,
+    42,
+    42,
+    42,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+   ],
+   "normally_generating_tuples": 215999,
+   "t_k_sizes": [
+    200160
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 60
+ },
+ "C2xC2": {
+  "ab_gens": 2,
+  "ab_order": 4,
+  "aut_order": 6,
+  "dG": 2,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    6
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    6
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 6,
+   "blm_component_sizes": [
+    6
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 6,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    6
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    6
+   ],
+   "normally_generating_tuples": 6,
+   "t_k_sizes": [
+    6
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    42
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    42
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 6,
+   "blm_component_sizes": [
+    42
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 42,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    42
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    42
+   ],
+   "normally_generating_tuples": 42,
+   "t_k_sizes": [
+    42
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 4
+ },
+ "C2xC2xC2": {
+  "ab_gens": 3,
+  "ab_order": 8,
+  "aut_order": 168,
+  "dG": 3,
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    168
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    168
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 168,
+   "blm_component_sizes": [
+    168
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 168,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    168
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    168
+   ],
+   "normally_generating_tuples": 168,
+   "t_k_sizes": [
+    168
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 8
+ },
+ "C2xC4": {
+  "ab_gens": 2,
+  "ab_order": 8,
+  "aut_order": 8,
+  "dG": 2,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    24
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    24
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 8,
+   "blm_component_sizes": [
+    24
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 24,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    24
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    24
+   ],
+   "normally_generating_tuples": 24,
+   "t_k_sizes": [
+    24
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    336
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    336
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 8,
+   "blm_component_sizes": [
+    336
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 336,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    336
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    336
+   ],
+   "normally_generating_tuples": 336,
+   "t_k_sizes": [
+    336
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 8
+ },
+ "C3xC3": {
+  "ab_gens": 2,
+  "ab_order": 9,
+  "aut_order": 48,
+  "dG": 2,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    48
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    48
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 48,
+   "blm_component_sizes": [
+    48
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 48,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    48
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    48
+   ],
+   "normally_generating_tuples": 48,
+   "t_k_sizes": [
+    48
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    624
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    624
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 48,
+   "blm_component_sizes": [
+    624
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 624,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    624
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    624
+   ],
+   "normally_generating_tuples": 624,
+   "t_k_sizes": [
+    624
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 9
+ },
+ "C4xC4": {
+  "ab_gens": 2,
+  "ab_order": 16,
+  "aut_order": 96,
+  "dG": 2,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    96
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    96
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 96,
+   "blm_component_sizes": [
+    96
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 96,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    96
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    96
+   ],
+   "normally_generating_tuples": 96,
+   "t_k_sizes": [
+    96
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    2688
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    2688
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 96,
+   "blm_component_sizes": [
+    2688
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 2688,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    2688
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    2688
+   ],
+   "normally_generating_tuples": 2688,
+   "t_k_sizes": [
+    2688
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 16
+ },
+ "D8": {
+  "ab_gens": 2,
+  "ab_order": 4,
+  "aut_order": 8,
+  "dG": 2,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    6
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    24
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 8,
+   "blm_component_sizes": [
+    24
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 24,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    24
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    24
+   ],
+   "normally_generating_tuples": 24,
+   "t_k_sizes": [
+    24
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    42
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    336
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 8,
+   "blm_component_sizes": [
+    336
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 336,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    336
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    336
+   ],
+   "normally_generating_tuples": 336,
+   "t_k_sizes": [
+    336
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 8
+ },
+ "Heis5": {
+  "ab_gens": 2,
+  "ab_order": 25,
+  "aut_order": 12000,
+  "dG": 2,
+  "k=2": {
+   "abelian_components_normal": 2,
+   "abelian_sizes_normal": [
+    240,
+    240
+   ],
+   "abelian_t_k_systems": 2,
+   "ac_component_sizes_generating": [
+    6000,
+    6000
+   ],
+   "ac_components_generating": 2,
+   "aut_g_order": 12000,
+   "blm_component_sizes": [
+    6000,
+    6000
+   ],
+   "blm_components": 2,
+   "blm_components_generating_set_only": 2,
+   "blm_preimages": true,
+   "generating_tuples": 12000,
+   "nielsen_aut_f": 2,
+   "nielsen_aut_f_sizes": [
+    6000,
+    6000
+   ],
+   "nielsen_classes_normal": 2,
+   "nielsen_sizes_normal": [
+    6000,
+    6000
+   ],
+   "normally_generating_tuples": 12000,
+   "t_k_sizes": [
+    6000,
+    6000
+   ],
+   "t_k_systems": 2,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 125
+ },
+ "Q8": {
+  "ab_gens": 2,
+  "ab_order": 4,
+  "aut_order": 24,
+  "dG": 2,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    6
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    24
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 24,
+   "blm_component_sizes": [
+    24
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 24,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    24
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    24
+   ],
+   "normally_generating_tuples": 24,
+   "t_k_sizes": [
+    24
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    42
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    336
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 24,
+   "blm_component_sizes": [
+    336
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 336,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    336
+   ],
+   "nielsen_classes_normal": 1,
+   "nielsen_sizes_normal": [
+    336
+   ],
+   "normally_generating_tuples": 336,
+   "t_k_sizes": [
+    336
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 8
+ },
+ "S3": {
+  "ab_gens": 2,
+  "ab_order": 2,
+  "aut_order": 6,
+  "dG": 1,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    3
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    18
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 6,
+   "blm_component_sizes": [
+    27
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 18,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    18
+   ],
+   "nielsen_classes_normal": 4,
+   "nielsen_sizes_normal": [
+    18,
+    3,
+    3,
+    3
+   ],
+   "normally_generating_tuples": 27,
+   "t_k_sizes": [
+    18
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "k=3": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    7
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    168
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 6,
+   "blm_component_sizes": [
+    189
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 168,
+   "nielsen_aut_f": 1,
+   "nielsen_aut_f_sizes": [
+    168
+   ],
+   "nielsen_classes_normal": 4,
+   "nielsen_sizes_normal": [
+    168,
+    7,
+    7,
+    7
+   ],
+   "normally_generating_tuples": 189,
+   "t_k_sizes": [
+    168
+   ],
+   "t_k_systems": 1,
+   "t_k_systems_mod_aut_g": 1
+  },
+  "order": 6
+ },
+ "S5": {
+  "ab_gens": 2,
+  "ab_order": 2,
+  "aut_order": 120,
+  "dG": 1,
+  "k=2": {
+   "abelian_components_normal": 1,
+   "abelian_sizes_normal": [
+    3
+   ],
+   "abelian_t_k_systems": 1,
+   "ac_component_sizes_generating": [
+    6840
+   ],
+   "ac_components_generating": 1,
+   "aut_g_order": 120,
+   "blm_component_sizes": [
+    10800
+   ],
+   "blm_components": 1,
+   "blm_components_generating_set_only": 1,
+   "blm_preimages": true,
+   "generating_tuples": 6840,
+   "nielsen_aut_f": 3,
+   "nielsen_aut_f_sizes": [
+    2880,
+    2160,
+    1800
+   ],
+   "nielsen_classes_normal": 99,
+   "nielsen_sizes_normal": [
+    2880,
+    2160,
+    1800,
+    240,
+    240,
+    240,
+    240,
+    240,
+    240,
+    216,
+    216,
+    216,
+    216,
+    216,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "normally_generating_tuples": 10800,
+   "t_k_sizes": [
+    2880,
+    2160,
+    1800
+   ],
+   "t_k_systems": 3,
+   "t_k_systems_mod_aut_g": 3
+  },
+  "order": 120
+ }
+}
