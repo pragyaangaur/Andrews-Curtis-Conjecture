@@ -1,0 +1,38 @@
+file	role	path	sha256	bytes	lines_wc	decls	prints	imports	intra	forbidden	unterminated
+AC.lean	inventory	toolkit/lean/AC.lean	362539535a3f20acd4b7d8840076f67765e9cbd4eabb1ca56522d1ce1a6f1def	25265	600	42	42	Mathlib			
+AC19eleven.lean	inventory	toolkit/lean/AC19eleven.lean	d03ae6deb9dcca745f89b94f594bf7e63fd3a6f7987d1951db350246318c574c	361292	7551	458	95	Mathlib			
+AC2.lean	inventory	toolkit/lean/AC2.lean	7d31b4674ea45f46b482b1d252062425b9cd2e2b304c5736d347a6de6a79a189	57621	1256	58	47	Mathlib			
+AC3.lean	inventory	toolkit/lean/AC3.lean	08cc9a09bb937cc60f65aad4c822a6695b91596dcc27498ec3b162ff3f5af5aa	94163	1996	100	84	Mathlib			
+AC4.lean	inventory	toolkit/lean/AC4.lean	4a05fe0a7ae43a8e8a3fc5b914db38ebb34b05f85d422d6988ffe03b0c4fac2b	1435354	30418	2841	318	Mathlib			
+AC5.lean	inventory	toolkit/lean/AC5.lean	3af44d626c81a1006a0e91ad73b4500cbfb940874e65b11ab7c1d6e358cf2d5b	1016413	5916	1200	33	Mathlib			
+AC6.lean	inventory	toolkit/lean/AC6.lean	f83680ffc72c42ce56e87eec4371f4bd18e3978cfa99a574cf972c45a20b4650	2187137	28333	3032	1835	Mathlib			
+AC7.lean	inventory	toolkit/lean/AC7.lean	14e0d037fa8e8fd71b1769153fe897e049cd22ae138ae99ec1bbaefef7a6e17c	547446	5021	846	40	Mathlib.Data.Fintype.Basic,Mathlib.GroupTheory.FreeGroup.Reduce,Mathlib.GroupTheory.Commutator.Basic,Mathlib.Tactic.Group			
+AC8.lean	inventory	toolkit/lean/AC8.lean	8d60d1aedc4adc8a90701253dceec87c6616b40e684f226a17f6fb2d756ea37f	45111	1041	109	16	Mathlib.Data.Fintype.Basic,Mathlib.GroupTheory.FreeGroup.Reduce,Mathlib.GroupTheory.Commutator.Basic,Mathlib.Tactic.Group,Mathlib.Tactic.FinCases			
+ACBounds.lean	added	.ultramath/smw48or9f/m8/ACBounds.lean	0dbae7d07f35f5a8263670260712ff254758270935e188905ace3905b2880039	11725	286	10	0	Mathlib.Data.List.Basic			
+ACClosed.lean	inventory	toolkit/lean/ACClosed.lean	ca10cbe51ca5dbe7b9792c3177bcbb98a1ac366e4e48e21e457ba2f46acd3054	8936	232	11	0	ACBounds,Mathlib.Data.Nat.Pairing	ACBounds		
+ACComponents.lean	inventory	toolkit/lean/ACComponents.lean	b28d306e1ccb5e22b098cc00b85d82c15b114595484815fadac7c44f62636965	6948	147	9	0	ACBounds	ACBounds		
+ACConj.lean	added	.ultramath/smw4sqc1u/m10/ACConj.lean	a4cbabaa9981f2aef266924ac1bfac26ae543f695386c7584ca4f165fa098c93	23445	535	42	15	AC	AC		
+ACConjCex.lean	added	.ultramath/smw4sqc1u/m10/ACConjCex.lean	dbf08bb052d8d73563d9e4f67cad3ee73ab1ce62a911f9611ee710f3de395fa1	2701	73	6	6	ACConj	ACConj		
+ACConjPeak.lean	added	.ultramath/smw4sqc1u/m10/ACConjPeak.lean	d45b8b1a7236529aa60ba529a4318920c9ac103f224ac69d0a3b6fa2dfd43f99	4075	99	5	5	ACConj	ACConj		
+ACInstances.lean	added	.ultramath/smw48or9f/m8/ACInstances.lean	1a6fef3214821f2ae414081cddb87a99bbb950e3e6a31552f1930402b2170b0a	3827	102	5	3	ACBounds	ACBounds		
+ACKeys.lean	inventory	toolkit/lean/ACKeys.lean	fde7f34108d2e5d2dd97a3333999dfce0e6a26e7706b761721d4aeb724f59ab7	7405	182	10	0	ACClosed	ACClosed		
+ACPack.lean	added	.ultramath/smw4sqc1u/m8/ACPack.lean	e2c7549cc73359e99c15a83cb8d412185f5e5c1439e6b68c11aac90a5ccc9bfe	13452	319	12	0	ACKeys	ACKeys		
+ACPeaks.lean	inventory	toolkit/lean/ACPeaks.lean	872da3976561f69c35c39426a1c01de73c709e3b771b2dddd6e45d8815d0a2e9	107783	2364	156	98	Mathlib			
+ACPeaks17.lean	inventory	toolkit/lean/ACPeaks17.lean	8446c487e16d0116bbed9fedc5bbfcaf5ce1e1702c9f22ccf75eb6ff320e5c24	103126	2232	128	91	Mathlib			
+ACQuot.lean	inventory	toolkit/lean/ACQuot.lean	ab19dfacf6971b29d508beae913b559ecda1ff6f624d1add61dde035c5113934	47941	730	88	48	AC2	AC2		
+ACQuot15.lean	added	.ultramath/smw4sqc1u/m6/ACQuot15.lean	2b9555d74a35d7533995cd4c9bfea73c693250cb0ad5558747f25d87693015ba	132859	1706	224	112	ACQuot	ACQuot		
+ACSlot.lean	added	.ultramath/smw5c6gb0/m10/ACSlot.lean	ad28943455dfec4253164b8e0e99297a97e83bdf8e5a326777d29cdad0ef58bc	15021	372	26	0	ACPack	ACPack		
+ACTree.lean	inventory	toolkit/lean/ACTree.lean	abecea6b1a4b1e41b971b04eff137b26a8efffd6146aed551661963309f43659	5577	147	10	0	ACKeys	ACKeys		
+ACTriv15.lean	added	.ultramath/smw4sqc1u/m6/ACTriv15.lean	73b57169eb7a5de6440d6b8ce0fb5affba064341170e817b7e77647fdf1815d7	12515	378	12	6	AC3	AC3		
+MetzlerRecipes.lean	added	.ultramath/smw4sqc1u/m9/MetzlerRecipes.lean	c58b6b6d6f8ca818546ba4a601e0fe0b218393bdf34c0000b810a7c44a53df02	3270	73	9	9	MetzlerSharp,AC8	MetzlerSharp,AC8		
+MetzlerSharp.lean	added	.ultramath/smw4sqc1u/m9/MetzlerSharp.lean	2732c8305c9de1cd45018da090315f0a3fd8a617f8803da3f99a24cc6bf88a46	21364	499	45	17	Mathlib.GroupTheory.PresentedGroup,Mathlib.GroupTheory.SpecificGroups.Dihedral,Mathlib.GroupTheory.FreeGroup.Reduce,Mathlib.Data.Int.GCD,Mathlib.Tactic.Group,Mathlib.Tactic.FinCases			
+MetzlerSharpBridge.lean	added	.ultramath/smw4sqc1u/m9/MetzlerSharpBridge.lean	519aa449d2145243accf8bd115e24969131887b1476124032b6cff6571b36a04	5661	116	10	10	MetzlerSharp,QSound,AC8	MetzlerSharp,QSound,AC8		
+MetzlerShift.lean	added	.ultramath/smw4sqc1u/m9/MetzlerShift.lean	b2b5c317a6e8fbe9b3458c3a342cd44a5793d87862f0f0eb07485227b19d52dd	8189	174	10	10	AC8	AC8		
+QSound.lean	inventory	toolkit/lean/QSound.lean	5692417640600169106850a7325bf18cc0dd7b6e74c057da4fd19e9bc2bfc256	56967	1199	45	0	AC5	AC5		
+QSoundAudit.lean	added	.ultramath/smw4i604a/m7/QSoundAudit.lean	4dbdcdb893dfad2326c8fc3f51523cf9bc38d89c10ba8fce5d7eba69b2c0c6d0	1730	56	0	51	QSound	QSound		
+ak_trivial.lean	added	directions/ak-status/ak_trivial.lean	b409e0d00edbd729b6517870b1a79106be1219ebbd7eb46407afc63229db786e	5950	155	13	11	Mathlib			
+aneg.lean	added	.ultramath/smw48or9f/m7/aneg.lean	333b12a27e78526b0365808f797e280107b67816f9fadd3c31e1521c89edf78a	12826	230	17	17	AC3	AC3		
+audit.lean	added	.ultramath/smw4i604a/m8/audit.lean	a248a134e8e1113d76f98edfecc19ff8d49dfbe6c4ed02e29325cfbf4a09bd93	1095	31	0	28	ACTree,ACComponents,ACKeys	ACTree,ACComponents,ACKeys		
+audit_r9.lean	added	.ultramath/smw5c6gb0/m1/kernel/audit_r9.lean	4bcb3180cba80159e8bd2e82e6084346fac27bd4350d1cdf8a4b9eba5bc0f03b	1410	37	0	18	MetzlerSharp,ACConj,ACPack	MetzlerSharp,ACConj,ACPack		
+qneg.lean	added	.ultramath/smw48or9f/m7/qneg.lean	968a48e1d96b0e84a529bcbd4a3e70cfc94fe91b31ee76ea70121ab8c2515cd1	16038	299	33	14	AC5	AC5		
+stabilization-moves.lean	added	survey/stabilization-moves.lean	4c00417c4185ff9fc53d6460640c724e605eb78ae87fae5721dcbc7d38f2d957	9242	203	16	5	Mathlib			

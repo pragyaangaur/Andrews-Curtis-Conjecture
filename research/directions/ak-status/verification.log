@@ -1,0 +1,107 @@
+=== lean ak_trivial.lean ===
+'AK.rel_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.rel_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.conj_rel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.conj_pow_rel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.key' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.pow_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.Yp_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.Xp_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.ak_trivial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.ak_all_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AK.of_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit=0
+
+=== python3 ak_sympy_check.py ===
+AK(1): order of the presented group = 1
+AK(1) TRIVIAL
+exit=0
+
+=== python3 ak1_certificate.py ===
+start: ((1, -2, -2), (1, 2, 1, -2, -1, -2))
+  step  1 AC1  relator r1 (1, -2, -2)            -> (2, 2, -1)
+  step  2 AC3  relator r1 (2, 2, -1)             -> (-1, 2, 2)
+  step  3 AC3  relator r1 (-1, 2, 2)             -> (2, 1, 2, -1, -2, -1, 2, 2, 2, 1, -2, -1, -2)
+  step  4 AC2  relator r2 (1, 2, 1, -2, -1, -2)  -> (2, 2, 2, 1, -2, -1, -2)
+  step  5 AC3  relator r1 (2, 1, 2, -1, -2, -1, 2, 2, 2, 1, -2, -1, -2) -> (-1, 2, 2)
+  step  6 AC3  relator r1 (-1, 2, 2)             -> (2, 2, -1)
+  step  7 AC1  relator r1 (2, 2, -1)             -> (1, -2, -2)
+  step  8 AC1  relator r1 (1, -2, -2)            -> (2, 2, -1)
+  step  9 AC3  relator r1 (2, 2, -1)             -> (-1, 2, 2)
+  step 10 AC3  relator r1 (-1, 2, 2)             -> (2, 1, 2, -1, 2, -1, -2)
+  step 11 AC2  relator r2 (2, 2, 2, 1, -2, -1, -2) -> (2, 2, 2, 2, -1, -2)
+  step 12 AC3  relator r1 (2, 1, 2, -1, 2, -1, -2) -> (-1, 2, 2)
+  step 13 AC3  relator r1 (-1, 2, 2)             -> (2, 2, -1)
+  step 14 AC1  relator r1 (2, 2, -1)             -> (1, -2, -2)
+  step 15 AC3  relator r1 (1, -2, -2)            -> (2, 1, -2, -2, -2)
+  step 16 AC2  relator r2 (2, 2, 2, 2, -1, -2)   -> (2,)
+  step 17 AC3  relator r1 (2, 1, -2, -2, -2)     -> (1, -2, -2)
+  step 18 AC2  relator r1 (1, -2, -2)            -> (1, -2)
+  step 19 AC2  relator r1 (1, -2)                -> (1,)
+  reached the standard presentation after 19 moves
+final: ((1,), (2,))
+total moves: 19
+CERTIFICATE OK
+exit=0
+
+=== python3 coset2.py ===
+Validation set (groups of known order):
+<x,y | x, y>                                 TRIVIAL  cosets=1       created=5       passes=9      defines=4       merges=4
+      expected TRIVIAL 1 -> PASS
+Klein four <x,y | x^2, y^2, [x,y]>           FINITE   cosets=4       created=25      passes=2      defines=24      merges=21
+      expected FINITE 4 -> PASS
+C12 = <x | x^12>                             FINITE   cosets=12      created=25      passes=2      defines=24      merges=13
+      expected FINITE 12 -> PASS
+S3 = <x,y | x^2, y^3, (xy)^2>                FINITE   cosets=6       created=49      passes=3      defines=48      merges=43
+      expected FINITE 6 -> PASS
+A5 = <x,y | x^2, y^3, (xy)^5>                FINITE   cosets=60      created=529     passes=3      defines=528     merges=469
+      expected FINITE 60 -> PASS
+<x,y | x^3, y^3, (xy)^3> (A4? no: <3,3,3>)   LIMIT    cosets=42189   created=300001  passes=31     defines=300000  merges=257812
+<x,y | x^2 = y^3> (infinite)                 LIMIT    cosets=72150   created=300003  passes=12     defines=300002  merges=227853
+      expected LIMIT None -> PASS
+MS example <x,y | x^-1 y x = y^2, y^-1 x y = x^2> TRIVIAL  cosets=1       created=77      passes=3      defines=76      merges=76
+      expected TRIVIAL 1 -> PASS
+Baumslag-Solitar BS(1,2) (infinite)          LIMIT    cosets=100968  created=300002  passes=7      defines=300547  merges=199034
+      expected LIMIT None -> PASS
+
+Akbulut-Kirby AK(n) = <x,y | x^n = y^(n+1), xyx = yxy>:
+AK(1)                                        LIMIT    cosets=18      created=300003  passes=2175   defines=304349  merges=299985
+AK(2)                                        TRIVIAL  cosets=1       created=3553    passes=5      defines=3565    merges=3552
+AK(3)                                        LIMIT    cosets=13065   created=300001  passes=17     defines=300018  merges=286936
+AK(4)                                        LIMIT    cosets=13731   created=300007  passes=11     defines=300017  merges=286276
+AK(5)                                        LIMIT    cosets=63645   created=300004  passes=5      defines=300016  merges=236359
+AK(6)                                        LIMIT    cosets=99072   created=300007  passes=4      defines=300020  merges=200935
+AK(7)                                        LIMIT    cosets=24284   created=300001  passes=4      defines=300014  merges=275717
+AK(8)                                        LIMIT    cosets=17835   created=300001  passes=3      defines=300016  merges=282166
+AK(9)                                        LIMIT    cosets=77943   created=300007  passes=3      defines=300019  merges=222064
+AK(10)                                       LIMIT    cosets=19627   created=300019  passes=3      defines=300035  merges=280392
+
+Miller-Schupp MS(n,w_*), w_* = y^-1 x y x^-1:
+MS(1,w_*)                                    TRIVIAL  cosets=1       created=97      passes=3      defines=96      merges=96
+MS(2,w_*)                                    TRIVIAL  cosets=1       created=143     passes=3      defines=142     merges=142
+MS(3,w_*)                                    TRIVIAL  cosets=1       created=385     passes=3      defines=384     merges=384
+MS(4,w_*)                                    TRIVIAL  cosets=1       created=567     passes=3      defines=566     merges=566
+MS(5,w_*)                                    TRIVIAL  cosets=1       created=806     passes=3      defines=805     merges=805
+MS(6,w_*)                                    TRIVIAL  cosets=1       created=1018    passes=3      defines=1017    merges=1017
+
+Miller-Schupp MS(2,w_k), w_k = y^-k x^-1 y x y:
+MS(2,w_0)                                    TRIVIAL  cosets=1       created=78      passes=3      defines=77      merges=77
+MS(2,w_1)                                    TRIVIAL  cosets=1       created=51      passes=3      defines=51      merges=50
+MS(2,w_2)                                    TRIVIAL  cosets=1       created=56      passes=3      defines=55      merges=55
+MS(2,w_3)                                    TRIVIAL  cosets=1       created=81      passes=3      defines=80      merges=80
+
+ALL VALIDATION PASS
+exit=0
+
+=== python3 ak1_search.py ===
+AK(1) = ((1, -2, -2), (1, 2, 1, -2, -1, -2))
+AK(2) = ((1, 1, -2, -2, -2), (1, 2, 1, -2, -1, -2))
+BFS from the standard presentation, relator length <= 10, conjugator length <= 2
+  depth  1:       22 new states,       23 total
+  depth  2:      389 new states,      412 total
+  depth  3:     5526 new states,     5938 total
+  depth  4:    59093 new states,    65031 total
+  depth  5:   415108 new states,   480139 total
+  depth  6:  2024810 new states,  2504949 total
+NOT FOUND within the bounds
+exit=0

@@ -1,0 +1,156 @@
+==============================================================================
+Part A.  Quinn's conditions (1)-(4) for H = O(Z/2) over F_p
+==============================================================================
+p = 2: Hopf axioms {'assoc': True, 'unit': True, 'coassoc': True, 'counit_ax': True, 'antipode': True, 'cocomm': True}, cocommutative True
+        two simple modules V_0, V_1 of dimension 1, distinct: True
+        symmetric nondegenerate invariant forms on both: True
+        fusion V_g (x) V_h = V_(g+h): True; ranks 1, 1
+        sum of squared ranks in F_2 = 0
+        Quinn (1)-(4) hold: True
+p = 3: Hopf axioms {'assoc': True, 'unit': True, 'coassoc': True, 'counit_ax': True, 'antipode': True, 'cocomm': True}, cocommutative True
+        two simple modules V_0, V_1 of dimension 1, distinct: True
+        symmetric nondegenerate invariant forms on both: True
+        fusion V_g (x) V_h = V_(g+h): True; ranks 1, 1
+        sum of squared ranks in F_3 = 2
+        Quinn (1)-(4) hold: False
+p = 5: Hopf axioms {'assoc': True, 'unit': True, 'coassoc': True, 'counit_ax': True, 'antipode': True, 'cocomm': True}, cocommutative True
+        two simple modules V_0, V_1 of dimension 1, distinct: True
+        symmetric nondegenerate invariant forms on both: True
+        fusion V_g (x) V_h = V_(g+h): True; ranks 1, 1
+        sum of squared ranks in F_5 = 2
+        Quinn (1)-(4) hold: False
+p = 7: Hopf axioms {'assoc': True, 'unit': True, 'coassoc': True, 'counit_ax': True, 'antipode': True, 'cocomm': True}, cocommutative True
+        two simple modules V_0, V_1 of dimension 1, distinct: True
+        symmetric nondegenerate invariant forms on both: True
+        fusion V_g (x) V_h = V_(g+h): True; ranks 1, 1
+        sum of squared ranks in F_7 = 2
+        Quinn (1)-(4) hold: False
+p = 11: Hopf axioms {'assoc': True, 'unit': True, 'coassoc': True, 'counit_ax': True, 'antipode': True, 'cocomm': True}, cocommutative True
+        two simple modules V_0, V_1 of dimension 1, distinct: True
+        symmetric nondegenerate invariant forms on both: True
+        fusion V_g (x) V_h = V_(g+h): True; ranks 1, 1
+        sum of squared ranks in F_11 = 2
+        Quinn (1)-(4) hold: False
+
+The same algebra over any field of characteristic 0 (or over Z) has
+sum of squared ranks 1 + 1 = 2, which is not zero: the example is a
+characteristic-2 phenomenon.
+
+==============================================================================
+Part B.  Rep(F_p[C_p]) and the Verlinde category Ver_p
+==============================================================================
+--- p = 3
+    L_1: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_2: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    symmetric nondegenerate invariant form exists exactly for odd s: True
+    tensor products agree with Ostrik 2015 formula (4) for all r,s: True
+    Vec                   : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 1 in F_3, Quinn (1)-(4): False
+    sVec                  : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 2 in F_3, Quinn (1)-(4): False
+    Ver_p^+ (odd indices) : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 1 in F_3, Quinn (1)-(4): False
+    Ver_p (all simples)   : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 2 in F_3, Quinn (1)-(4): False
+    global dimension (sum over all simples) = 2 in F_3
+--- p = 5
+    L_1: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_2: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_3: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_4: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    symmetric nondegenerate invariant form exists exactly for odd s: True
+    tensor products agree with Ostrik 2015 formula (4) for all r,s: True
+    Vec                   : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 1 in F_5, Quinn (1)-(4): False
+    sVec                  : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 2 in F_5, Quinn (1)-(4): False
+    Ver_p^+ (odd indices) : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 0 in F_5, Quinn (1)-(4): True
+    Ver_p (all simples)   : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 0 in F_5, Quinn (1)-(4): False
+    global dimension (sum over all simples) = 0 in F_5
+--- p = 7
+    L_1: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_2: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_3: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_4: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_5: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_6: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    symmetric nondegenerate invariant form exists exactly for odd s: True
+    tensor products agree with Ostrik 2015 formula (4) for all r,s: True
+    Vec                   : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 1 in F_7, Quinn (1)-(4): False
+    sVec                  : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 2 in F_7, Quinn (1)-(4): False
+    Ver_p^+ (odd indices) : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 0 in F_7, Quinn (1)-(4): True
+    Ver_p (all simples)   : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 0 in F_7, Quinn (1)-(4): False
+    global dimension (sum over all simples) = 0 in F_7
+--- p = 11
+    L_1: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_2: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_3: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_4: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_5: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_6: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_7: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_8: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_9: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_10: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    symmetric nondegenerate invariant form exists exactly for odd s: True
+    tensor products from Ostrik 2015 formula (4), recomputed from scratch for p <= 7
+    Vec                   : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 1 in F_11, Quinn (1)-(4): False
+    sVec                  : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 2 in F_11, Quinn (1)-(4): False
+    Ver_p^+ (odd indices) : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 0 in F_11, Quinn (1)-(4): True
+    Ver_p (all simples)   : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 0 in F_11, Quinn (1)-(4): False
+    global dimension (sum over all simples) = 0 in F_11
+--- p = 13
+    L_1: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_2: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_3: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_4: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_5: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_6: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_7: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_8: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_9: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_10: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    L_11: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate True, beta-beta^T alternating nondegenerate False   (s odd: True)
+    L_12: beta invariant True, det(beta) True, beta+beta^T symmetric nondegenerate False, beta-beta^T alternating nondegenerate True   (s odd: False)
+    symmetric nondegenerate invariant form exists exactly for odd s: True
+    tensor products from Ostrik 2015 formula (4), recomputed from scratch for p <= 7
+    Vec                   : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 1 in F_13, Quinn (1)-(4): False
+    sVec                  : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 2 in F_13, Quinn (1)-(4): False
+    Ver_p^+ (odd indices) : closed True, every simple has a symmetric nondegenerate form True, quadratic sum = 0 in F_13, Quinn (1)-(4): True
+    Ver_p (all simples)   : closed True, every simple has a symmetric nondegenerate form False, quadratic sum = 0 in F_13, Quinn (1)-(4): False
+    global dimension (sum over all simples) = 0 in F_13
+
+Determinants over Z of the form beta and its symmetric and alternating parts
+(exact integers, independent of p; the determinant of beta+beta^T is 2^s for
+odd s and of beta-beta^T is 2^s for even s, so both are nonzero in every
+field of odd characteristic):
+    s = 1: det(beta) 1, det(beta+beta^T) 2, det(beta-beta^T) 0
+    s = 2: det(beta) 1, det(beta+beta^T) 0, det(beta-beta^T) 4
+    s = 3: det(beta) 1, det(beta+beta^T) 8, det(beta-beta^T) 0
+    s = 4: det(beta) 1, det(beta+beta^T) 0, det(beta-beta^T) 16
+    s = 5: det(beta) 1, det(beta+beta^T) 32, det(beta-beta^T) 0
+    s = 6: det(beta) 1, det(beta+beta^T) 0, det(beta-beta^T) 64
+    s = 7: det(beta) 1, det(beta+beta^T) 128, det(beta-beta^T) 0
+    s = 8: det(beta) 1, det(beta+beta^T) 0, det(beta-beta^T) 256
+    s = 9: det(beta) 1, det(beta+beta^T) 512, det(beta-beta^T) 0
+    (2^s is the determinant of beta+beta^T for odd s and of beta-beta^T
+     for even s, so the forms are nondegenerate over every field of odd
+     characteristic.)
+
+Candidate data sets: (p, set, closed, all forms symmetric, sum in F_p, Quinn holds)
+    (3, 'Vec', True, True, 1, False)
+    (3, 'sVec', True, False, 2, False)
+    (3, 'Ver_p^+ (odd indices)', True, True, 1, False)
+    (3, 'Ver_p (all simples)', True, False, 2, False)
+    (5, 'Vec', True, True, 1, False)
+    (5, 'sVec', True, False, 2, False)
+    (5, 'Ver_p^+ (odd indices)', True, True, 0, True)
+    (5, 'Ver_p (all simples)', True, False, 0, False)
+    (7, 'Vec', True, True, 1, False)
+    (7, 'sVec', True, False, 2, False)
+    (7, 'Ver_p^+ (odd indices)', True, True, 0, True)
+    (7, 'Ver_p (all simples)', True, False, 0, False)
+    (11, 'Vec', True, True, 1, False)
+    (11, 'sVec', True, False, 2, False)
+    (11, 'Ver_p^+ (odd indices)', True, True, 0, True)
+    (11, 'Ver_p (all simples)', True, False, 0, False)
+    (13, 'Vec', True, True, 1, False)
+    (13, 'sVec', True, False, 2, False)
+    (13, 'Ver_p^+ (odd indices)', True, True, 0, True)
+    (13, 'Ver_p (all simples)', True, False, 0, False)
+
+characteristics in which some listed set satisfies (1)-(4): [5, 7, 11, 13]

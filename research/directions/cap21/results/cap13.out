@@ -1,0 +1,5 @@
+depth 9: empty frontier, BFS finished
+# rawbox4 T=13 K=1
+states 168 classes 1 bfs_time 0.0 scan_time 0.0
+states_by_total 13:168
+classes_by_total 13:1

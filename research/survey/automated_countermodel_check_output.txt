@@ -1,0 +1,10 @@
+3-element model: group axioms (associativity, two-sided identity, left and right inverse): True
+3-element model: f(x,y)=f(r(x),y): True | f(x,y)=f(x.y,y): True | f(x,y)=f(x,y.x): True
+3-element model: ground conjugation axioms: True | non-ground conjugation axiom: True
+5-element model: group axioms (associativity, two-sided identity, left and right inverse): True
+5-element model: f(x,y)=f(r(x),y): True | f(x,y)=f(x.y,y): True | f(x,y)=f(x,y.x): True
+5-element model: ground conjugation axioms: True | non-ground conjugation axiom: True
+AT1 (3-element model): f(aba,bba)=1, f(aB a,B B a)=0, inequality holds: True
+AT2 (3-element model): f(aba,bba)=1, f(abaa,babaa)=0, inequality holds: True
+AT3 (5-element model): f(aaba,bba)=0, f(bbab,aab)=1, inequality holds: True
+RESULT: PASS: both printed algebras are models of the AC axioms and refute the three claimed equalities

@@ -1,0 +1,49 @@
+{
+ "group": "PSL2_7",
+ "m": 168,
+ "k": 2,
+ "mode": "generate",
+ "moveset": "nielsen",
+ "nvertices": 19152,
+ "norbits": 35,
+ "ncomponents": 4,
+ "components": [
+  {
+   "nvertices": 6048,
+   "norbits": 11,
+   "diameter": 10,
+   "ecc_profile": [
+    9,
+    10
+   ]
+  },
+  {
+   "nvertices": 5376,
+   "norbits": 10,
+   "diameter": 9,
+   "ecc_profile": [
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 5376,
+   "norbits": 9,
+   "diameter": 9,
+   "ecc_profile": [
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 2352,
+   "norbits": 5,
+   "diameter": 7,
+   "ecc_profile": [
+    7
+   ]
+  }
+ ],
+ "elapsed_s": 0.1861584186553955,
+ "max_component_diameter": 10
+}

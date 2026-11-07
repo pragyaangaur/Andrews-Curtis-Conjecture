@@ -1,0 +1,1 @@
+{"order": 60, "nvertices": 3599, "bad_neighbours": 0, "diameter": 8, "distribution": {"0": 3599, "1": 120364, "2": 1426714, "3": 5130012, "4": 5297232, "5": 804720, "6": 153840, "7": 13440, "8": 2880}, "orbit_prediction_mismatches": 0, "vertices_checked": 3599}

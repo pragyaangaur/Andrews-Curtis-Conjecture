@@ -1,0 +1,103 @@
+{
+ "group": "PSL2_7",
+ "k": 2,
+ "vertex_predicate_samples": 2000,
+ "vertex_predicate_mismatches": 0,
+ "vertices": [
+  {
+   "code": 16061,
+   "tuple": [
+    101,
+    95
+   ],
+   "census_ecc": 6,
+   "orbit_prediction": 6,
+   "engine_ecc": 6,
+   "census_level_sizes": [
+    1,
+    44,
+    664,
+    4026,
+    13716,
+    9628,
+    144
+   ],
+   "engine_level_sizes": [
+    1,
+    44,
+    664,
+    4026,
+    13716,
+    9628,
+    144
+   ],
+   "levels_agree": true,
+   "coverage": 28223,
+   "nvertices": 28223
+  },
+  {
+   "code": 589,
+   "tuple": [
+    85,
+    3
+   ],
+   "census_ecc": 6,
+   "orbit_prediction": 6,
+   "engine_ecc": 6,
+   "census_level_sizes": [
+    1,
+    85,
+    1963,
+    11453,
+    14064,
+    615,
+    42
+   ],
+   "engine_level_sizes": [
+    1,
+    85,
+    1963,
+    11453,
+    14064,
+    615,
+    42
+   ],
+   "levels_agree": true,
+   "coverage": 28223,
+   "nvertices": 28223
+  },
+  {
+   "code": 18972,
+   "tuple": [
+    156,
+    112
+   ],
+   "census_ecc": 7,
+   "orbit_prediction": 7,
+   "engine_ecc": 7,
+   "census_level_sizes": [
+    1,
+    50,
+    914,
+    6678,
+    16121,
+    4032,
+    385,
+    42
+   ],
+   "engine_level_sizes": [
+    1,
+    50,
+    914,
+    6678,
+    16121,
+    4032,
+    385,
+    42
+   ],
+   "levels_agree": true,
+   "coverage": 28223,
+   "nvertices": 28223
+  }
+ ]
+}

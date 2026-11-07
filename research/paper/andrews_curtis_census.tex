@@ -1,0 +1,714 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs,longtable,array}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{question}[theorem]{Question}
+
+\newcommand{\AK}{\mathrm{AK}}
+\newcommand{\MS}{\mathrm{MS}}
+\newcommand{\Fr}{F}
+\newcommand{\inv}[1]{#1^{-1}}
+\newcommand{\repo}{\url{https://github.com/pragyaangaur/Andrews-Curtis-Conjecture}}
+
+\title{A measured neighbourhood of the Andrews--Curtis conjecture:\\ the census to total length 14, the box around $\AK(3)$,\\ exact peaks on AC-19, and a Lean 4 archive}
+\author{Pragyaan Gaur\\ \small National Institute of Technology Agartala\\ \small ORCID 0009-0009-4037-2478}
+\date{November 2026}
+
+\usepackage[htt]{hyphenat}
+\sloppy
+\emergencystretch=3em
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We report a computational study of balanced two-generator presentations of the trivial group under Andrews--Curtis moves. The study does not prove or disprove the Andrews--Curtis conjecture, and the status of $\AK(3)$ is unchanged. It measures the neighbourhood of the conjecture and attaches a replayable certificate or an exhausted finite search to every statement. We extend the canonical enumeration of Havas and Ramsay from total relator length 13 to 14 and classify every presentation with unimodular abelianisation up to that length. At length 14 the unimodular stratum has 57,765 presentations: 57,727 present the trivial group, 34 present $\mathrm{SL}(2,5)$ and 4 present infinite groups. All but 50 of the presentations of the trivial group are decided with explicit certificates, and the 50 lie in at most nine AC-classes, so there are at most 20 AC-classes at length 14. Each of the 50 needs an intermediate of total length at least 24, 26, 29 or 30. We enumerate the set of presentations reachable from $\AK(3)$ without exceeding total length 25 (2.9 billion orbits under a symmetry quotient) and find that it does not contain the standard presentation. A second hard class at length 13, which we call class C, is absent from every such box up to cap 24, and it is AC-equivalent to $\AK(3)$ exactly when $\AK(3)$ is AC-trivial. For the rows of total length at most 18 in the AC-19 dataset of Fagan et al.\ we determine the exact minimal peak of an AC-trivialisation for 51,766 of 57,115 rows. We also give a Lean 4 archive of 829 files whose axiom reports name only the three standard axioms of Lean and Mathlib. It contains a proof that $\AK(n)$ presents the trivial group for every $n$, soundness theorems for two certificate formats, kernel-checked non-triviality witnesses and kernel-checked bounded negatives, and a classification of the Metzler presentations at $k=4$. We list fifteen corrections to published statements, all minor.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+A presentation $\langle x_1,\dots,x_n \mid r_1,\dots,r_m\rangle$ is \emph{balanced} when $n=m$. The Andrews--Curtis conjecture \cite{AC65} states that every balanced presentation of the trivial group can be transformed into the standard presentation $\langle x_1,\dots,x_n\mid x_1,\dots,x_n\rangle$ by a finite sequence of the following moves: replace a relator by its inverse, replace a relator by its product with another relator, and replace a relator by a conjugate of itself. The conjecture comes from the topology of 2-complexes and 4-dimensional handlebodies, and a counterexample would have consequences for the smooth 4-dimensional Poincar\'e conjecture \cite{AK85,HMS93}. It has been open since 1965.
+
+The most studied potential counterexample is the Akbulut--Kirby family
+\[
+\AK(n)=\langle x,y \mid xyx = yxy,\ x^n = y^{n+1}\rangle,\qquad n\ge 2.
+\]
+$\AK(2)$ is AC-trivial \cite{Mia99}. For $n\ge3$ the question is open, and $\AK(3)$, with total relator length 13, is the smallest presentation of the trivial group whose AC status is unknown \cite{HR03}. Computational work has a long history here. Miasnikov used genetic algorithms \cite{Mia99}, Havas and Ramsay used breadth-first search and established that at total length 13 every balanced presentation of the trivial group is AC-trivial or AC-equivalent to $\AK(3)$ \cite{HR03}, Panteleev and Ushakov reduced the conjecture to conjugacy search and tabulated the presentations near $\AK(3)$ \cite{PU19}, and more recent work used automated deduction \cite{Lis25} and reinforcement learning \cite{SMF25,FTS26}. Carreras \cite{Car26} gave machine-checkable certificates for six hard cases at length 14.
+
+This paper reports a computational campaign that tried to map the neighbourhood of the conjecture exactly. It asks what is true of every presentation below a given length, of every box below a given cap, and of every certificate that was found. It does not attack the conjecture directly, and it makes no claim for or against it. The campaign ran for four days on a single virtual machine with four CPUs and 16 GB of memory, and every result was rerun by an independent referee before it was recorded. All code, certificates, ledgers and Lean files are in the public repository \repo, and each statement below names the file that holds its evidence.
+
+\subsection{Summary of results}
+
+\begin{enumerate}
+\item \textbf{The census to length 14} (Section~\ref{sec:census}). Every balanced two-generator presentation of total length at most 11 is decided. At length 13 the fourteen hard cases split into eight AC-trivial presentations and six that are AC-equivalent to $\AK(3)$, which confirms the result of Havas and Ramsay by an independent computation. At length 14 the unimodular stratum is classified completely by group, and the presentations of the trivial group are decided except for 50, which lie in at most nine classes. The number $c(L)$ of AC-classes of presentations of the trivial group at total length $L$ satisfies $c(13)\le2$ and $c(14)\le20$.
+\item \textbf{The box around $\AK(3)$} (Section~\ref{sec:box}). The set of presentations reachable from $\AK(3)$ through intermediates of total length at most 25 is enumerated exactly and contains no standard presentation. Class C, the second class of minimal length 13, is absent from all boxes to cap 24.
+\item \textbf{Exact peaks on AC-19} (Section~\ref{sec:ac19}). For 51,766 of the 57,115 distinct rows of total length at most 18 in the AC-19 dataset, the exact minimal peak of a twelve-move trivialisation is determined, with a certificate that attains it and an exhausted search below it.
+\item \textbf{The geodesic archive} (Section~\ref{sec:geodesic}). For every row of length at most 15 inside the cap-16 ball of the standard pair, an explicit shortest twelve-move derivation from the standard pair is given: 186,649 derivations with 2,617,043 moves in total.
+\item \textbf{Formal results} (Section~\ref{sec:lean}). A Lean 4 archive of 829 files, with 3,140 axiom reports that all name only \texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}.
+\item \textbf{Families} (Section~\ref{sec:families}). $\AK(n)$ is AC-equivalent to a second family $P(n)$ in exactly $12n-2$ moves for $n\le 20$; $\MS(n,w_1)$ is AC-equivalent to $\AK(n)$ for $n=2,\dots,10$; and the Metzler presentations are classified at $k=4$.
+\item \textbf{Finite quotients} (Section~\ref{sec:finite}). The AC-graphs of the perfect groups of order at most 720 have diameter 8, except $\mathrm{PSL}(2,8)$, which has diameter 9.
+\item \textbf{Corrections} (Section~\ref{sec:corrections}). Fifteen corrections to published statements, all minor.
+\end{enumerate}
+
+\subsection{What this paper does not claim}
+
+A statement about a box is a statement about paths whose intermediates stay below a stated total length. It says nothing about longer paths, and it is never a claim that a presentation is not AC-trivial. The only non-triviality statements in this paper are group-theoretic: a presentation whose group is not trivial is not AC-trivial, because AC moves preserve the presented group. Where a count is a lower or upper bound, it is stated as such.
+
+\section{Definitions and conventions}\label{sec:defs}
+
+\subsection{Words, presentations and moves}
+
+Let $\Fr=\Fr(x,y)$ be the free group of rank two. We write $X=\inv{x}$ and $Y=\inv{y}$ when printing words, and also use the letters $a,b$ for $x,y$ in some files. A word is always freely reduced. A \emph{presentation} is an ordered pair $(r_1,r_2)$ of words, and its \emph{total length} is $|r_1|+|r_2|$. The \emph{standard pair} is $(x,y)$.
+
+\begin{definition}[Twelve-move system]
+The \emph{twelve moves} on a pair $(r_1,r_2)$ are, for $i\ne j$ in $\{1,2\}$:
+\begin{enumerate}
+\item $r_i\mapsto \inv{r_i}$ (two moves);
+\item $r_i\mapsto r_ir_j$ (two moves);
+\item $r_i\mapsto \inv{g}r_ig$ for $g\in\{x,X,y,Y\}$ (eight moves).
+\end{enumerate}
+Each result is freely reduced.
+\end{definition}
+
+Every AC move at rank two is a composition of these twelve. Left multiplication $r_i\mapsto r_jr_i$ is a composition of five twelve-move steps, multiplication by an inverse $r_i\mapsto r_i\inv{r_j}$ is a composition of three, and conjugation by a word $w$ is a sequence of single-letter conjugations. For the boxes in this paper, the intermediates of these compositions stay at or below the larger of the two endpoints (Section~\ref{sec:transport}), so a box that is closed under the twelve moves is closed under all AC moves of the same cap.
+
+The twelve moves are not all invertible as single moves, because multiplication is undone only by a three-move composition. A twelve-move path from $P$ to $Q$ therefore does not reverse to a twelve-move path from $Q$ to $P$ of the same length. We keep track of this direction wherever it matters.
+
+\begin{definition}[Boxes, peaks and depth]
+For a presentation $P$ and an integer $T$, the \emph{box} $B_T(P)$ is the set of pairs reachable from $P$ by twelve-move paths all of whose intermediates have total length at most $T$. The \emph{peak} of a path is the largest total length along it. The \emph{AC depth} of $P$ is the least peak over all twelve-move paths from $P$ to the standard pair.
+\end{definition}
+
+A box is finite, and it is \emph{exhausted} when every pair in it has been generated and every move from every pair has been tried. If the standard pair is not in an exhausted box $B_T(P)$, then the depth of $P$ is at least $T+1$.
+
+\subsection{Canonical forms}
+
+Two presentations that differ by reordering the relators, by cyclically permuting a relator, or by inverting a relator are AC-equivalent by short explicit paths. The \emph{canonical form} of a presentation reduces each relator cyclically, replaces it by the least word under cyclic permutation and inversion, and orders the pair by length and then lexicographically. This is the normal form of Havas and Ramsay \cite{HR03}, and the code reproduces their published list sizes (20, 104, 204 and 1,400 canonical lists at the four lengths they print) exactly.
+
+A \emph{PU class} is a class of presentations under relator swap, relator inversion and conjugation, following Panteleev and Ushakov \cite{PU19}. The program \texttt{research/directions/cap24/punf.py} computes a canonical representative of each PU class.
+
+\subsection{The exponent-sum invariant}
+
+The \emph{exponent-sum matrix} of $(r_1,r_2)$ has as its rows the exponent sums of $x$ and $y$ in $r_1$ and $r_2$. Its determinant changes sign under inversion and is otherwise invariant under AC moves. A presentation of the trivial group has determinant $\pm1$, so a presentation whose determinant is not $\pm1$ is not AC-trivial. We call such a presentation \emph{non-unimodular}, and we discard it at the first step of the census.
+
+\subsection{Evidence labels}
+
+Each result carries one of the following labels.
+
+\begin{description}
+\item[Kernel.] A Lean 4 file elaborates with exit code 0, with no \texttt{sorry}, no new axiom and no \texttt{native\_decide}, and \texttt{\#print axioms} names only \texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}.
+\item[Computation.] An exact deterministic program produced a certificate that an independent program replays, or it exhausted a finite search. The command and its output are recorded.
+\item[Argument.] A written proof in the repository that is not machine-checked.
+\item[Reported.] A statement taken from a source that the campaign did not replay.
+\end{description}
+
+\section{Method}\label{sec:method}
+
+\subsection{Search engines}
+
+The campaign used several engines, written independently by different agents so that results could be cross-checked.
+
+\begin{itemize}
+\item A Python reference implementation of the twelve moves (\texttt{research/toolkit/ac.py}) with a breadth-first search (\texttt{bfs.py}) and a test suite of 144 checks.
+\item A C engine for exact box enumeration (\texttt{research/directions/pu-enumeration/rawbox.c}) that stores states as packed 64-bit codes in a hash table, writes a certificate for every state it reaches, and exhausts boxes of up to about $5\times10^7$ states in memory.
+\item A disk-backed resumable engine for caps 21 to 25, which sorts and merges runs on disk and computes an order-independent checksum of every visited set. The cap-23 checksum over 1,638,542,144 states agreed with the visited file of a second engine.
+\item A flip-quotient engine for the cap-25 box, which stores one representative of each orbit under the relator swap $(r_1,r_2)\mapsto(r_2,r_1)$ and so halves the memory.
+\item Per-row best-first and breadth-first explorers for the AC-19 ledger, which decided 5,426 rows in common with no disagreement.
+\end{itemize}
+
+\subsection{Certificates and replay}
+
+A \emph{certificate} is a list of moves together with its start and end pair. The replay layer (\texttt{research/directions/certificate-algebra/}) defines the AC move calculus and the Q** move calculus once, has no dependencies, and replays every stored certificate. In the campaign it replayed 259,755 stored certificates with no failure. Independent replayers written by other agents replayed the same files, and some of the files were also replayed in GAP and in the Lean kernel.
+
+\subsection{Transport lemmas}\label{sec:transport}
+
+Three facts let a twelve-move bound stand for a bound under all AC moves.
+
+\begin{lemma}[Multiplication forms]
+Left multiplication $r_i\mapsto r_jr_i$ is a composition of five twelve-move steps, and inverse multiplication $r_i\mapsto r_i\inv{r_j}$ is a composition of three. In both compositions every intermediate has total length at most the larger of the two endpoints.
+\end{lemma}
+
+\begin{lemma}[Conjugation by a word]
+Conjugation of a relator by any word decomposes into single-letter conjugations whose intermediates have total length at most the larger of the two endpoints, provided the conjugation is carried out along suffixes of a freely reduced conjugator.
+\end{lemma}
+
+The second lemma needs care. Conjugating $r=ab$ letter by letter along the prefixes of $w=\inv{b}\inv{a}$ passes through $\inv{b}abb$, of length 4, while both endpoints have length 2. The campaign first stated the lemma in a form that does not hold, and the counterexample above was found by a referee. The corrected form, called the \emph{peak lemma}, states that for freely reduced $w$ and every suffix $s$ of $w$, the conjugate of $u$ by $s$ is no longer than the larger of $|u|$ and the length of the conjugate of $u$ by $w$. Without the hypothesis that $w$ is reduced it is false: $u=a$, $w=b\inv{b}$, $s=\inv{b}$ gives $3>1$. The corrected form is a kernel theorem (\texttt{peakLemma\_corrected}), and the false form is refuted in the kernel (\texttt{ACConj.peakLemma\_false}).
+
+\begin{lemma}[Relator transposition]
+Exchanging the two relators is exactly six Q-moves, so a relator 3-cycle at higher rank is twelve.
+\end{lemma}
+
+Independently of the peak lemma, the campaign checked by computation that each of its seventeen kernel-checked closed-set negatives is closed under conjugation by every word whose conjugate stays in the box: 33,297,984 conjugate instances over 56 pairs of row and cap, with no failure, and 22,849,848 more on $\AK(3)$ at caps 14 to 17.
+
+\subsection{Refereeing}
+
+The campaign ran in rounds. In each round several agents worked on separate directions, and each delivered report was rerun by a referee who had not written it, using code written from the definitions before reading the code under review. A report was accepted only after its central command had been rerun. In eight cases a report was rejected, fixed and resubmitted. Four rounds of second referees then reran accepted results from earlier rounds with new code. The strongest single identity check was the order-independent checksum over all 1,638,542,144 states of the cap-23 box, which agreed between two independently written engines.
+
+\section{The census to total length 14}\label{sec:census}
+
+\subsection{Lengths up to 11}
+
+At total length at most 11 there are 26,182 canonical balanced two-generator presentations. Of these, 22,485 are non-unimodular and so present a non-trivial group, and the remaining 3,697 are AC-trivial with explicit certificates. No presentation is left unresolved. The command is \texttt{python3 census.py 11 13} in \texttt{research/survey/computational/}, and \texttt{check\_certs.py} replays the 3,697 certificates with no failure. Label: computation.
+
+This agrees with the published result that every balanced presentation of the trivial group of total length at most 12 is AC-trivial \cite{Mia99,HR03}, and it is an independent check of it on lengths up to 11.
+
+\begin{proposition}[Small relators]\label{prop:small}
+At rank two, a presentation whose relators have length at most 4 is AC-equivalent to the standard pair if and only if its exponent-sum matrix is unimodular. The 2,280 certificates have maximum length 8. At rank three, the same holds for relators of length at most 2, with 8,112 certificates of maximum length 11. At relator length 5, 31,240 of the 32,040 unimodular presentations are certified inside the length-5 box and the remaining 800 through the length-6 box.
+\end{proposition}
+
+Label: computation (\texttt{research/toolkit/test\_toolkit.py}).
+
+\subsection{Lengths 12 to 14}
+
+The enumeration of Havas and Ramsay was extended from length 13 to 14. At length 14 there are 366,819 candidate pairs, of which 31,556 are canonical with unimodular abelianisation. A containment filter leaves 3,272, and the published pruning steps (A) to (D) leave 2,624. The pruning steps were themselves audited: step (D) discards 592 presentations at length 13 and 648 at length 14, and all 1,240 are AC-trivial with explicit certificates, so at these lengths the pruning discards no possible counterexample.
+
+Every presentation with unimodular abelianisation and total length 12, 13 or 14 was then classified. The first pass gave the counts in Table~\ref{tab:c14first}. The 53,866 certificates replay with no failure under a checker that shares no code with the search, and the longest has 141 moves.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lr}
+\toprule
+outcome & presentations \\
+\midrule
+AC-trivial, with certificate & 53,840 \\
+AC-equivalent to $\AK(3)$, with certificate & 26 \\
+non-trivial group & 38 \\
+resisting the first searches & 164 \\
+\midrule
+total & 54,068 \\
+\bottomrule
+\end{tabular}
+\caption{First classification of the unimodular presentations of total length 12 to 14 (\texttt{research/directions/c14/}).}
+\label{tab:c14first}
+\end{table}
+
+\subsection{The groups at length 14}
+
+The unimodular stratum to length 14 is classified completely by group. It has 57,765 rows: 57,727 present the trivial group, 34 present $\mathrm{SL}(2,5)$, the perfect group of order 120, and 4 present infinite groups. The four infinite groups each surject onto $\mathrm{PSL}(2,7)$. Each acts transitively on 28 points through this quotient, and the stabiliser of a point has index 28 and abelianisation $\mathbb{Z}^2\oplus\mathbb{Z}/2$, which is infinite. So the groups are infinite. The non-triviality of all 38 non-trivial rows is proved in the Lean kernel through explicit quotient witnesses (Section~\ref{sec:lean}). Label: computation, and kernel for the 38 witnesses.
+
+\subsection{The 164 resisters}\label{sec:resisters}
+
+The 164 presentations that resisted the first searches all present the trivial group, as Todd--Coxeter enumeration and GAP both confirm. The campaign decided them in stages.
+
+\begin{enumerate}
+\item 98 were decided by deeper searches: 26 are AC-equivalent to $\AK(3)$ and 72 are AC-trivial. All 14 resisters of length 13 were among them, so at length 13 every presentation of the trivial group is AC-trivial or AC-equivalent to $\AK(3)$, and $c(13)\le 2$. This confirms Havas and Ramsay \cite{HR03} by computation.
+\item The remaining 66, all of length 14, carried exhausted boxes at caps 20, 22 and 23. The 22 presentations undecided at cap 20 were shown to lie in a single component by 21 explicit pairwise certificates, which gave $c(14)\le 45$.
+\item A block of eight presentations was shown to be AC-trivial by certificates of 179 to 191 moves at peak exactly 26. The peak is exact because the cap-25 component, of 24,781,832 states, is exhausted. Three further blocks were merged into single classes by explicit pairwise certificates. This gave 58 undecided presentations and $c(14)\le 28$.
+\item The three resisters that are also rows of the AC-19 dataset were shown to be AC-trivial at peak exactly 26, and a block of eight was shown to be one class. This left 50 undecided presentations in at most 18 classes and $c(14)\le 20$.
+\item A final pass merged the 50 into at most nine classes and raised every lower bound.
+\end{enumerate}
+
+\begin{theorem}\label{thm:c14}
+At total length 14, all but 50 of the balanced two-generator presentations of the trivial group are AC-trivial or AC-equivalent to $\AK(3)$, by explicit replayed certificates. The 50 lie in at most nine AC-classes. Hence $c(14)\le 20$. Every one of the 50 needs an intermediate of total length at least 24, and the lower bounds are 24 for 22 of them, 26 for 20, 29 for 4 and 30 for 4.
+\end{theorem}
+
+Label: computation. The certificates and the final status table are in \texttt{research/directions/resisters/round4/}, where \texttt{final\_status\_round4.tsv} gives the status and bound of each presentation and \texttt{certs\_round5/} holds the merge certificates and the scripts that check them.
+
+\begin{remark}[Symmetry]
+The seven blocks of resisters other than the block of 22 are the orbits of the eight signed letter permutations of $\Fr$ on class keys. These permutations permute the twelve moves, so equal component sizes among the blocks were forced by symmetry and carried no AC information. The relator swap is also an automorphism of the move graph, and the eight signed-letter images are eight distinct components, so the correct symmetry group for the quotient has order 16.
+\end{remark}
+
+\subsection{The Miller--Schupp slice}
+
+The Miller--Schupp presentations \cite{MS99} are
+\[
+\MS(n,w) = \langle x,y \mid \inv{x}y^n x = y^{n+1},\ x = w\rangle
+\]
+for a word $w$ of exponent sum zero in $x$. The length-14 slice inside $n\le7$, $|w|\le7$ has 191 canonical presentations, 51 of them unimodular. Of these, 45 are AC-trivial, one is AC-equivalent to $\AK(3)$, and five resist every search here. Before the cap-19 pass the number resisting was six, which is the number Shehper et al.\ report at length 14 \cite{SMF25}. One of the six is $\MS(3,\inv{y}x^2\inv{y})$, and a 34-move certificate here takes it to the relator pair of $\AK(3)$. A separate audit of the certificates of Carreras \cite{Car26} found a 71-move path from $\MS(3,yx^2y)$ to $\AK(3)$ and showed that the exact distance between them in the graph of Carreras is 19.
+
+\section{The box around AK(3)}\label{sec:box}
+
+\subsection{The boxes}
+
+Table~\ref{tab:box} lists the boxes of the $\AK(3)$ class that were exhausted. The cap-20 box was rerun by a referee with a byte-identical class list.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lll}
+\toprule
+cap & size & method \\
+\midrule
+20 & 51,411,456 tuples, 79,680 conjugation classes & \texttt{rawbox.c}, 137 s \\
+21 & 219,042,976 states & disk-backed engine \\
+22 & 419,826,272 states & disk-backed engine \\
+23 & 1,638,542,144 states & disk-backed engine, checksum identity \\
+24 & 3,056,896,064 tuples, 1,596,072 conjugation classes & batched engine \\
+25 & 2,913,499,835 orbits under the relator swap & flip quotient, 46 min, 5.3 GB \\
+\bottomrule
+\end{tabular}
+\caption{Exhausted boxes of the $\AK(3)$ class.}
+\label{tab:box}
+\end{table}
+
+\begin{theorem}\label{thm:box25}
+No twelve-move path from $\AK(3)$ to the standard pair stays inside total length 25. In the cap-20 box no tuple has a relator shorter than 5.
+\end{theorem}
+
+Label: computation. By the transport lemmas of Section~\ref{sec:transport}, the first statement holds for all AC moves with the same cap.
+
+\subsection{Class C}
+
+Panteleev and Ushakov \cite{PU19} predicted that a second class of minimal total length 13 is not AC-equivalent to $\AK(3)$. The campaign checked the twelve classes of length 13 in the cap-20 census by Whitehead minimisation and found that they split 4 and 8, each membership certified by one explicit automorphism, with minimality 13 proved by peak reduction. We call the second class \emph{class C}.
+
+\begin{theorem}\label{thm:classC}
+Class C is absent from every box of the $\AK(3)$ class up to cap 24, so any AC path from $\AK(3)$ to class C passes through total length at least 25. The level set of class C at length 13 has sixteen states, and all sixteen are AC-trivial, at exact peaks 15 and 18. Hence class C is AC-equivalent to $\AK(3)$ if and only if $\AK(3)$ is AC-trivial.
+\end{theorem}
+
+Label: computation. The prediction of Panteleev and Ushakov is therefore the conjecture for $\AK(3)$ itself, and there is no cheaper route to it.
+
+\subsection{The Panteleev--Ushakov table}
+
+Table 1 of Panteleev and Ushakov \cite{PU19} counts PU classes by total length $T$. Reading it as a count of pairs of length exactly $T$, its cells are twice the counts computed here at $T=13,14,15$. With that reading the deficit at $T=16$ closes exactly at cap 23, where 43 classes are found against a published cell of 86. At $T=17$ the deficit is 12 at caps 23, 24 and 25 when representatives are restricted to length at most 20, and cap 25 adds 31,872 presentations of length 17 but no new class.
+
+A conjugation-class census of the closed cap-25 box at lengths 21 to 25 inserted 2,099,095,069 states into 5,237,072 classes, which is 72 percent of the box by state count. It found 220 distinct PU forms of minimal length 17: the 217 already known and three new ones, realised at total lengths 23, 23 and 25. So the deficit at $T=17$ is at most 9, and a class of minimal length 17 can be realised only by presentations of length above 20.
+
+The reason classes hide at long representatives is that the box is not closed under cyclic rotation at constant length. In the box $B_{17}$, 39,408 of the 169,968 states of length 17 (23.18 percent) have a rotation outside the box. In the length-17 stratum of $B_{25}$ the proportion is 131,712 of 704,608 (18.69 percent). Single-letter conjugation, which is one of the twelve moves, shows no miss on a sample of 20,000 states. So no argument based on closure under conjugation can close the deficit.
+
+\subsection{The Q** status of AK(3)}
+
+Q**-moves add Nielsen moves on the generators and stabilisation to the AC moves. The rank-2 Q* box of the $\AK(3)$ class at cap 20 has 66,996,960 presentations in 109,072 classes and contains no presentation with a relator shorter than 5 and no standard tuple. At rank at most 3 and total length at most 16 there are 12,853,740 presentations and no target. The rank-3 box is complete at length 14 and stops at length 15 at 93,952,409 states with no target. Label: computation.
+
+\section{Exact peaks on the AC-19 dataset}\label{sec:ac19}
+
+\subsection{The dataset}
+
+Fagan et al.\ \cite{FTS26} published the AC-19 dataset of balanced presentations of the trivial group, together with solver code. We use three of its files: \texttt{AC19.txt}, \texttt{AC19\_extended.txt} and \texttt{1190MS.txt}. A \emph{row} is one distinct presentation, counted once even when it appears in more than one file.
+
+\subsection{Method}
+
+For each row of total length $L$ the campaign enumerated its twelve-move box at caps $L, L+1, \dots$ until the standard pair appeared or a budget was reached. The first cap $T$ at which the standard pair appears is the exact peak, since the box at $T-1$ is exhausted and does not contain it. A certificate that attains the peak is extracted by parent pointers and replayed. A row whose search stopped at cap $T$ without the standard pair carries the lower bound $T+1$.
+
+The per-row route decides the whole length-17 stratum in 384 s of wall time. The boxes of the rows sum to 108,378,692 states, with median 4,400 and maximum 857,808, and 6,718 boxes are empty of the standard pair at their cap. A single global box at cap 17 does not fit on the machine. It was killed twice for lack of memory, the second time after 18 minutes at 142,148,420 orbits and still growing, because it is dominated by the component of the standard pair.
+
+\subsection{Results}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+stratum & rows & exact peaks & open (with lower bound) \\
+\midrule
+length $\le 17$ & 33,793 & 27,124 & 6,669 (all $\ge 18$) \\
+length 18 & 23,322 & 22,920 & 402 \\
+\midrule
+length $\le 18$ & 57,115 & 51,766 (90.63\%) & 5,349 \\
+\bottomrule
+\end{tabular}
+\caption{The AC-19 peak ledger. The length-18 row includes a final push at cap 25.}
+\label{tab:ac19}
+\end{table}
+
+At length 17, 13,477 of 18,426 rows have peak exactly 17, which is 73.1 percent, the same proportion as at length 16 (4,532 of 6,196). The 3,491 rows that carried only lower bounds at length 16 resolve into 445 at peak exactly 16, 1,288 at 17, 18 at 18 and 1,740 still open with peak at least 18.
+
+At length 18, the first pass found 22,653 exact peaks among 23,322 rows, distributed as in Table~\ref{tab:ac19hist}. A final push at cap 25 decided 267 more: 122 at peak 21, 14 at 22, 107 at 23, 23 at 24 and 1 at 25. Each of the 267 certificates replays under three replayers with identical histograms. The 402 rows still open carry lower bounds: 69 at least 26, 100 at least 25, 60 at least 24 and the rest between 21 and 23.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrrrr}
+\toprule
+exact peak & 18 & 19 & 20 & 21 & 22 & total \\
+\midrule
+rows of length 18 (first pass) & 19,265 & 2,045 & 526 & 703 & 114 & 22,653 \\
+\bottomrule
+\end{tabular}
+\caption{Exact peaks of the length-18 stratum before the cap-25 push.}
+\label{tab:ac19hist}
+\end{table}
+
+The ledgers are \texttt{research/results/ledgers/ledger9.tsv} (length at most 17), \texttt{ledger18.tsv} (length 18) and \texttt{extension.tsv} (the cap-25 push). Twenty-one of the exact peaks at lengths 13 to 17 and ten at length 18 are also kernel-checked (\texttt{ACPeaks17.lean}, \texttt{ACPeaks18.lean}). Label: computation, and kernel for those rows.
+
+\subsection{The depth-26 set}
+
+Eleven rows of AC-19 have depth exactly 26 by kernel-checked certificate (\texttt{AC19eleven.lean}). A later audit found that an earlier count of this set was too low because of two lookup errors. A matcher indexed by record number divided by eight suppressed seven of every eight consecutive records, and a lookup that stopped at the first row of a key undercounted keys shared by several rows (157,309 distinct keys over 298,487 records). The corrected count is 113 records, which are 78 distinct presentations in 78 classes. This is a lower bound on the true size of the set.
+
+\begin{remark}
+A box whose root has depth exactly 26 contains the standard pair at cap 26, so it can never give a negative at cap 26. One proposed target of the campaign was dropped for this reason.
+\end{remark}
+
+\section{The geodesic archive}\label{sec:geodesic}
+
+One exact breadth-first search of the cap-16 box of the standard pair gives, by parent pointers, a shortest twelve-move derivation from the standard pair to every row of total length 2 to 15 that lies in that box. There are 186,649 such derivations with 2,617,043 moves in total, and the longest has 96 moves. An independent replayer replays all of them. The length-15 part has 129,288 derivations and 1,879,510 moves.
+
+The direction matters. These are shortest derivations from the standard pair to the row. Since the twelve moves are not all invertible, the reversed lists are not twelve-move paths. Read the other way, each derivation gives an AC trivialisation of at most three times its length, which is not claimed to be shortest.
+
+At length 15 the distances run from 7 to 96, with median 14 and mean 14.537, and 87.8 percent are at most 16. For comparison, an earlier archive generated by search had mean length 25.68 on rows whose true distance averaged 12.17. This is the first exact distribution of certificate lengths for a whole length that we know of.
+
+For each of the 5,024 rows of length at most 15 that lie outside the ball, all rotations, both inversions and both relator orders also lie outside: 2,180,512 variant keys, with no hit. At length 15 the group census has 84 rows of order 120, 28 rows that surject onto $\mathrm{PSL}(2,7)$, and 4,508 rows that present the trivial group and are undecided.
+
+\section{Families}\label{sec:families}
+
+\subsection{AK(n) presents the trivial group}
+
+\begin{theorem}\label{thm:aktriv}
+For every $n\ge 1$, $\AK(n)$ presents the trivial group.
+\end{theorem}
+
+\begin{proof}
+From $xyx=yxy$ we get $\inv{y}xy = xy\inv{x}$. By induction on $k$, $\inv{y}x^ky = xy^k\inv{x}$. At $k=n$ the second relator $x^n=y^{n+1}$ turns the left side into $\inv{y}y^{n+1}y=y^{n+1}$, so $y^{n+1}=xy^n\inv{x}$. Since $y^{n+1}=x^n$ commutes with $x$, $y^{n+1}=x\,y^{n+1}\,\inv{x}=(xy^n\inv{x})(xy\inv{x})=y^{n+1}\cdot xy\inv{x}$, so $xy\inv{x}=1$ and $y=1$. Then $x^n=1$ and $xyx=yxy$ gives $x^2=x$, so $x=1$.
+\end{proof}
+
+The proof is kernel-checked in \texttt{research/directions/ak-status/ak\_trivial.lean}, with eleven lemmas on the standard axioms. We found no printed proof for all $n$, although the statement is well known.
+
+\subsection{AK(n) and P(n)}
+
+Let $w_k$ be the words of the ladder in \texttt{research/directions/ak-ladder/}. The uniform ladder step $\MS(n,w_k)\sim\MS(n,w_{k+1})$ holds for every $n$ and $k$ by explicit ten-move certificates, with 1,711 certificates checked for $n=3,\dots,60$. As a consequence, $\AK(n)$ is AC-equivalent to a family $P(n)$ in exactly $12n-2$ moves for $n=2,\dots,20$, checked to $n=30$. $P(2)$ is AC-trivial by a 51-move certificate, and $P(3)$ is AC-equivalent to $\AK(3)$ by a 34-move certificate, which a later search shortened to 24 moves, and $\AK(4)$ is AC-equivalent to $P(4)$ in 43 moves. These are exact distances inside the boxes searched. The box of $P(3)$ at cap 20 has 1,130,768 states and does not contain the standard pair.
+
+\subsection{Miller--Schupp and AK(n)}
+
+For $n=2,\dots,10$, $\MS(n,w_1)$ is AC-equivalent to $\AK(n)$. The eighteen certificates replay under five implementations, and the Lean file's twelve theorems use no axiom at all. Two exact obstructions limit the route for $k\ne1$. Label: computation and kernel.
+
+Three infinite subfamilies of Miller--Schupp type present infinite groups. For example, $\langle a,b\mid \inv{b}\inv{a}\inv{a}ba,\ b^{-2m}a\inv{b}\inv{a}\rangle$ is infinite for $m\ge 3$. Label: computation.
+
+\subsection{Metzler presentations}
+
+Metzler \cite{Met21} studied a family of presentations $\mathrm{metz}(k,m,j)$ for which Q**-equivalence is a natural question. The campaign gave an explicit 44-move Q** certificate from $\langle x,y\mid x^5,y^5,[x,y]\rangle$ to $\langle x,y\mid x^5,y^5,[x^2,y]\rangle$, which replays under five implementations including GAP.
+
+\begin{theorem}[Recipe]
+If $k = 1+tj$, then $\mathrm{metz}(k,m,1)$ and $\mathrm{metz}(k,m,j)$ are Q**-equivalent in $13+4t+4j$ moves.
+\end{theorem}
+
+\begin{theorem}[Shift]
+For all $k,m,j$, $\mathrm{metz}(k,m,j)$ and $\mathrm{metz}(k,m,j+k)$ are equivalent by seven rank-preserving AC moves. In particular the hypothesis $j\mid k-1$ of the recipe is sufficient but not necessary: at $k=4$, $j=5$ is reachable although $5\nmid 3$.
+\end{theorem}
+
+\begin{theorem}[Obstruction]
+For even $m$, $k\ge3$ and $k\mid 2j$, the groups of $\mathrm{metz}(k,m,1)$ and $\mathrm{metz}(k,m,j)$ are not isomorphic. The first is abelian, and the second has the dihedral group of order $2k$ as a quotient.
+\end{theorem}
+
+\begin{corollary}[Classification at $k=4$]
+For even $m$, $\mathrm{metz}(4,m,j)$ is AC- and Q**-equivalent to $\mathrm{metz}(4,m,1)$ if and only if $j$ is odd.
+\end{corollary}
+
+All four statements are kernel-checked (\texttt{MetzlerShift.lean}, \texttt{MetzlerSharp.lean}, \texttt{MetzlerRecipes.lean}, \texttt{MetzlerSharpBridge.lean}). The criterion is parity and not divisibility, and the exponent-sum matrix cannot see it because it is the same for all $j$. At $k=5$ the residue $j\equiv3 \pmod 5$ is open, and there the two groups are isomorphic, so no group invariant can decide it.
+
+\subsection{Presentations with a relator conjugate to a generator}
+
+Every rank-2 presentation of the trivial group with a relator conjugate to a generator is AC-trivial by an explicit move sequence. At rank three, a relator conjugate to a generator together with a reduced pair of total length at most 13 reduces the question to the $\AK(3)$ frontier. The rank-2 statement is kernel-checked in \texttt{AC2.lean}.
+
+\section{The Lean 4 archive}\label{sec:lean}
+
+\subsection{Scope}
+
+The archive has 829 Lean files in three tiers: 37 layer files with the general theory, 776 instance files with certificates for particular presentations, and 16 closed-set rows. Of these, 824 are in \texttt{research/toolkit/lean/} and the rest in direction folders. Every file was rebuilt from source with Lean 4.33.1 and Mathlib, and the 3,140 axiom reports name only \texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}.
+
+\subsection{Contents by layer}
+
+\paragraph{The AC calculus.} AC-equivalence is an equivalence relation, with symmetry proved by a three-move reversal of the product move. The exponent-sum span is invariant. AC moves preserve the normal closure, so presenting the trivial group is an AC invariant. The rank-1 presentations $\langle x\mid x\rangle$ and $\langle x\mid x^2\rangle$ are not AC-equivalent. (\texttt{AC.lean}, \texttt{AC2.lean}, \texttt{AC3.lean}.)
+
+\paragraph{Certificate checking.} A certificate checker \texttt{checkCert} with a soundness theorem \texttt{checkCert\_sound} and block composition. Several hundred certificates are kernel-checked with it: the 98 resister certificates, 21 pairwise merges, 5 certificates of Carreras, the $\MS(n,w_1)$ family, the eleven depth-26 rows of AC-19 and the exact peaks of Section~\ref{sec:ac19}.
+
+\paragraph{Q** soundness.} A soundness theorem for Q** certificates (\texttt{QSound.lean}) with a well-formedness guard. The guard is necessary: without it, the diagonal Nielsen move \texttt{nij 0 0} carries $\langle x\mid x\rangle$ to $\langle x\mid x^2\rangle$, which changes the group, and this is also kernel-checked. Sixteen negative controls, each a single-letter tampering of a valid certificate, are rejected by the kernel.
+
+\paragraph{Non-triviality.} The theorem \texttt{not\_acEquiv\_standard\_of\_witness} states that a presentation with a surjection onto a non-trivial finite group is not AC-equivalent to the standard pair. It is instantiated for 38 presentations of length 12 to 14 through maps onto $A_5$ or $\mathrm{PSL}(2,7)$, and for 112 more at length 15.
+
+\paragraph{Closed sets.} A set of pairs that contains the start, is closed under every twelve-move step that stays below the cap, and does not contain the standard pair is a certificate that no path inside the cap exists. The archive proves that closed sets are exactly unions of reachable sets, that the reachable component is the smallest certificate, and that no monotone potential can do better than the closed-set route. Seventeen closed-set negatives are kernel-checked. The largest is \texttt{Row17.row\_T\_c17}, which states that a particular row has no twelve-move path to the standard pair inside total length 17. Its closed set has 136,576 states.
+
+Kernel-checking this negative needed a new representation. A closed set given as a list of states needed 7.5 GB of memory to elaborate. Packed numerals reduced this to 1.51 GB and the compiled file from 234 MB to 6.4 MB, but the kernel then spent an estimated $9\times10^4$ s (about 26 hours) in reduction while building a lookup tree. Carrying the closed set as one static array of packed numerals, with no tree built during checking, split the work into 512 chunks that check in 26 minutes in total on four cores.
+
+\paragraph{The conjugator layer.} The engine model is faithful to the shared Lean statement in the positive direction (\texttt{applyX\_ac}, \texttt{runX\_ac}). The twelve moves are exactly the restriction of the AC moves to conjugators of length at most one (\texttt{g0\_singleton}, \texttt{g1\_singleton}). A simulation of conjugation by a word of any length has intermediate bound $|u|+2|w|+|q|$, and with the corrected peak lemma a closed-set negative becomes a negative under all conjugators.
+
+\subsection{The shared challenge statement}
+
+A separate set of 125 theorems (in \texttt{lean/} at the top of the repository) concerns the formal statement \texttt{AC.lean} of the SAIR and Caltech Andrews--Curtis challenge. Each row of the challenge verifier's move table is one \texttt{AC.Step} or a three-move derived move, and every rank-2 \texttt{AC.Step}, including conjugation by an arbitrary word, is a finite sequence of verifier moves. So the two move sets generate the same reachability relation at rank two. The same files prove that \texttt{Reachable} is an equivalence relation, that relators can be exchanged in nine steps, that a Lean model of free reduction agrees with the verifier, and that the exponent-sum determinant is invariant.
+
+\section{AC-graphs of finite groups}\label{sec:finite}
+
+For a finite group $G$ and an integer $k$, the AC-graph has as vertices the $k$-tuples that generate $G$ normally, joined by the images of AC moves. Borovik, Lubotzky and Myasnikov \cite{BLM05} studied its connected components. The campaign computed the diameters of the AC-graphs of the perfect groups of order at most 720 (Table~\ref{tab:diam}).
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrrrrrl}
+\toprule
+$G$ & order & $k$ & vertices & orbits & diam. & eccentricity profile \\
+\midrule
+$A_5$ & 60 & 2 & 3,599 & 29 & 8 & 5:1200, 6:2188, 7:133, 8:78 \\
+$A_5$ & 60 & 3 & 215,999 & 364 & 9 & 6:1440, 7:162368, 8:51795, 9:396 \\
+$\mathrm{SL}(2,5)$ & 120 & 2 & 14,396 & 93 & 8 & 6:9824, 7:4180, 8:392 \\
+$\mathrm{PSL}(2,7)$ & 168 & 2 & 28,223 & 67 & 8 & 6:24640, 7:3445, 8:138 \\
+$\mathrm{SL}(2,7)$ & 336 & 2 & 112,892 & 229 & 8 & 6:93436, 7:18820, 8:636 \\
+$A_6$ & 360 & 2 & 129,599 & 78 & 8 & 6:107181, 7:22078, 8:340 \\
+$\mathrm{PSL}(2,8)$ & 504 & 2 & 254,015 & 111 & 9 & 6:236496, 7:16392, 8:889, 9:238 \\
+$\mathrm{PSL}(2,11)$ & 660 & 2 & 435,599 & 221 & 8 & 6:392876, 7:42153, 8:570 \\
+$\mathrm{SL}(2,9)$ & 720 & 2 & 518,396 & 248 & 8 & 6:113076, 7:389848, 8:15472 \\
+\bottomrule
+\end{tabular}
+\caption{AC-graph diameters of the perfect groups of order at most 720. ``Orbits'' are orbits under the automorphism group.}
+\label{tab:diam}
+\end{table}
+
+For comparison, the product replacement graph on the same groups is disconnected, with between 44 and 188 components. A finite-analogue census also checks Theorem 1.1 of Borovik, Lubotzky and Myasnikov on 21 pairs of group and rank, and Corollary 1.3 in the concrete $\AK(3)$ form on nine groups, with no failure. Label: computation (\texttt{research/directions/ac-graph-diameters/}, \texttt{research/survey/nielsen\_census.py}).
+
+\section{Hardness measures}\label{sec:hardness}
+
+Shehper et al.\ \cite{SMF25} proposed a measure of hardness based on how much the total length must increase on the way to the standard pair. The campaign computed the exact $H_0$ barcode of the $\AK(3)$ component at caps 13 to 20. At cap 20 the component has 51,411,456 states and 1,751 finite bars. Over the 52,744 presentations that were solved, the Spearman correlation between the published measure and the true certificate length is $+0.0060$, and the hardest solved case, at 91 moves, has length increase exactly 0. Inside one component at fixed length the correlation is between 0.32 and 0.92. The published finite approximation is undefined on exactly the components whose difficulty is unknown. So the measure does not predict difficulty from one presentation alone.
+
+A related measurement concerns presentations with a relator of length 5. Over all twelve-move paths of total length at most 15, the exact minimum number of relator multiplications for the 52,744 solved presentations has maximum 17, attained by exactly the sixteen cases whose shortest certificates have at least 40 moves. The count is not a function of the abelian data, and the family is not characterised by relator length 5.
+
+\section{Quinn's question on Hopf algebras}\label{sec:quinn}
+
+Quinn asked whether a triangular Hopf algebra with suitable properties could give a TQFT that detects AC-equivalence. The campaign answered the existence part by characteristic. In characteristic 0 such data cannot exist, by results of Etingof, Nikshych and Ostrik, and the detection question is answered negatively for Quinn's framework, following Khovanov, Krushkal and Nicholson. Over $\mathbb{F}_2$ a suitable Hopf algebra exists, and this is machine-checked (\texttt{research/survey/quinn\_check.py}). For primes $p\ge5$ the data exist at the level of fusion categories, with the forms of $\mathrm{Ver}_p^+$ and their fusion rules computed at $p=5,7,11,13$. The cases $\mathbb{F}_3$ and $\mathbb{Z}[i]$ are open. Label: computation for the finite checks, and reported for the cited theorems.
+
+\section{Topological layer}\label{sec:topology}
+
+The campaign also studied the relation between the conjecture and Zeeman's conjecture \cite{Zee63} through collapses of 2- and 3-complexes. This part is mostly argument and is not machine-checked, so we only summarise it. A reduction of downward propagation to a key step was written out, and a lemma that a collapse image of a collapsible complex is collapsible was withdrawn after the campaign's own dunce hat computation refuted it. A census of 81,407 valid data for the key step found no counterexample, and every step of every enumerated collapse of the wall has one of three explicit shapes, checked on 9,000,007 states and 41,935,037 collapse steps of the dunce hat with no violation. A non-positive-base census decided 2,763,107 data with no counterexample. These are finite checks of the stated conditions and do not prove the general statements.
+
+\section{Corrections to the literature}\label{sec:corrections}
+
+The campaign found fifteen points in published work that need correction. All are minor, and none changes a main result of the paper concerned. Table~\ref{tab:corr} lists them.
+
+\begin{longtable}{p{0.04\textwidth}p{0.62\textwidth}p{0.24\textwidth}}
+\toprule
+\# & item & status \\
+\midrule
+\endhead
+1 & Lisitsa \cite{Lis25}, step 81 of the 160-move sequence: the printed conjugator \texttt{ABAbA} should be \texttt{aBAbA}. With this one-letter correction the sequence replays from $P$ to $\AK(3)$. & computation \\
+2 & Shehper et al.\ \cite{SMF25}, version 2, withdraws the stable AC-triviality of $\AK(3)$ because of a one-letter misprint in the 13th relator of a 14-generator presentation from 2002. & reported \\
+3 & Borovik, Lubotzky and Myasnikov \cite{BLM05}, Fact 1.2: $\varphi(m)/2$ is not an integer at $m=2$; the true component count there is 1. & reported \\
+4 & Bridson \cite{Bri15}: the sharp Fibonacci bound is $\mathrm{fib}(m+2)$; the introduction and the body disagree, and the proof gives the sharper one. & reported \\
+5 & Havas and Ramsay write $L_2(5)$ for the perfect group of order 120. $L_2(5)=A_5$ has order 60, and the group of order 120 is $\mathrm{SL}(2,5)$. & reported \\
+6 & The term ``blacklisting'' attributed to the computational literature occurs in none of the four primary texts. & reported \\
+7 & A widely quoted arXiv number for Bridson's paper is wrong; the correct one is 1504.04187. & reported \\
+8 & Bridson's printed Fibonacci bound fails at $m=1$: $\langle x,y\mid xy,y\rangle$ trivialises in one move while the area of $x$ is $2>\mathrm{fib}_1=1$. & computation \\
+9 & In the same paper the seed relator has length 9, not 8, so the constant 24 is exactly tight. & computation \\
+10 & The recommendation to quote the additive constant 1 is backwards; the constant is the body's 3. & reported \\
+11 & A sentence in an earlier draft of this campaign said all non-trivial rows at length 14 have order 120. It is false for the four rows over $\mathrm{PSL}(2,7)$, whose groups are infinite. & computation \\
+12 & Panteleev and Ushakov \cite{PU19}, Table 1, counts pairs of length exactly $T$ and not at most $T$. & computation \\
+13 & The two stabilisation move sets in the literature generate the same relation (five Lean theorems); a reported ``deficiency hazard'' was a misreading. & kernel \\
+14 & The live text of Kupers' notes states the direction from Zeeman's conjecture to the AC conjecture with stabilisations, in Proposition 4.3. & reported \\
+15 & A published abstract that concedes the unresolved stable status of $\AK(3)$ could not be reproduced from open sources; the stable status rests on the withdrawal in item 2 alone. & reported \\
+\bottomrule
+\caption{Corrections to published statements.}
+\label{tab:corr}
+\end{longtable}
+
+\section{Open questions}\label{sec:open}
+
+\begin{question}
+Is $\AK(3)$ AC-trivial? By Theorem~\ref{thm:box25} any trivialisation passes through total length at least 26, and by Theorem~\ref{thm:classC} the question is equivalent to whether class C is AC-equivalent to $\AK(3)$.
+\end{question}
+
+\begin{question}
+What are the AC-classes of the 50 undecided presentations of length 14? There are at most nine, and their exact depths are unknown. The box of the block of 22 at cap 26 is estimated at $4\times10^{10}$ states, about four orders of magnitude beyond the machine used here.
+\end{question}
+
+\begin{question}
+Is $\AK(3)$ stably AC-trivial? The published claim was withdrawn, and no second source settles it.
+\end{question}
+
+\begin{question}
+What is the exact deficit of the Panteleev--Ushakov table at $T=17$? It is at most 9. A census of the remaining 28 percent of the cap-25 box would settle whether it is smaller.
+\end{question}
+
+\begin{question}
+For $k\ne4$, which Metzler presentations $\mathrm{metz}(k,m,j)$ are equivalent? At $k=5$ the residue $j\equiv3\pmod5$ is open, and no group invariant can decide it.
+\end{question}
+
+\begin{question}
+What are the exact peaks of the 5,349 open rows of AC-19 at length at most 18, and what is the size of the depth-26 set, of which 113 records are known?
+\end{question}
+
+\section{Data and code availability}
+
+Everything is in \repo, under the MIT licence. Table~\ref{tab:files} maps the results to files.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{ll}
+\toprule
+result & location in \texttt{research/} \\
+\midrule
+full report and ledger of 95 results & \texttt{FINAL\_REPORT.md}, \texttt{REPORT.md} \\
+census to length 11 & \texttt{survey/computational/} \\
+census at length 12 to 14 & \texttt{directions/c14/} \\
+resisters and merge certificates & \texttt{directions/resisters/} \\
+$\AK(3)$ boxes & \texttt{directions/pu-enumeration/}, \texttt{cap21/}, \texttt{cap24/}, \texttt{cap25/} \\
+class C and the PU table & \texttt{directions/pu-gap/}, \texttt{directions/whitehead/} \\
+AC-19 peak ledgers & \texttt{results/ledgers/}, \texttt{directions/ac19/} \\
+certificate replay layer & \texttt{directions/certificate-algebra/} \\
+families & \texttt{directions/ak-status/}, \texttt{ak-ladder/}, \texttt{ms-ak-certs/} \\
+Q** and Metzler & \texttt{directions/qdouble-star/}, \texttt{toolkit/lean/Metzler*.lean} \\
+AC-graph diameters & \texttt{directions/ac-graph-diameters/} \\
+Lean archive & \texttt{toolkit/lean/} \\
+independent referee reports & \texttt{directions/second-referees*/} \\
+literature surveys & \texttt{survey/} \\
+\bottomrule
+\end{tabular}
+\caption{Where the evidence for each result is kept.}
+\label{tab:files}
+\end{table}
+
+The large binary state files of the box searches are not in the repository, because they run to several gigabytes. The reports give the commands that rebuild them, and the cap-20 box rebuilds in about two minutes on one core.
+
+\section{Use of AI tools}
+
+The computations, certificates, Lean proofs and reports were produced by a multi-agent system on the Open Math OS platform, with GLM 5.3 as coordinator and DeepSeek V4.1 Flash agents as members and referees. The author designed the campaign, wrote its rules and directed it. This paper was drafted with Claude (Anthropic) from the campaign's reports and checked by the author, who is its sole author and takes responsibility for it. Every result is labelled with the kind of check behind it, and the Lean proofs are checked by the Lean kernel.
+
+
+\appendix
+\section{The ledger of results}\label{app:ledger}
+
+The campaign recorded each accepted result as a numbered entry in \texttt{research/REPORT.md}, with the command that checks it and the output of that command. Table~\ref{tab:ledger} lists the entries by number and title, so that a reader can find the evidence for any statement in this paper. Entries 27 and 37 were merged into neighbouring entries during the campaign and have no row of their own. Several entries are reports of independent referees, and they are listed because they record the reruns on which the main results rest.
+
+\small
+\begin{longtable}{rp{0.85\textwidth}}
+\toprule
+entry & title \\
+\midrule
+\endhead
+1 & AK(n) presents the trivial group for every n \\
+2 & Toolkit Lean base \\
+3 & Toolkit Python propositions \\
+4 & Complete census at total relator length at most 11 \\
+5 & Replays of published chains \\
+6 & New certified classes \\
+7 & Bounded negatives with exact bounds \\
+8 & Triviality battery \\
+9 & Finite-analogue census \\
+10 & Lisitsa countermodels validated \\
+11 & The SAIR competition statement compiles \\
+12 & Bibliography registry check \\
+13 & MS(n, $w_1$) is AC-equivalent to AK(n) for n = 2 to 10 \\
+14 & Lean program 2 \\
+15 & The length-14 frontier \\
+16 & The AK(3)-class census in the total-length box \\
+17 & The Quinn TQFT question answered per characteristic \\
+18 & The stable status of AK(3): unresolved, definitively \\
+19 & The uniform ladder step MS(n, $w_k$) $\sim$ MS(n, $w_{k+1}$) \\
+20 & The two stabilization move sets coincide \\
+21 & Lean program 3 \\
+22 & The PU table gap resolved as a reading \\
+23 & The hardness measure tested and mostly refuted \\
+24 & The open-questions list rebuilt, and the Carreras certificates replayed \\
+25 & Second referees 2: all four round-2 targets sound \\
+26 & The resisters push \\
+28 & Downward propagation reduced to its Key Step \\
+29 & Lean program 4 \\
+30 & The four PSL(2,7)-frontier groups are infinite \\
+31 & The exact minimum of the 91-move worst case, and the l-increase correction \\
+32 & P(3) $\sim$ AK(3) in 24 moves, AK(4) $\sim$ P(4) in 43 \\
+33 & The AC-graph diameters: Q18 answered \\
+34 & The resisters final push and the conjugator-independence theorem \\
+35 & The disk-backed census at caps 21 to 23 \\
+36 & Second referees 3 \\
+38 & Certificate algebra: every stored certificate under one replay layer \\
+39 & The Whitehead minimisation and the A/B split \\
+40 & The Key Step, honestly bounded \\
+41 & The Carreras minimax audit \\
+42 & The length-5-relator family \\
+43 & The Q** status of AK(3), bounded \\
+44 & The class-merge certification: eight resisters fall and c(14) nearly halves \\
+45 & The cap-24 census; class C excluded to length 25; the T = 17 deficit does not close \\
+46 & Lean program 5 \\
+47 & Second referees 4 \\
+48 & The live-source citation audit of rounds 1-5 \\
+49 & The Metzler stopping point removed \\
+50 & Lean program 6 \\
+51 & The AC-19/c14 intersection \\
+52 & The dimension-three cancellation localized \\
+53 & The (5,10)-bucket structure \\
+54 & The symmetry quotient for the Q** box \\
+55 & The AC-19 falls referee-certified; c(14) at most 20 \\
+56 & The eleven depth-26 AC-19 rows certified and kernel-checked; the harvest \\
+57 & The Metzler family in the kernel \\
+58 & Class C resolved: all sixteen level-set states AC-trivial, and the pu-gap prediction is exactly the AK(3) question \\
+59 & Kernel-checked lower bounds: the bridge and the first exact distance \\
+60 & The 50 undecided resisters: independent verification, nine classes, the exact wall \\
+61 & Three PTT theorems; PTT reduced to Conjecture G; the round-6 disc-model census invalidated \\
+62 & The Lean layer negative-tested \\
+63 & Thirty-nine AC-19 rows at depth exactly 26; the 108-row stopping point \\
+64 & Second referees 6, with two new results \\
+65 & The wall-avoiding punch route is the Key Step \\
+66 & The Metzler recipe as one kernel theorem \\
+67 & The Q** soundness theorem \\
+68 & The census repaired \\
+69 & The AC-19 peak ledger to length 16 \\
+70 & The quotient-witness layer \\
+71 & Second referees 7 \\
+72 & The compact closed-set certificates \\
+73 & Nine new exact closed boxes; all 50 resisters moved \\
+74 & T = 17 at cap 25 settled \\
+75 & The final report's skeleton, audited \\
+76 & The T = 17 deficit answered in the positive \\
+77 & The peak ledger to length 17 \\
+78 & Second referees 8 \\
+79 & The 108-row box shown void \\
+80 & The geodesic certificate archive \\
+81 & The wall-consumption shape settled \\
+82 & The packed encoding \\
+83 & The Metzler recipe's boundary \\
+84 & The conjugator layer \\
+85 & The LP cascade closed, and the round-9 PeakLemma corrected \\
+86 & The kernel archive's build recipe \\
+87 & The three T=17 derivations \\
+88 & The cap-17 closed-set certificate \\
+89 & The final report drafted and first-refereed \\
+90 & The w24/w25 key counts decoded , round 8's open data item resolved \\
+91 & The seventeen kernel-checked closed-set negatives are full-conjugator negatives \\
+92 & The peak lemma LP assembled in the kernel, with the language bridge \\
+93 & The AC-19 peak ledger to total length 18 \\
+94 & The kernel archive consolidated and installed \\
+95 & The 1190MS hard core pushed to cap 25 \\
+\bottomrule
+\caption{The ledger of \texttt{research/REPORT.md}.}
+\label{tab:ledger}
+\end{longtable}
+\normalsize
+
+\begin{thebibliography}{99}
+
+\bibitem{AC65} J.~J. Andrews and M.~L. Curtis, \emph{Free groups and handlebodies}, Proc. Amer. Math. Soc. \textbf{16} (1965), 192--195.
+
+\bibitem{AC66} J.~J. Andrews and M.~L. Curtis, \emph{Extended Nielsen operations in free groups}, Amer. Math. Monthly \textbf{73} (1966), 21--28.
+
+\bibitem{AK85} S. Akbulut and R. Kirby, \emph{A potential smooth counterexample in dimension 4 to the Poincar\'e conjecture, the Schoenflies conjecture, and the Andrews--Curtis conjecture}, Topology \textbf{24} (1985), 375--390.
+
+\bibitem{BLM05} A.~V. Borovik, A. Lubotzky and A.~G. Myasnikov, \emph{The finitary Andrews--Curtis conjecture}, in Infinite Groups: Geometric, Combinatorial and Dynamical Aspects, Progr. Math. 248, Birkh\"auser, 2005.
+
+\bibitem{BMS02} G. Baumslag, A. Myasnikov and V. Shpilrain, \emph{Open problems in combinatorial group theory. Second edition}, Contemp. Math. \textbf{296} (2002), 1--38.
+
+\bibitem{Bri15} M.~R. Bridson, \emph{The complexity of balanced presentations and the Andrews--Curtis conjecture}, arXiv:1504.04187, 2015.
+
+\bibitem{BM93} R.~G. Burns and O. Macedo\'nska, \emph{Balanced presentations of the trivial group}, Bull. London Math. Soc. \textbf{25} (1993), 513--526.
+
+\bibitem{Car26} J. Carreras, \emph{Machine-checkable equivalence certificates at the length-14 Andrews--Curtis frontier}, arXiv:2607.23611, 2026.
+
+\bibitem{FTS26} L. Fagan, M. Tarquini, A. Shehper, M. Manko, A. Gruen, C. Huang, G. Butbaia, D. Passaro and S. Gukov, \emph{The Two-Hump problem: bridging the difficulty gap in mathematical reinforcement learning}, arXiv:2606.21611, 2026.
+
+\bibitem{Gom91} R.~E. Gompf, \emph{Killing the Akbulut--Kirby 4-sphere, with relevance to the Andrews--Curtis and Schoenflies problems}, Topology \textbf{30} (1991), 97--115.
+
+\bibitem{HR03} G. Havas and C. Ramsay, \emph{Breadth-first search and the Andrews--Curtis conjecture}, Internat. J. Algebra Comput. \textbf{13} (2003), 61--68.
+
+\bibitem{HMS93} C. Hog-Angeloni, W. Metzler and A.~J. Sieradski (eds.), \emph{Two-dimensional homotopy and combinatorial group theory}, London Math. Soc. Lecture Note Ser. 197, Cambridge University Press, 1993.
+
+\bibitem{Lis25} A. Lisitsa, \emph{Stable Andrews--Curtis trivialization of AK(3) revisited. A case study using automated deduction}, J. Comput. Algebra (2025), 100041; arXiv:2501.18601.
+
+\bibitem{Met21} W. Metzler, \emph{On the generalized Andrews--Curtis problem: a disproof of the relative case}, arXiv:2102.03212, 2021.
+
+\bibitem{Mia99} A.~D. Miasnikov, \emph{Genetic algorithms and the Andrews--Curtis conjecture}, Internat. J. Algebra Comput. \textbf{9} (1999), 671--686.
+
+\bibitem{MS99} C.~F. Miller III and P.~E. Schupp, \emph{Some presentations of the trivial group}, Contemp. Math. \textbf{250} (1999), 113--115.
+
+\bibitem{PU19} D. Panteleev and A. Ushakov, \emph{Conjugacy search problem and the Andrews--Curtis conjecture}, Groups Complex. Cryptol. \textbf{11} (2019), 43--60.
+
+\bibitem{SMF25} A. Shehper, A. Medina-Mardones, L. Fagan, B. Lewandowski, A. Gruen, Y. Qiu, P. Kucharski, Z. Wang and S. Gukov, \emph{What makes math problems hard for reinforcement learning: a case study}, arXiv:2408.15332, 2025.
+
+\bibitem{Zee63} E.~C. Zeeman, \emph{On the dunce hat}, Topology \textbf{2} (1963), 341--358.
+
+\end{thebibliography}
+
+\end{document}

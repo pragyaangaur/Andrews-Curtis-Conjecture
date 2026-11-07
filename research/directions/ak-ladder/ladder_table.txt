@@ -1,0 +1,15 @@
+n  |AK(n)|  |P(n)|  diff  det  TC(AK)  TC(P)  AK-min  P-min  chain
+ 1       9       12     3   -1       1      1     yes    yes  -
+ 2      11       13     2   -1       1      1     yes    yes  21 moves, max 15, replay True
+ 3      13       14     1   -1       1      1     yes    yes  39 moves, max 18, replay True
+ 4      15       15     0   -1       1      1     yes    yes  56 moves, max 23, replay True
+ 5      17       16    -1   -1       1      1     yes    yes  77 moves, max 28, replay True
+ 6      19       17    -2   -1       1      1     yes    yes  -
+ 7      21       18    -3   -1       1      1     yes    yes  -
+ 8      23       19    -4   -1       1      1     yes    yes  -
+ 9      25       20    -5   -1       1      1     yes    yes  -
+10      27       21    -6   -1       1      1     yes    yes  -
+11      29       22    -7   -1       1      1     yes    yes  -
+12      31       23    -8   -1       1      1     yes    yes  -
+
+MS(n,w_k) presents the trivial group for n = 2..12, k = 1..n-1: PASS (66 tuples)

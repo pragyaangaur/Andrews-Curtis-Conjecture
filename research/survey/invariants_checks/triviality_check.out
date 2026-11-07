@@ -1,0 +1,19 @@
+PASS <x | x^5>                                index = 5 (expected 5), 6 scans
+PASS <x | x^5, x^3>                           index = 1 (expected 1), 9 scans
+PASS <x,y | x, y>                             index = 1 (expected 1), 5 scans
+PASS <x,y | x^2, y^3, (xy)^5>  (A_5)          index = 60 (expected 60), 854 scans
+PASS AK(1)                                    index = 1 (expected 1), 10 scans
+PASS AK(2)                                    index = 1 (expected 1), 103 scans
+PASS AK(3)                                    index = 1 (expected 1), 147 scans
+PASS AK(4)                                    index = 1 (expected 1), 192 scans
+PASS AK(5)                                    index = 1 (expected 1), 237 scans
+PASS AK(6)                                    index = 1 (expected 1), 282 scans
+PASS Miller-Schupp n=1 w=[a,b]                index = 1 (expected 1), 76 scans
+PASS Miller-Schupp n=2 w=a b^2 a^-1 b^-2      index = 1 (expected 1), 198 scans
+PASS Miller-Schupp n=3 w=[a,b]^2              index = 1 (expected 1), 567 scans
+PASS length-14 example                        index = 1 (expected 1), 214 scans
+PASS Wicks length-27 example                  index = 1 (expected 1), 289 scans
+PASS Metzler pair (1)  <x,y|x^5,y^5,[x,y]>    index = 25 (expected 25), 118 scans
+PASS Metzler pair (2)  <x,y|x^5,y^5,[x^2,y]>  index = 25 (expected 25), 353 scans
+
+ALL TODD-COXETER CHECKS PASSED

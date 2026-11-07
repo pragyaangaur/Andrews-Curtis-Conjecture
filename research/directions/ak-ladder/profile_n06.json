@@ -1,0 +1,80 @@
+{
+ "n": 6,
+ "start_total": 19,
+ "cap": 23,
+ "conj_len": 2,
+ "rows": [
+  {
+   "n": 6,
+   "depth": 1,
+   "states_at_depth": 35,
+   "min_total": 19,
+   "best_total": 19,
+   "visited": 36,
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "depth": 2,
+   "states_at_depth": 298,
+   "min_total": 19,
+   "best_total": 19,
+   "visited": 334,
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "depth": 3,
+   "states_at_depth": 1082,
+   "min_total": 19,
+   "best_total": 19,
+   "visited": 1416,
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "depth": 4,
+   "states_at_depth": 2372,
+   "min_total": 19,
+   "best_total": 19,
+   "visited": 3788,
+   "seconds": 0.2
+  },
+  {
+   "n": 6,
+   "depth": 5,
+   "states_at_depth": 3838,
+   "min_total": 19,
+   "best_total": 19,
+   "visited": 7626,
+   "seconds": 0.5
+  },
+  {
+   "n": 6,
+   "depth": 6,
+   "states_at_depth": 5131,
+   "min_total": 19,
+   "best_total": 19,
+   "visited": 12757,
+   "seconds": 1.1
+  },
+  {
+   "n": 6,
+   "depth": 7,
+   "states_at_depth": 6278,
+   "min_total": 19,
+   "best_total": 19,
+   "visited": 19035,
+   "seconds": 1.7
+  },
+  {
+   "n": 6,
+   "depth": 8,
+   "states_at_depth": 7223,
+   "min_total": 21,
+   "best_total": 19,
+   "visited": 26258,
+   "seconds": 2.6
+  }
+ ]
+}

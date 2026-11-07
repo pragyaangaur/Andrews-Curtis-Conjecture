@@ -1,0 +1,1 @@
+{"group": "A5", "diameter": 8, "start": 3, "target": 16, "path_length": 8, "legal": true, "path": [[3, 0], [3, 3], [27, 3], [15, 3], [19, 3], [19, 16], [35, 16], [16, 16], [16, 0]], "start_tuple": [3, 0], "target_tuple": [16, 0]}

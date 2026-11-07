@@ -1,0 +1,174 @@
+==================================================================
+RUN LOG  survey/computational, direction D4, member m7
+VM: Linux 7.0.0-31-generic, python Python 3.12.14
+date: Wed Nov  4 18:57:07 UTC 2026
+
+### python3 census.py 8 11 certs_r8_c11.txt
+==============================================================================
+PART 1  word arithmetic
+  PASS a a^-1 = 1                       got e want e
+  PASS a b b^-1 a^-1 = 1                got e want e
+  PASS involution of inverse            got abA want abA
+  PASS conjugation of b by a            got abA want abA
+  PASS word times its inverse           got e want e
+  PASS no cancellation available        got abA want abA
+==============================================================================
+PART 2  each move is undone by moves
+  PASS all 36 single moves are undone by the listed move sequences
+==============================================================================
+PART 3  replay of chains printed in Havas-Ramsay, IJAC 13 (2003) 61-68
+replay: Sec. 2, 11 moves  (11 arrows, start (BabAA,AbaBB), total length 10)
+  PASS all 11 arrows; steps by kind {'conj-gen': 5, 'mul': 3, 'inv': 3}; max total length 10; end (b,a)
+replay: Sec. 3, AK(2), 14 moves  (14 arrows, start (aBBBa,BAbabA), total length 11)
+  PASS all 14 arrows; steps by kind {'mul': 7, 'conj-gen': 5, 'inv': 2}; max total length 15; end (B,A)
+replay: Sec. 4, 32 moves  (32 arrows, start (aBBBBaa,AbabAB), total length 13)
+  PASS all 32 arrows; steps by kind {'conj-gen': 16, 'mul': 11, 'inv': 5}; max total length 21; end (AAAbaBB,abAABB)
+replay: Miasnikov 1999, AK(2), 19 printed steps from (aaBBB,abaBAB)
+  21 elementary moves; max total length 25; end (b,a)
+  PASS end point (b^-1,a^-1), 21 elementary moves, peak length 25
+       (peak 25 agrees with Havas-Ramsay 2003 Sec. 3)
+==============================================================================
+PART 4  exhaustive census of canonical balanced presentations, rank 2
+  ball of the standard presentation: total length <= 11, 700712 tuples
+  invariant check: tuples in the ball with |exponent-sum determinant| != 1: 0
+  ball size by depth: {0: 1, 1: 8, 2: 51, 3: 326, 4: 1912, 5: 8450, 6: 27916, 7: 66442, 8: 112998, 9: 148660, 10: 140572, 11: 99854, 12: 53088, 13: 21568, 14: 7988, 15: 4364, 16: 2838, 17: 1770, 18: 1016, 19: 602, 20: 228, 21: 60}
+  canonical presentations with total length <= 8: 1349
+    nontrivial, exponent-sum determinant not +-1 : 1160
+    nontrivial, explicit finite quotient          : 0
+    AC-trivial, certificate built and replayed    : 189
+    unresolved                                    : 0
+    contradictions (in ball AND nontrivial quotient): 0
+  PASS no presentation is both AC-trivial by the ball and certified nontrivial
+    certificate lengths (number of single moves, including the
+    conjugations that realise cyclic permutation): min 7, max 24, mean 15.04
+  certificates written to certs_r8_c11.txt (189 rows)
+  PASS every canonical presentation at total length <= 8 is resolved
+==============================================================================
+PART 5  unconstrained breadth-first levels from (BabAA, AbaBB)
+  levels 0..6 reached: [1, 12, 101, 782, 5906, 44048, 326200]
+  published, Havas-Ramsay 2003 Sec. 2, levels 0..7: [1, 12, 101, 782, 5906, 44048, 326200]
+  PASS matches the published level counts exactly
+==============================================================================
+OVERALL PASS
+
+### python3 census.py 10 13 certs_r10_c13.txt
+==============================================================================
+PART 1  word arithmetic
+  PASS a a^-1 = 1                       got e want e
+  PASS a b b^-1 a^-1 = 1                got e want e
+  PASS involution of inverse            got abA want abA
+  PASS conjugation of b by a            got abA want abA
+  PASS word times its inverse           got e want e
+  PASS no cancellation available        got abA want abA
+==============================================================================
+PART 2  each move is undone by moves
+  PASS all 36 single moves are undone by the listed move sequences
+==============================================================================
+PART 3  replay of chains printed in Havas-Ramsay, IJAC 13 (2003) 61-68
+replay: Sec. 2, 11 moves  (11 arrows, start (BabAA,AbaBB), total length 10)
+  PASS all 11 arrows; steps by kind {'conj-gen': 5, 'mul': 3, 'inv': 3}; max total length 10; end (b,a)
+replay: Sec. 3, AK(2), 14 moves  (14 arrows, start (aBBBa,BAbabA), total length 11)
+  PASS all 14 arrows; steps by kind {'mul': 7, 'conj-gen': 5, 'inv': 2}; max total length 15; end (B,A)
+replay: Sec. 4, 32 moves  (32 arrows, start (aBBBBaa,AbabAB), total length 13)
+  PASS all 32 arrows; steps by kind {'conj-gen': 16, 'mul': 11, 'inv': 5}; max total length 21; end (AAAbaBB,abAABB)
+replay: Miasnikov 1999, AK(2), 19 printed steps from (aaBBB,abaBAB)
+  21 elementary moves; max total length 25; end (b,a)
+  PASS end point (b^-1,a^-1), 21 elementary moves, peak length 25
+       (peak 25 agrees with Havas-Ramsay 2003 Sec. 3)
+==============================================================================
+PART 4  exhaustive census of canonical balanced presentations, rank 2
+  ball of the standard presentation: total length <= 13, 6476104 tuples
+  invariant check: tuples in the ball with |exponent-sum determinant| != 1: 0
+  ball size by depth: {0: 1, 1: 8, 2: 51, 3: 326, 4: 2056, 5: 11632, 6: 50258, 7: 165032, 8: 403352, 9: 744294, 10: 1091464, 11: 1225108, 12: 1079980, 13: 743614, 14: 407946, 15: 182316, 16: 86870, 17: 55884, 18: 40942, 19: 36382, 20: 32764, 21: 25610, 22: 19080, 23: 15572, 24: 13960, 25: 11554, 26: 7282, 27: 4534, 28: 3668, 29: 3014, 30: 2780, 31: 2914, 32: 2820, 33: 1932, 34: 896, 35: 208}
+  canonical presentations with total length <= 10: 9576
+    nontrivial, exponent-sum determinant not +-1 : 8419
+    nontrivial, explicit finite quotient          : 0
+    AC-trivial, certificate built and replayed    : 1157
+    unresolved                                    : 0
+    contradictions (in ball AND nontrivial quotient): 0
+  PASS no presentation is both AC-trivial by the ball and certified nontrivial
+    certificate lengths (number of single moves, including the
+    conjugations that realise cyclic permutation): min 7, max 30, mean 18.06
+  certificates written to certs_r10_c13.txt (1157 rows)
+  PASS every canonical presentation at total length <= 10 is resolved
+==============================================================================
+PART 5  unconstrained breadth-first levels from (BabAA, AbaBB)
+  levels 0..6 reached: [1, 12, 101, 782, 5906, 44048, 326200]
+  published, Havas-Ramsay 2003 Sec. 2, levels 0..7: [1, 12, 101, 782, 5906, 44048, 326200]
+  PASS matches the published level counts exactly
+==============================================================================
+OVERALL PASS
+
+### python3 check_certs.py certs_r8_c11.txt
+checked 189 certificates from certs_r8_c11.txt: 0 failed, longest 24 moves
+RESULT PASS
+
+### python3 check_certs.py certs_r10_c13.txt
+checked 1157 certificates from certs_r10_c13.txt: 0 failed, longest 30 moves
+RESULT PASS
+
+### python3 enum_check.py 13
+==============================================================================
+Reconstruction of the canonical lists of Havas-Ramsay (2003), Sec. 4
+  published sizes for l = 10, 11, 12, 13: 20, 104, 204, 1400
+  l = 10: canonical   6025 | (A)   5991 | (B)    608 | (C)    44 | (D)    20 MATCH
+  l = 11: canonical  16606 | (A)  16596 | (B)   2540 | (C)   204 | (D)   104 MATCH
+  l = 12: canonical  46321 | (A)  46245 | (B)   4396 | (C)   320 | (D)   204 MATCH
+  l = 13: canonical 129964 | (A) 129952 | (B)  18116 | (C)  1992 | (D)  1400 MATCH
+==============================================================================
+Classification of the l = 10, 11, 12 lists, ball of total length <= 13
+  ball size 6476104
+  l = 10:   20 presentations | AC-trivial with certificate   20 | nontrivial by finite quotient 0 | unresolved 0
+  l = 11:  104 presentations | AC-trivial with certificate  104 | nontrivial by finite quotient 0 | unresolved 0
+  l = 12:  204 presentations | AC-trivial with certificate  184 | nontrivial by finite quotient 4 | unresolved 16
+      ('A5', 60, 1, 31)            (BAABa,BBBBAbA)
+      ('A5', 60, 1, 32)            (BABaa,BBBBaba)
+      ('A5', 60, 16, 9)            (BBaba,BABaaaa)
+      ('A5', 60, 16, 5)            (BBAbA,BAAAABa)
+
+### python3 census.py 11 13
+==============================================================================
+PART 1  word arithmetic
+  PASS a a^-1 = 1                       got e want e
+  PASS a b b^-1 a^-1 = 1                got e want e
+  PASS involution of inverse            got abA want abA
+  PASS conjugation of b by a            got abA want abA
+  PASS word times its inverse           got e want e
+  PASS no cancellation available        got abA want abA
+==============================================================================
+PART 2  each move is undone by moves
+  PASS all 36 single moves are undone by the listed move sequences
+==============================================================================
+PART 3  replay of chains printed in Havas-Ramsay, IJAC 13 (2003) 61-68
+replay: Sec. 2, 11 moves  (11 arrows, start (BabAA,AbaBB), total length 10)
+  PASS all 11 arrows; steps by kind {'conj-gen': 5, 'mul': 3, 'inv': 3}; max total length 10; end (b,a)
+replay: Sec. 3, AK(2), 14 moves  (14 arrows, start (aBBBa,BAbabA), total length 11)
+  PASS all 14 arrows; steps by kind {'mul': 7, 'conj-gen': 5, 'inv': 2}; max total length 15; end (B,A)
+replay: Sec. 4, 32 moves  (32 arrows, start (aBBBBaa,AbabAB), total length 13)
+  PASS all 32 arrows; steps by kind {'conj-gen': 16, 'mul': 11, 'inv': 5}; max total length 21; end (AAAbaBB,abAABB)
+replay: Miasnikov 1999, AK(2), 19 printed steps from (aaBBB,abaBAB)
+  21 elementary moves; max total length 25; end (b,a)
+  PASS end point (b^-1,a^-1), 21 elementary moves, peak length 25
+       (peak 25 agrees with Havas-Ramsay 2003 Sec. 3)
+==============================================================================
+PART 4  exhaustive census of canonical balanced presentations, rank 2
+  ball of the standard presentation: total length <= 13, 6476104 tuples
+  invariant check: tuples in the ball with |exponent-sum determinant| != 1: 0
+  ball size by depth: {0: 1, 1: 8, 2: 51, 3: 326, 4: 2056, 5: 11632, 6: 50258, 7: 165032, 8: 403352, 9: 744294, 10: 1091464, 11: 1225108, 12: 1079980, 13: 743614, 14: 407946, 15: 182316, 16: 86870, 17: 55884, 18: 40942, 19: 36382, 20: 32764, 21: 25610, 22: 19080, 23: 15572, 24: 13960, 25: 11554, 26: 7282, 27: 4534, 28: 3668, 29: 3014, 30: 2780, 31: 2914, 32: 2820, 33: 1932, 34: 896, 35: 208}
+  canonical presentations with total length <= 11: 26182
+    nontrivial, exponent-sum determinant not +-1 : 22485
+    nontrivial, explicit finite quotient          : 0
+    AC-trivial, certificate built and replayed    : 3697
+    unresolved                                    : 0
+    contradictions (in ball AND nontrivial quotient): 0
+  PASS no presentation is both AC-trivial by the ball and certified nontrivial
+    certificate lengths (number of single moves, including the
+    conjugations that realise cyclic permutation): min 7, max 37, mean 19.54
+  PASS every canonical presentation at total length <= 11 is resolved
+==============================================================================
+PART 5  unconstrained breadth-first levels from (BabAA, AbaBB)
+  levels 0..6 reached: [1, 12, 101, 782, 5906, 44048, 326200]
+  published, Havas-Ramsay 2003 Sec. 2, levels 0..7: [1, 12, 101, 782, 5906, 44048, 326200]
+  PASS matches the published level counts exactly
+==============================================================================
+OVERALL PASS

@@ -1,0 +1,40 @@
+{
+ "group": "SL2_5",
+ "m": 120,
+ "k": 2,
+ "mode": "generate",
+ "moveset": "prg_inv",
+ "nvertices": 9120,
+ "norbits": 43,
+ "ncomponents": 3,
+ "components": [
+  {
+   "nvertices": 2400,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    8,
+    9
+   ]
+  },
+  {
+   "nvertices": 4320,
+   "norbits": 21,
+   "diameter": 10,
+   "ecc_profile": [
+    10
+   ]
+  },
+  {
+   "nvertices": 2400,
+   "norbits": 22,
+   "diameter": 9,
+   "ecc_profile": [
+    8,
+    9
+   ]
+  }
+ ],
+ "elapsed_s": 0.2014141082763672,
+ "max_component_diameter": 10
+}

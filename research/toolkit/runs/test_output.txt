@@ -1,0 +1,156 @@
+--- words: reduction, inverse, product, conjugation ---
+PASS  reduce_word of empty word is empty
+PASS  reduce_word cancels an inverse pair
+PASS  reduce_word cancels only adjacent inverse pairs
+PASS  reduce_word handles a full cancellation
+PASS  is_reduced rejects an inverse pair
+PASS  is_reduced accepts x y X
+PASS  reduce_word is idempotent on all 53 words of length at most 3
+PASS  reduce_word always returns a reduced word
+PASS  inverse inverts letter order and signs
+PASS  inverse is an involution on all 53 words
+PASS  w times inverse w is empty on all 53 words
+PASS  mul of (x) and (X y) is (y)
+PASS  mul is associative on a sample
+PASS  conjugate of x by y is y x Y
+PASS  conjugate agrees with g w g^-1
+PASS  commutator of x and y has zero exponent sums
+PASS  length of a reduced product is at most the sum of lengths
+--- words: exponent sums ---
+PASS  exponent sums of xyxYXY in F_2 are (1, -1)
+PASS  exponent sums of x^3 y^-4 are (3, -4)
+PASS  exponent sums are a homomorphism on a sample
+PASS  exponent sums of an inverse are the negation
+PASS  exponent sums are unchanged by conjugation
+PASS  exponent sums of the empty word are zero
+PASS  exponent sums reject an out of range letter
+--- words: enumeration, printing, parsing ---
+PASS  count_words agrees with enumeration for rank 1, length 3
+PASS  count_words agrees with enumeration for rank 2, length 4
+PASS  count_words agrees with enumeration for rank 3, length 3
+PASS  count_words formula is 1 + sum 2n(2n-1)^(k-1)
+PASS  all_words has no duplicates
+PASS  all_words is sorted by length then letters
+PASS  all_words returns only reduced words
+PASS  all_words contains exactly the words of each length
+PASS  format_word prints x, Y and the empty word
+PASS  parse_word inverts format_word on all 37 words of rank 3, length 2
+PASS  parse_word reads xyxYXY as the AK relator
+PASS  parse_word ignores spaces and asterisks
+PASS  cyclic_permutation of a reduced word is a rotation
+PASS  cyclic_permutation of the identity is the identity
+PASS  cyclic_permutation rejects a word that is not cyclically reduced
+PASS  is_cyclically_reduced rejects x y X
+--- words: integer linear algebra ---
+PASS  det of [[1,2],[3,4]] is -2
+PASS  det of [[2,4],[0,6]] is 12
+PASS  det of a singular matrix is 0
+PASS  det of the 3x3 identity is 1
+PASS  det of a 3x3 with a known value
+PASS  det of a permutation matrix is its sign
+PASS  det of a 4x4 diagonal matrix is the product
+PASS  is_unimodular accepts the identity
+PASS  is_unimodular accepts a determinant -1 matrix
+PASS  is_unimodular rejects determinant 0
+PASS  is_unimodular rejects a degenerate tuple
+PASS  smith divisors of [[2,4],[0,6]] are (2, 6)
+PASS  smith divisors of [[2,0],[0,3]] are (1, 6)
+PASS  smith divisors of a unimodular matrix are (1, 1)
+PASS  smith divisors of the 3x3 identity are (1, 1, 1)
+PASS  smith divisors of diag(2,4,8) are (2, 4, 8)
+PASS  smith divisors of diag(4,6) are (2, 12)
+PASS  smith divisors of a rank 1 matrix are one number
+PASS  smith divisors form a divisibility chain on 300 seeded 3x3 matrices
+PASS  the product of the smith divisors is |det| on those matrices
+--- presentations and AC moves ---
+PASS  the standard presentation of rank 2 is (x, y)
+PASS  the standard presentation of rank 3 is (x, y, z)
+PASS  is_standard recognises the standard presentation
+PASS  is_standard rejects a non standard presentation
+PASS  AK(3) first relator is xyxYXY
+PASS  AK(3) second relator is x^3 y^-4
+PASS  AK(k) has relator lengths 6 and 2k+1 for k = 1..6
+PASS  AK(k) has a unimodular exponent sum matrix for k = 1..6
+PASS  the exponent sum matrix of AK(3) is [[1,-1],[3,-4]]
+PASS  the first relator of AK(k) has exponent sums (1, -1) for k = 1..6
+PASS  apply_move inverts a relator
+PASS  apply_move right multiplies a relator
+PASS  apply_move conjugates a relator
+PASS  apply_move with i equal to j is rejected
+PASS  apply_move with an out of range relator index is rejected
+PASS  apply_move with an unknown kind is rejected
+PASS  apply_move with a letter outside the rank is rejected
+PASS  apply_move rejects an unreduced relator
+PASS  conjugators of rank 2 up to length 1 are the four single letters
+PASS  conjugators of rank 2 up to length 2 number 16
+PASS  conjugators of rank 3 up to length 1 number 6
+PASS  conjugators contain no identity
+PASS  the successors of (x, y) with conjugator length 1 are the 8 listed presentations
+PASS  every successor is a tuple of two reduced words
+PASS  successors contain no self loop
+PASS  successors are listed with distinct move tags
+PASS  successors with a larger conjugator set contain the smaller set
+PASS  every successor passes the abelianisation test
+--- certificates ---
+PASS  the hard coded 6 move certificate takes (x, y) to (y, x)
+PASS  a prefix of the certificate does not already give (y, x)
+PASS  an empty certificate fixes the presentation
+PASS  verify_path rejects an illegal tag
+PASS  verify_path rejects a conjugate by a letter outside the rank
+PASS  inverting a relator twice returns the original presentation
+PASS  three forward moves undo a right multiplication
+PASS  conjugating by w and then by w inverse is the identity on X
+PASS  conjugating by w and then by w inverse is the identity on y
+PASS  conjugating by w and then by w inverse is the identity on xy
+PASS  conjugating by w and then by w inverse is the identity on Yx
+PASS  left multiplication by r_2 is conjugation by r_2 followed by right multiplication
+PASS  conjugating by the generator y is not the same as conjugating by the relator r_2
+--- exponent sums are an AC invariant ---
+PASS  the standard presentation has trivial abelianisation
+PASS  (x, x) has abelianisation Z, so it cannot be AC equivalent to (x, y)
+PASS  (x, x) and the standard presentation differ in the Smith invariant too
+PASS  the Smith invariant of the exponent sum matrix is unchanged by every move on every vertex of the rank 2 length 3 search (8512 edges)
+--- breadth first search ---
+PASS  the search contains the standard presentation
+PASS  the standard presentation is at distance 0
+PASS  exactly one presentation is at distance 0
+PASS  the layer sizes sum to the number of vertices
+PASS  every vertex has both relators of length at most 4
+PASS  every vertex has trivial abelianisation
+PASS  (x^-1, y) is at distance 1
+PASS  (x y, y) is at distance 1
+PASS  (y x Y, y) is at distance 1
+PASS  (x, x y X) is at distance 1
+PASS  (x, y) is at distance 0 and (y, x) is at distance at most 6
+PASS  (x, x) is absent from the search
+PASS  the stored path to (y, x) replays to (y, x)
+PASS  all 2280 stored paths of the rank 2 length 4 search replay correctly
+PASS  the search is deterministic: a second run gives the same distances
+PASS  the search is deterministic: a second run gives the same parents
+PASS  the component at rank 2 and relator length 4 is the whole filtered box (2280 = 2280)
+PASS  the component at rank 3 and relator length 2 is the whole filtered box (8112 = 8112)
+PASS  every rank 3 vertex has three relators of length at most 2
+PASS  all 8112 stored paths of the rank 3 search replay correctly
+PASS  the rank 3 search is deterministic
+PASS  raising the conjugator bound from 1 to 2 does not change the rank 3 component
+PASS  raising the conjugator bound from 1 to 2 does not change the rank 2 length 3 component
+PASS  the search at rank 2 and relator length 5 reaches 31240 of the 32040 presentations in the filtered box
+PASS  every presentation missed at relator length 5 has both relators of length 5
+--- certificate files ---
+PASS  one certificate line per vertex
+PASS  every exported certificate replays from the standard presentation
+PASS  the certificate of the standard presentation is present once and has no moves
+PASS  corrupting the target of a line makes it fail
+PASS  format_move and parse_move are inverse on every move of the small search
+--- cross check against sympy ---
+PASS  sympy agrees that multiplication is free reduction
+PASS  sympy agrees on inverses
+PASS  sympy agrees on conjugation
+PASS  sympy agrees on the determinant of 100 seeded 3x3 and 4x4 matrices
+PASS  sympy agrees that the product of the smith divisors is the determinant
+PASS  sympy agrees that the smith divisors form a chain
+PASS  sympy agrees that x times its inverse is the identity
+PASS  a 6 move BFS certificate replays through sympy to the same relators
+PASS  the replayed tuple is the target
+
+SUMMARY  144 passed, 0 failed, 0 skipped   (9.05 s)
