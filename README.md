@@ -1,6 +1,6 @@
 # Andrews-Curtis-Conjecture
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24035724.svg)](https://doi.org/10.5281/zenodo.24035724)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24035724-blue.svg)](https://doi.org/10.5281/zenodo.24035724)
 
 This repository holds two pieces of work on the Andrews-Curtis conjecture. The first is a computational research campaign on the conjecture itself, in `research/`. The second is the code and Lean proofs from an entry to the Andrews-Curtis Conjecture Challenge of the SAIR Foundation and Caltech. The challenge asks for short sequences of Andrews-Curtis moves that carry each of 10,115 balanced two-generator presentations of the trivial group to the standard presentation.
 
